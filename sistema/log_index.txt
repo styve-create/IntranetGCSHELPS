@@ -1,0 +1,1839 @@
+2025-05-19 07:48:51 - == Inicio de logout ==
+2025-05-19 07:48:51 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b277ae7a034.37832091',
+  'mensaje' => 'Ya tienes una sesión activa en otro dispositivo o navegador.',
+)
+2025-05-19 07:48:51 - Procesando logout para usuario ID 1
+2025-05-19 07:48:51 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-19 07:43:38',
+  'id_conexion' => 'conn_682b277ae7a034.37832091',
+  'salida' => '2025-05-19 07:48:51',
+)
+2025-05-19 07:48:51 - Tiempo conectado: 00:05:13
+2025-05-19 07:48:51 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-19 07:48:51 - Actividad acumulada correctamente.
+2025-05-19 07:48:51 - Registros eliminados de paginas_abiertas para id_conexion conn_682b277ae7a034.37832091.
+2025-05-19 07:48:51 - Estado actualizado a 'desconectado'
+2025-05-19 07:48:51 - Conexión eliminada de usuarios_conectados.
+2025-05-19 07:48:51 - Logout finalizado.
+2025-05-19 08:38:55 - == Inicio de logout ==
+2025-05-19 08:38:55 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b324181c793.97554436',
+)
+2025-05-19 08:38:55 - Procesando logout para usuario ID 1
+2025-05-19 08:38:55 - Datos obtenidos: false
+2025-05-19 08:38:55 - Estado actualizado a 'desconectado'
+2025-05-19 08:38:55 - Conexión eliminada de usuarios_conectados.
+2025-05-19 08:38:55 - Logout finalizado.
+2025-05-19 09:06:47 - == Inicio de logout ==
+2025-05-19 09:06:47 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b39b99af425.08725478',
+)
+2025-05-19 09:06:47 - Procesando logout para usuario ID 1
+2025-05-19 09:06:47 - Datos obtenidos: false
+2025-05-19 09:06:47 - Estado actualizado a 'desconectado'
+2025-05-19 09:06:47 - Conexión eliminada de usuarios_conectados.
+2025-05-19 09:06:47 - Logout finalizado.
+2025-05-19 09:12:24 - == Inicio de logout ==
+2025-05-19 09:12:24 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b3b00c5d216.68478382',
+)
+2025-05-19 09:12:24 - Procesando logout para usuario ID 1
+2025-05-19 09:12:24 - Datos obtenidos: false
+2025-05-19 09:12:24 - Estado actualizado a 'desconectado'
+2025-05-19 09:12:24 - Conexión eliminada de usuarios_conectados.
+2025-05-19 09:12:24 - Logout finalizado.
+2025-05-19 09:17:29 - == Inicio de logout ==
+2025-05-19 09:17:29 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b3c52d42928.55220912',
+)
+2025-05-19 09:17:29 - Procesando logout para usuario ID 1
+2025-05-19 09:17:29 - Datos obtenidos: false
+2025-05-19 09:17:29 - Estado actualizado a 'desconectado'
+2025-05-19 09:17:29 - Conexión eliminada de usuarios_conectados.
+2025-05-19 09:17:29 - Logout finalizado.
+2025-05-19 09:30:19 - == Inicio de logout ==
+2025-05-19 09:30:19 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b3d805978b1.04659466',
+)
+2025-05-19 09:30:19 - Procesando logout para usuario ID 1
+2025-05-19 09:30:19 - Datos obtenidos: false
+2025-05-19 09:30:19 - Estado actualizado a 'desconectado'
+2025-05-19 09:30:19 - Conexión eliminada de usuarios_conectados.
+2025-05-19 09:30:19 - Logout finalizado.
+2025-05-19 11:51:55 - == Inicio de logout ==
+2025-05-19 11:51:55 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b43b52c3e28.13474084',
+)
+2025-05-19 11:51:55 - Procesando logout para usuario ID 1
+2025-05-19 11:51:55 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-19 09:44:05',
+  'id_conexion' => 'conn_682b43b52c3e28.13474084',
+  'salida' => '2025-05-19 11:51:55',
+)
+2025-05-19 11:51:55 - Tiempo conectado: 02:07:50
+2025-05-19 11:51:55 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-19 11:51:55 - Actividad acumulada correctamente.
+2025-05-19 11:51:55 - Registros eliminados de paginas_abiertas para id_conexion conn_682b43b52c3e28.13474084.
+2025-05-19 11:51:55 - Estado actualizado a 'desconectado'
+2025-05-19 11:51:55 - Conexión eliminada de usuarios_conectados.
+2025-05-19 11:51:55 - Logout finalizado.
+2025-05-19 11:54:41 - == Inicio de logout ==
+2025-05-19 11:54:41 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b61b7094ee5.26191316',
+)
+2025-05-19 11:54:41 - Procesando logout para usuario ID 1
+2025-05-19 11:54:41 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-19 11:52:07',
+  'id_conexion' => 'conn_682b61b7094ee5.26191316',
+  'salida' => '2025-05-19 11:54:41',
+)
+2025-05-19 11:54:41 - Tiempo conectado: 00:02:34
+2025-05-19 11:54:41 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-19 11:54:41 - Actividad acumulada correctamente.
+2025-05-19 11:54:41 - Registros eliminados de paginas_abiertas para id_conexion conn_682b61b7094ee5.26191316.
+2025-05-19 11:54:41 - Estado actualizado a 'desconectado'
+2025-05-19 11:54:41 - Conexión eliminada de usuarios_conectados.
+2025-05-19 11:54:41 - Logout finalizado.
+2025-05-19 12:03:45 - == Inicio de logout ==
+2025-05-19 12:03:45 - Contenido de $_SESSION: array (
+)
+2025-05-19 12:03:45 - Sesión inválida o ya destruida.
+2025-05-19 13:03:03 - == Inicio de logout ==
+2025-05-19 13:03:03 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483650,
+    'email' => 'styvenmunera3@gmail.com',
+    'nombre' => 'styven2',
+    'rol' => 2,
+  ),
+  'id_conexion' => 'conn_682b723c1a35d7.18442173',
+)
+2025-05-19 13:03:03 - Procesando logout para usuario ID 2147483650
+2025-05-19 13:03:03 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-19 13:02:36',
+  'id_conexion' => 'conn_682b723c1a35d7.18442173',
+  'salida' => '2025-05-19 13:03:03',
+)
+2025-05-19 13:03:03 - Tiempo conectado: 00:00:27
+2025-05-19 13:03:03 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-19 13:03:03 - Actividad acumulada correctamente.
+2025-05-19 13:03:03 - Registros eliminados de paginas_abiertas para id_conexion conn_682b723c1a35d7.18442173.
+2025-05-19 13:03:03 - Estado actualizado a 'desconectado'
+2025-05-19 13:03:03 - Conexión eliminada de usuarios_conectados.
+2025-05-19 13:03:03 - Logout finalizado.
+2025-05-19 13:37:33 - == Inicio de logout ==
+2025-05-19 13:37:33 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483650,
+    'email' => 'styvenmunera3@gmail.com',
+    'nombre' => 'styven2',
+    'rol' => 2,
+  ),
+  'id_conexion' => 'conn_682b791a7da379.19817170',
+)
+2025-05-19 13:37:33 - Procesando logout para usuario ID 2147483650
+2025-05-19 13:37:33 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-19 13:31:54',
+  'id_conexion' => 'conn_682b791a7da379.19817170',
+  'salida' => '2025-05-19 13:37:33',
+)
+2025-05-19 13:37:33 - Tiempo conectado: 00:05:39
+2025-05-19 13:37:33 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-19 13:37:33 - Actividad acumulada correctamente.
+2025-05-19 13:37:33 - Registros eliminados de paginas_abiertas para id_conexion conn_682b791a7da379.19817170.
+2025-05-19 13:37:33 - Estado actualizado a 'desconectado'
+2025-05-19 13:37:33 - Conexión eliminada de usuarios_conectados.
+2025-05-19 13:37:33 - Logout finalizado.
+2025-05-19 13:44:24 - == Inicio de logout ==
+2025-05-19 13:44:24 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682b7a76d36dc4.95496792',
+)
+2025-05-19 13:44:24 - Procesando logout para usuario ID 1
+2025-05-19 13:44:24 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-19 13:37:42',
+  'id_conexion' => 'conn_682b7a76d36dc4.95496792',
+  'salida' => '2025-05-19 13:44:24',
+)
+2025-05-19 13:44:24 - Tiempo conectado: 00:06:42
+2025-05-19 13:44:24 - Resumen de uso: páginas=4, cpu=0.0000, ram=0.00
+2025-05-19 13:44:24 - Actividad acumulada correctamente.
+2025-05-19 13:44:24 - Registros eliminados de paginas_abiertas para id_conexion conn_682b7a76d36dc4.95496792.
+2025-05-19 13:44:24 - Estado actualizado a 'desconectado'
+2025-05-19 13:44:24 - Conexión eliminada de usuarios_conectados.
+2025-05-19 13:44:24 - Logout finalizado.
+2025-05-19 13:49:38 - == Inicio de logout ==
+2025-05-19 13:49:38 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483650,
+    'email' => 'styvenmunera3@gmail.com',
+    'nombre' => 'styven2',
+    'rol' => 2,
+  ),
+  'id_conexion' => 'conn_682b7c0fbccb11.01010766',
+)
+2025-05-19 13:49:38 - Procesando logout para usuario ID 2147483650
+2025-05-19 13:49:38 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-19 13:44:31',
+  'id_conexion' => 'conn_682b7c0fbccb11.01010766',
+  'salida' => '2025-05-19 13:49:38',
+)
+2025-05-19 13:49:38 - Tiempo conectado: 00:05:07
+2025-05-19 13:49:38 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-19 13:49:38 - Actividad acumulada correctamente.
+2025-05-19 13:49:38 - Registros eliminados de paginas_abiertas para id_conexion conn_682b7c0fbccb11.01010766.
+2025-05-19 13:49:38 - Estado actualizado a 'desconectado'
+2025-05-19 13:49:38 - Conexión eliminada de usuarios_conectados.
+2025-05-19 13:49:38 - Logout finalizado.
+2025-05-20 11:08:06 - == Inicio de logout ==
+2025-05-20 11:08:06 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483650,
+    'email' => 'styvenmunera3@gmail.com',
+    'nombre' => 'styven2',
+    'rol' => 2,
+  ),
+  'id_conexion' => 'conn_682ca60f9ae264.06262222',
+)
+2025-05-20 11:08:06 - Procesando logout para usuario ID 2147483650
+2025-05-20 11:08:06 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-20 10:55:59',
+  'id_conexion' => 'conn_682ca60f9ae264.06262222',
+  'salida' => '2025-05-20 11:08:06',
+)
+2025-05-20 11:08:06 - Tiempo conectado: 00:12:07
+2025-05-20 11:08:06 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-20 11:08:06 - Actividad acumulada correctamente.
+2025-05-20 11:08:06 - Registros eliminados de paginas_abiertas para id_conexion conn_682ca60f9ae264.06262222.
+2025-05-20 11:08:06 - Estado actualizado a 'desconectado'
+2025-05-20 11:08:06 - Conexión eliminada de usuarios_conectados.
+2025-05-20 11:08:06 - Logout finalizado.
+2025-05-20 11:41:08 - == Inicio de logout ==
+2025-05-20 11:41:08 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483650,
+    'email' => 'styvenmunera3@gmail.com',
+    'nombre' => 'styven2',
+    'rol' => 2,
+  ),
+  'id_conexion' => 'conn_682caecf8a65b0.91544361',
+)
+2025-05-20 11:41:08 - Procesando logout para usuario ID 2147483650
+2025-05-20 11:41:08 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-20 11:33:19',
+  'id_conexion' => 'conn_682caecf8a65b0.91544361',
+  'salida' => '2025-05-20 11:41:08',
+)
+2025-05-20 11:41:08 - Tiempo conectado: 00:07:49
+2025-05-20 11:41:08 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-20 11:41:08 - Actividad acumulada correctamente.
+2025-05-20 11:41:08 - Registros eliminados de paginas_abiertas para id_conexion conn_682caecf8a65b0.91544361.
+2025-05-20 11:41:08 - Estado actualizado a 'desconectado'
+2025-05-20 11:41:08 - Conexión eliminada de usuarios_conectados.
+2025-05-20 11:41:08 - Logout finalizado.
+2025-05-20 11:51:36 - == Inicio de logout ==
+2025-05-20 11:51:36 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483652,
+    'email' => 'styvenmunera1@gmail.com',
+    'nombre' => 'styven3',
+    'rol' => 3,
+  ),
+  'id_conexion' => 'conn_682cb0f6e87088.36412404',
+)
+2025-05-20 11:51:36 - Procesando logout para usuario ID 2147483652
+2025-05-20 11:51:36 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-20 11:42:30',
+  'id_conexion' => 'conn_682cb0f6e87088.36412404',
+  'salida' => '2025-05-20 11:51:36',
+)
+2025-05-20 11:51:36 - Tiempo conectado: 00:09:06
+2025-05-20 11:51:36 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-20 11:51:36 - Actividad acumulada correctamente.
+2025-05-20 11:51:36 - Registros eliminados de paginas_abiertas para id_conexion conn_682cb0f6e87088.36412404.
+2025-05-20 11:51:36 - Estado actualizado a 'desconectado'
+2025-05-20 11:51:36 - Conexión eliminada de usuarios_conectados.
+2025-05-20 11:51:36 - Logout finalizado.
+2025-05-21 07:27:43 - == Inicio de logout ==
+2025-05-21 07:27:43 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682dbdf2d0bc71.86659595',
+)
+2025-05-21 07:27:43 - Procesando logout para usuario ID 1
+2025-05-21 07:27:43 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-21 06:50:10',
+  'id_conexion' => 'conn_682dbdf2d0bc71.86659595',
+  'salida' => '2025-05-21 07:27:43',
+)
+2025-05-21 07:27:43 - Tiempo conectado: 00:37:33
+2025-05-21 07:27:43 - Resumen de uso: páginas=2, cpu=0.0000, ram=0.00
+2025-05-21 07:27:43 - Actividad acumulada correctamente.
+2025-05-21 07:27:43 - Registros eliminados de paginas_abiertas para id_conexion conn_682dbdf2d0bc71.86659595.
+2025-05-21 07:27:43 - Estado actualizado a 'desconectado'
+2025-05-21 07:27:43 - Conexión eliminada de usuarios_conectados.
+2025-05-21 07:27:43 - Logout finalizado.
+2025-05-21 08:23:32 - == Inicio de logout ==
+2025-05-21 08:23:32 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483650,
+    'email' => 'styvenmunera3@gmail.com',
+    'nombre' => 'styven2',
+    'rol' => 2,
+  ),
+  'id_conexion' => 'conn_682dd2b8696961.23079376',
+)
+2025-05-21 08:23:32 - Procesando logout para usuario ID 2147483650
+2025-05-21 08:23:32 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-21 08:18:48',
+  'id_conexion' => 'conn_682dd2b8696961.23079376',
+  'salida' => '2025-05-21 08:23:32',
+)
+2025-05-21 08:23:32 - Tiempo conectado: 00:04:44
+2025-05-21 08:23:32 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-21 08:23:32 - Actividad acumulada correctamente.
+2025-05-21 08:23:32 - Registros eliminados de paginas_abiertas para id_conexion conn_682dd2b8696961.23079376.
+2025-05-21 08:23:32 - Estado actualizado a 'desconectado'
+2025-05-21 08:23:32 - Conexión eliminada de usuarios_conectados.
+2025-05-21 08:23:32 - Logout finalizado.
+2025-05-21 08:23:51 - == Inicio de logout ==
+2025-05-21 08:23:51 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682dc6f8c5d8b2.13380035',
+)
+2025-05-21 08:23:51 - Procesando logout para usuario ID 1
+2025-05-21 08:23:51 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-21 07:28:40',
+  'id_conexion' => 'conn_682dc6f8c5d8b2.13380035',
+  'salida' => '2025-05-21 08:23:51',
+)
+2025-05-21 08:23:51 - Tiempo conectado: 00:55:11
+2025-05-21 08:23:51 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-21 08:23:51 - Actividad acumulada correctamente.
+2025-05-21 08:23:51 - Registros eliminados de paginas_abiertas para id_conexion conn_682dc6f8c5d8b2.13380035.
+2025-05-21 08:23:51 - Estado actualizado a 'desconectado'
+2025-05-21 08:23:51 - Conexión eliminada de usuarios_conectados.
+2025-05-21 08:23:51 - Logout finalizado.
+2025-05-21 09:04:58 - == Inicio de logout ==
+2025-05-21 09:04:58 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682dd3f4063761.88559360',
+)
+2025-05-21 09:04:58 - Procesando logout para usuario ID 1
+2025-05-21 09:04:58 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-21 08:24:04',
+  'id_conexion' => 'conn_682dd3f4063761.88559360',
+  'salida' => '2025-05-21 09:04:58',
+)
+2025-05-21 09:04:58 - Tiempo conectado: 00:40:54
+2025-05-21 09:04:58 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-21 09:04:58 - Actividad acumulada correctamente.
+2025-05-21 09:04:58 - Registros eliminados de paginas_abiertas para id_conexion conn_682dd3f4063761.88559360.
+2025-05-21 09:04:58 - Estado actualizado a 'desconectado'
+2025-05-21 09:04:58 - Conexión eliminada de usuarios_conectados.
+2025-05-21 09:04:58 - Logout finalizado.
+2025-05-21 12:00:13 - == Inicio de logout ==
+2025-05-21 12:00:13 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_682dfe67f0a352.14217195',
+)
+2025-05-21 12:00:13 - Procesando logout para usuario ID 1
+2025-05-21 12:00:13 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-21 11:25:11',
+  'id_conexion' => 'conn_682dfe67f0a352.14217195',
+  'salida' => '2025-05-21 12:00:13',
+)
+2025-05-21 12:00:13 - Tiempo conectado: 00:35:02
+2025-05-21 12:00:13 - Resumen de uso: páginas=2, cpu=0.0000, ram=0.00
+2025-05-21 12:00:13 - Actividad acumulada correctamente.
+2025-05-21 12:00:13 - Registros eliminados de paginas_abiertas para id_conexion conn_682dfe67f0a352.14217195.
+2025-05-21 12:00:13 - Estado actualizado a 'desconectado'
+2025-05-21 12:00:13 - Conexión eliminada de usuarios_conectados.
+2025-05-21 12:00:13 - Logout finalizado.
+2025-05-23 07:02:44 - == Inicio de logout ==
+2025-05-23 07:02:44 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683060d02edfb1.48160350',
+)
+2025-05-23 07:02:44 - Procesando logout para usuario ID 1
+2025-05-23 07:02:44 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-23 06:49:36',
+  'id_conexion' => 'conn_683060d02edfb1.48160350',
+  'salida' => '2025-05-23 07:02:44',
+)
+2025-05-23 07:02:44 - Tiempo conectado: 00:13:08
+2025-05-23 07:02:44 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-23 07:02:44 - Actividad acumulada correctamente.
+2025-05-23 07:02:44 - Registros eliminados de paginas_abiertas para id_conexion conn_683060d02edfb1.48160350.
+2025-05-23 07:02:44 - Estado actualizado a 'desconectado'
+2025-05-23 07:02:44 - Conexión eliminada de usuarios_conectados.
+2025-05-23 07:02:44 - Logout finalizado.
+2025-05-23 11:25:16 - == Inicio de logout ==
+2025-05-23 11:25:16 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_68309d84a92e52.94343759',
+)
+2025-05-23 11:25:16 - Procesando logout para usuario ID 1
+2025-05-23 11:25:16 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-23 11:08:36',
+  'id_conexion' => 'conn_68309d84a92e52.94343759',
+  'salida' => '2025-05-23 11:25:16',
+)
+2025-05-23 11:25:16 - Tiempo conectado: 00:16:40
+2025-05-23 11:25:16 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-23 11:25:16 - Actividad acumulada correctamente.
+2025-05-23 11:25:16 - Registros eliminados de paginas_abiertas para id_conexion conn_68309d84a92e52.94343759.
+2025-05-23 11:25:16 - Estado actualizado a 'desconectado'
+2025-05-23 11:25:16 - Conexión eliminada de usuarios_conectados.
+2025-05-23 11:25:16 - Logout finalizado.
+2025-05-23 13:12:11 - == Inicio de logout ==
+2025-05-23 13:12:11 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6830b376ebee16.38778557',
+)
+2025-05-23 13:12:11 - Procesando logout para usuario ID 1
+2025-05-23 13:12:11 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-23 12:42:14',
+  'id_conexion' => 'conn_6830b376ebee16.38778557',
+  'salida' => '2025-05-23 13:12:11',
+)
+2025-05-23 13:12:11 - Tiempo conectado: 00:29:57
+2025-05-23 13:12:11 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-23 13:12:11 - Actividad acumulada correctamente.
+2025-05-23 13:12:11 - Registros eliminados de paginas_abiertas para id_conexion conn_6830b376ebee16.38778557.
+2025-05-23 13:12:11 - Estado actualizado a 'desconectado'
+2025-05-23 13:12:11 - Conexión eliminada de usuarios_conectados.
+2025-05-23 13:12:11 - Logout finalizado.
+2025-05-26 14:28:42 - == Inicio de logout ==
+2025-05-26 14:28:42 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6834b2cad70571.38793990',
+)
+2025-05-26 14:28:42 - Procesando logout para usuario ID 1
+2025-05-26 14:28:42 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-26 13:28:26',
+  'id_conexion' => 'conn_6834b2cad70571.38793990',
+  'salida' => '2025-05-26 14:28:42',
+)
+2025-05-26 14:28:42 - Tiempo conectado: 01:00:16
+2025-05-26 14:28:42 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-26 14:28:42 - Actividad acumulada correctamente.
+2025-05-26 14:28:42 - Registros eliminados de paginas_abiertas para id_conexion conn_6834b2cad70571.38793990.
+2025-05-26 14:28:42 - Estado actualizado a 'desconectado'
+2025-05-26 14:28:42 - Conexión eliminada de usuarios_conectados.
+2025-05-26 14:28:42 - Logout finalizado.
+2025-05-26 14:46:46 - == Inicio de logout ==
+2025-05-26 14:46:46 - Contenido de $_SESSION: array (
+  'mensaje' => 'Datos incorrectos, vuelva a intentarlo.',
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6834c435c403c2.03846795',
+)
+2025-05-26 14:46:46 - Procesando logout para usuario ID 1
+2025-05-26 14:46:46 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-26 14:42:45',
+  'id_conexion' => 'conn_6834c435c403c2.03846795',
+  'salida' => '2025-05-26 14:46:46',
+)
+2025-05-26 14:46:46 - Tiempo conectado: 00:04:01
+2025-05-26 14:46:46 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-26 14:46:46 - Actividad acumulada correctamente.
+2025-05-26 14:46:46 - Registros eliminados de paginas_abiertas para id_conexion conn_6834c435c403c2.03846795.
+2025-05-26 14:46:46 - Estado actualizado a 'desconectado'
+2025-05-26 14:46:46 - Conexión eliminada de usuarios_conectados.
+2025-05-26 14:46:46 - Logout finalizado.
+2025-05-27 14:44:13 - == Inicio de logout ==
+2025-05-27 14:44:13 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6836156060f603.71631602',
+)
+2025-05-27 14:44:13 - Procesando logout para usuario ID 1
+2025-05-27 14:44:13 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-27 14:41:20',
+  'id_conexion' => 'conn_6836156060f603.71631602',
+  'salida' => '2025-05-27 14:44:13',
+)
+2025-05-27 14:44:13 - Tiempo conectado: 00:02:53
+2025-05-27 14:44:13 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-27 14:44:13 - Actividad acumulada correctamente.
+2025-05-27 14:44:13 - Registros eliminados de paginas_abiertas para id_conexion conn_6836156060f603.71631602.
+2025-05-27 14:44:13 - Estado actualizado a 'desconectado'
+2025-05-27 14:44:13 - Conexión eliminada de usuarios_conectados.
+2025-05-27 14:44:13 - Logout finalizado.
+2025-05-28 15:18:07 - == Inicio de logout ==
+2025-05-28 15:18:07 - Contenido de $_SESSION: array (
+)
+2025-05-28 15:18:07 - Sesión inválida o ya destruida.
+2025-05-28 15:18:08 - == Inicio de logout ==
+2025-05-28 15:18:08 - Contenido de $_SESSION: array (
+)
+2025-05-28 15:18:08 - Sesión inválida o ya destruida.
+2025-05-28 15:18:09 - == Inicio de logout ==
+2025-05-28 15:18:09 - Contenido de $_SESSION: array (
+)
+2025-05-28 15:18:09 - Sesión inválida o ya destruida.
+2025-05-29 08:03:29 - == Inicio de logout ==
+2025-05-29 08:03:29 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6838551e76cb56.00660724',
+)
+2025-05-29 08:03:29 - Procesando logout para usuario ID 1
+2025-05-29 08:03:29 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 07:37:50',
+  'id_conexion' => 'conn_6838551e76cb56.00660724',
+  'salida' => '2025-05-29 08:03:29',
+)
+2025-05-29 08:03:29 - Tiempo conectado: 00:25:39
+2025-05-29 08:03:29 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 08:03:29 - Actividad acumulada correctamente.
+2025-05-29 08:03:29 - Registros eliminados de paginas_abiertas para id_conexion conn_6838551e76cb56.00660724.
+2025-05-29 08:03:29 - Estado actualizado a 'desconectado'
+2025-05-29 08:03:29 - Conexión eliminada de usuarios_conectados.
+2025-05-29 08:03:29 - Logout finalizado.
+2025-05-29 08:04:22 - == Inicio de logout ==
+2025-05-29 08:04:22 - Contenido de $_SESSION: array (
+  'mensaje' => 'Ya tienes una sesión activa en otro dispositivo o navegador.',
+  'usuario_info' => 
+  array (
+    'id' => 2147483650,
+    'email' => 'styvenmunera3@gmail.com',
+    'nombre' => 'styven2',
+    'rol' => 2,
+  ),
+  'id_conexion' => 'conn_68385add9c2b08.45483369',
+)
+2025-05-29 08:04:22 - Procesando logout para usuario ID 2147483650
+2025-05-29 08:04:22 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 08:02:21',
+  'id_conexion' => 'conn_68385add9c2b08.45483369',
+  'salida' => '2025-05-29 08:04:22',
+)
+2025-05-29 08:04:22 - Tiempo conectado: 00:02:01
+2025-05-29 08:04:22 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 08:04:22 - Actividad acumulada correctamente.
+2025-05-29 08:04:22 - Registros eliminados de paginas_abiertas para id_conexion conn_68385add9c2b08.45483369.
+2025-05-29 08:04:22 - Estado actualizado a 'desconectado'
+2025-05-29 08:04:22 - Conexión eliminada de usuarios_conectados.
+2025-05-29 08:04:22 - Logout finalizado.
+2025-05-29 08:07:32 - == Inicio de logout ==
+2025-05-29 08:07:32 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_68385b5a990fb6.20235779',
+)
+2025-05-29 08:07:32 - Procesando logout para usuario ID 1
+2025-05-29 08:07:32 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 08:04:26',
+  'id_conexion' => 'conn_68385b5a990fb6.20235779',
+  'salida' => '2025-05-29 08:07:32',
+)
+2025-05-29 08:07:32 - Tiempo conectado: 00:03:06
+2025-05-29 08:07:32 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 08:07:32 - Actividad acumulada correctamente.
+2025-05-29 08:07:32 - Registros eliminados de paginas_abiertas para id_conexion conn_68385b5a990fb6.20235779.
+2025-05-29 08:07:32 - Estado actualizado a 'desconectado'
+2025-05-29 08:07:32 - Conexión eliminada de usuarios_conectados.
+2025-05-29 08:07:32 - Logout finalizado.
+2025-05-29 08:18:55 - == Inicio de logout ==
+2025-05-29 08:18:55 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_68385c177f6345.13663219',
+)
+2025-05-29 08:18:55 - Procesando logout para usuario ID 1
+2025-05-29 08:18:55 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 08:07:35',
+  'id_conexion' => 'conn_68385c177f6345.13663219',
+  'salida' => '2025-05-29 08:18:55',
+)
+2025-05-29 08:18:55 - Tiempo conectado: 00:11:20
+2025-05-29 08:18:55 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 08:18:55 - Actividad acumulada correctamente.
+2025-05-29 08:18:55 - Registros eliminados de paginas_abiertas para id_conexion conn_68385c177f6345.13663219.
+2025-05-29 08:18:55 - Estado actualizado a 'desconectado'
+2025-05-29 08:18:55 - Conexión eliminada de usuarios_conectados.
+2025-05-29 08:18:55 - Logout finalizado.
+2025-05-29 08:33:24 - == Inicio de logout ==
+2025-05-29 08:33:24 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_68385ec4ed8775.87471777',
+)
+2025-05-29 08:33:24 - Procesando logout para usuario ID 1
+2025-05-29 08:33:24 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 08:19:00',
+  'id_conexion' => 'conn_68385ec4ed8775.87471777',
+  'salida' => '2025-05-29 08:33:24',
+)
+2025-05-29 08:33:24 - Tiempo conectado: 00:14:24
+2025-05-29 08:33:24 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 08:33:24 - Actividad acumulada correctamente.
+2025-05-29 08:33:24 - Registros eliminados de paginas_abiertas para id_conexion conn_68385ec4ed8775.87471777.
+2025-05-29 08:33:24 - Estado actualizado a 'desconectado'
+2025-05-29 08:33:24 - Conexión eliminada de usuarios_conectados.
+2025-05-29 08:33:24 - Logout finalizado.
+2025-05-29 08:43:36 - == Inicio de logout ==
+2025-05-29 08:43:36 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6838636adec823.74359749',
+)
+2025-05-29 08:43:36 - Procesando logout para usuario ID 1
+2025-05-29 08:43:36 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 08:38:50',
+  'id_conexion' => 'conn_6838636adec823.74359749',
+  'salida' => '2025-05-29 08:43:36',
+)
+2025-05-29 08:43:36 - Tiempo conectado: 00:04:46
+2025-05-29 08:43:36 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 08:43:36 - Actividad acumulada correctamente.
+2025-05-29 08:43:36 - Registros eliminados de paginas_abiertas para id_conexion conn_6838636adec823.74359749.
+2025-05-29 08:43:36 - Estado actualizado a 'desconectado'
+2025-05-29 08:43:36 - Conexión eliminada de usuarios_conectados.
+2025-05-29 08:43:36 - Logout finalizado.
+2025-05-29 08:47:50 - == Inicio de logout ==
+2025-05-29 08:47:50 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683864db8cc901.15529223',
+)
+2025-05-29 08:47:50 - Procesando logout para usuario ID 1
+2025-05-29 08:47:50 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 08:44:59',
+  'id_conexion' => 'conn_683864db8cc901.15529223',
+  'salida' => '2025-05-29 08:47:50',
+)
+2025-05-29 08:47:50 - Tiempo conectado: 00:02:51
+2025-05-29 08:47:50 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 08:47:50 - Actividad acumulada correctamente.
+2025-05-29 08:47:50 - Registros eliminados de paginas_abiertas para id_conexion conn_683864db8cc901.15529223.
+2025-05-29 08:47:50 - Estado actualizado a 'desconectado'
+2025-05-29 08:47:50 - Conexión eliminada de usuarios_conectados.
+2025-05-29 08:47:50 - Logout finalizado.
+2025-05-29 13:56:03 - == Inicio de logout ==
+2025-05-29 13:56:03 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_68389ee290a1e6.21414624',
+)
+2025-05-29 13:56:03 - Procesando logout para usuario ID 1
+2025-05-29 13:56:03 - Datos obtenidos: false
+2025-05-29 13:56:03 - Estado actualizado a 'desconectado'
+2025-05-29 13:56:03 - Conexión eliminada de usuarios_conectados.
+2025-05-29 13:56:03 - Logout finalizado.
+2025-05-29 14:04:37 - == Inicio de logout ==
+2025-05-29 14:04:37 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6838adca0bff22.99102503',
+)
+2025-05-29 14:04:37 - Procesando logout para usuario ID 1
+2025-05-29 14:04:37 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 13:56:10',
+  'id_conexion' => 'conn_6838adca0bff22.99102503',
+  'salida' => '2025-05-29 14:04:37',
+)
+2025-05-29 14:04:37 - Tiempo conectado: 00:08:27
+2025-05-29 14:04:37 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 14:04:37 - Actividad acumulada correctamente.
+2025-05-29 14:04:37 - Registros eliminados de paginas_abiertas para id_conexion conn_6838adca0bff22.99102503.
+2025-05-29 14:04:37 - Estado actualizado a 'desconectado'
+2025-05-29 14:04:37 - Conexión eliminada de usuarios_conectados.
+2025-05-29 14:04:37 - Logout finalizado.
+2025-05-29 14:40:17 - == Inicio de logout ==
+2025-05-29 14:40:17 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6838b6f4b421b1.60313419',
+  'mensaje' => 'Ya tienes una sesión activa en otro dispositivo o navegador.',
+)
+2025-05-29 14:40:17 - Procesando logout para usuario ID 1
+2025-05-29 14:40:17 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-29 14:35:16',
+  'id_conexion' => 'conn_6838b6f4b421b1.60313419',
+  'salida' => '2025-05-29 14:40:17',
+)
+2025-05-29 14:40:17 - Tiempo conectado: 00:05:01
+2025-05-29 14:40:17 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-29 14:40:17 - Actividad acumulada correctamente.
+2025-05-29 14:40:17 - Registros eliminados de paginas_abiertas para id_conexion conn_6838b6f4b421b1.60313419.
+2025-05-29 14:40:17 - Estado actualizado a 'desconectado'
+2025-05-29 14:40:17 - Conexión eliminada de usuarios_conectados.
+2025-05-29 14:40:17 - Logout finalizado.
+2025-05-30 08:39:41 - == Inicio de logout ==
+2025-05-30 08:39:41 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_68399cfa918590.62421794',
+)
+2025-05-30 08:39:41 - Procesando logout para usuario ID 1
+2025-05-30 08:39:41 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-30 06:56:42',
+  'id_conexion' => 'conn_68399cfa918590.62421794',
+  'salida' => '2025-05-30 08:39:41',
+)
+2025-05-30 08:39:41 - Tiempo conectado: 01:42:59
+2025-05-30 08:39:41 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-30 08:39:41 - Actividad acumulada correctamente.
+2025-05-30 08:39:41 - Registros eliminados de paginas_abiertas para id_conexion conn_68399cfa918590.62421794.
+2025-05-30 08:39:41 - Estado actualizado a 'desconectado'
+2025-05-30 08:39:41 - Conexión eliminada de usuarios_conectados.
+2025-05-30 08:39:41 - Logout finalizado.
+2025-05-30 09:01:07 - == Inicio de logout ==
+2025-05-30 09:01:07 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6839b5244b55c7.21286419',
+)
+2025-05-30 09:01:07 - Procesando logout para usuario ID 1
+2025-05-30 09:01:07 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-30 08:39:48',
+  'id_conexion' => 'conn_6839b5244b55c7.21286419',
+  'salida' => '2025-05-30 09:01:07',
+)
+2025-05-30 09:01:07 - Tiempo conectado: 00:21:19
+2025-05-30 09:01:07 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-30 09:01:07 - Actividad acumulada correctamente.
+2025-05-30 09:01:07 - Registros eliminados de paginas_abiertas para id_conexion conn_6839b5244b55c7.21286419.
+2025-05-30 09:01:07 - Estado actualizado a 'desconectado'
+2025-05-30 09:01:07 - Conexión eliminada de usuarios_conectados.
+2025-05-30 09:01:07 - Logout finalizado.
+2025-05-30 11:55:23 - == Inicio de logout ==
+2025-05-30 11:55:23 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483650,
+    'email' => 'styvenmunera3@gmail.com',
+    'nombre' => 'styven2',
+    'rol' => 2,
+  ),
+  'id_conexion' => 'conn_6839ba2d9221c6.39374878',
+)
+2025-05-30 11:55:23 - Procesando logout para usuario ID 2147483650
+2025-05-30 11:55:23 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-30 09:01:17',
+  'id_conexion' => 'conn_6839ba2d9221c6.39374878',
+  'salida' => '2025-05-30 11:55:23',
+)
+2025-05-30 11:55:23 - Tiempo conectado: 02:54:06
+2025-05-30 11:55:23 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-30 11:55:23 - Actividad acumulada correctamente.
+2025-05-30 11:55:23 - Registros eliminados de paginas_abiertas para id_conexion conn_6839ba2d9221c6.39374878.
+2025-05-30 11:55:23 - Estado actualizado a 'desconectado'
+2025-05-30 11:55:23 - Conexión eliminada de usuarios_conectados.
+2025-05-30 11:55:23 - Logout finalizado.
+2025-05-30 12:05:39 - == Inicio de logout ==
+2025-05-30 12:05:39 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 2147483652,
+    'email' => 'styvenmunera1@gmail.com',
+    'nombre' => 'styven3',
+    'rol' => 3,
+  ),
+  'id_conexion' => 'conn_6839e309ba38e8.34939003',
+)
+2025-05-30 12:05:39 - Procesando logout para usuario ID 2147483652
+2025-05-30 12:05:39 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-30 11:55:37',
+  'id_conexion' => 'conn_6839e309ba38e8.34939003',
+  'salida' => '2025-05-30 12:05:39',
+)
+2025-05-30 12:05:39 - Tiempo conectado: 00:10:02
+2025-05-30 12:05:39 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-30 12:05:39 - Actividad acumulada correctamente.
+2025-05-30 12:05:39 - Registros eliminados de paginas_abiertas para id_conexion conn_6839e309ba38e8.34939003.
+2025-05-30 12:05:39 - Estado actualizado a 'desconectado'
+2025-05-30 12:05:39 - Conexión eliminada de usuarios_conectados.
+2025-05-30 12:05:39 - Logout finalizado.
+2025-05-30 13:09:04 - == Inicio de logout ==
+2025-05-30 13:09:04 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6839e56bf348b1.92828332',
+)
+2025-05-30 13:09:04 - Procesando logout para usuario ID 1
+2025-05-30 13:09:04 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-30 12:05:47',
+  'id_conexion' => 'conn_6839e56bf348b1.92828332',
+  'salida' => '2025-05-30 13:09:04',
+)
+2025-05-30 13:09:04 - Tiempo conectado: 01:03:17
+2025-05-30 13:09:04 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-30 13:09:04 - Actividad acumulada correctamente.
+2025-05-30 13:09:04 - Registros eliminados de paginas_abiertas para id_conexion conn_6839e56bf348b1.92828332.
+2025-05-30 13:09:04 - Estado actualizado a 'desconectado'
+2025-05-30 13:09:04 - Conexión eliminada de usuarios_conectados.
+2025-05-30 13:09:04 - Logout finalizado.
+2025-05-30 13:11:44 - == Inicio de logout ==
+2025-05-30 13:11:44 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6839f446d855e0.84619398',
+)
+2025-05-30 13:11:44 - Procesando logout para usuario ID 1
+2025-05-30 13:11:44 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-30 13:09:10',
+  'id_conexion' => 'conn_6839f446d855e0.84619398',
+  'salida' => '2025-05-30 13:11:44',
+)
+2025-05-30 13:11:44 - Tiempo conectado: 00:02:34
+2025-05-30 13:11:44 - Resumen de uso: páginas=0, cpu=0, ram=0
+2025-05-30 13:11:44 - Actividad acumulada correctamente.
+2025-05-30 13:11:44 - Registros eliminados de paginas_abiertas para id_conexion conn_6839f446d855e0.84619398.
+2025-05-30 13:11:44 - Estado actualizado a 'desconectado'
+2025-05-30 13:11:44 - Conexión eliminada de usuarios_conectados.
+2025-05-30 13:11:44 - Logout finalizado.
+2025-05-30 14:00:29 - == Inicio de logout ==
+2025-05-30 14:00:29 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_6839f4f428d115.78731292',
+)
+2025-05-30 14:00:29 - Procesando logout para usuario ID 1
+2025-05-30 14:00:29 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-05-30 13:12:04',
+  'id_conexion' => 'conn_6839f4f428d115.78731292',
+  'salida' => '2025-05-30 14:00:29',
+)
+2025-05-30 14:00:29 - Tiempo conectado: 00:48:25
+2025-05-30 14:00:29 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-05-30 14:00:29 - Actividad acumulada correctamente.
+2025-05-30 14:00:29 - Registros eliminados de paginas_abiertas para id_conexion conn_6839f4f428d115.78731292.
+2025-05-30 14:00:29 - Estado actualizado a 'desconectado'
+2025-05-30 14:00:29 - Conexión eliminada de usuarios_conectados.
+2025-05-30 14:00:29 - Logout finalizado.
+2025-06-03 07:46:52 - == Inicio de logout ==
+2025-06-03 07:46:52 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683eecfe3ad157.48885403',
+)
+2025-06-03 07:46:52 - Procesando logout para usuario ID 1
+2025-06-03 07:46:52 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 07:39:26',
+  'id_conexion' => 'conn_683eecfe3ad157.48885403',
+  'salida' => '2025-06-03 07:46:52',
+)
+2025-06-03 07:46:52 - Tiempo conectado: 00:07:26
+2025-06-03 07:46:52 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 07:46:52 - Actividad acumulada correctamente.
+2025-06-03 07:46:52 - Registros eliminados de paginas_abiertas para id_conexion conn_683eecfe3ad157.48885403.
+2025-06-03 07:46:52 - Estado actualizado a 'desconectado'
+2025-06-03 07:46:52 - Conexión eliminada de usuarios_conectados.
+2025-06-03 07:46:52 - Logout finalizado.
+2025-06-03 08:45:33 - == Inicio de logout ==
+2025-06-03 08:45:33 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683eeec7018f77.59792222',
+)
+2025-06-03 08:45:33 - Procesando logout para usuario ID 1
+2025-06-03 08:45:33 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 07:47:03',
+  'id_conexion' => 'conn_683eeec7018f77.59792222',
+  'salida' => '2025-06-03 08:45:33',
+)
+2025-06-03 08:45:33 - Tiempo conectado: 00:58:30
+2025-06-03 08:45:33 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 08:45:33 - Actividad acumulada correctamente.
+2025-06-03 08:45:33 - Registros eliminados de paginas_abiertas para id_conexion conn_683eeec7018f77.59792222.
+2025-06-03 08:45:33 - Estado actualizado a 'desconectado'
+2025-06-03 08:45:33 - Conexión eliminada de usuarios_conectados.
+2025-06-03 08:45:33 - Logout finalizado.
+2025-06-03 08:54:52 - == Inicio de logout ==
+2025-06-03 08:54:52 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683efc86007387.04241641',
+)
+2025-06-03 08:54:52 - Procesando logout para usuario ID 1
+2025-06-03 08:54:52 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 08:45:42',
+  'id_conexion' => 'conn_683efc86007387.04241641',
+  'salida' => '2025-06-03 08:54:52',
+)
+2025-06-03 08:54:52 - Tiempo conectado: 00:09:10
+2025-06-03 08:54:52 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 08:54:52 - Actividad acumulada correctamente.
+2025-06-03 08:54:52 - Registros eliminados de paginas_abiertas para id_conexion conn_683efc86007387.04241641.
+2025-06-03 08:54:52 - Estado actualizado a 'desconectado'
+2025-06-03 08:54:52 - Conexión eliminada de usuarios_conectados.
+2025-06-03 08:54:52 - Logout finalizado.
+2025-06-03 09:05:03 - == Inicio de logout ==
+2025-06-03 09:05:03 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683efeb55ff029.77301274',
+)
+2025-06-03 09:05:03 - Procesando logout para usuario ID 1
+2025-06-03 09:05:03 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 08:55:01',
+  'id_conexion' => 'conn_683efeb55ff029.77301274',
+  'salida' => '2025-06-03 09:05:03',
+)
+2025-06-03 09:05:03 - Tiempo conectado: 00:10:02
+2025-06-03 09:05:03 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 09:05:03 - Actividad acumulada correctamente.
+2025-06-03 09:05:03 - Registros eliminados de paginas_abiertas para id_conexion conn_683efeb55ff029.77301274.
+2025-06-03 09:05:03 - Estado actualizado a 'desconectado'
+2025-06-03 09:05:03 - Conexión eliminada de usuarios_conectados.
+2025-06-03 09:05:03 - Logout finalizado.
+2025-06-03 09:07:20 - == Inicio de logout ==
+2025-06-03 09:07:20 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f011a161b07.42004250',
+)
+2025-06-03 09:07:20 - Procesando logout para usuario ID 1
+2025-06-03 09:07:20 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 09:05:14',
+  'id_conexion' => 'conn_683f011a161b07.42004250',
+  'salida' => '2025-06-03 09:07:20',
+)
+2025-06-03 09:07:20 - Tiempo conectado: 00:02:06
+2025-06-03 09:07:20 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 09:07:20 - Actividad acumulada correctamente.
+2025-06-03 09:07:20 - Registros eliminados de paginas_abiertas para id_conexion conn_683f011a161b07.42004250.
+2025-06-03 09:07:20 - Estado actualizado a 'desconectado'
+2025-06-03 09:07:20 - Conexión eliminada de usuarios_conectados.
+2025-06-03 09:07:20 - Logout finalizado.
+2025-06-03 09:22:06 - == Inicio de logout ==
+2025-06-03 09:22:06 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f019db3e6f9.07718142',
+)
+2025-06-03 09:22:06 - Procesando logout para usuario ID 1
+2025-06-03 09:22:06 - Datos obtenidos: false
+2025-06-03 09:22:06 - Estado actualizado a 'desconectado'
+2025-06-03 09:22:06 - Conexión eliminada de usuarios_conectados.
+2025-06-03 09:22:06 - Logout finalizado.
+2025-06-03 09:28:39 - == Inicio de logout ==
+2025-06-03 09:28:39 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f051648bf01.37898571',
+)
+2025-06-03 09:28:39 - Procesando logout para usuario ID 1
+2025-06-03 09:28:39 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 09:22:14',
+  'id_conexion' => 'conn_683f051648bf01.37898571',
+  'salida' => '2025-06-03 09:28:39',
+)
+2025-06-03 09:28:39 - Tiempo conectado: 00:06:25
+2025-06-03 09:28:39 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 09:28:39 - Actividad acumulada correctamente.
+2025-06-03 09:28:39 - Registros eliminados de paginas_abiertas para id_conexion conn_683f051648bf01.37898571.
+2025-06-03 09:28:39 - Estado actualizado a 'desconectado'
+2025-06-03 09:28:39 - Conexión eliminada de usuarios_conectados.
+2025-06-03 09:28:39 - Logout finalizado.
+2025-06-03 09:42:31 - == Inicio de logout ==
+2025-06-03 09:42:32 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f06f6784b76.48671750',
+)
+2025-06-03 09:42:32 - Procesando logout para usuario ID 1
+2025-06-03 09:42:32 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 09:30:14',
+  'id_conexion' => 'conn_683f06f6784b76.48671750',
+  'salida' => '2025-06-03 09:42:32',
+)
+2025-06-03 09:42:32 - Tiempo conectado: 00:12:18
+2025-06-03 09:42:32 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 09:42:32 - Actividad acumulada correctamente.
+2025-06-03 09:42:32 - Registros eliminados de paginas_abiertas para id_conexion conn_683f06f6784b76.48671750.
+2025-06-03 09:42:32 - Estado actualizado a 'desconectado'
+2025-06-03 09:42:32 - Conexión eliminada de usuarios_conectados.
+2025-06-03 09:42:32 - Logout finalizado.
+2025-06-03 09:45:36 - == Inicio de logout ==
+2025-06-03 09:45:36 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f09e17c4a80.51556134',
+)
+2025-06-03 09:45:36 - Procesando logout para usuario ID 1
+2025-06-03 09:45:36 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 09:42:41',
+  'id_conexion' => 'conn_683f09e17c4a80.51556134',
+  'salida' => '2025-06-03 09:45:36',
+)
+2025-06-03 09:45:36 - Tiempo conectado: 00:02:55
+2025-06-03 09:45:36 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 09:45:36 - Actividad acumulada correctamente.
+2025-06-03 09:45:36 - Registros eliminados de paginas_abiertas para id_conexion conn_683f09e17c4a80.51556134.
+2025-06-03 09:45:36 - Estado actualizado a 'desconectado'
+2025-06-03 09:45:36 - Conexión eliminada de usuarios_conectados.
+2025-06-03 09:45:36 - Logout finalizado.
+2025-06-03 09:48:27 - == Inicio de logout ==
+2025-06-03 09:48:27 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f0a971cf524.59093556',
+)
+2025-06-03 09:48:27 - Procesando logout para usuario ID 1
+2025-06-03 09:48:27 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 09:45:43',
+  'id_conexion' => 'conn_683f0a971cf524.59093556',
+  'salida' => '2025-06-03 09:48:27',
+)
+2025-06-03 09:48:27 - Tiempo conectado: 00:02:44
+2025-06-03 09:48:27 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 09:48:27 - Actividad acumulada correctamente.
+2025-06-03 09:48:27 - Registros eliminados de paginas_abiertas para id_conexion conn_683f0a971cf524.59093556.
+2025-06-03 09:48:27 - Estado actualizado a 'desconectado'
+2025-06-03 09:48:27 - Conexión eliminada de usuarios_conectados.
+2025-06-03 09:48:27 - Logout finalizado.
+2025-06-03 10:01:37 - == Inicio de logout ==
+2025-06-03 10:01:37 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f0b4239cf50.71039642',
+)
+2025-06-03 10:01:37 - Procesando logout para usuario ID 1
+2025-06-03 10:01:37 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 09:48:34',
+  'id_conexion' => 'conn_683f0b4239cf50.71039642',
+  'salida' => '2025-06-03 10:01:37',
+)
+2025-06-03 10:01:37 - Tiempo conectado: 00:13:03
+2025-06-03 10:01:37 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 10:01:37 - Actividad acumulada correctamente.
+2025-06-03 10:01:37 - Registros eliminados de paginas_abiertas para id_conexion conn_683f0b4239cf50.71039642.
+2025-06-03 10:01:37 - Estado actualizado a 'desconectado'
+2025-06-03 10:01:37 - Conexión eliminada de usuarios_conectados.
+2025-06-03 10:01:37 - Logout finalizado.
+2025-06-03 10:14:37 - == Inicio de logout ==
+2025-06-03 10:14:37 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f0e56ecf478.82442113',
+)
+2025-06-03 10:14:37 - Procesando logout para usuario ID 1
+2025-06-03 10:14:37 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 10:01:42',
+  'id_conexion' => 'conn_683f0e56ecf478.82442113',
+  'salida' => '2025-06-03 10:14:37',
+)
+2025-06-03 10:14:37 - Tiempo conectado: 00:12:55
+2025-06-03 10:14:37 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 10:14:37 - Actividad acumulada correctamente.
+2025-06-03 10:14:37 - Registros eliminados de paginas_abiertas para id_conexion conn_683f0e56ecf478.82442113.
+2025-06-03 10:14:37 - Estado actualizado a 'desconectado'
+2025-06-03 10:14:37 - Conexión eliminada de usuarios_conectados.
+2025-06-03 10:14:37 - Logout finalizado.
+2025-06-03 10:16:42 - == Inicio de logout ==
+2025-06-03 10:16:42 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f1161bcb534.41806732',
+)
+2025-06-03 10:16:42 - Procesando logout para usuario ID 1
+2025-06-03 10:16:42 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 10:14:41',
+  'id_conexion' => 'conn_683f1161bcb534.41806732',
+  'salida' => '2025-06-03 10:16:42',
+)
+2025-06-03 10:16:42 - Tiempo conectado: 00:02:01
+2025-06-03 10:16:42 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 10:16:42 - Actividad acumulada correctamente.
+2025-06-03 10:16:42 - Registros eliminados de paginas_abiertas para id_conexion conn_683f1161bcb534.41806732.
+2025-06-03 10:16:42 - Estado actualizado a 'desconectado'
+2025-06-03 10:16:42 - Conexión eliminada de usuarios_conectados.
+2025-06-03 10:16:42 - Logout finalizado.
+2025-06-03 10:25:43 - == Inicio de logout ==
+2025-06-03 10:25:43 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f11e0280945.75557516',
+)
+2025-06-03 10:25:43 - Procesando logout para usuario ID 1
+2025-06-03 10:25:43 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 10:16:48',
+  'id_conexion' => 'conn_683f11e0280945.75557516',
+  'salida' => '2025-06-03 10:25:43',
+)
+2025-06-03 10:25:43 - Tiempo conectado: 00:08:55
+2025-06-03 10:25:43 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 10:25:43 - Actividad acumulada correctamente.
+2025-06-03 10:25:43 - Registros eliminados de paginas_abiertas para id_conexion conn_683f11e0280945.75557516.
+2025-06-03 10:25:43 - Estado actualizado a 'desconectado'
+2025-06-03 10:25:43 - Conexión eliminada de usuarios_conectados.
+2025-06-03 10:25:43 - Logout finalizado.
+2025-06-03 10:27:28 - == Inicio de logout ==
+2025-06-03 10:27:28 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f13ffb0db03.44543404',
+)
+2025-06-03 10:27:28 - Procesando logout para usuario ID 1
+2025-06-03 10:27:28 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 10:25:51',
+  'id_conexion' => 'conn_683f13ffb0db03.44543404',
+  'salida' => '2025-06-03 10:27:28',
+)
+2025-06-03 10:27:28 - Tiempo conectado: 00:01:37
+2025-06-03 10:27:28 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 10:27:28 - Actividad acumulada correctamente.
+2025-06-03 10:27:28 - Registros eliminados de paginas_abiertas para id_conexion conn_683f13ffb0db03.44543404.
+2025-06-03 10:27:28 - Estado actualizado a 'desconectado'
+2025-06-03 10:27:28 - Conexión eliminada de usuarios_conectados.
+2025-06-03 10:27:28 - Logout finalizado.
+2025-06-03 10:49:16 - == Inicio de logout ==
+2025-06-03 10:49:16 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f146511a262.73818141',
+)
+2025-06-03 10:49:16 - Procesando logout para usuario ID 1
+2025-06-03 10:49:16 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 10:27:33',
+  'id_conexion' => 'conn_683f146511a262.73818141',
+  'salida' => '2025-06-03 10:49:16',
+)
+2025-06-03 10:49:16 - Tiempo conectado: 00:21:43
+2025-06-03 10:49:16 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 10:49:16 - Actividad acumulada correctamente.
+2025-06-03 10:49:16 - Registros eliminados de paginas_abiertas para id_conexion conn_683f146511a262.73818141.
+2025-06-03 10:49:16 - Estado actualizado a 'desconectado'
+2025-06-03 10:49:16 - Conexión eliminada de usuarios_conectados.
+2025-06-03 10:49:16 - Logout finalizado.
+2025-06-03 11:08:12 - == Inicio de logout ==
+2025-06-03 11:08:12 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f1982b8d4c0.36150632',
+)
+2025-06-03 11:08:12 - Procesando logout para usuario ID 1
+2025-06-03 11:08:12 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 10:49:22',
+  'id_conexion' => 'conn_683f1982b8d4c0.36150632',
+  'salida' => '2025-06-03 11:08:12',
+)
+2025-06-03 11:08:12 - Tiempo conectado: 00:18:50
+2025-06-03 11:08:12 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 11:08:12 - Actividad acumulada correctamente.
+2025-06-03 11:08:12 - Registros eliminados de paginas_abiertas para id_conexion conn_683f1982b8d4c0.36150632.
+2025-06-03 11:08:12 - Estado actualizado a 'desconectado'
+2025-06-03 11:08:12 - Conexión eliminada de usuarios_conectados.
+2025-06-03 11:08:12 - Logout finalizado.
+2025-06-03 11:26:58 - == Inicio de logout ==
+2025-06-03 11:26:58 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f1df1a35ad3.23172050',
+)
+2025-06-03 11:26:58 - Procesando logout para usuario ID 1
+2025-06-03 11:26:58 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 11:08:17',
+  'id_conexion' => 'conn_683f1df1a35ad3.23172050',
+  'salida' => '2025-06-03 11:26:58',
+)
+2025-06-03 11:26:58 - Tiempo conectado: 00:18:41
+2025-06-03 11:26:58 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 11:26:58 - Actividad acumulada correctamente.
+2025-06-03 11:26:58 - Registros eliminados de paginas_abiertas para id_conexion conn_683f1df1a35ad3.23172050.
+2025-06-03 11:26:58 - Estado actualizado a 'desconectado'
+2025-06-03 11:26:58 - Conexión eliminada de usuarios_conectados.
+2025-06-03 11:26:58 - Logout finalizado.
+2025-06-03 11:27:06 - == Inicio de logout ==
+2025-06-03 11:27:06 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f2256abdc84.33699146',
+)
+2025-06-03 11:27:06 - Procesando logout para usuario ID 1
+2025-06-03 11:27:06 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 11:27:02',
+  'id_conexion' => 'conn_683f2256abdc84.33699146',
+  'salida' => '2025-06-03 11:27:06',
+)
+2025-06-03 11:27:06 - Tiempo conectado: 00:00:04
+2025-06-03 11:27:06 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 11:27:06 - Actividad acumulada correctamente.
+2025-06-03 11:27:06 - Registros eliminados de paginas_abiertas para id_conexion conn_683f2256abdc84.33699146.
+2025-06-03 11:27:06 - Estado actualizado a 'desconectado'
+2025-06-03 11:27:06 - Conexión eliminada de usuarios_conectados.
+2025-06-03 11:27:06 - Logout finalizado.
+2025-06-03 11:29:06 - == Inicio de logout ==
+2025-06-03 11:29:06 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f228247f928.46792947',
+)
+2025-06-03 11:29:06 - Procesando logout para usuario ID 1
+2025-06-03 11:29:06 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 11:27:46',
+  'id_conexion' => 'conn_683f228247f928.46792947',
+  'salida' => '2025-06-03 11:29:06',
+)
+2025-06-03 11:29:06 - Tiempo conectado: 00:01:20
+2025-06-03 11:29:06 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 11:29:06 - Actividad acumulada correctamente.
+2025-06-03 11:29:06 - Registros eliminados de paginas_abiertas para id_conexion conn_683f228247f928.46792947.
+2025-06-03 11:29:06 - Estado actualizado a 'desconectado'
+2025-06-03 11:29:06 - Conexión eliminada de usuarios_conectados.
+2025-06-03 11:29:06 - Logout finalizado.
+2025-06-03 11:34:03 - == Inicio de logout ==
+2025-06-03 11:34:03 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f22d7133f81.11925157',
+)
+2025-06-03 11:34:03 - Procesando logout para usuario ID 1
+2025-06-03 11:34:03 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 11:29:11',
+  'id_conexion' => 'conn_683f22d7133f81.11925157',
+  'salida' => '2025-06-03 11:34:03',
+)
+2025-06-03 11:34:03 - Tiempo conectado: 00:04:52
+2025-06-03 11:34:03 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 11:34:03 - Actividad acumulada correctamente.
+2025-06-03 11:34:03 - Registros eliminados de paginas_abiertas para id_conexion conn_683f22d7133f81.11925157.
+2025-06-03 11:34:03 - Estado actualizado a 'desconectado'
+2025-06-03 11:34:03 - Conexión eliminada de usuarios_conectados.
+2025-06-03 11:34:03 - Logout finalizado.
+2025-06-03 11:38:22 - == Inicio de logout ==
+2025-06-03 11:38:22 - Contenido de $_SESSION: array (
+  'mensaje' => 'Ya tienes una sesión activa en otro dispositivo o navegador.',
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f245a502af1.52781497',
+)
+2025-06-03 11:38:22 - Procesando logout para usuario ID 1
+2025-06-03 11:38:22 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 11:35:38',
+  'id_conexion' => 'conn_683f245a502af1.52781497',
+  'salida' => '2025-06-03 11:38:22',
+)
+2025-06-03 11:38:22 - Tiempo conectado: 00:02:44
+2025-06-03 11:38:22 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 11:38:22 - Actividad acumulada correctamente.
+2025-06-03 11:38:22 - Registros eliminados de paginas_abiertas para id_conexion conn_683f245a502af1.52781497.
+2025-06-03 11:38:22 - Estado actualizado a 'desconectado'
+2025-06-03 11:38:22 - Conexión eliminada de usuarios_conectados.
+2025-06-03 11:38:22 - Logout finalizado.
+2025-06-03 12:11:09 - == Inicio de logout ==
+2025-06-03 12:11:09 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f2635ac4d66.43509494',
+)
+2025-06-03 12:11:09 - Procesando logout para usuario ID 1
+2025-06-03 12:11:09 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 11:43:33',
+  'id_conexion' => 'conn_683f2635ac4d66.43509494',
+  'salida' => '2025-06-03 12:11:09',
+)
+2025-06-03 12:11:09 - Tiempo conectado: 00:27:36
+2025-06-03 12:11:09 - Resumen de uso: páginas=2, cpu=0.0000, ram=0.00
+2025-06-03 12:11:09 - Actividad acumulada correctamente.
+2025-06-03 12:11:09 - Registros eliminados de paginas_abiertas para id_conexion conn_683f2635ac4d66.43509494.
+2025-06-03 12:11:09 - Estado actualizado a 'desconectado'
+2025-06-03 12:11:09 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:11:09 - Logout finalizado.
+2025-06-03 12:15:03 - == Inicio de logout ==
+2025-06-03 12:15:03 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f2cb4258ac1.67615452',
+)
+2025-06-03 12:15:03 - Procesando logout para usuario ID 1
+2025-06-03 12:15:03 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:11:16',
+  'id_conexion' => 'conn_683f2cb4258ac1.67615452',
+  'salida' => '2025-06-03 12:15:03',
+)
+2025-06-03 12:15:03 - Tiempo conectado: 00:03:47
+2025-06-03 12:15:03 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:15:03 - Actividad acumulada correctamente.
+2025-06-03 12:15:03 - Registros eliminados de paginas_abiertas para id_conexion conn_683f2cb4258ac1.67615452.
+2025-06-03 12:15:03 - Estado actualizado a 'desconectado'
+2025-06-03 12:15:03 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:15:03 - Logout finalizado.
+2025-06-03 12:15:57 - == Inicio de logout ==
+2025-06-03 12:15:57 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f2d9f719fc6.23407816',
+)
+2025-06-03 12:15:57 - Procesando logout para usuario ID 1
+2025-06-03 12:15:57 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:15:11',
+  'id_conexion' => 'conn_683f2d9f719fc6.23407816',
+  'salida' => '2025-06-03 12:15:57',
+)
+2025-06-03 12:15:57 - Tiempo conectado: 00:00:46
+2025-06-03 12:15:57 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:15:57 - Actividad acumulada correctamente.
+2025-06-03 12:15:57 - Registros eliminados de paginas_abiertas para id_conexion conn_683f2d9f719fc6.23407816.
+2025-06-03 12:15:57 - Estado actualizado a 'desconectado'
+2025-06-03 12:15:57 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:15:57 - Logout finalizado.
+2025-06-03 12:21:42 - == Inicio de logout ==
+2025-06-03 12:21:42 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f2dd35b7b16.03471690',
+)
+2025-06-03 12:21:42 - Procesando logout para usuario ID 1
+2025-06-03 12:21:42 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:16:03',
+  'id_conexion' => 'conn_683f2dd35b7b16.03471690',
+  'salida' => '2025-06-03 12:21:42',
+)
+2025-06-03 12:21:42 - Tiempo conectado: 00:05:39
+2025-06-03 12:21:42 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:21:42 - Actividad acumulada correctamente.
+2025-06-03 12:21:42 - Registros eliminados de paginas_abiertas para id_conexion conn_683f2dd35b7b16.03471690.
+2025-06-03 12:21:42 - Estado actualizado a 'desconectado'
+2025-06-03 12:21:42 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:21:42 - Logout finalizado.
+2025-06-03 12:22:12 - == Inicio de logout ==
+2025-06-03 12:22:12 - Contenido de $_SESSION: array (
+  'mensaje' => 'Datos incorrectos, vuelva a intentarlo.',
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f2f32cf07d8.26414334',
+)
+2025-06-03 12:22:12 - Procesando logout para usuario ID 1
+2025-06-03 12:22:12 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:21:54',
+  'id_conexion' => 'conn_683f2f32cf07d8.26414334',
+  'salida' => '2025-06-03 12:22:12',
+)
+2025-06-03 12:22:12 - Tiempo conectado: 00:00:18
+2025-06-03 12:22:12 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:22:12 - Actividad acumulada correctamente.
+2025-06-03 12:22:12 - Registros eliminados de paginas_abiertas para id_conexion conn_683f2f32cf07d8.26414334.
+2025-06-03 12:22:12 - Estado actualizado a 'desconectado'
+2025-06-03 12:22:12 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:22:12 - Logout finalizado.
+2025-06-03 12:30:27 - == Inicio de logout ==
+2025-06-03 12:30:27 - Contenido de $_SESSION: array (
+  'mensaje' => 'Ya tienes una sesión activa en otro dispositivo o navegador.',
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f30a8b942a7.05745123',
+)
+2025-06-03 12:30:27 - Procesando logout para usuario ID 1
+2025-06-03 12:30:27 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:28:08',
+  'id_conexion' => 'conn_683f30a8b942a7.05745123',
+  'salida' => '2025-06-03 12:30:27',
+)
+2025-06-03 12:30:27 - Tiempo conectado: 00:02:19
+2025-06-03 12:30:27 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:30:27 - Actividad acumulada correctamente.
+2025-06-03 12:30:27 - Registros eliminados de paginas_abiertas para id_conexion conn_683f30a8b942a7.05745123.
+2025-06-03 12:30:27 - Estado actualizado a 'desconectado'
+2025-06-03 12:30:27 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:30:27 - Logout finalizado.
+2025-06-03 12:30:55 - == Inicio de logout ==
+2025-06-03 12:30:55 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f313c795023.61704886',
+)
+2025-06-03 12:30:55 - Procesando logout para usuario ID 1
+2025-06-03 12:30:55 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:30:36',
+  'id_conexion' => 'conn_683f313c795023.61704886',
+  'salida' => '2025-06-03 12:30:55',
+)
+2025-06-03 12:30:55 - Tiempo conectado: 00:00:19
+2025-06-03 12:30:55 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:30:55 - Actividad acumulada correctamente.
+2025-06-03 12:30:55 - Registros eliminados de paginas_abiertas para id_conexion conn_683f313c795023.61704886.
+2025-06-03 12:30:55 - Estado actualizado a 'desconectado'
+2025-06-03 12:30:55 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:30:55 - Logout finalizado.
+2025-06-03 12:40:58 - == Inicio de logout ==
+2025-06-03 12:40:58 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f32c652d855.54992355',
+)
+2025-06-03 12:40:58 - Procesando logout para usuario ID 1
+2025-06-03 12:40:58 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:37:10',
+  'id_conexion' => 'conn_683f32c652d855.54992355',
+  'salida' => '2025-06-03 12:40:58',
+)
+2025-06-03 12:40:58 - Tiempo conectado: 00:03:48
+2025-06-03 12:40:58 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:40:58 - Actividad acumulada correctamente.
+2025-06-03 12:40:58 - Registros eliminados de paginas_abiertas para id_conexion conn_683f32c652d855.54992355.
+2025-06-03 12:40:58 - Estado actualizado a 'desconectado'
+2025-06-03 12:40:58 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:40:58 - Logout finalizado.
+2025-06-03 12:44:00 - == Inicio de logout ==
+2025-06-03 12:44:00 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f33c5954104.53860223',
+)
+2025-06-03 12:44:00 - Procesando logout para usuario ID 1
+2025-06-03 12:44:00 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:41:25',
+  'id_conexion' => 'conn_683f33c5954104.53860223',
+  'salida' => '2025-06-03 12:44:00',
+)
+2025-06-03 12:44:00 - Tiempo conectado: 00:02:35
+2025-06-03 12:44:00 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:44:00 - Actividad acumulada correctamente.
+2025-06-03 12:44:00 - Registros eliminados de paginas_abiertas para id_conexion conn_683f33c5954104.53860223.
+2025-06-03 12:44:00 - Estado actualizado a 'desconectado'
+2025-06-03 12:44:00 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:44:00 - Logout finalizado.
+2025-06-03 12:45:20 - == Inicio de logout ==
+2025-06-03 12:45:20 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f3477b31826.57842376',
+)
+2025-06-03 12:45:20 - Procesando logout para usuario ID 1
+2025-06-03 12:45:20 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:44:23',
+  'id_conexion' => 'conn_683f3477b31826.57842376',
+  'salida' => '2025-06-03 12:45:20',
+)
+2025-06-03 12:45:20 - Tiempo conectado: 00:00:57
+2025-06-03 12:45:20 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:45:20 - Actividad acumulada correctamente.
+2025-06-03 12:45:20 - Registros eliminados de paginas_abiertas para id_conexion conn_683f3477b31826.57842376.
+2025-06-03 12:45:20 - Estado actualizado a 'desconectado'
+2025-06-03 12:45:20 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:45:20 - Logout finalizado.
+2025-06-03 12:49:56 - == Inicio de logout ==
+2025-06-03 12:49:56 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f34c4a05090.45915986',
+)
+2025-06-03 12:49:56 - Procesando logout para usuario ID 1
+2025-06-03 12:49:56 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:45:40',
+  'id_conexion' => 'conn_683f34c4a05090.45915986',
+  'salida' => '2025-06-03 12:49:56',
+)
+2025-06-03 12:49:56 - Tiempo conectado: 00:04:16
+2025-06-03 12:49:56 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:49:56 - Actividad acumulada correctamente.
+2025-06-03 12:49:56 - Registros eliminados de paginas_abiertas para id_conexion conn_683f34c4a05090.45915986.
+2025-06-03 12:49:56 - Estado actualizado a 'desconectado'
+2025-06-03 12:49:56 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:49:56 - Logout finalizado.
+2025-06-03 12:52:34 - == Inicio de logout ==
+2025-06-03 12:52:34 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f35da481f18.40439423',
+)
+2025-06-03 12:52:34 - Procesando logout para usuario ID 1
+2025-06-03 12:52:34 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:50:18',
+  'id_conexion' => 'conn_683f35da481f18.40439423',
+  'salida' => '2025-06-03 12:52:34',
+)
+2025-06-03 12:52:34 - Tiempo conectado: 00:02:16
+2025-06-03 12:52:34 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 12:52:34 - Actividad acumulada correctamente.
+2025-06-03 12:52:34 - Registros eliminados de paginas_abiertas para id_conexion conn_683f35da481f18.40439423.
+2025-06-03 12:52:34 - Estado actualizado a 'desconectado'
+2025-06-03 12:52:34 - Conexión eliminada de usuarios_conectados.
+2025-06-03 12:52:34 - Logout finalizado.
+2025-06-03 13:00:58 - == Inicio de logout ==
+2025-06-03 13:00:58 - Contenido de $_SESSION: array (
+  'usuario_info' => 
+  array (
+    'id' => 1,
+    'email' => 'styvenmunera6@gmail.com',
+    'nombre' => 'styven',
+    'rol' => 1,
+  ),
+  'id_conexion' => 'conn_683f367c3eb287.13833407',
+)
+2025-06-03 13:00:58 - Procesando logout para usuario ID 1
+2025-06-03 13:00:58 - Datos obtenidos: array (
+  'fecha_ingreso' => '2025-06-03 12:53:00',
+  'id_conexion' => 'conn_683f367c3eb287.13833407',
+  'salida' => '2025-06-03 13:00:58',
+)
+2025-06-03 13:00:58 - Tiempo conectado: 00:07:58
+2025-06-03 13:00:58 - Resumen de uso: páginas=1, cpu=0.0000, ram=0.00
+2025-06-03 13:00:58 - Actividad acumulada correctamente.
+2025-06-03 13:00:58 - Registros eliminados de paginas_abiertas para id_conexion conn_683f367c3eb287.13833407.
+2025-06-03 13:00:58 - Estado actualizado a 'desconectado'
+2025-06-03 13:00:58 - Conexión eliminada de usuarios_conectados.
+2025-06-03 13:00:58 - Logout finalizado.

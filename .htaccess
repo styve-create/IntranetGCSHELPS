@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /intranet/
+
+    # Asegura que los archivos reales y directorios se carguen normalmente
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Todo lo demás pasa por index.php de la intranet (NO WordPress)
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+AddType application/javascript .js
+SSLProtocol all -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"

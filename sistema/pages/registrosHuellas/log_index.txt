@@ -1,0 +1,762 @@
+
+
+2025-04-24 11:11:56 - Cargado index.php
+2025-04-24 11:11:56 - GET detectado en index.php
+2025-04-24 11:11:56 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:19:32 - Cargado index.php
+2025-04-24 11:19:32 - GET detectado en index.php
+2025-04-24 11:19:32 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:27:12 - Cargado index.php
+2025-04-24 11:27:12 - GET detectado en index.php
+2025-04-24 11:27:12 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:27:40 - Cargado index.php
+2025-04-24 11:27:40 - GET detectado en index.php
+2025-04-24 11:27:40 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:34:37 - Cargado index.php
+2025-04-24 11:34:37 - GET detectado en index.php
+2025-04-24 11:34:37 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:34:40 - Cargado index.php
+2025-04-24 11:34:40 - GET detectado en index.php
+2025-04-24 11:34:40 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:34:47 - Cargado index.php
+2025-04-24 11:34:47 - GET detectado en index.php
+2025-04-24 11:34:47 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:35:15 - Cargado index.php
+2025-04-24 11:35:15 - GET detectado en index.php
+2025-04-24 11:35:15 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:35:21 - Cargado index.php
+2025-04-24 11:35:21 - GET detectado en index.php
+2025-04-24 11:35:21 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:35:27 - Cargado index.php
+2025-04-24 11:35:27 - GET detectado en index.php
+2025-04-24 11:35:27 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:35:30 - Cargado index.php
+2025-04-24 11:35:30 - GET detectado en index.php
+2025-04-24 11:35:30 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:37:01 - Cargado index.php
+2025-04-24 11:37:01 - GET detectado en index.php
+2025-04-24 11:37:01 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:37:03 - Cargado index.php
+2025-04-24 11:37:03 - GET detectado en index.php
+2025-04-24 11:37:03 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:38:57 - Cargado index.php
+2025-04-24 11:38:57 - GET detectado en index.php
+2025-04-24 11:38:57 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:46:07 - Cargado index.php
+2025-04-24 11:46:07 - GET detectado en index.php
+2025-04-24 11:46:07 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 11:47:06 - Cargado index.php
+2025-04-24 11:47:06 - GET detectado en index.php
+2025-04-24 11:47:06 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 12:14:21 - Cargado index.php
+2025-04-24 12:14:21 - GET detectado en index.php
+2025-04-24 12:14:21 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 12:15:18 - Cargado index.php
+2025-04-24 12:15:18 - GET detectado en index.php
+2025-04-24 12:15:18 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 12:24:39 - Cargado index.php
+2025-04-24 12:24:39 - GET detectado en index.php
+2025-04-24 12:24:39 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-24 15:32:38 - Cargado index.php
+2025-04-24 15:32:38 - GET detectado en index.php
+2025-04-24 15:32:38 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-29 09:50:13 - Cargado index.php
+2025-04-29 09:50:13 - GET detectado en index.php
+2025-04-29 09:50:13 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-04-29 13:33:32 - Cargado index.php
+2025-04-29 13:33:32 - GET detectado en index.php
+2025-04-29 13:33:32 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-02 09:57:54 - Cargado index.php
+2025-05-02 09:57:54 - GET detectado en index.php
+2025-05-02 09:57:54 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-02 10:03:05 - Cargado index.php
+2025-05-02 10:03:05 - GET detectado en index.php
+2025-05-02 10:03:05 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-02 12:12:24 - Cargado index.php
+2025-05-02 12:12:24 - GET detectado en index.php
+2025-05-02 12:12:24 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-02 14:50:25 - Cargado index.php
+2025-05-02 14:50:25 - GET detectado en index.php
+2025-05-02 14:50:25 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-02 14:50:45 - Cargado index.php
+2025-05-02 14:50:45 - GET detectado en index.php
+2025-05-02 14:50:45 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-05 10:36:14 - Cargado index.php
+2025-05-05 10:36:14 - GET detectado en index.php
+2025-05-05 10:36:14 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-05 10:57:23 - Cargado index.php
+2025-05-05 10:57:23 - GET detectado en index.php
+2025-05-05 10:57:23 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-05 10:59:34 - Cargado index.php
+2025-05-05 10:59:34 - GET detectado en index.php
+2025-05-05 10:59:34 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-05 15:11:45 - Cargado index.php
+2025-05-05 15:11:45 - GET detectado en index.php
+2025-05-05 15:11:45 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 06:57:38 - Cargado index.php
+2025-05-06 06:57:38 - GET detectado en index.php
+2025-05-06 06:57:38 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 10:17:04 - Cargado index.php
+2025-05-06 10:17:04 - GET detectado en index.php
+2025-05-06 10:17:04 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 10:44:46 - Cargado index.php
+2025-05-06 10:44:46 - GET detectado en index.php
+2025-05-06 10:44:46 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 10:44:56 - Cargado index.php
+2025-05-06 10:44:56 - GET detectado en index.php
+2025-05-06 10:44:56 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 11:32:46 - Cargado index.php
+2025-05-06 11:32:46 - GET detectado en index.php
+2025-05-06 11:32:46 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 12:10:40 - Cargado index.php
+2025-05-06 12:10:40 - GET detectado en index.php
+2025-05-06 12:10:40 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 13:31:14 - Cargado index.php
+2025-05-06 13:31:14 - GET detectado en index.php
+2025-05-06 13:31:14 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 13:33:34 - Cargado index.php
+2025-05-06 13:33:34 - GET detectado en index.php
+2025-05-06 13:33:34 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 13:37:38 - Cargado index.php
+2025-05-06 13:37:38 - GET detectado en index.php
+2025-05-06 13:37:38 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 13:40:18 - Cargado index.php
+2025-05-06 13:40:18 - GET detectado en index.php
+2025-05-06 13:40:18 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-06 14:40:32 - Cargado index.php
+2025-05-06 14:40:32 - GET detectado en index.php
+2025-05-06 14:40:32 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-07 08:46:26 - Cargado index.php
+2025-05-07 08:46:26 - GET detectado en index.php
+2025-05-07 08:46:26 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-07 09:21:16 - Cargado index.php
+2025-05-07 09:21:16 - GET detectado en index.php
+2025-05-07 09:21:16 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-07 14:27:06 - Cargado index.php
+2025-05-07 14:27:06 - GET detectado en index.php
+2025-05-07 14:27:06 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-07 14:31:36 - Cargado index.php
+2025-05-07 14:31:36 - GET detectado en index.php
+2025-05-07 14:31:36 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-07 14:32:18 - Cargado index.php
+2025-05-07 14:32:18 - GET detectado en index.php
+2025-05-07 14:32:18 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:14:49 - Cargado index.php
+2025-05-08 09:14:49 - GET detectado en index.php
+2025-05-08 09:14:49 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:14:52 - Cargado index.php
+2025-05-08 09:14:52 - GET detectado en index.php
+2025-05-08 09:14:52 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:18:45 - Cargado index.php
+2025-05-08 09:18:45 - GET detectado en index.php
+2025-05-08 09:18:45 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:18:47 - Cargado index.php
+2025-05-08 09:18:47 - GET detectado en index.php
+2025-05-08 09:18:47 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:18:48 - Cargado index.php
+2025-05-08 09:18:48 - GET detectado en index.php
+2025-05-08 09:18:48 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:21:16 - Cargado index.php
+2025-05-08 09:21:16 - GET detectado en index.php
+2025-05-08 09:21:16 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:21:19 - Cargado index.php
+2025-05-08 09:21:19 - GET detectado en index.php
+2025-05-08 09:21:19 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:25:20 - Cargado index.php
+2025-05-08 09:25:20 - GET detectado en index.php
+2025-05-08 09:25:20 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:25:23 - Cargado index.php
+2025-05-08 09:25:23 - GET detectado en index.php
+2025-05-08 09:25:23 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:25:28 - Cargado index.php
+2025-05-08 09:25:28 - GET detectado en index.php
+2025-05-08 09:25:28 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:34:17 - Cargado index.php
+2025-05-08 09:34:17 - GET detectado en index.php
+2025-05-08 09:34:17 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:34:20 - Cargado index.php
+2025-05-08 09:34:20 - GET detectado en index.php
+2025-05-08 09:34:20 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:50:25 - Cargado index.php
+2025-05-08 09:50:25 - GET detectado en index.php
+2025-05-08 09:50:25 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:50:27 - Cargado index.php
+2025-05-08 09:50:27 - GET detectado en index.php
+2025-05-08 09:50:27 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:51:57 - Cargado index.php
+2025-05-08 09:51:57 - GET detectado en index.php
+2025-05-08 09:51:57 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:53:21 - Cargado index.php
+2025-05-08 09:53:21 - GET detectado en index.php
+2025-05-08 09:53:21 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:53:23 - Cargado index.php
+2025-05-08 09:53:23 - GET detectado en index.php
+2025-05-08 09:53:23 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:53:24 - Cargado index.php
+2025-05-08 09:53:24 - GET detectado en index.php
+2025-05-08 09:53:24 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 09:58:08 - Cargado index.php
+2025-05-08 09:58:08 - GET detectado en index.php
+2025-05-08 09:58:08 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:01:20 - Cargado index.php
+2025-05-08 10:01:20 - GET detectado en index.php
+2025-05-08 10:01:20 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:05:15 - Cargado index.php
+2025-05-08 10:05:15 - GET detectado en index.php
+2025-05-08 10:05:15 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:05:17 - Cargado index.php
+2025-05-08 10:05:17 - GET detectado en index.php
+2025-05-08 10:05:17 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:07:25 - Cargado index.php
+2025-05-08 10:07:25 - GET detectado en index.php
+2025-05-08 10:07:25 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:08:33 - Cargado index.php
+2025-05-08 10:08:33 - GET detectado en index.php
+2025-05-08 10:08:33 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:10:53 - Cargado index.php
+2025-05-08 10:10:53 - GET detectado en index.php
+2025-05-08 10:10:53 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:14:28 - Cargado index.php
+2025-05-08 10:14:28 - GET detectado en index.php
+2025-05-08 10:14:28 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:15:13 - Cargado index.php
+2025-05-08 10:15:13 - GET detectado en index.php
+2025-05-08 10:15:13 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:15:19 - Cargado index.php
+2025-05-08 10:15:19 - GET detectado en index.php
+2025-05-08 10:15:19 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:18:11 - Cargado index.php
+2025-05-08 10:18:11 - GET detectado en index.php
+2025-05-08 10:18:11 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:20:24 - Cargado index.php
+2025-05-08 10:20:24 - GET detectado en index.php
+2025-05-08 10:20:24 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:25:15 - Cargado index.php
+2025-05-08 10:25:15 - GET detectado en index.php
+2025-05-08 10:25:15 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:28:26 - Cargado index.php
+2025-05-08 10:28:26 - GET detectado en index.php
+2025-05-08 10:28:26 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:32:39 - Cargado index.php
+2025-05-08 10:32:39 - GET detectado en index.php
+2025-05-08 10:32:39 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:33:21 - Cargado index.php
+2025-05-08 10:33:21 - GET detectado en index.php
+2025-05-08 10:33:21 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:34:12 - Cargado index.php
+2025-05-08 10:34:12 - GET detectado en index.php
+2025-05-08 10:34:12 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:34:20 - Cargado index.php
+2025-05-08 10:34:20 - GET detectado en index.php
+2025-05-08 10:34:20 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:41:13 - Cargado index.php
+2025-05-08 10:41:13 - GET detectado en index.php
+2025-05-08 10:41:13 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:41:42 - Cargado index.php
+2025-05-08 10:41:42 - GET detectado en index.php
+2025-05-08 10:41:42 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:43:47 - Cargado index.php
+2025-05-08 10:43:47 - GET detectado en index.php
+2025-05-08 10:43:47 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:49:25 - Cargado index.php
+2025-05-08 10:49:25 - GET detectado en index.php
+2025-05-08 10:49:25 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:52:44 - Cargado index.php
+2025-05-08 10:52:44 - GET detectado en index.php
+2025-05-08 10:52:44 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 10:54:04 - Cargado index.php
+2025-05-08 10:54:04 - GET detectado en index.php
+2025-05-08 10:54:04 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 11:07:16 - Cargado index.php
+2025-05-08 11:07:16 - GET detectado en index.php
+2025-05-08 11:07:16 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 12:31:51 - Cargado index.php
+2025-05-08 12:31:51 - GET detectado en index.php
+2025-05-08 12:31:51 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 12:42:27 - Cargado index.php
+2025-05-08 12:42:27 - GET detectado en index.php
+2025-05-08 12:42:27 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-08 12:58:04 - Cargado index.php
+2025-05-08 12:58:04 - GET detectado en index.php
+2025-05-08 12:58:04 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-12 15:07:38 - Cargado index.php
+2025-05-12 15:07:38 - GET detectado en index.php
+2025-05-12 15:07:38 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-19 13:49:30 - Cargado index.php
+2025-05-19 13:49:30 - GET detectado en index.php
+2025-05-19 13:49:30 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-21 14:15:29 - Cargado index.php
+2025-05-21 14:15:29 - GET detectado en index.php
+2025-05-21 14:15:29 - Contenido GET: Array
+(
+    [page] => registros_huellas
+)
+
+2025-05-30 09:01:37 - Cargado index.php
+2025-05-30 09:01:37 - GET detectado en index.php
+2025-05-30 09:01:37 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:01:53 - Cargado index.php
+2025-05-30 09:01:53 - GET detectado en index.php
+2025-05-30 09:01:53 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:02:52 - Cargado index.php
+2025-05-30 09:02:52 - GET detectado en index.php
+2025-05-30 09:02:52 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:04:42 - Cargado index.php
+2025-05-30 09:04:42 - GET detectado en index.php
+2025-05-30 09:04:42 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:06:23 - Cargado index.php
+2025-05-30 09:06:23 - GET detectado en index.php
+2025-05-30 09:06:23 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:13:02 - Cargado index.php
+2025-05-30 09:13:02 - GET detectado en index.php
+2025-05-30 09:13:02 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:13:21 - Cargado index.php
+2025-05-30 09:13:21 - GET detectado en index.php
+2025-05-30 09:13:21 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:14:46 - Cargado index.php
+2025-05-30 09:14:46 - GET detectado en index.php
+2025-05-30 09:14:46 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:25:06 - Cargado index.php
+2025-05-30 09:25:06 - GET detectado en index.php
+2025-05-30 09:25:06 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 09:25:06 - Cargado index.php
+2025-05-30 09:25:06 - GET detectado en index.php
+2025-05-30 09:25:06 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-05-30 11:55:10 - Cargado index.php
+2025-05-30 11:55:10 - GET detectado en index.php
+2025-05-30 11:55:10 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+

@@ -1,0 +1,444 @@
+2025-05-05 09:24:26 - Cargado index.php
+2025-05-05 09:24:26 - Trabajadores cargados correctamente.
+2025-05-05 09:24:26 - Equipos a asignar definidos.
+2025-05-05 14:24:33 - Cargado save.php
+2025-05-05 14:31:46 - Cargado save.php
+2025-05-05 14:45:32 - Cargado save.php
+2025-05-05 14:48:36 - Cargado save.php
+2025-05-05 09:53:23 - Cargado index.php
+2025-05-05 09:53:23 - Trabajadores cargados correctamente.
+2025-05-05 09:53:23 - Equipos a asignar definidos.
+2025-05-05 14:53:30 - Cargado save.php
+2025-05-05 14:54:02 - Cargado save.php
+2025-05-05 14:57:52 - Cargado save.php
+2025-05-05 15:06:33 - Cargado save.php
+2025-05-05 10:36:42 - Cargado index.php
+2025-05-05 10:36:42 - Trabajadores cargados correctamente.
+2025-05-05 10:36:42 - Equipos a asignar definidos.
+2025-05-05 10:36:46 - Cargado index.php
+2025-05-05 10:36:46 - Trabajadores cargados correctamente.
+2025-05-05 10:36:46 - Equipos a asignar definidos.
+2025-05-05 10:41:39 - Cargado index.php
+2025-05-05 10:41:39 - Trabajadores cargados correctamente.
+2025-05-05 10:41:39 - Equipos a asignar definidos.
+2025-05-05 10:46:52 - Cargado index.php
+2025-05-05 10:46:52 - Trabajadores cargados correctamente.
+2025-05-05 10:46:52 - Equipos a asignar definidos.
+2025-05-05 10:58:20 - Cargado index.php
+2025-05-05 10:58:20 - Trabajadores cargados correctamente.
+2025-05-05 10:58:20 - Equipos a asignar definidos.
+2025-05-05 11:12:33 - Cargado index.php
+2025-05-05 11:12:33 - Trabajadores cargados correctamente.
+2025-05-05 11:12:33 - Equipos a asignar definidos.
+2025-05-05 11:12:37 - Cargado index.php
+2025-05-05 11:12:37 - Trabajadores cargados correctamente.
+2025-05-05 11:12:37 - Equipos a asignar definidos.
+2025-05-05 11:14:22 - Cargado index.php
+2025-05-05 11:14:22 - Trabajadores cargados correctamente.
+2025-05-05 11:14:22 - Equipos a asignar definidos.
+2025-05-05 16:16:20 - Cargado save.php
+2025-05-05 11:17:31 - Cargado index.php
+2025-05-05 11:17:31 - Trabajadores cargados correctamente.
+2025-05-05 11:17:31 - Equipos a asignar definidos.
+2025-05-05 11:27:31 - Cargado index.php
+2025-05-05 11:27:31 - Trabajadores cargados correctamente.
+2025-05-05 11:27:31 - Equipos a asignar definidos.
+2025-05-05 11:31:13 - Cargado index.php
+2025-05-05 11:31:13 - Trabajadores cargados correctamente.
+2025-05-05 11:31:13 - Equipos a asignar definidos.
+2025-05-05 11:59:44 - Cargado index.php
+2025-05-05 11:59:44 - Trabajadores cargados correctamente.
+2025-05-05 11:59:44 - Equipos a asignar definidos.
+2025-05-05 11:59:47 - Cargado index.php
+2025-05-05 11:59:47 - Trabajadores cargados correctamente.
+2025-05-05 11:59:47 - Equipos a asignar definidos.
+2025-05-05 12:02:44 - Cargado index.php
+2025-05-05 12:02:44 - Trabajadores cargados correctamente.
+2025-05-05 12:02:44 - Equipos a asignar definidos.
+2025-05-05 13:05:59 - Cargado index.php
+2025-05-05 13:05:59 - Trabajadores cargados correctamente.
+2025-05-05 13:05:59 - Equipos a asignar definidos.
+2025-05-06 06:53:58 - Cargado index.php
+2025-05-06 06:53:58 - Trabajadores cargados correctamente.
+2025-05-06 06:53:58 - Equipos a asignar definidos.
+2025-05-06 07:16:00 - Cargado index.php
+2025-05-06 07:16:00 - Trabajadores cargados correctamente.
+2025-05-06 07:16:00 - Equipos a asignar definidos.
+2025-05-06 07:25:36 - Cargado index.php
+2025-05-06 07:25:36 - Trabajadores cargados correctamente.
+2025-05-06 07:25:36 - Equipos a asignar definidos.
+2025-05-06 07:27:45 - Cargado index.php
+2025-05-06 07:27:45 - Trabajadores cargados correctamente.
+2025-05-06 07:27:45 - Equipos a asignar definidos.
+2025-05-06 07:27:57 - Cargado index.php
+2025-05-06 07:27:57 - Trabajadores cargados correctamente.
+2025-05-06 07:27:57 - Equipos a asignar definidos.
+2025-05-06 07:28:22 - Cargado index.php
+2025-05-06 07:28:22 - Trabajadores cargados correctamente.
+2025-05-06 07:28:22 - Equipos a asignar definidos.
+2025-05-06 07:30:13 - Cargado index.php
+2025-05-06 07:30:13 - Trabajadores cargados correctamente.
+2025-05-06 07:30:13 - Equipos a asignar definidos.
+2025-05-06 07:30:51 - Cargado index.php
+2025-05-06 07:30:51 - Trabajadores cargados correctamente.
+2025-05-06 07:30:51 - Equipos a asignar definidos.
+2025-05-06 07:31:46 - Cargado index.php
+2025-05-06 07:31:46 - Trabajadores cargados correctamente.
+2025-05-06 07:31:46 - Equipos a asignar definidos.
+2025-05-06 07:32:33 - Cargado index.php
+2025-05-06 07:32:33 - Trabajadores cargados correctamente.
+2025-05-06 07:32:33 - Equipos a asignar definidos.
+2025-05-06 07:33:31 - Cargado index.php
+2025-05-06 07:33:31 - Trabajadores cargados correctamente.
+2025-05-06 07:33:31 - Equipos a asignar definidos.
+2025-05-06 07:33:48 - Cargado index.php
+2025-05-06 07:33:48 - Trabajadores cargados correctamente.
+2025-05-06 07:33:48 - Equipos a asignar definidos.
+2025-05-06 07:34:53 - Cargado index.php
+2025-05-06 07:34:53 - Trabajadores cargados correctamente.
+2025-05-06 07:34:53 - Equipos a asignar definidos.
+2025-05-06 07:35:20 - Cargado index.php
+2025-05-06 07:35:20 - Trabajadores cargados correctamente.
+2025-05-06 07:35:20 - Equipos a asignar definidos.
+2025-05-06 07:35:59 - Cargado index.php
+2025-05-06 07:35:59 - Trabajadores cargados correctamente.
+2025-05-06 07:35:59 - Equipos a asignar definidos.
+2025-05-06 07:36:22 - Cargado index.php
+2025-05-06 07:36:22 - Trabajadores cargados correctamente.
+2025-05-06 07:36:22 - Equipos a asignar definidos.
+2025-05-06 07:36:41 - Cargado index.php
+2025-05-06 07:36:41 - Trabajadores cargados correctamente.
+2025-05-06 07:36:41 - Equipos a asignar definidos.
+2025-05-06 07:38:23 - Cargado index.php
+2025-05-06 07:38:23 - Trabajadores cargados correctamente.
+2025-05-06 07:38:23 - Equipos a asignar definidos.
+2025-05-06 07:40:35 - Cargado index.php
+2025-05-06 07:40:35 - Trabajadores cargados correctamente.
+2025-05-06 07:40:35 - Equipos a asignar definidos.
+2025-05-06 07:41:38 - Cargado index.php
+2025-05-06 07:41:38 - Trabajadores cargados correctamente.
+2025-05-06 07:41:38 - Equipos a asignar definidos.
+2025-05-06 07:42:27 - Cargado index.php
+2025-05-06 07:42:27 - Trabajadores cargados correctamente.
+2025-05-06 07:42:27 - Equipos a asignar definidos.
+2025-05-06 07:42:42 - Cargado index.php
+2025-05-06 07:42:42 - Trabajadores cargados correctamente.
+2025-05-06 07:42:42 - Equipos a asignar definidos.
+2025-05-06 07:45:42 - Cargado index.php
+2025-05-06 07:45:42 - Trabajadores cargados correctamente.
+2025-05-06 07:45:42 - Equipos a asignar definidos.
+2025-05-06 07:49:45 - Cargado index.php
+2025-05-06 07:49:45 - Trabajadores cargados correctamente.
+2025-05-06 07:49:45 - Equipos a asignar definidos.
+2025-05-06 07:50:25 - Cargado index.php
+2025-05-06 07:50:25 - Trabajadores cargados correctamente.
+2025-05-06 07:50:25 - Equipos a asignar definidos.
+2025-05-06 07:51:31 - Cargado index.php
+2025-05-06 07:51:31 - Trabajadores cargados correctamente.
+2025-05-06 07:51:31 - Equipos a asignar definidos.
+2025-05-06 07:55:15 - Cargado index.php
+2025-05-06 07:55:15 - Trabajadores cargados correctamente.
+2025-05-06 07:55:15 - Equipos a asignar definidos.
+2025-05-06 07:55:30 - Cargado index.php
+2025-05-06 07:55:30 - Trabajadores cargados correctamente.
+2025-05-06 07:55:30 - Equipos a asignar definidos.
+2025-05-06 07:58:01 - Cargado index.php
+2025-05-06 07:58:01 - Trabajadores cargados correctamente.
+2025-05-06 07:58:01 - Equipos a asignar definidos.
+2025-05-06 07:59:52 - Cargado index.php
+2025-05-06 07:59:52 - Trabajadores cargados correctamente.
+2025-05-06 07:59:52 - Equipos a asignar definidos.
+2025-05-06 08:01:13 - Cargado index.php
+2025-05-06 08:01:13 - Trabajadores cargados correctamente.
+2025-05-06 08:01:13 - Equipos a asignar definidos.
+2025-05-06 08:02:48 - Cargado index.php
+2025-05-06 08:02:48 - Trabajadores cargados correctamente.
+2025-05-06 08:02:48 - Equipos a asignar definidos.
+2025-05-06 08:03:21 - Cargado index.php
+2025-05-06 08:03:21 - Trabajadores cargados correctamente.
+2025-05-06 08:03:21 - Equipos a asignar definidos.
+2025-05-06 08:05:25 - Cargado index.php
+2025-05-06 08:05:25 - Trabajadores cargados correctamente.
+2025-05-06 08:05:25 - Equipos a asignar definidos.
+2025-05-06 08:06:07 - Cargado index.php
+2025-05-06 08:06:07 - Trabajadores cargados correctamente.
+2025-05-06 08:06:07 - Equipos a asignar definidos.
+2025-05-06 08:08:02 - Cargado index.php
+2025-05-06 08:08:02 - Trabajadores cargados correctamente.
+2025-05-06 08:08:02 - Equipos a asignar definidos.
+2025-05-06 08:08:10 - Cargado index.php
+2025-05-06 08:08:10 - Trabajadores cargados correctamente.
+2025-05-06 08:08:10 - Equipos a asignar definidos.
+2025-05-06 08:08:35 - Cargado index.php
+2025-05-06 08:08:35 - Trabajadores cargados correctamente.
+2025-05-06 08:08:35 - Equipos a asignar definidos.
+2025-05-06 13:13:33 - Cargado save.php
+2025-05-06 13:17:08 - Cargado save.php
+2025-05-06 08:51:29 - Cargado index.php
+2025-05-06 08:51:29 - Trabajadores cargados correctamente.
+2025-05-06 08:51:29 - Equipos a asignar definidos.
+2025-05-06 13:51:51 - Cargado save.php
+2025-05-06 08:52:43 - Cargado index.php
+2025-05-06 08:52:43 - Trabajadores cargados correctamente.
+2025-05-06 08:52:43 - Equipos a asignar definidos.
+2025-05-06 09:07:32 - Cargado index.php
+2025-05-06 09:07:32 - Trabajadores cargados correctamente.
+2025-05-06 09:07:32 - Equipos a asignar definidos.
+2025-05-06 14:08:35 - Cargado save.php
+2025-05-06 09:13:12 - Cargado index.php
+2025-05-06 09:13:12 - Trabajadores cargados correctamente.
+2025-05-06 09:13:12 - Equipos a asignar definidos.
+2025-05-06 09:15:29 - Cargado index.php
+2025-05-06 09:15:29 - Trabajadores cargados correctamente.
+2025-05-06 09:15:29 - Equipos a asignar definidos.
+2025-05-06 09:22:03 - Cargado index.php
+2025-05-06 09:22:03 - Trabajadores cargados correctamente.
+2025-05-06 09:22:03 - Equipos a asignar definidos.
+2025-05-06 09:27:34 - Cargado index.php
+2025-05-06 09:27:34 - Trabajadores cargados correctamente.
+2025-05-06 09:27:34 - Equipos a asignar definidos.
+2025-05-06 09:35:26 - Cargado index.php
+2025-05-06 09:35:26 - Trabajadores cargados correctamente.
+2025-05-06 09:35:26 - Equipos a asignar definidos.
+2025-05-06 14:35:38 - Cargado save.php
+2025-05-06 09:36:50 - Cargado index.php
+2025-05-06 09:36:50 - Trabajadores cargados correctamente.
+2025-05-06 09:36:50 - Equipos a asignar definidos.
+2025-05-06 14:37:01 - Cargado save.php
+2025-05-06 09:37:05 - Cargado index.php
+2025-05-06 09:37:05 - Trabajadores cargados correctamente.
+2025-05-06 09:37:05 - Equipos a asignar definidos.
+2025-05-06 09:41:28 - Cargado index.php
+2025-05-06 09:41:28 - Trabajadores cargados correctamente.
+2025-05-06 09:41:28 - Equipos a asignar definidos.
+2025-05-06 14:41:41 - Cargado save.php
+2025-05-06 14:41:54 - Cargado save.php
+2025-05-06 09:53:04 - Cargado index.php
+2025-05-06 09:53:04 - Trabajadores cargados correctamente.
+2025-05-06 09:53:04 - Equipos a asignar definidos.
+2025-05-06 14:53:16 - Cargado save.php
+2025-05-06 14:53:29 - Cargado save.php
+2025-05-06 09:54:11 - Cargado index.php
+2025-05-06 09:54:11 - Trabajadores cargados correctamente.
+2025-05-06 09:54:11 - Equipos a asignar definidos.
+2025-05-06 09:54:14 - Cargado index.php
+2025-05-06 09:54:14 - Trabajadores cargados correctamente.
+2025-05-06 09:54:14 - Equipos a asignar definidos.
+2025-05-06 10:02:11 - Cargado index.php
+2025-05-06 10:02:11 - Trabajadores cargados correctamente.
+2025-05-06 10:02:11 - Equipos a asignar definidos.
+2025-05-06 15:02:20 - Cargado save.php
+2025-05-06 15:02:37 - Cargado save.php
+2025-05-06 10:02:41 - Cargado index.php
+2025-05-06 10:02:41 - Trabajadores cargados correctamente.
+2025-05-06 10:02:41 - Equipos a asignar definidos.
+2025-05-06 10:14:43 - Cargado index.php
+2025-05-06 10:14:43 - Trabajadores cargados correctamente.
+2025-05-06 10:14:43 - Equipos a asignar definidos.
+2025-05-06 10:15:45 - Cargado index.php
+2025-05-06 10:15:45 - Trabajadores cargados correctamente.
+2025-05-06 10:15:45 - Equipos a asignar definidos.
+2025-05-06 11:18:15 - Cargado index.php
+2025-05-06 11:18:15 - Trabajadores cargados correctamente.
+2025-05-06 11:18:15 - Equipos a asignar definidos.
+2025-05-06 14:37:30 - Cargado index.php
+2025-05-06 14:37:30 - Trabajadores cargados correctamente.
+2025-05-06 14:37:30 - Equipos a asignar definidos.
+2025-05-06 14:44:36 - Cargado index.php
+2025-05-06 14:44:36 - Trabajadores cargados correctamente.
+2025-05-06 14:44:36 - Equipos a asignar definidos.
+2025-05-06 19:45:32 - Cargado save.php
+2025-05-06 15:09:27 - Cargado index.php
+2025-05-06 15:09:27 - Trabajadores cargados correctamente.
+2025-05-06 15:09:27 - Equipos a asignar definidos.
+2025-05-07 09:30:00 - Cargado index.php
+2025-05-07 09:30:00 - Trabajadores cargados correctamente.
+2025-05-07 09:30:00 - Equipos a asignar definidos.
+2025-05-07 14:32:28 - Cargado index.php
+2025-05-07 14:32:28 - Trabajadores cargados correctamente.
+2025-05-07 14:32:28 - Equipos a asignar definidos.
+2025-05-07 14:32:34 - Cargado index.php
+2025-05-07 14:32:34 - Trabajadores cargados correctamente.
+2025-05-07 14:32:34 - Equipos a asignar definidos.
+2025-05-08 07:12:21 - Cargado index.php
+2025-05-08 07:12:21 - Trabajadores cargados correctamente.
+2025-05-08 07:12:21 - Equipos a asignar definidos.
+2025-05-08 12:26:16 - Cargado save.php
+2025-05-08 07:26:48 - Cargado index.php
+2025-05-08 07:26:48 - Trabajadores cargados correctamente.
+2025-05-08 07:26:48 - Equipos a asignar definidos.
+2025-05-08 08:05:55 - Cargado index.php
+2025-05-08 08:05:55 - Trabajadores cargados correctamente.
+2025-05-08 08:05:55 - Equipos a asignar definidos.
+2025-05-08 08:23:37 - Cargado index.php
+2025-05-08 08:23:37 - Trabajadores cargados correctamente.
+2025-05-08 08:23:37 - Equipos a asignar definidos.
+2025-05-08 13:23:55 - Cargado save.php
+2025-05-08 13:27:52 - Cargado save.php
+2025-05-08 13:29:33 - Cargado save.php
+2025-05-08 08:38:43 - Cargado index.php
+2025-05-08 08:38:43 - Trabajadores cargados correctamente.
+2025-05-08 08:38:43 - Equipos a asignar definidos.
+2025-05-08 08:38:45 - Cargado index.php
+2025-05-08 08:38:45 - Trabajadores cargados correctamente.
+2025-05-08 08:38:45 - Equipos a asignar definidos.
+2025-05-08 08:39:49 - Cargado index.php
+2025-05-08 08:39:49 - Trabajadores cargados correctamente.
+2025-05-08 08:39:49 - Equipos a asignar definidos.
+2025-05-08 08:59:11 - Cargado index.php
+2025-05-08 08:59:11 - Trabajadores cargados correctamente.
+2025-05-08 08:59:11 - Equipos a asignar definidos.
+2025-05-08 14:03:23 - Cargado save.php
+2025-05-08 14:10:53 - Cargado save.php
+2025-05-08 14:13:00 - Cargado save.php
+2025-05-08 14:15:11 - Cargado save.php
+2025-05-08 14:16:57 - Cargado save.php
+2025-05-08 14:18:29 - Cargado save.php
+2025-05-08 14:20:28 - Cargado save.php
+2025-05-08 14:22:41 - Cargado save.php
+2025-05-08 14:25:42 - Cargado save.php
+2025-05-08 14:30:26 - Cargado save.php
+2025-05-08 14:39:29 - Cargado save.php
+2025-05-08 14:41:39 - Cargado save.php
+2025-05-08 14:44:48 - Cargado save.php
+2025-05-08 14:47:11 - Cargado save.php
+2025-05-08 15:05:40 - Cargado save.php
+2025-05-08 10:38:39 - Cargado index.php
+2025-05-08 10:38:39 - Trabajadores cargados correctamente.
+2025-05-08 10:38:39 - Equipos a asignar definidos.
+2025-05-08 10:38:42 - Cargado index.php
+2025-05-08 10:38:42 - Trabajadores cargados correctamente.
+2025-05-08 10:38:42 - Equipos a asignar definidos.
+2025-05-08 15:40:41 - Cargado save.php
+2025-05-08 15:44:04 - Cargado save.php
+2025-05-08 15:45:40 - Cargado save.php
+2025-05-08 15:47:06 - Cargado save.php
+2025-05-08 15:48:42 - Cargado save.php
+2025-05-08 15:50:04 - Cargado save.php
+2025-05-08 15:58:19 - Cargado save.php
+2025-05-08 15:59:28 - Cargado save.php
+2025-05-08 16:01:17 - Cargado save.php
+2025-05-08 16:02:39 - Cargado save.php
+2025-05-08 16:04:12 - Cargado save.php
+2025-05-08 16:05:35 - Cargado save.php
+2025-05-08 12:02:26 - Cargado index.php
+2025-05-08 12:02:26 - Trabajadores cargados correctamente.
+2025-05-08 12:02:26 - Equipos a asignar definidos.
+2025-05-09 09:48:42 - Cargado index.php
+2025-05-09 09:48:42 - Trabajadores cargados correctamente.
+2025-05-09 09:48:42 - Equipos a asignar definidos.
+2025-05-09 11:19:20 - Cargado index.php
+2025-05-09 11:19:20 - Trabajadores cargados correctamente.
+2025-05-09 11:19:20 - Equipos a asignar definidos.
+2025-05-09 11:19:21 - Cargado index.php
+2025-05-09 11:19:21 - Trabajadores cargados correctamente.
+2025-05-09 11:19:21 - Equipos a asignar definidos.
+2025-05-09 11:19:22 - Cargado index.php
+2025-05-09 11:19:22 - Trabajadores cargados correctamente.
+2025-05-09 11:19:22 - Equipos a asignar definidos.
+2025-05-09 11:51:47 - Cargado index.php
+2025-05-09 11:51:47 - Trabajadores cargados correctamente.
+2025-05-09 11:51:47 - Equipos a asignar definidos.
+2025-05-09 13:05:56 - Cargado index.php
+2025-05-09 13:05:56 - Trabajadores cargados correctamente.
+2025-05-09 13:05:56 - Equipos a asignar definidos.
+2025-05-09 13:13:27 - Cargado index.php
+2025-05-09 13:13:27 - Trabajadores cargados correctamente.
+2025-05-09 13:13:27 - Equipos a asignar definidos.
+2025-05-09 13:51:00 - Cargado index.php
+2025-05-09 13:51:00 - Trabajadores cargados correctamente.
+2025-05-09 13:51:00 - Equipos a asignar definidos.
+2025-05-09 13:51:53 - Cargado index.php
+2025-05-09 13:51:53 - Trabajadores cargados correctamente.
+2025-05-09 13:51:53 - Equipos a asignar definidos.
+2025-05-09 14:03:14 - Cargado index.php
+2025-05-09 14:03:14 - Trabajadores cargados correctamente.
+2025-05-09 14:03:14 - Equipos a asignar definidos.
+2025-05-12 06:36:11 - Cargado index.php
+2025-05-12 06:36:11 - Trabajadores cargados correctamente.
+2025-05-12 06:36:11 - Equipos a asignar definidos.
+2025-05-12 08:27:29 - Cargado index.php
+2025-05-12 08:27:29 - Trabajadores cargados correctamente.
+2025-05-12 08:27:29 - Equipos a asignar definidos.
+2025-05-12 08:38:29 - Cargado index.php
+2025-05-12 08:38:29 - Trabajadores cargados correctamente.
+2025-05-12 08:38:29 - Equipos a asignar definidos.
+2025-05-12 08:39:55 - Cargado index.php
+2025-05-12 08:39:55 - Trabajadores cargados correctamente.
+2025-05-12 08:39:55 - Equipos a asignar definidos.
+2025-05-12 09:10:54 - Cargado index.php
+2025-05-12 09:10:54 - Trabajadores cargados correctamente.
+2025-05-12 09:10:54 - Equipos a asignar definidos.
+2025-05-12 09:13:37 - Cargado index.php
+2025-05-12 09:13:37 - Trabajadores cargados correctamente.
+2025-05-12 09:13:37 - Equipos a asignar definidos.
+2025-05-12 11:20:00 - Cargado index.php
+2025-05-12 11:20:00 - Trabajadores cargados correctamente.
+2025-05-12 11:20:00 - Equipos a asignar definidos.
+2025-05-12 11:20:03 - Cargado index.php
+2025-05-12 11:20:03 - Trabajadores cargados correctamente.
+2025-05-12 11:20:03 - Equipos a asignar definidos.
+2025-05-16 09:31:32 - Cargado index.php
+2025-05-16 09:31:32 - Trabajadores cargados correctamente.
+2025-05-16 09:31:32 - Equipos a asignar definidos.
+2025-05-16 14:32:10 - Cargado save.php
+2025-05-16 09:44:44 - Cargado index.php
+2025-05-16 09:44:44 - Trabajadores cargados correctamente.
+2025-05-16 09:44:44 - Equipos a asignar definidos.
+2025-05-16 14:49:02 - Cargado save.php
+2025-05-16 14:49:49 - Cargado save.php
+2025-05-16 14:53:05 - Cargado save.php
+2025-05-16 14:54:28 - Cargado save.php
+2025-05-16 14:55:07 - Cargado save.php
+2025-05-16 14:55:42 - Cargado save.php
+2025-05-16 14:57:41 - Cargado save.php
+2025-05-16 14:58:35 - Cargado save.php
+2025-05-16 15:01:59 - Cargado save.php
+2025-05-16 15:02:40 - Cargado save.php
+2025-05-16 15:03:07 - Cargado save.php
+2025-05-16 15:04:25 - Cargado save.php
+2025-05-16 15:05:16 - Cargado save.php
+2025-05-16 15:06:12 - Cargado save.php
+2025-05-16 15:07:16 - Cargado save.php
+2025-05-16 15:07:54 - Cargado save.php
+2025-05-16 15:08:28 - Cargado save.php
+2025-05-16 15:09:18 - Cargado save.php
+2025-05-16 11:01:27 - Cargado index.php
+2025-05-16 11:01:28 - Trabajadores cargados correctamente.
+2025-05-16 11:01:28 - Equipos a asignar definidos.
+2025-05-16 11:06:39 - Cargado index.php
+2025-05-16 11:06:39 - Trabajadores cargados correctamente.
+2025-05-16 11:06:39 - Equipos a asignar definidos.
+2025-05-16 16:07:04 - Cargado save.php
+2025-05-16 16:10:13 - Cargado save.php
+2025-05-16 11:43:13 - Cargado index.php
+2025-05-16 11:43:13 - Trabajadores cargados correctamente.
+2025-05-16 11:43:13 - Equipos a asignar definidos.
+2025-05-16 11:43:24 - Cargado index.php
+2025-05-16 11:43:24 - Trabajadores cargados correctamente.
+2025-05-16 11:43:24 - Equipos a asignar definidos.
+2025-05-19 15:19:57 - Cargado save.php
+2025-05-20 11:42:35 - Cargado index.php
+2025-05-20 11:42:35 - Trabajadores cargados correctamente.
+2025-05-20 11:42:35 - Equipos a asignar definidos.
+2025-05-20 11:43:11 - Cargado index.php
+2025-05-20 11:43:11 - Trabajadores cargados correctamente.
+2025-05-20 11:43:11 - Equipos a asignar definidos.
+2025-05-20 11:43:33 - Cargado index.php
+2025-05-20 11:43:33 - Trabajadores cargados correctamente.
+2025-05-20 11:43:33 - Equipos a asignar definidos.
+2025-05-21 14:00:24 - Cargado index.php
+2025-05-21 14:00:24 - Trabajadores cargados correctamente.
+2025-05-21 14:00:24 - Equipos a asignar definidos.
+2025-05-21 14:10:02 - Cargado index.php
+2025-05-21 14:10:02 - Trabajadores cargados correctamente.
+2025-05-21 14:10:02 - Equipos a asignar definidos.
+2025-05-30 11:55:43 - Cargado index.php
+2025-05-30 11:55:43 - Trabajadores cargados correctamente.
+2025-05-30 11:55:43 - Equipos a asignar definidos.
+2025-05-30 11:55:55 - Cargado index.php
+2025-05-30 11:55:55 - Trabajadores cargados correctamente.
+2025-05-30 11:55:55 - Equipos a asignar definidos.
+2025-05-30 12:05:32 - Cargado index.php
+2025-05-30 12:05:32 - Trabajadores cargados correctamente.
+2025-05-30 12:05:32 - Equipos a asignar definidos.

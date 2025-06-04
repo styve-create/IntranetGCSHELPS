@@ -1,0 +1,795 @@
+2025-06-03 09:04:47 - >>> Inicio del script
+2025-06-03 09:04:47 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:04:47 - Usuario ID en sesión: 1
+2025-06-03 09:04:47 - ID de conexión en sesión: conn_683efeb55ff029.77301274
+2025-06-03 09:04:47 - ID de conexión recuperado desde BD para usuario 1: 'conn_683efeb55ff029.77301274'
+2025-06-03 09:04:47 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:04:47 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:04:47 - Asignando id_conexion: conn_683efeb55ff029.77301274 a la sesión
+2025-06-03 09:05:14 - >>> Inicio del script
+2025-06-03 09:05:14 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:05:14 - Usuario ID en sesión: 1
+2025-06-03 09:05:14 - ID de conexión en sesión: conn_683f011a161b07.42004250
+2025-06-03 09:05:14 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f011a161b07.42004250'
+2025-06-03 09:05:14 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:05:14 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:05:14 - Asignando id_conexion: conn_683f011a161b07.42004250 a la sesión
+2025-06-03 09:07:04 - >>> Inicio del script
+2025-06-03 09:07:04 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:07:04 - Usuario ID en sesión: 1
+2025-06-03 09:07:04 - ID de conexión en sesión: conn_683f011a161b07.42004250
+2025-06-03 09:07:04 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f011a161b07.42004250'
+2025-06-03 09:07:04 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:07:04 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:07:04 - Asignando id_conexion: conn_683f011a161b07.42004250 a la sesión
+2025-06-03 09:07:25 - >>> Inicio del script
+2025-06-03 09:07:25 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:07:25 - Usuario ID en sesión: 1
+2025-06-03 09:07:25 - ID de conexión en sesión: conn_683f019db3e6f9.07718142
+2025-06-03 09:07:25 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f019db3e6f9.07718142'
+2025-06-03 09:07:25 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:07:25 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:07:25 - Asignando id_conexion: conn_683f019db3e6f9.07718142 a la sesión
+2025-06-03 09:16:30 - >>> Inicio del script
+2025-06-03 09:16:30 - Sesión iniciada con ID de sesión PHP: 0lv6o3aro6hbdq1tm74tm8qf7m
+2025-06-03 09:16:30 - No hay sesión activa (usuario_id o id_conexion faltante). Redirigiendo a login.
+2025-06-03 09:16:58 - >>> Inicio del script
+2025-06-03 09:16:58 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:16:58 - Usuario ID en sesión: 1
+2025-06-03 09:16:58 - ID de conexión en sesión: conn_683f019db3e6f9.07718142
+2025-06-03 09:16:58 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f019db3e6f9.07718142'
+2025-06-03 09:16:58 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:16:58 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:16:58 - Asignando id_conexion: conn_683f019db3e6f9.07718142 a la sesión
+2025-06-03 09:17:39 - >>> Inicio del script
+2025-06-03 09:17:39 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:17:39 - Usuario ID en sesión: 1
+2025-06-03 09:17:39 - ID de conexión en sesión: conn_683f019db3e6f9.07718142
+2025-06-03 09:17:39 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f019db3e6f9.07718142'
+2025-06-03 09:17:39 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:17:39 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:17:39 - Asignando id_conexion: conn_683f019db3e6f9.07718142 a la sesión
+2025-06-03 09:17:46 - >>> Inicio del script
+2025-06-03 09:17:46 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:17:46 - Usuario ID en sesión: 1
+2025-06-03 09:17:46 - ID de conexión en sesión: conn_683f019db3e6f9.07718142
+2025-06-03 09:17:46 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f019db3e6f9.07718142'
+2025-06-03 09:17:46 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:17:46 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:17:46 - Asignando id_conexion: conn_683f019db3e6f9.07718142 a la sesión
+2025-06-03 09:21:15 - >>> Inicio del script
+2025-06-03 09:21:15 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:21:15 - Usuario ID en sesión: 1
+2025-06-03 09:21:15 - ID de conexión en sesión: conn_683f019db3e6f9.07718142
+2025-06-03 09:21:15 - ID de conexión recuperado desde BD para usuario 1: false
+2025-06-03 09:21:15 - No se encontró registro de conexión para el usuario en BD. Procediendo con sesión normal.
+2025-06-03 09:21:15 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:21:15 - Asignando id_conexion: conn_683f019db3e6f9.07718142 a la sesión
+2025-06-03 09:22:00 - >>> Inicio del script
+2025-06-03 09:22:00 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:22:00 - Usuario ID en sesión: 1
+2025-06-03 09:22:00 - ID de conexión en sesión: conn_683f019db3e6f9.07718142
+2025-06-03 09:22:00 - ID de conexión recuperado desde BD para usuario 1: false
+2025-06-03 09:22:00 - No se encontró registro de conexión para el usuario en BD. Procediendo con sesión normal.
+2025-06-03 09:22:00 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:22:00 - Asignando id_conexion: conn_683f019db3e6f9.07718142 a la sesión
+2025-06-03 09:22:14 - >>> Inicio del script
+2025-06-03 09:22:14 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:22:14 - Usuario ID en sesión: 1
+2025-06-03 09:22:14 - ID de conexión en sesión: conn_683f051648bf01.37898571
+2025-06-03 09:22:14 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f051648bf01.37898571'
+2025-06-03 09:22:14 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:22:14 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:22:14 - Asignando id_conexion: conn_683f051648bf01.37898571 a la sesión
+2025-06-03 09:26:17 - >>> Inicio del script
+2025-06-03 09:26:17 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:26:17 - Usuario ID en sesión: 1
+2025-06-03 09:26:17 - ID de conexión en sesión: conn_683f051648bf01.37898571
+2025-06-03 09:26:17 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f051648bf01.37898571'
+2025-06-03 09:26:17 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:26:17 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:26:17 - Asignando id_conexion: conn_683f051648bf01.37898571 a la sesión
+2025-06-03 09:28:29 - >>> Inicio del script
+2025-06-03 09:28:29 - Sesión iniciada con ID de sesión PHP: r4jhktcllrrtvodp7vpge4jmkl
+2025-06-03 09:28:29 - Usuario ID en sesión: 1
+2025-06-03 09:28:29 - ID de conexión en sesión: conn_683f051648bf01.37898571
+2025-06-03 09:28:29 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f051648bf01.37898571'
+2025-06-03 09:28:29 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:28:29 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:28:29 - Asignando id_conexion: conn_683f051648bf01.37898571 a la sesión
+2025-06-03 09:30:14 - >>> Inicio del script
+2025-06-03 09:30:14 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:30:14 - Usuario ID en sesión: 1
+2025-06-03 09:30:14 - ID de conexión en sesión: conn_683f06f6784b76.48671750
+2025-06-03 09:30:14 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f06f6784b76.48671750'
+2025-06-03 09:30:14 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:30:14 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:30:14 - Asignando id_conexion: conn_683f06f6784b76.48671750 a la sesión
+2025-06-03 09:35:56 - >>> Inicio del script
+2025-06-03 09:35:56 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:35:56 - Usuario ID en sesión: 1
+2025-06-03 09:35:56 - ID de conexión en sesión: conn_683f06f6784b76.48671750
+2025-06-03 09:35:56 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f06f6784b76.48671750'
+2025-06-03 09:35:56 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:35:56 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:35:56 - Asignando id_conexion: conn_683f06f6784b76.48671750 a la sesión
+2025-06-03 09:37:03 - >>> Inicio del script
+2025-06-03 09:37:03 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:37:03 - Usuario ID en sesión: 1
+2025-06-03 09:37:03 - ID de conexión en sesión: conn_683f06f6784b76.48671750
+2025-06-03 09:37:03 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f06f6784b76.48671750'
+2025-06-03 09:37:03 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:37:03 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:37:03 - Asignando id_conexion: conn_683f06f6784b76.48671750 a la sesión
+2025-06-03 09:39:10 - >>> Inicio del script
+2025-06-03 09:39:10 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:39:10 - Usuario ID en sesión: 1
+2025-06-03 09:39:10 - ID de conexión en sesión: conn_683f06f6784b76.48671750
+2025-06-03 09:39:10 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f06f6784b76.48671750'
+2025-06-03 09:39:10 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:39:10 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:39:10 - Asignando id_conexion: conn_683f06f6784b76.48671750 a la sesión
+2025-06-03 09:41:25 - >>> Inicio del script
+2025-06-03 09:41:25 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:41:25 - Usuario ID en sesión: 1
+2025-06-03 09:41:25 - ID de conexión en sesión: conn_683f06f6784b76.48671750
+2025-06-03 09:41:25 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f06f6784b76.48671750'
+2025-06-03 09:41:25 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:41:25 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:41:25 - Asignando id_conexion: conn_683f06f6784b76.48671750 a la sesión
+2025-06-03 09:42:20 - >>> Inicio del script
+2025-06-03 09:42:20 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:42:20 - Usuario ID en sesión: 1
+2025-06-03 09:42:20 - ID de conexión en sesión: conn_683f06f6784b76.48671750
+2025-06-03 09:42:20 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f06f6784b76.48671750'
+2025-06-03 09:42:20 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:42:20 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:42:20 - Asignando id_conexion: conn_683f06f6784b76.48671750 a la sesión
+2025-06-03 09:42:21 - >>> Inicio del script
+2025-06-03 09:42:21 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:42:21 - Usuario ID en sesión: 1
+2025-06-03 09:42:21 - ID de conexión en sesión: conn_683f06f6784b76.48671750
+2025-06-03 09:42:21 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f06f6784b76.48671750'
+2025-06-03 09:42:21 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:42:21 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:42:21 - Asignando id_conexion: conn_683f06f6784b76.48671750 a la sesión
+2025-06-03 09:42:41 - >>> Inicio del script
+2025-06-03 09:42:41 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:42:41 - Usuario ID en sesión: 1
+2025-06-03 09:42:41 - ID de conexión en sesión: conn_683f09e17c4a80.51556134
+2025-06-03 09:42:41 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f09e17c4a80.51556134'
+2025-06-03 09:42:41 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:42:41 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:42:41 - Asignando id_conexion: conn_683f09e17c4a80.51556134 a la sesión
+2025-06-03 09:45:29 - >>> Inicio del script
+2025-06-03 09:45:29 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:45:29 - Usuario ID en sesión: 1
+2025-06-03 09:45:29 - ID de conexión en sesión: conn_683f09e17c4a80.51556134
+2025-06-03 09:45:29 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f09e17c4a80.51556134'
+2025-06-03 09:45:29 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:45:29 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:45:29 - Asignando id_conexion: conn_683f09e17c4a80.51556134 a la sesión
+2025-06-03 09:45:43 - >>> Inicio del script
+2025-06-03 09:45:43 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:45:43 - Usuario ID en sesión: 1
+2025-06-03 09:45:43 - ID de conexión en sesión: conn_683f0a971cf524.59093556
+2025-06-03 09:45:43 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f0a971cf524.59093556'
+2025-06-03 09:45:43 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:45:43 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:45:43 - Asignando id_conexion: conn_683f0a971cf524.59093556 a la sesión
+2025-06-03 09:48:34 - >>> Inicio del script
+2025-06-03 09:48:34 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 09:48:34 - Usuario ID en sesión: 1
+2025-06-03 09:48:34 - ID de conexión en sesión: conn_683f0b4239cf50.71039642
+2025-06-03 09:48:34 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f0b4239cf50.71039642'
+2025-06-03 09:48:34 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 09:48:34 - Asignando usuario_id: 1 a la sesión
+2025-06-03 09:48:34 - Asignando id_conexion: conn_683f0b4239cf50.71039642 a la sesión
+2025-06-03 10:01:32 - >>> Inicio del script
+2025-06-03 10:01:32 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:01:32 - Usuario ID en sesión: 1
+2025-06-03 10:01:32 - ID de conexión en sesión: conn_683f0b4239cf50.71039642
+2025-06-03 10:01:32 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f0b4239cf50.71039642'
+2025-06-03 10:01:32 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:01:32 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:01:32 - Asignando id_conexion: conn_683f0b4239cf50.71039642 a la sesión
+2025-06-03 10:01:43 - >>> Inicio del script
+2025-06-03 10:01:43 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:01:43 - Usuario ID en sesión: 1
+2025-06-03 10:01:43 - ID de conexión en sesión: conn_683f0e56ecf478.82442113
+2025-06-03 10:01:43 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f0e56ecf478.82442113'
+2025-06-03 10:01:43 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:01:43 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:01:43 - Asignando id_conexion: conn_683f0e56ecf478.82442113 a la sesión
+2025-06-03 10:07:37 - >>> Inicio del script
+2025-06-03 10:07:37 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:07:37 - Usuario ID en sesión: 1
+2025-06-03 10:07:37 - ID de conexión en sesión: conn_683f0e56ecf478.82442113
+2025-06-03 10:07:37 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f0e56ecf478.82442113'
+2025-06-03 10:07:37 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:07:37 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:07:37 - Asignando id_conexion: conn_683f0e56ecf478.82442113 a la sesión
+2025-06-03 10:14:27 - >>> Inicio del script
+2025-06-03 10:14:27 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:14:27 - Usuario ID en sesión: 1
+2025-06-03 10:14:27 - ID de conexión en sesión: conn_683f0e56ecf478.82442113
+2025-06-03 10:14:27 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f0e56ecf478.82442113'
+2025-06-03 10:14:27 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:14:27 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:14:27 - Asignando id_conexion: conn_683f0e56ecf478.82442113 a la sesión
+2025-06-03 10:14:41 - >>> Inicio del script
+2025-06-03 10:14:41 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:14:41 - Usuario ID en sesión: 1
+2025-06-03 10:14:41 - ID de conexión en sesión: conn_683f1161bcb534.41806732
+2025-06-03 10:14:41 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1161bcb534.41806732'
+2025-06-03 10:14:41 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:14:41 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:14:41 - Asignando id_conexion: conn_683f1161bcb534.41806732 a la sesión
+2025-06-03 10:16:37 - >>> Inicio del script
+2025-06-03 10:16:37 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:16:37 - Usuario ID en sesión: 1
+2025-06-03 10:16:37 - ID de conexión en sesión: conn_683f1161bcb534.41806732
+2025-06-03 10:16:37 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1161bcb534.41806732'
+2025-06-03 10:16:37 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:16:37 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:16:37 - Asignando id_conexion: conn_683f1161bcb534.41806732 a la sesión
+2025-06-03 10:16:48 - >>> Inicio del script
+2025-06-03 10:16:48 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:16:48 - Usuario ID en sesión: 1
+2025-06-03 10:16:48 - ID de conexión en sesión: conn_683f11e0280945.75557516
+2025-06-03 10:16:48 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f11e0280945.75557516'
+2025-06-03 10:16:48 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:16:48 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:16:48 - Asignando id_conexion: conn_683f11e0280945.75557516 a la sesión
+2025-06-03 10:17:09 - >>> Inicio del script
+2025-06-03 10:17:09 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:17:09 - Usuario ID en sesión: 1
+2025-06-03 10:17:09 - ID de conexión en sesión: conn_683f11e0280945.75557516
+2025-06-03 10:17:09 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f11e0280945.75557516'
+2025-06-03 10:17:09 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:17:09 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:17:09 - Asignando id_conexion: conn_683f11e0280945.75557516 a la sesión
+2025-06-03 10:21:45 - >>> Inicio del script
+2025-06-03 10:21:45 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:21:45 - Usuario ID en sesión: 1
+2025-06-03 10:21:45 - ID de conexión en sesión: conn_683f11e0280945.75557516
+2025-06-03 10:21:45 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f11e0280945.75557516'
+2025-06-03 10:21:45 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:21:45 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:21:45 - Asignando id_conexion: conn_683f11e0280945.75557516 a la sesión
+2025-06-03 10:22:43 - >>> Inicio del script
+2025-06-03 10:22:43 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:22:43 - Usuario ID en sesión: 1
+2025-06-03 10:22:43 - ID de conexión en sesión: conn_683f11e0280945.75557516
+2025-06-03 10:22:43 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f11e0280945.75557516'
+2025-06-03 10:22:43 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:22:43 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:22:43 - Asignando id_conexion: conn_683f11e0280945.75557516 a la sesión
+2025-06-03 10:25:51 - >>> Inicio del script
+2025-06-03 10:25:51 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:25:51 - Usuario ID en sesión: 1
+2025-06-03 10:25:51 - ID de conexión en sesión: conn_683f13ffb0db03.44543404
+2025-06-03 10:25:51 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f13ffb0db03.44543404'
+2025-06-03 10:25:51 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:25:51 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:25:51 - Asignando id_conexion: conn_683f13ffb0db03.44543404 a la sesión
+2025-06-03 10:27:21 - >>> Inicio del script
+2025-06-03 10:27:21 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:27:21 - Usuario ID en sesión: 1
+2025-06-03 10:27:21 - ID de conexión en sesión: conn_683f13ffb0db03.44543404
+2025-06-03 10:27:21 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f13ffb0db03.44543404'
+2025-06-03 10:27:21 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:27:21 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:27:21 - Asignando id_conexion: conn_683f13ffb0db03.44543404 a la sesión
+2025-06-03 10:27:33 - >>> Inicio del script
+2025-06-03 10:27:33 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:27:33 - Usuario ID en sesión: 1
+2025-06-03 10:27:33 - ID de conexión en sesión: conn_683f146511a262.73818141
+2025-06-03 10:27:33 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f146511a262.73818141'
+2025-06-03 10:27:33 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:27:33 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:27:33 - Asignando id_conexion: conn_683f146511a262.73818141 a la sesión
+2025-06-03 10:31:26 - >>> Inicio del script
+2025-06-03 10:31:26 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:31:26 - Usuario ID en sesión: 1
+2025-06-03 10:31:26 - ID de conexión en sesión: conn_683f146511a262.73818141
+2025-06-03 10:31:26 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f146511a262.73818141'
+2025-06-03 10:31:26 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:31:26 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:31:26 - Asignando id_conexion: conn_683f146511a262.73818141 a la sesión
+2025-06-03 10:33:46 - >>> Inicio del script
+2025-06-03 10:33:46 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:33:46 - Usuario ID en sesión: 1
+2025-06-03 10:33:46 - ID de conexión en sesión: conn_683f146511a262.73818141
+2025-06-03 10:33:46 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f146511a262.73818141'
+2025-06-03 10:33:46 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:33:46 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:33:46 - Asignando id_conexion: conn_683f146511a262.73818141 a la sesión
+2025-06-03 10:34:53 - >>> Inicio del script
+2025-06-03 10:34:53 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:34:53 - Usuario ID en sesión: 1
+2025-06-03 10:34:53 - ID de conexión en sesión: conn_683f146511a262.73818141
+2025-06-03 10:34:53 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f146511a262.73818141'
+2025-06-03 10:34:53 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:34:53 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:34:53 - Asignando id_conexion: conn_683f146511a262.73818141 a la sesión
+2025-06-03 10:34:57 - >>> Inicio del script
+2025-06-03 10:34:57 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:34:57 - Usuario ID en sesión: 1
+2025-06-03 10:34:57 - ID de conexión en sesión: conn_683f146511a262.73818141
+2025-06-03 10:34:57 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f146511a262.73818141'
+2025-06-03 10:34:57 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:34:57 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:34:57 - Asignando id_conexion: conn_683f146511a262.73818141 a la sesión
+2025-06-03 10:37:02 - >>> Inicio del script
+2025-06-03 10:37:02 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:37:02 - Usuario ID en sesión: 1
+2025-06-03 10:37:02 - ID de conexión en sesión: conn_683f146511a262.73818141
+2025-06-03 10:37:02 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f146511a262.73818141'
+2025-06-03 10:37:02 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:37:02 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:37:02 - Asignando id_conexion: conn_683f146511a262.73818141 a la sesión
+2025-06-03 10:49:22 - >>> Inicio del script
+2025-06-03 10:49:22 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:49:22 - Usuario ID en sesión: 1
+2025-06-03 10:49:22 - ID de conexión en sesión: conn_683f1982b8d4c0.36150632
+2025-06-03 10:49:22 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1982b8d4c0.36150632'
+2025-06-03 10:49:22 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:49:22 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:49:22 - Asignando id_conexion: conn_683f1982b8d4c0.36150632 a la sesión
+2025-06-03 10:51:16 - >>> Inicio del script
+2025-06-03 10:51:16 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 10:51:16 - Usuario ID en sesión: 1
+2025-06-03 10:51:16 - ID de conexión en sesión: conn_683f1982b8d4c0.36150632
+2025-06-03 10:51:16 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1982b8d4c0.36150632'
+2025-06-03 10:51:16 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 10:51:16 - Asignando usuario_id: 1 a la sesión
+2025-06-03 10:51:16 - Asignando id_conexion: conn_683f1982b8d4c0.36150632 a la sesión
+2025-06-03 11:00:43 - >>> Inicio del script
+2025-06-03 11:00:43 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:00:43 - Usuario ID en sesión: 1
+2025-06-03 11:00:43 - ID de conexión en sesión: conn_683f1982b8d4c0.36150632
+2025-06-03 11:00:43 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1982b8d4c0.36150632'
+2025-06-03 11:00:43 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:00:43 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:00:43 - Asignando id_conexion: conn_683f1982b8d4c0.36150632 a la sesión
+2025-06-03 11:04:13 - >>> Inicio del script
+2025-06-03 11:04:13 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:04:13 - Usuario ID en sesión: 1
+2025-06-03 11:04:13 - ID de conexión en sesión: conn_683f1982b8d4c0.36150632
+2025-06-03 11:04:13 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1982b8d4c0.36150632'
+2025-06-03 11:04:13 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:04:13 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:04:13 - Asignando id_conexion: conn_683f1982b8d4c0.36150632 a la sesión
+2025-06-03 11:04:18 - >>> Inicio del script
+2025-06-03 11:04:18 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:04:18 - Usuario ID en sesión: 1
+2025-06-03 11:04:18 - ID de conexión en sesión: conn_683f1982b8d4c0.36150632
+2025-06-03 11:04:18 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1982b8d4c0.36150632'
+2025-06-03 11:04:18 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:04:18 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:04:18 - Asignando id_conexion: conn_683f1982b8d4c0.36150632 a la sesión
+2025-06-03 11:08:08 - >>> Inicio del script
+2025-06-03 11:08:08 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:08:08 - Usuario ID en sesión: 1
+2025-06-03 11:08:08 - ID de conexión en sesión: conn_683f1982b8d4c0.36150632
+2025-06-03 11:08:08 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1982b8d4c0.36150632'
+2025-06-03 11:08:08 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:08:08 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:08:08 - Asignando id_conexion: conn_683f1982b8d4c0.36150632 a la sesión
+2025-06-03 11:08:17 - >>> Inicio del script
+2025-06-03 11:08:17 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:08:17 - Usuario ID en sesión: 1
+2025-06-03 11:08:17 - ID de conexión en sesión: conn_683f1df1a35ad3.23172050
+2025-06-03 11:08:17 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1df1a35ad3.23172050'
+2025-06-03 11:08:17 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:08:17 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:08:17 - Asignando id_conexion: conn_683f1df1a35ad3.23172050 a la sesión
+2025-06-03 11:10:40 - >>> Inicio del script
+2025-06-03 11:10:40 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:10:40 - Usuario ID en sesión: 1
+2025-06-03 11:10:40 - ID de conexión en sesión: conn_683f1df1a35ad3.23172050
+2025-06-03 11:10:40 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1df1a35ad3.23172050'
+2025-06-03 11:10:40 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:10:40 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:10:40 - Asignando id_conexion: conn_683f1df1a35ad3.23172050 a la sesión
+2025-06-03 11:16:23 - >>> Inicio del script
+2025-06-03 11:16:23 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:16:23 - Usuario ID en sesión: 1
+2025-06-03 11:16:23 - ID de conexión en sesión: conn_683f1df1a35ad3.23172050
+2025-06-03 11:16:23 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1df1a35ad3.23172050'
+2025-06-03 11:16:23 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:16:23 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:16:23 - Asignando id_conexion: conn_683f1df1a35ad3.23172050 a la sesión
+2025-06-03 11:18:31 - >>> Inicio del script
+2025-06-03 11:18:31 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:18:31 - Usuario ID en sesión: 1
+2025-06-03 11:18:31 - ID de conexión en sesión: conn_683f1df1a35ad3.23172050
+2025-06-03 11:18:31 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1df1a35ad3.23172050'
+2025-06-03 11:18:31 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:18:31 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:18:31 - Asignando id_conexion: conn_683f1df1a35ad3.23172050 a la sesión
+2025-06-03 11:23:23 - >>> Inicio del script
+2025-06-03 11:23:23 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:23:23 - Usuario ID en sesión: 1
+2025-06-03 11:23:23 - ID de conexión en sesión: conn_683f1df1a35ad3.23172050
+2025-06-03 11:23:23 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1df1a35ad3.23172050'
+2025-06-03 11:23:23 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:23:23 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:23:23 - Asignando id_conexion: conn_683f1df1a35ad3.23172050 a la sesión
+2025-06-03 11:26:49 - >>> Inicio del script
+2025-06-03 11:26:49 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:26:49 - Usuario ID en sesión: 1
+2025-06-03 11:26:49 - ID de conexión en sesión: conn_683f1df1a35ad3.23172050
+2025-06-03 11:26:49 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f1df1a35ad3.23172050'
+2025-06-03 11:26:49 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:26:49 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:26:49 - Asignando id_conexion: conn_683f1df1a35ad3.23172050 a la sesión
+2025-06-03 11:27:02 - >>> Inicio del script
+2025-06-03 11:27:02 - Sesión iniciada con ID de sesión PHP: prhbpiskk1ifkfbpvb3eqa1705
+2025-06-03 11:27:02 - Usuario ID en sesión: 1
+2025-06-03 11:27:02 - ID de conexión en sesión: conn_683f2256abdc84.33699146
+2025-06-03 11:27:02 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2256abdc84.33699146'
+2025-06-03 11:27:02 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:27:02 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:27:02 - Asignando id_conexion: conn_683f2256abdc84.33699146 a la sesión
+2025-06-03 11:27:46 - >>> Inicio del script
+2025-06-03 11:27:46 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:27:46 - Usuario ID en sesión: 1
+2025-06-03 11:27:46 - ID de conexión en sesión: conn_683f228247f928.46792947
+2025-06-03 11:27:46 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f228247f928.46792947'
+2025-06-03 11:27:46 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:27:46 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:27:46 - Asignando id_conexion: conn_683f228247f928.46792947 a la sesión
+2025-06-03 11:28:59 - >>> Inicio del script
+2025-06-03 11:28:59 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:28:59 - Usuario ID en sesión: 1
+2025-06-03 11:28:59 - ID de conexión en sesión: conn_683f228247f928.46792947
+2025-06-03 11:28:59 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f228247f928.46792947'
+2025-06-03 11:28:59 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:28:59 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:28:59 - Asignando id_conexion: conn_683f228247f928.46792947 a la sesión
+2025-06-03 11:29:11 - >>> Inicio del script
+2025-06-03 11:29:11 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:29:11 - Usuario ID en sesión: 1
+2025-06-03 11:29:11 - ID de conexión en sesión: conn_683f22d7133f81.11925157
+2025-06-03 11:29:11 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f22d7133f81.11925157'
+2025-06-03 11:29:11 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:29:11 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:29:11 - Asignando id_conexion: conn_683f22d7133f81.11925157 a la sesión
+2025-06-03 11:31:02 - >>> Inicio del script
+2025-06-03 11:31:02 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:31:02 - Usuario ID en sesión: 1
+2025-06-03 11:31:02 - ID de conexión en sesión: conn_683f22d7133f81.11925157
+2025-06-03 11:31:02 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f22d7133f81.11925157'
+2025-06-03 11:31:02 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:31:02 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:31:02 - Asignando id_conexion: conn_683f22d7133f81.11925157 a la sesión
+2025-06-03 11:33:59 - >>> Inicio del script
+2025-06-03 11:33:59 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:33:59 - Usuario ID en sesión: 1
+2025-06-03 11:33:59 - ID de conexión en sesión: conn_683f22d7133f81.11925157
+2025-06-03 11:33:59 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f22d7133f81.11925157'
+2025-06-03 11:33:59 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:33:59 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:33:59 - Asignando id_conexion: conn_683f22d7133f81.11925157 a la sesión
+2025-06-03 11:34:08 - >>> Inicio del script
+2025-06-03 11:34:08 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:34:08 - Usuario ID en sesión: 1
+2025-06-03 11:34:08 - ID de conexión en sesión: conn_683f24007b6e07.22711494
+2025-06-03 11:34:08 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f24007b6e07.22711494'
+2025-06-03 11:34:08 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:34:08 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:34:08 - Asignando id_conexion: conn_683f24007b6e07.22711494 a la sesión
+2025-06-03 11:34:42 - >>> Inicio del script
+2025-06-03 11:34:42 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:34:42 - Usuario ID en sesión: 1
+2025-06-03 11:34:42 - ID de conexión en sesión: conn_683f24007b6e07.22711494
+2025-06-03 11:34:42 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f24007b6e07.22711494'
+2025-06-03 11:34:42 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:34:42 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:34:42 - Asignando id_conexion: conn_683f24007b6e07.22711494 a la sesión
+2025-06-03 11:35:38 - >>> Inicio del script
+2025-06-03 11:35:38 - Sesión iniciada con ID de sesión PHP: 0lv6o3aro6hbdq1tm74tm8qf7m
+2025-06-03 11:35:38 - Usuario ID en sesión: 1
+2025-06-03 11:35:38 - ID de conexión en sesión: conn_683f245a502af1.52781497
+2025-06-03 11:35:38 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f245a502af1.52781497'
+2025-06-03 11:35:38 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:35:38 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:35:38 - Asignando id_conexion: conn_683f245a502af1.52781497 a la sesión
+2025-06-03 11:37:25 - >>> Inicio del script
+2025-06-03 11:37:25 - Sesión iniciada con ID de sesión PHP: 0lv6o3aro6hbdq1tm74tm8qf7m
+2025-06-03 11:37:25 - Usuario ID en sesión: 1
+2025-06-03 11:37:25 - ID de conexión en sesión: conn_683f245a502af1.52781497
+2025-06-03 11:37:25 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f245a502af1.52781497'
+2025-06-03 11:37:25 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:37:25 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:37:25 - Asignando id_conexion: conn_683f245a502af1.52781497 a la sesión
+2025-06-03 11:37:50 - >>> Inicio del script
+2025-06-03 11:37:50 - Sesión iniciada con ID de sesión PHP: 0lv6o3aro6hbdq1tm74tm8qf7m
+2025-06-03 11:37:50 - Usuario ID en sesión: 1
+2025-06-03 11:37:50 - ID de conexión en sesión: conn_683f245a502af1.52781497
+2025-06-03 11:37:50 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f245a502af1.52781497'
+2025-06-03 11:37:50 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:37:50 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:37:50 - Asignando id_conexion: conn_683f245a502af1.52781497 a la sesión
+2025-06-03 11:43:33 - >>> Inicio del script
+2025-06-03 11:43:33 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:43:33 - Usuario ID en sesión: 1
+2025-06-03 11:43:33 - ID de conexión en sesión: conn_683f2635ac4d66.43509494
+2025-06-03 11:43:33 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2635ac4d66.43509494'
+2025-06-03 11:43:33 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:43:33 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:43:33 - Asignando id_conexion: conn_683f2635ac4d66.43509494 a la sesión
+2025-06-03 11:46:32 - >>> Inicio del script
+2025-06-03 11:46:32 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:46:32 - Usuario ID en sesión: 1
+2025-06-03 11:46:32 - ID de conexión en sesión: conn_683f2635ac4d66.43509494
+2025-06-03 11:46:32 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2635ac4d66.43509494'
+2025-06-03 11:46:32 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:46:32 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:46:32 - Asignando id_conexion: conn_683f2635ac4d66.43509494 a la sesión
+2025-06-03 11:53:51 - >>> Inicio del script
+2025-06-03 11:53:51 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:53:51 - Usuario ID en sesión: 1
+2025-06-03 11:53:51 - ID de conexión en sesión: conn_683f2635ac4d66.43509494
+2025-06-03 11:53:51 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2635ac4d66.43509494'
+2025-06-03 11:53:51 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:53:51 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:53:51 - Asignando id_conexion: conn_683f2635ac4d66.43509494 a la sesión
+2025-06-03 11:54:04 - >>> Inicio del script
+2025-06-03 11:54:04 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:54:04 - Usuario ID en sesión: 1
+2025-06-03 11:54:04 - ID de conexión en sesión: conn_683f2635ac4d66.43509494
+2025-06-03 11:54:04 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2635ac4d66.43509494'
+2025-06-03 11:54:04 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:54:04 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:54:04 - Asignando id_conexion: conn_683f2635ac4d66.43509494 a la sesión
+2025-06-03 11:55:18 - >>> Inicio del script
+2025-06-03 11:55:18 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:55:18 - Usuario ID en sesión: 1
+2025-06-03 11:55:18 - ID de conexión en sesión: conn_683f2635ac4d66.43509494
+2025-06-03 11:55:18 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2635ac4d66.43509494'
+2025-06-03 11:55:18 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:55:18 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:55:18 - Asignando id_conexion: conn_683f2635ac4d66.43509494 a la sesión
+2025-06-03 11:55:33 - >>> Inicio del script
+2025-06-03 11:55:33 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:55:33 - Usuario ID en sesión: 1
+2025-06-03 11:55:33 - ID de conexión en sesión: conn_683f2635ac4d66.43509494
+2025-06-03 11:55:33 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2635ac4d66.43509494'
+2025-06-03 11:55:33 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:55:33 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:55:33 - Asignando id_conexion: conn_683f2635ac4d66.43509494 a la sesión
+2025-06-03 11:57:42 - >>> Inicio del script
+2025-06-03 11:57:42 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 11:57:42 - Usuario ID en sesión: 1
+2025-06-03 11:57:42 - ID de conexión en sesión: conn_683f2635ac4d66.43509494
+2025-06-03 11:57:42 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2635ac4d66.43509494'
+2025-06-03 11:57:42 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 11:57:42 - Asignando usuario_id: 1 a la sesión
+2025-06-03 11:57:42 - Asignando id_conexion: conn_683f2635ac4d66.43509494 a la sesión
+2025-06-03 12:07:19 - >>> Inicio del script
+2025-06-03 12:07:19 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:07:19 - Usuario ID en sesión: 1
+2025-06-03 12:07:19 - ID de conexión en sesión: conn_683f2635ac4d66.43509494
+2025-06-03 12:07:19 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2635ac4d66.43509494'
+2025-06-03 12:07:19 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:07:19 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:07:19 - Asignando id_conexion: conn_683f2635ac4d66.43509494 a la sesión
+2025-06-03 12:11:16 - >>> Inicio del script
+2025-06-03 12:11:16 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:11:16 - Usuario ID en sesión: 1
+2025-06-03 12:11:16 - ID de conexión en sesión: conn_683f2cb4258ac1.67615452
+2025-06-03 12:11:16 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2cb4258ac1.67615452'
+2025-06-03 12:11:16 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:11:16 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:11:16 - Asignando id_conexion: conn_683f2cb4258ac1.67615452 a la sesión
+2025-06-03 12:12:46 - >>> Inicio del script
+2025-06-03 12:12:46 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:12:46 - Usuario ID en sesión: 1
+2025-06-03 12:12:46 - ID de conexión en sesión: conn_683f2cb4258ac1.67615452
+2025-06-03 12:12:46 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2cb4258ac1.67615452'
+2025-06-03 12:12:46 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:12:46 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:12:46 - Asignando id_conexion: conn_683f2cb4258ac1.67615452 a la sesión
+2025-06-03 12:13:03 - >>> Inicio del script
+2025-06-03 12:13:03 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:13:03 - Usuario ID en sesión: 1
+2025-06-03 12:13:03 - ID de conexión en sesión: conn_683f2cb4258ac1.67615452
+2025-06-03 12:13:03 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2cb4258ac1.67615452'
+2025-06-03 12:13:03 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:13:03 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:13:03 - Asignando id_conexion: conn_683f2cb4258ac1.67615452 a la sesión
+2025-06-03 12:14:52 - >>> Inicio del script
+2025-06-03 12:14:52 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:14:52 - Usuario ID en sesión: 1
+2025-06-03 12:14:52 - ID de conexión en sesión: conn_683f2cb4258ac1.67615452
+2025-06-03 12:14:52 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2cb4258ac1.67615452'
+2025-06-03 12:14:52 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:14:52 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:14:52 - Asignando id_conexion: conn_683f2cb4258ac1.67615452 a la sesión
+2025-06-03 12:15:11 - >>> Inicio del script
+2025-06-03 12:15:11 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:15:11 - Usuario ID en sesión: 1
+2025-06-03 12:15:11 - ID de conexión en sesión: conn_683f2d9f719fc6.23407816
+2025-06-03 12:15:11 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2d9f719fc6.23407816'
+2025-06-03 12:15:11 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:15:11 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:15:11 - Asignando id_conexion: conn_683f2d9f719fc6.23407816 a la sesión
+2025-06-03 12:15:20 - >>> Inicio del script
+2025-06-03 12:15:20 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:15:20 - Usuario ID en sesión: 1
+2025-06-03 12:15:20 - ID de conexión en sesión: conn_683f2d9f719fc6.23407816
+2025-06-03 12:15:20 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2d9f719fc6.23407816'
+2025-06-03 12:15:20 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:15:20 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:15:20 - Asignando id_conexion: conn_683f2d9f719fc6.23407816 a la sesión
+2025-06-03 12:16:03 - >>> Inicio del script
+2025-06-03 12:16:03 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:16:03 - Usuario ID en sesión: 1
+2025-06-03 12:16:03 - ID de conexión en sesión: conn_683f2dd35b7b16.03471690
+2025-06-03 12:16:03 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2dd35b7b16.03471690'
+2025-06-03 12:16:03 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:16:03 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:16:03 - Asignando id_conexion: conn_683f2dd35b7b16.03471690 a la sesión
+2025-06-03 12:21:28 - >>> Inicio del script
+2025-06-03 12:21:28 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:21:28 - Usuario ID en sesión: 1
+2025-06-03 12:21:28 - ID de conexión en sesión: conn_683f2dd35b7b16.03471690
+2025-06-03 12:21:28 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2dd35b7b16.03471690'
+2025-06-03 12:21:28 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:21:28 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:21:28 - Asignando id_conexion: conn_683f2dd35b7b16.03471690 a la sesión
+2025-06-03 12:21:54 - >>> Inicio del script
+2025-06-03 12:21:54 - Sesión iniciada con ID de sesión PHP: uriv35td2ngkq9ncouh7ihroit
+2025-06-03 12:21:54 - Usuario ID en sesión: 1
+2025-06-03 12:21:54 - ID de conexión en sesión: conn_683f2f32cf07d8.26414334
+2025-06-03 12:21:54 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2f32cf07d8.26414334'
+2025-06-03 12:21:54 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:21:54 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:21:54 - Asignando id_conexion: conn_683f2f32cf07d8.26414334 a la sesión
+2025-06-03 12:22:41 - >>> Inicio del script
+2025-06-03 12:22:41 - Sesión iniciada con ID de sesión PHP: td5cptbqcbnbt0gf6e0sbg37sa
+2025-06-03 12:22:41 - Usuario ID en sesión: 1
+2025-06-03 12:22:41 - ID de conexión en sesión: conn_683f2f611be773.98902439
+2025-06-03 12:22:41 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2f611be773.98902439'
+2025-06-03 12:22:41 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:22:41 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:22:41 - Asignando id_conexion: conn_683f2f611be773.98902439 a la sesión
+2025-06-03 12:26:12 - >>> Inicio del script
+2025-06-03 12:26:12 - Sesión iniciada con ID de sesión PHP: td5cptbqcbnbt0gf6e0sbg37sa
+2025-06-03 12:26:12 - Usuario ID en sesión: 1
+2025-06-03 12:26:12 - ID de conexión en sesión: conn_683f2f611be773.98902439
+2025-06-03 12:26:12 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f2f611be773.98902439'
+2025-06-03 12:26:12 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:26:12 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:26:12 - Asignando id_conexion: conn_683f2f611be773.98902439 a la sesión
+2025-06-03 12:28:08 - >>> Inicio del script
+2025-06-03 12:28:08 - Sesión iniciada con ID de sesión PHP: 4f06j3aeb37blv4g8b4m9646do
+2025-06-03 12:28:08 - Usuario ID en sesión: 1
+2025-06-03 12:28:08 - ID de conexión en sesión: conn_683f30a8b942a7.05745123
+2025-06-03 12:28:08 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f30a8b942a7.05745123'
+2025-06-03 12:28:08 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:28:08 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:28:08 - Asignando id_conexion: conn_683f30a8b942a7.05745123 a la sesión
+2025-06-03 12:30:05 - >>> Inicio del script
+2025-06-03 12:30:05 - Sesión iniciada con ID de sesión PHP: 4f06j3aeb37blv4g8b4m9646do
+2025-06-03 12:30:05 - Usuario ID en sesión: 1
+2025-06-03 12:30:05 - ID de conexión en sesión: conn_683f30a8b942a7.05745123
+2025-06-03 12:30:05 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f30a8b942a7.05745123'
+2025-06-03 12:30:05 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:30:05 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:30:05 - Asignando id_conexion: conn_683f30a8b942a7.05745123 a la sesión
+2025-06-03 12:30:36 - >>> Inicio del script
+2025-06-03 12:30:36 - Sesión iniciada con ID de sesión PHP: 4f06j3aeb37blv4g8b4m9646do
+2025-06-03 12:30:36 - Usuario ID en sesión: 1
+2025-06-03 12:30:36 - ID de conexión en sesión: conn_683f313c795023.61704886
+2025-06-03 12:30:36 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f313c795023.61704886'
+2025-06-03 12:30:36 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:30:36 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:30:36 - Asignando id_conexion: conn_683f313c795023.61704886 a la sesión
+2025-06-03 12:31:48 - >>> Inicio del script
+2025-06-03 12:31:48 - Sesión iniciada con ID de sesión PHP: 38tplb99tvue0hunsth1culkp2
+2025-06-03 12:31:48 - Usuario ID en sesión: 1
+2025-06-03 12:31:48 - ID de conexión en sesión: conn_683f3184aaece5.00183094
+2025-06-03 12:31:48 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f3184aaece5.00183094'
+2025-06-03 12:31:48 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:31:48 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:31:48 - Asignando id_conexion: conn_683f3184aaece5.00183094 a la sesión
+2025-06-03 12:32:07 - >>> Inicio del script
+2025-06-03 12:32:07 - Sesión iniciada con ID de sesión PHP: 38tplb99tvue0hunsth1culkp2
+2025-06-03 12:32:07 - Usuario ID en sesión: 1
+2025-06-03 12:32:07 - ID de conexión en sesión: conn_683f3184aaece5.00183094
+2025-06-03 12:32:07 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f3184aaece5.00183094'
+2025-06-03 12:32:07 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:32:07 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:32:07 - Asignando id_conexion: conn_683f3184aaece5.00183094 a la sesión
+2025-06-03 12:36:03 - >>> Inicio del script
+2025-06-03 12:36:03 - Sesión iniciada con ID de sesión PHP: 38tplb99tvue0hunsth1culkp2
+2025-06-03 12:36:03 - Usuario ID en sesión: 1
+2025-06-03 12:36:03 - ID de conexión en sesión: conn_683f3184aaece5.00183094
+2025-06-03 12:36:03 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f3184aaece5.00183094'
+2025-06-03 12:36:03 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:36:03 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:36:03 - Asignando id_conexion: conn_683f3184aaece5.00183094 a la sesión
+2025-06-03 12:37:10 - >>> Inicio del script
+2025-06-03 12:37:10 - Sesión iniciada con ID de sesión PHP: hcdo2f7kpo08d4aoom8udrcnib
+2025-06-03 12:37:10 - Usuario ID en sesión: 1
+2025-06-03 12:37:10 - ID de conexión en sesión: conn_683f32c652d855.54992355
+2025-06-03 12:37:10 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f32c652d855.54992355'
+2025-06-03 12:37:10 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:37:10 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:37:10 - Asignando id_conexion: conn_683f32c652d855.54992355 a la sesión
+2025-06-03 12:40:53 - >>> Inicio del script
+2025-06-03 12:40:53 - Sesión iniciada con ID de sesión PHP: hcdo2f7kpo08d4aoom8udrcnib
+2025-06-03 12:40:53 - Usuario ID en sesión: 1
+2025-06-03 12:40:53 - ID de conexión en sesión: conn_683f32c652d855.54992355
+2025-06-03 12:40:53 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f32c652d855.54992355'
+2025-06-03 12:40:53 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:40:53 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:40:53 - Asignando id_conexion: conn_683f32c652d855.54992355 a la sesión
+2025-06-03 12:41:25 - >>> Inicio del script
+2025-06-03 12:41:25 - Sesión iniciada con ID de sesión PHP: n9pnc96mqvkn3ivkb7ppk4n3hk
+2025-06-03 12:41:25 - Usuario ID en sesión: 1
+2025-06-03 12:41:25 - ID de conexión en sesión: conn_683f33c5954104.53860223
+2025-06-03 12:41:25 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f33c5954104.53860223'
+2025-06-03 12:41:25 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:41:25 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:41:25 - Asignando id_conexion: conn_683f33c5954104.53860223 a la sesión
+2025-06-03 12:43:51 - >>> Inicio del script
+2025-06-03 12:43:51 - Sesión iniciada con ID de sesión PHP: n9pnc96mqvkn3ivkb7ppk4n3hk
+2025-06-03 12:43:51 - Usuario ID en sesión: 1
+2025-06-03 12:43:51 - ID de conexión en sesión: conn_683f33c5954104.53860223
+2025-06-03 12:43:51 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f33c5954104.53860223'
+2025-06-03 12:43:51 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:43:51 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:43:51 - Asignando id_conexion: conn_683f33c5954104.53860223 a la sesión
+2025-06-03 12:44:23 - >>> Inicio del script
+2025-06-03 12:44:23 - Sesión iniciada con ID de sesión PHP: aq78qsc30bgkdndm5rgu1ge7v9
+2025-06-03 12:44:23 - Usuario ID en sesión: 1
+2025-06-03 12:44:23 - ID de conexión en sesión: conn_683f3477b31826.57842376
+2025-06-03 12:44:23 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f3477b31826.57842376'
+2025-06-03 12:44:23 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:44:23 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:44:23 - Asignando id_conexion: conn_683f3477b31826.57842376 a la sesión
+2025-06-03 12:45:40 - >>> Inicio del script
+2025-06-03 12:45:40 - Sesión iniciada con ID de sesión PHP: km1ldrlj3a5paoo40kg83u3gp0
+2025-06-03 12:45:40 - Usuario ID en sesión: 1
+2025-06-03 12:45:40 - ID de conexión en sesión: conn_683f34c4a05090.45915986
+2025-06-03 12:45:40 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f34c4a05090.45915986'
+2025-06-03 12:45:40 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:45:40 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:45:40 - Asignando id_conexion: conn_683f34c4a05090.45915986 a la sesión
+2025-06-03 12:50:18 - >>> Inicio del script
+2025-06-03 12:50:18 - Sesión iniciada con ID de sesión PHP: erlc0oov3hfqvh9gh06urs0800
+2025-06-03 12:50:18 - Usuario ID en sesión: 1
+2025-06-03 12:50:18 - ID de conexión en sesión: conn_683f35da481f18.40439423
+2025-06-03 12:50:18 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f35da481f18.40439423'
+2025-06-03 12:50:18 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:50:18 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:50:18 - Asignando id_conexion: conn_683f35da481f18.40439423 a la sesión
+2025-06-03 12:52:27 - >>> Inicio del script
+2025-06-03 12:52:27 - Sesión iniciada con ID de sesión PHP: erlc0oov3hfqvh9gh06urs0800
+2025-06-03 12:52:27 - Usuario ID en sesión: 1
+2025-06-03 12:52:27 - ID de conexión en sesión: conn_683f35da481f18.40439423
+2025-06-03 12:52:27 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f35da481f18.40439423'
+2025-06-03 12:52:27 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:52:27 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:52:27 - Asignando id_conexion: conn_683f35da481f18.40439423 a la sesión
+2025-06-03 12:53:00 - >>> Inicio del script
+2025-06-03 12:53:00 - Sesión iniciada con ID de sesión PHP: 6ofbakhf0uh05f3digqmnh60ct
+2025-06-03 12:53:00 - Usuario ID en sesión: 1
+2025-06-03 12:53:00 - ID de conexión en sesión: conn_683f367c3eb287.13833407
+2025-06-03 12:53:00 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f367c3eb287.13833407'
+2025-06-03 12:53:00 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:53:00 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:53:00 - Asignando id_conexion: conn_683f367c3eb287.13833407 a la sesión
+2025-06-03 12:55:55 - >>> Inicio del script
+2025-06-03 12:55:55 - Sesión iniciada con ID de sesión PHP: 6ofbakhf0uh05f3digqmnh60ct
+2025-06-03 12:55:55 - Usuario ID en sesión: 1
+2025-06-03 12:55:55 - ID de conexión en sesión: conn_683f367c3eb287.13833407
+2025-06-03 12:55:55 - ID de conexión recuperado desde BD para usuario 1: 'conn_683f367c3eb287.13833407'
+2025-06-03 12:55:55 - ID de conexión coincide entre sesión y BD. Usuario autorizado a continuar.
+2025-06-03 12:55:55 - Asignando usuario_id: 1 a la sesión
+2025-06-03 12:55:55 - Asignando id_conexion: conn_683f367c3eb287.13833407 a la sesión

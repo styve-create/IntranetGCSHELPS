@@ -1,0 +1,56 @@
+
+2025-05-08 12:42:21 - Inicio del procesamiento del archivo.
+2025-05-08 12:42:22 - SILVIA HERNANDEZ (13/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - FELIPE HERNANDEZ (04/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - FELIPE HERNANDEZ (28/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - SILVIA  BERNAL (27/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JOSE CABALLERO (10/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JOSE CABALLERO (11/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JOSE CABALLERO (26/02/2025): Tiempo inválido: -0.47
+2025-05-08 12:42:22 - MICHELLE JIMENEZ (07/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - MICHELLE JIMENEZ (10/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - MICHELLE JIMENEZ (14/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - MICHELLE JIMENEZ (17/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - MICHELLE JIMENEZ (19/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - MICHELLE JIMENEZ (26/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DIEGO RUEDA (07/02/2025): Tiempo inválido: -8.67
+2025-05-08 12:42:22 - JUAN DIEGO RUEDA (12/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DIEGO RUEDA (17/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DIEGO RUEDA (20/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DIEGO RUEDA (21/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DIEGO RUEDA (24/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DIEGO RUEDA (28/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - YESIKA LEON (03/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - YESIKA LEON (12/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - YESIKA LEON (18/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - YESIKA LEON (19/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - YESIKA LEON (20/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - YESIKA LEON (24/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - YESIKA LEON (27/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - DAVID MOSQUERA (21/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JESSICA MANRIQUE (06/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JESSICA MANRIQUE (10/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JESSICA MANRIQUE (20/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JESSICA MANRIQUE (27/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DAVID GOMEZ (18/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DAVID GOMEZ (19/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN DAVID GOMEZ (20/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - ANDRES RINCON (16/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - OSCAR CORZO (22/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - STHEFANY  ARIAS (18/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - ROBINSON D ORTIZ C (20/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - ROBINSON D ORTIZ C (21/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JOHAN S LOPEZ C (14/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JOHAN S LOPEZ C (02/03/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - CARLOS  DUARTE (07/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - CARLOS  DUARTE (12/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - CARLOS  DUARTE (27/02/2025): Tiempo inválido: -3.64
+2025-05-08 12:42:22 - M CAMILA VILLANUEVA (11/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - CARLOS FELIPE  ARDILA (21/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - CARLOS FELIPE  ARDILA (23/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - ANDRES  OJEDA (07/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - ANDRES  OJEDA (26/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN SEBASTIAN  MUÑOZ (03/02/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - JUAN SEBASTIAN  MUÑOZ (01/03/2025): Faltan entrada o salida.
+2025-05-08 12:42:22 - Archivo generado correctamente: tmp/procesado_1746726142_9541.xlsx
+2025-05-08 12:42:22 - Envío de respuesta exitosa con URL: https://gcshelps.com/intranet/sistema/pages/registrosHuellas/descargar_y_borrar.php?file=tmp/procesado_1746726142_9541.xlsx

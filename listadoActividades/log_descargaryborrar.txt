@@ -1,0 +1,36 @@
+2025-05-07 13:30:16 - Inicio de descarga para archivo: procesado_1746624616_2262.xlsx
+2025-05-07 13:30:16 - Ruta del archivo construida: /home/u589041854/domains/gcshelps.com/public_html/intranet/listadoActividades/tmp/procesado_1746624616_2262.xlsx
+2025-05-07 13:30:16 - Archivo encontrado. Preparando para enviar.
+2025-05-07 13:30:16 - Cabeceras enviadas correctamente.
+2025-05-07 13:30:16 - Archivo enviado correctamente.
+2025-05-07 13:30:16 - Archivo eliminado del servidor.
+2025-05-07 13:31:01 - Inicio de descarga para archivo: procesado_1746624661_3850.xlsx
+2025-05-07 13:31:01 - Ruta del archivo construida: /home/u589041854/domains/gcshelps.com/public_html/intranet/listadoActividades/tmp/procesado_1746624661_3850.xlsx
+2025-05-07 13:31:01 - Archivo encontrado. Preparando para enviar.
+2025-05-07 13:31:01 - Cabeceras enviadas correctamente.
+2025-05-07 13:31:01 - Archivo enviado correctamente.
+2025-05-07 13:31:01 - Archivo eliminado del servidor.
+2025-05-07 13:31:12 - Inicio de descarga para archivo: procesado_1746624672_5183.xlsx
+2025-05-07 13:31:12 - Ruta del archivo construida: /home/u589041854/domains/gcshelps.com/public_html/intranet/listadoActividades/tmp/procesado_1746624672_5183.xlsx
+2025-05-07 13:31:12 - Archivo encontrado. Preparando para enviar.
+2025-05-07 13:31:12 - Cabeceras enviadas correctamente.
+2025-05-07 13:31:12 - Archivo enviado correctamente.
+2025-05-07 13:31:12 - Archivo eliminado del servidor.
+2025-05-07 13:31:37 - Inicio de descarga para archivo: procesado_1746624697_9746.xlsx
+2025-05-07 13:31:37 - Ruta del archivo construida: /home/u589041854/domains/gcshelps.com/public_html/intranet/listadoActividades/tmp/procesado_1746624697_9746.xlsx
+2025-05-07 13:31:37 - Archivo encontrado. Preparando para enviar.
+2025-05-07 13:31:37 - Cabeceras enviadas correctamente.
+2025-05-07 13:31:37 - Archivo enviado correctamente.
+2025-05-07 13:31:37 - Archivo eliminado del servidor.
+2025-05-07 13:36:01 - Inicio de descarga para archivo: procesado_1746624961_8376.xlsx
+2025-05-07 13:36:01 - Ruta del archivo construida: /home/u589041854/domains/gcshelps.com/public_html/intranet/listadoActividades/tmp/procesado_1746624961_8376.xlsx
+2025-05-07 13:36:01 - Archivo encontrado. Preparando para enviar.
+2025-05-07 13:36:01 - Cabeceras enviadas correctamente.
+2025-05-07 13:36:01 - Archivo enviado correctamente.
+2025-05-07 13:36:01 - Archivo eliminado del servidor.
+2025-05-07 13:38:36 - Inicio de descarga para archivo: procesado_1746625116_1212.xlsx
+2025-05-07 13:38:36 - Ruta del archivo construida: /home/u589041854/domains/gcshelps.com/public_html/intranet/listadoActividades/tmp/procesado_1746625116_1212.xlsx
+2025-05-07 13:38:36 - Archivo encontrado. Preparando para enviar.
+2025-05-07 13:38:36 - Cabeceras enviadas correctamente.
+2025-05-07 13:38:36 - Archivo enviado correctamente.
+2025-05-07 13:38:36 - Archivo eliminado del servidor.

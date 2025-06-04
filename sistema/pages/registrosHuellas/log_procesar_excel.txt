@@ -1,0 +1,20 @@
+2025-05-08 17:42:21 - Archivo procesar_excel.php llamado
+2025-05-08 17:42:21 - POST recibido
+2025-05-08 17:42:21 - Contenido POST: Array
+(
+)
+
+2025-05-08 17:42:21 - Archivos: Array
+(
+    [archivo_excel] => Array
+        (
+            [name] => mes complero marzo.xls
+            [full_path] => mes complero marzo.xls
+            [type] => application/vnd.ms-excel
+            [tmp_name] => /tmp/phpS1TiX2
+            [error] => 0
+            [size] => 1119534
+        )
+
+)
+

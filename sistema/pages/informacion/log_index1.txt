@@ -1,0 +1,205 @@
+2025-05-21 10:06:26 - >>> INICIO del script certificados
+2025-05-21 10:06:26 - ➡ Se recibió una petición POST.
+2025-05-21 10:06:26 - 📄 Documento recibido: 2
+2025-05-21 10:06:26 - 📁 Certificados seleccionados: ["Certificacion_ACTIVO_GCS.docx"]
+2025-05-21 10:06:26 - ✅ Consulta ejecutada correctamente para documento: 2
+2025-05-21 10:06:26 - 👤 Datos del trabajador: {"id":15,"nombre_completo":"Jefe Directo","grupo_sanguineo":"O-","estado_civil":"Soltero","edad":35,"tipo_documento":"CC","numero_documento":"2","fecha_expedicion":"2011-03-15","lugar_expedicion":"Medell\u00edn","fecha_nacimiento":"1985-08-12","lugar_nacimiento":"Medell\u00edn","nivel_estudio":"T\u00e9cnico","profesion":"Supervisor","domicilio":"Calle 20 #10-56","ciudad":"Medell\u00edn","celular":"3105556789","email":"styvenmunera3@gmail.com","nombre_contacto_emergencia":"Carlos Garc\u00eda","numero_contacto_emergencia":"3115556789","cuenta_bancaria":"2345678901","banco":"Davivienda","tipo_cuenta":"Ahorro","tipo_contrato":"Indefinido","horas_contratadas":40,"salario_basico":"2500000.00","auxilio_transporte":"120000.00","eps":"Coomeva","codigo_pension":"987654322","codigo_cesantias":"654321","estado":"Activo","fecha_ingreso_falcon":"2016-05-01","fecha_retiro_falcon":null,"salario_falcon_pesos":"2500000.00","salario_falcon_usd":"0.00","fecha_ingreso_gcs":"2016-05-01","fecha_retiro_gcs":null,"tipo_retiro":"","finalizacion_contractual":null,"fecha_registro":"2025-04-16 17:29:23"}
+2025-05-21 10:06:26 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682debf2378ae
+2025-05-21 10:06:26 - 🔧 Procesando archivo: Certificacion_ACTIVO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx)
+2025-05-21 10:06:26 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:06:26 - 💰 Salario convertido a float: 2500000
+2025-05-21 10:06:26 - 📝 Asignando valores al template...
+2025-05-21 10:06:26 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682debf2378ae/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:06:26 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682debf2378ae/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:06:26 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682debf2378ae/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:06:26 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682debf2378ae.zip
+2025-05-21 10:06:26 - ⬇ Iniciando descarga del ZIP...
+2025-05-21 10:06:26 - ✅ ZIP enviado al navegador.
+2025-05-21 10:06:26 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682debf2378ae/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:06:26 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682debf2378ae
+2025-05-21 10:06:26 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682debf2378ae.zip
+2025-05-21 10:06:26 - ✅ FIN del script sin errores.
+2025-05-21 10:24:38 - >>> INICIO del script certificados
+2025-05-21 10:24:38 - ➡ Se recibió una petición POST.
+2025-05-21 10:24:38 - 📄 Documento recibido: 2
+2025-05-21 10:24:38 - 📁 Certificados seleccionados: ["Certificacion_RETIRO_GCS.docx"]
+2025-05-21 10:24:38 - ✅ Consulta ejecutada correctamente para documento: 2
+2025-05-21 10:24:38 - 👤 Datos del trabajador: {"id":15,"nombre_completo":"Jefe Directo","grupo_sanguineo":"O-","estado_civil":"Soltero","edad":35,"tipo_documento":"CC","numero_documento":"2","fecha_expedicion":"2011-03-15","lugar_expedicion":"Medell\u00edn","fecha_nacimiento":"1985-08-12","lugar_nacimiento":"Medell\u00edn","nivel_estudio":"T\u00e9cnico","profesion":"Supervisor","domicilio":"Calle 20 #10-56","ciudad":"Medell\u00edn","celular":"3105556789","email":"styvenmunera3@gmail.com","nombre_contacto_emergencia":"Carlos Garc\u00eda","numero_contacto_emergencia":"3115556789","cuenta_bancaria":"2345678901","banco":"Davivienda","tipo_cuenta":"Ahorro","tipo_contrato":"Indefinido","horas_contratadas":40,"salario_basico":"2500000.00","auxilio_transporte":"120000.00","eps":"Coomeva","codigo_pension":"987654322","codigo_cesantias":"654321","estado":"Activo","fecha_ingreso_falcon":"2016-05-01","fecha_retiro_falcon":null,"salario_falcon_pesos":"2500000.00","salario_falcon_usd":"0.00","fecha_ingreso_gcs":"2016-05-01","fecha_retiro_gcs":null,"tipo_retiro":"","finalizacion_contractual":null,"fecha_registro":"2025-04-16 17:29:23"}
+2025-05-21 10:24:38 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df036a8120
+2025-05-21 10:24:38 - 🔧 Procesando archivo: Certificacion_RETIRO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx)
+2025-05-21 10:24:38 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:24:38 - 💰 Salario convertido a float: 2500000
+2025-05-21 10:24:38 - 📝 Asignando valores al template...
+2025-05-21 10:24:38 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df036a8120/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:24:38 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df036a8120/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:24:38 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df036a8120/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:24:38 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df036a8120.zip
+2025-05-21 10:24:38 - ⬇ Iniciando descarga del ZIP...
+2025-05-21 10:24:38 - ✅ ZIP enviado al navegador.
+2025-05-21 10:24:38 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df036a8120/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:24:38 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df036a8120
+2025-05-21 10:24:38 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df036a8120.zip
+2025-05-21 10:24:38 - ✅ FIN del script sin errores.
+2025-05-21 10:44:05 - >>> INICIO del script certificados
+2025-05-21 10:44:05 - ➡ Se recibió una petición POST.
+2025-05-21 10:44:05 - 📄 Documento recibido: 2
+2025-05-21 10:44:05 - 📁 Certificados seleccionados: ["Certificacion_ACTIVO_GCS.docx","Certificacion_RETIRO_GCS.docx"]
+2025-05-21 10:44:05 - ✅ Consulta ejecutada correctamente para documento: 2
+2025-05-21 10:44:05 - 👤 Datos del trabajador: {"id":15,"nombre_completo":"Jefe Directo","grupo_sanguineo":"O-","estado_civil":"Soltero","edad":35,"tipo_documento":"CC","numero_documento":"2","fecha_expedicion":"2011-03-15","lugar_expedicion":"Medell\u00edn","fecha_nacimiento":"1985-08-12","lugar_nacimiento":"Medell\u00edn","nivel_estudio":"T\u00e9cnico","profesion":"Supervisor","domicilio":"Calle 20 #10-56","ciudad":"Medell\u00edn","celular":"3105556789","email":"styvenmunera3@gmail.com","nombre_contacto_emergencia":"Carlos Garc\u00eda","numero_contacto_emergencia":"3115556789","cuenta_bancaria":"2345678901","banco":"Davivienda","tipo_cuenta":"Ahorro","tipo_contrato":"Indefinido","horas_contratadas":40,"salario_basico":"2500000.00","auxilio_transporte":"120000.00","eps":"Coomeva","codigo_pension":"987654322","codigo_cesantias":"654321","estado":"Activo","fecha_ingreso_falcon":"2016-05-01","fecha_retiro_falcon":null,"salario_falcon_pesos":"2500000.00","salario_falcon_usd":"0.00","fecha_ingreso_gcs":"2016-05-01","fecha_retiro_gcs":null,"tipo_retiro":"","finalizacion_contractual":null,"fecha_registro":"2025-04-16 17:29:23"}
+2025-05-21 10:44:05 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec
+2025-05-21 10:44:05 - 🔧 Procesando archivo: Certificacion_ACTIVO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx)
+2025-05-21 10:44:05 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:44:05 - 💰 Salario convertido a float: 2500000
+2025-05-21 10:44:05 - 📝 Asignando valores al template...
+2025-05-21 10:44:05 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:44:05 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:44:05 - 🔧 Procesando archivo: Certificacion_RETIRO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx)
+2025-05-21 10:44:05 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:44:05 - 💰 Salario convertido a float: 2500000
+2025-05-21 10:44:05 - 📝 Asignando valores al template...
+2025-05-21 10:44:05 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:44:05 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:44:05 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:44:05 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:44:05 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec.zip
+2025-05-21 10:44:05 - ⬇ Iniciando descarga del ZIP...
+2025-05-21 10:44:05 - ✅ ZIP enviado al navegador.
+2025-05-21 10:44:05 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec/Certificacion_ACTIVO_GCS.docx
+2025-05-21 10:44:05 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec/Certificacion_RETIRO_GCS.docx
+2025-05-21 10:44:05 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec
+2025-05-21 10:44:05 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682df4c5ba1ec.zip
+2025-05-21 10:44:05 - ✅ FIN del script sin errores.
+2025-05-21 11:31:46 - >>> INICIO del script certificados
+2025-05-21 11:31:46 - ➡ Se recibió una petición POST.
+2025-05-21 11:31:46 - 📄 Documento recibido: 2
+2025-05-21 11:31:46 - 📁 Certificados seleccionados: ["Certificacion_RETIRO_GCS.docx"]
+2025-05-21 11:31:46 - ✅ Consulta ejecutada correctamente para documento: 2
+2025-05-21 11:31:46 - 👤 Datos del trabajador: {"id":15,"nombre_completo":"Jefe Directo","grupo_sanguineo":"O-","estado_civil":"Soltero","edad":35,"tipo_documento":"CC","numero_documento":"2","fecha_expedicion":"2011-03-15","lugar_expedicion":"Medell\u00edn","fecha_nacimiento":"1985-08-12","lugar_nacimiento":"Medell\u00edn","nivel_estudio":"T\u00e9cnico","profesion":"Supervisor","cargo_certificado":"Team Lead","domicilio":"Calle 20 #10-56","ciudad":"Medell\u00edn","celular":"3105556789","email":"styvenmunera3@gmail.com","nombre_contacto_emergencia":"Carlos Garc\u00eda","numero_contacto_emergencia":"3115556789","cuenta_bancaria":"2345678901","banco":"Davivienda","tipo_cuenta":"Ahorro","tipo_contrato":"Indefinido","horas_contratadas":40,"salario_basico":"2500000.00","auxilio_transporte":"120000.00","eps":"Coomeva","codigo_pension":"987654322","codigo_cesantias":"654321","estado":"Activo","fecha_ingreso_falcon":"2016-05-01","fecha_retiro_falcon":null,"salario_falcon_pesos":"2500000.00","salario_falcon_usd":"0.00","fecha_ingreso_gcs":"2016-05-01","fecha_retiro_gcs":null,"tipo_retiro":"","finalizacion_contractual":null,"fecha_registro":"2025-04-16 17:29:23"}
+2025-05-21 11:31:46 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682dfff22f8f6
+2025-05-21 11:31:46 - 🔧 Procesando archivo: Certificacion_RETIRO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx)
+2025-05-21 11:31:46 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx
+2025-05-21 11:31:46 - 💰 Salario convertido a float: 2500000
+2025-05-21 11:31:46 - 📝 Asignando valores al template...
+2025-05-21 11:31:46 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682dfff22f8f6/Certificacion_RETIRO_GCS.docx
+2025-05-21 11:31:46 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682dfff22f8f6/Certificacion_RETIRO_GCS.docx
+2025-05-21 11:31:46 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682dfff22f8f6/Certificacion_RETIRO_GCS.docx
+2025-05-21 11:31:46 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682dfff22f8f6.zip
+2025-05-21 11:31:46 - ⬇ Iniciando descarga del ZIP...
+2025-05-21 11:31:46 - ✅ ZIP enviado al navegador.
+2025-05-21 11:31:46 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682dfff22f8f6/Certificacion_RETIRO_GCS.docx
+2025-05-21 11:31:46 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682dfff22f8f6
+2025-05-21 11:31:46 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682dfff22f8f6.zip
+2025-05-21 11:31:46 - ✅ FIN del script sin errores.
+2025-05-21 14:00:49 - >>> INICIO del script certificados
+2025-05-21 14:00:49 - ➡ Se recibió una petición POST.
+2025-05-21 14:00:49 - 📄 Documento recibido: 1
+2025-05-21 14:00:49 - 📁 Certificados seleccionados: ["Certificacion_ACTIVO_GCS.docx","Certificacion_RETIRO_GCS.docx"]
+2025-05-21 14:00:49 - ✅ Consulta ejecutada correctamente para documento: 1
+2025-05-21 14:00:49 - 👤 Datos del trabajador: {"id":16,"nombre_completo":"Trabajador Normal","grupo_sanguineo":"A+","estado_civil":"Soltero","edad":28,"tipo_documento":"CC","numero_documento":"1","fecha_expedicion":"2012-05-20","lugar_expedicion":"Medell\u00edn","fecha_nacimiento":"1991-10-10","lugar_nacimiento":"Medell\u00edn","nivel_estudio":"Bachiller","profesion":"Operario","cargo_certificado":null,"domicilio":"Calle 30 #15-75","ciudad":"Medell\u00edn","celular":"3105554321","email":"trabajador@ejemplo.com","nombre_contacto_emergencia":"Mar\u00eda P\u00e9rez","numero_contacto_emergencia":"3115559876","cuenta_bancaria":"3456789012","banco":"BBVA","tipo_cuenta":"Corriente","tipo_contrato":"Indefinido","horas_contratadas":40,"salario_basico":"1800000.00","auxilio_transporte":"100000.00","eps":"Compensar","codigo_pension":"876543210","codigo_cesantias":"543210","estado":"Activo","fecha_ingreso_falcon":"2017-08-01","fecha_retiro_falcon":null,"salario_falcon_pesos":"1800000.00","salario_falcon_usd":"0.00","fecha_ingreso_gcs":"2017-08-01","fecha_retiro_gcs":null,"tipo_retiro":"","finalizacion_contractual":null,"fecha_registro":"2025-04-16 17:29:23"}
+2025-05-21 14:00:49 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661
+2025-05-21 14:00:49 - 🔧 Procesando archivo: Certificacion_ACTIVO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx)
+2025-05-21 14:00:49 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx
+2025-05-21 14:00:49 - 💰 Salario convertido a float: 1800000
+2025-05-21 14:00:49 - 📝 Asignando valores al template...
+2025-05-21 14:00:49 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661/Certificacion_ACTIVO_GCS.docx
+2025-05-21 14:00:49 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661/Certificacion_ACTIVO_GCS.docx
+2025-05-21 14:00:49 - 🔧 Procesando archivo: Certificacion_RETIRO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx)
+2025-05-21 14:00:49 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx
+2025-05-21 14:00:49 - 💰 Salario convertido a float: 1800000
+2025-05-21 14:00:49 - 📝 Asignando valores al template...
+2025-05-21 14:00:49 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661/Certificacion_RETIRO_GCS.docx
+2025-05-21 14:00:49 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661/Certificacion_RETIRO_GCS.docx
+2025-05-21 14:00:49 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661/Certificacion_ACTIVO_GCS.docx
+2025-05-21 14:00:49 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661/Certificacion_RETIRO_GCS.docx
+2025-05-21 14:00:49 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661.zip
+2025-05-21 14:00:49 - ⬇ Iniciando descarga del ZIP...
+2025-05-21 14:00:49 - ✅ ZIP enviado al navegador.
+2025-05-21 14:00:49 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661/Certificacion_ACTIVO_GCS.docx
+2025-05-21 14:00:49 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661/Certificacion_RETIRO_GCS.docx
+2025-05-21 14:00:49 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661
+2025-05-21 14:00:49 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_682e22e1a0661.zip
+2025-05-21 14:00:49 - ✅ FIN del script sin errores.
+2025-05-29 08:04:55 - >>> INICIO del script certificados
+2025-05-29 08:04:55 - ➡ Se recibió una petición POST.
+2025-05-29 08:04:55 - 📄 Documento recibido: 2
+2025-05-29 08:04:55 - 📁 Certificados seleccionados: ["Certificacion_ACTIVO_GCS.docx"]
+2025-05-29 08:04:55 - ✅ Consulta ejecutada correctamente para documento: 2
+2025-05-29 08:04:55 - 👤 Datos del trabajador: {"id":15,"nombre_completo":"Jefe Directo","grupo_sanguineo":"O-","estado_civil":"Soltero","edad":35,"tipo_documento":"CC","numero_documento":"2","fecha_expedicion":"2011-03-15","lugar_expedicion":"Medell\u00edn","fecha_nacimiento":"1985-08-12","lugar_nacimiento":"Medell\u00edn","nivel_estudio":"T\u00e9cnico","profesion":"Supervisor","cargo_certificado":"Team Lead","domicilio":"Calle 20 #10-56","ciudad":"Medell\u00edn","celular":"3105556789","email":"styvenmunera3@gmail.com","nombre_contacto_emergencia":"Carlos Garc\u00eda","numero_contacto_emergencia":"3115556789","cuenta_bancaria":"2345678901","banco":"Davivienda","tipo_cuenta":"Ahorro","tipo_contrato":"Indefinido","horas_contratadas":40,"salario_basico":"2500000.00","auxilio_transporte":"120000.00","eps":"Coomeva","codigo_pension":"987654322","codigo_cesantias":"654321","estado":"Activo","fecha_ingreso_falcon":"2016-05-01","fecha_retiro_falcon":null,"salario_falcon_pesos":"2500000.00","salario_falcon_usd":"0.00","fecha_ingreso_gcs":"2016-05-01","fecha_retiro_gcs":null,"tipo_retiro":"","finalizacion_contractual":null,"fecha_registro":"2025-04-16 17:29:23","foto_perfil":"\/sistema\/pages\/informacion\/uploads\/perfil\/perfil_6837594b620907.31669432.png"}
+2025-05-29 08:04:55 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_68385b77bbe34
+2025-05-29 08:04:55 - 🔧 Procesando archivo: Certificacion_ACTIVO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx)
+2025-05-29 08:04:55 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx
+2025-05-29 08:04:55 - 💰 Salario convertido a float: 2500000
+2025-05-29 08:04:55 - 📝 Asignando valores al template...
+2025-05-29 08:04:55 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_68385b77bbe34/Certificacion_ACTIVO_GCS.docx
+2025-05-29 08:04:55 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_68385b77bbe34/Certificacion_ACTIVO_GCS.docx
+2025-05-29 08:04:55 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_68385b77bbe34/Certificacion_ACTIVO_GCS.docx
+2025-05-29 08:04:55 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_68385b77bbe34.zip
+2025-05-29 08:04:55 - ⬇ Iniciando descarga del ZIP...
+2025-05-29 08:04:55 - ✅ ZIP enviado al navegador.
+2025-05-29 08:04:55 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_68385b77bbe34/Certificacion_ACTIVO_GCS.docx
+2025-05-29 08:04:55 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_68385b77bbe34
+2025-05-29 08:04:55 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_68385b77bbe34.zip
+2025-05-29 08:04:55 - ✅ FIN del script sin errores.
+2025-06-03 08:14:04 - >>> INICIO del script certificados
+2025-06-03 08:14:04 - ➡ Se recibió una petición POST.
+2025-06-03 08:14:04 - 📄 Documento recibido: 2
+2025-06-03 08:14:04 - 📁 Certificados seleccionados: []
+2025-06-03 08:14:04 - ⚠ No se seleccionaron certificados. Finalizando.
+2025-06-03 08:14:07 - >>> INICIO del script certificados
+2025-06-03 08:14:07 - ➡ Se recibió una petición POST.
+2025-06-03 08:14:07 - 📄 Documento recibido: 2
+2025-06-03 08:14:07 - 📁 Certificados seleccionados: ["Certificacion_ACTIVO_GCS.docx","Certificacion_RETIRO_GCS.docx"]
+2025-06-03 08:14:07 - ✅ Consulta ejecutada correctamente para documento: 2
+2025-06-03 08:14:07 - 👤 Datos del trabajador: {"id":15,"nombre_completo":"Jefe Directo","grupo_sanguineo":"O-","estado_civil":"Soltero","edad":35,"tipo_documento":"CC","numero_documento":"2","fecha_expedicion":"2011-03-15","lugar_expedicion":"Medell\u00edn","fecha_nacimiento":"1985-08-12","lugar_nacimiento":"Medell\u00edn","nivel_estudio":"T\u00e9cnico","profesion":"Supervisor","cargo_certificado":"Team Lead","domicilio":"Calle 20 #10-56","ciudad":"Medell\u00edn","celular":"3105556789","email":"styvenmunera3@gmail.com","nombre_contacto_emergencia":"Carlos Garc\u00eda","numero_contacto_emergencia":"3115556789","cuenta_bancaria":"2345678901","banco":"Davivienda","tipo_cuenta":"Ahorro","tipo_contrato":"Indefinido","horas_contratadas":40,"salario_basico":"2500000.00","auxilio_transporte":"120000.00","eps":"Coomeva","codigo_pension":"987654322","codigo_cesantias":"654321","estado":"Activo","fecha_ingreso_falcon":"2016-05-01","fecha_retiro_falcon":null,"salario_falcon_pesos":"2500000.00","salario_falcon_usd":"0.00","fecha_ingreso_gcs":"2016-05-01","fecha_retiro_gcs":null,"tipo_retiro":"","finalizacion_contractual":null,"fecha_registro":"2025-04-16 17:29:23","foto_perfil":"\/sistema\/pages\/informacion\/uploads\/perfil\/perfil_68387bff578de8.18113079.webp"}
+2025-06-03 08:14:07 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318
+2025-06-03 08:14:07 - 🔧 Procesando archivo: Certificacion_ACTIVO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx)
+2025-06-03 08:14:07 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx
+2025-06-03 08:14:07 - 💰 Salario convertido a float: 2500000
+2025-06-03 08:14:07 - 📝 Asignando valores al template...
+2025-06-03 08:14:07 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318/Certificacion_ACTIVO_GCS.docx
+2025-06-03 08:14:07 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318/Certificacion_ACTIVO_GCS.docx
+2025-06-03 08:14:07 - 🔧 Procesando archivo: Certificacion_RETIRO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx)
+2025-06-03 08:14:07 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx
+2025-06-03 08:14:07 - 💰 Salario convertido a float: 2500000
+2025-06-03 08:14:07 - 📝 Asignando valores al template...
+2025-06-03 08:14:07 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318/Certificacion_RETIRO_GCS.docx
+2025-06-03 08:14:07 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318/Certificacion_RETIRO_GCS.docx
+2025-06-03 08:14:07 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318/Certificacion_ACTIVO_GCS.docx
+2025-06-03 08:14:07 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318/Certificacion_RETIRO_GCS.docx
+2025-06-03 08:14:07 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318.zip
+2025-06-03 08:14:07 - ⬇ Iniciando descarga del ZIP...
+2025-06-03 08:14:07 - ✅ ZIP enviado al navegador.
+2025-06-03 08:14:07 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318/Certificacion_ACTIVO_GCS.docx
+2025-06-03 08:14:07 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318/Certificacion_RETIRO_GCS.docx
+2025-06-03 08:14:07 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318
+2025-06-03 08:14:07 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683ef51fa4318.zip
+2025-06-03 08:14:07 - ✅ FIN del script sin errores.
+2025-06-03 10:49:47 - >>> INICIO del script certificados
+2025-06-03 10:49:47 - ➡ Se recibió una petición POST.
+2025-06-03 10:49:47 - 📄 Documento recibido: 2
+2025-06-03 10:49:47 - 📁 Certificados seleccionados: ["Certificacion_ACTIVO_GCS.docx","Certificacion_RETIRO_GCS.docx"]
+2025-06-03 10:49:47 - ✅ Consulta ejecutada correctamente para documento: 2
+2025-06-03 10:49:47 - 👤 Datos del trabajador: {"id":15,"nombre_completo":"Jefe Directo","grupo_sanguineo":"O-","estado_civil":"Soltero","edad":35,"tipo_documento":"CC","numero_documento":"2","fecha_expedicion":"2011-03-15","lugar_expedicion":"Medell\u00edn","fecha_nacimiento":"1985-08-12","lugar_nacimiento":"Medell\u00edn","nivel_estudio":"T\u00e9cnico","profesion":"Supervisor","cargo_certificado":"Team Lead","domicilio":"Calle 20 #10-56","ciudad":"Medell\u00edn","celular":"3105556789","email":"styvenmunera3@gmail.com","nombre_contacto_emergencia":"Carlos Garc\u00eda","numero_contacto_emergencia":"3115556789","cuenta_bancaria":"2345678901","banco":"Davivienda","tipo_cuenta":"Ahorro","tipo_contrato":"Indefinido","horas_contratadas":40,"salario_basico":"2500000.00","auxilio_transporte":"120000.00","eps":"Coomeva","codigo_pension":"987654322","codigo_cesantias":"654321","estado":"Activo","fecha_ingreso_falcon":"2016-05-01","fecha_retiro_falcon":null,"salario_falcon_pesos":"2500000.00","salario_falcon_usd":"0.00","fecha_ingreso_gcs":"2016-05-01","fecha_retiro_gcs":null,"tipo_retiro":"","finalizacion_contractual":null,"fecha_registro":"2025-04-16 17:29:23","foto_perfil":"\/sistema\/pages\/informacion\/uploads\/perfil\/perfil_68387bff578de8.18113079.webp"}
+2025-06-03 10:49:47 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221
+2025-06-03 10:49:47 - 🔧 Procesando archivo: Certificacion_ACTIVO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx)
+2025-06-03 10:49:47 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx
+2025-06-03 10:49:47 - 💰 Salario convertido a float: 2500000
+2025-06-03 10:49:47 - 📝 Asignando valores al template...
+2025-06-03 10:49:47 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221/Certificacion_ACTIVO_GCS.docx
+2025-06-03 10:49:47 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221/Certificacion_ACTIVO_GCS.docx
+2025-06-03 10:49:47 - 🔧 Procesando archivo: Certificacion_RETIRO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx)
+2025-06-03 10:49:47 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_RETIRO_GCS.docx
+2025-06-03 10:49:47 - 💰 Salario convertido a float: 2500000
+2025-06-03 10:49:47 - 📝 Asignando valores al template...
+2025-06-03 10:49:47 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221/Certificacion_RETIRO_GCS.docx
+2025-06-03 10:49:47 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221/Certificacion_RETIRO_GCS.docx
+2025-06-03 10:49:47 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221/Certificacion_ACTIVO_GCS.docx
+2025-06-03 10:49:47 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221/Certificacion_RETIRO_GCS.docx
+2025-06-03 10:49:47 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221.zip
+2025-06-03 10:49:47 - ⬇ Iniciando descarga del ZIP...
+2025-06-03 10:49:47 - ✅ ZIP enviado al navegador.
+2025-06-03 10:49:47 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221/Certificacion_ACTIVO_GCS.docx
+2025-06-03 10:49:47 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221/Certificacion_RETIRO_GCS.docx
+2025-06-03 10:49:47 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221
+2025-06-03 10:49:47 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_683f199b90221.zip
+2025-06-03 10:49:47 - ✅ FIN del script sin errores.

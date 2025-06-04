@@ -1,0 +1,1009 @@
+
+2025-05-22 13:38:12 - Fecha recibida: 
+2025-05-22 13:41:18 - Fecha recibida: 
+2025-05-22 13:41:54 - Fecha recibida: 
+2025-05-22 13:44:48 - Fecha recibida: 
+2025-05-22 13:49:51 - Fecha recibida: 
+2025-05-22 13:50:08 - Fecha recibida: 
+2025-05-22 13:52:04 - Fecha recibida: 
+2025-05-22 13:54:22 - Fecha recibida: 
+2025-05-22 13:55:40 - Fecha recibida: 
+2025-05-22 13:57:48 - Fecha recibida: 
+2025-05-22 13:58:16 - Fecha recibida: 
+2025-05-22 14:01:05 - Fecha recibida: 
+2025-05-22 14:04:38 - Fecha recibida: 
+2025-05-22 14:25:42 - Fecha recibida: 
+2025-05-22 14:25:52 - Faltan datos: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hola
+    [duracion] => 3
+    [fecha] => 2025-05-22 14:25:57
+)
+
+2025-05-22 14:28:30 - Fecha recibida: 
+2025-05-22 14:28:42 - Fecha recibida: 2025-05-22 14:28:48
+2025-05-22 14:28:42 - Hora inicio calculada: 14:28:45, Hora fin: 14:28:48
+2025-05-22 14:28:42 - Error al ejecutar el INSERT: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'VALUES ('Cliente A', 'Reuniones', 'hol', '3', '2025-05-22 14:28:48', '14:28:4...' at line 1
+2025-05-22 14:30:09 - Fecha recibida: 
+2025-05-22 14:30:19 - Fecha recibida: 2025-05-22 14:30:24
+2025-05-22 14:30:19 - Hora inicio calculada: 14:30:20, Hora fin: 14:30:24
+2025-05-22 14:30:19 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hola
+    [duracion] => 4
+    [fecha] => 2025-05-22 14:30:24
+    [id_usuario] => 1
+)
+
+2025-05-22 14:30:40 - Fecha recibida: 
+2025-05-22 14:38:10 - Fecha recibida: 
+2025-05-22 14:40:16 - Fecha recibida: 
+2025-05-22 14:43:22 - Fecha recibida: 
+2025-05-22 14:43:45 - Fecha recibida: 
+2025-05-22 14:45:21 - Fecha recibida: 
+2025-05-22 14:47:06 - Fecha recibida: 
+2025-05-22 14:49:24 - Fecha recibida: 
+2025-05-22 14:50:29 - Fecha recibida: 
+2025-05-22 14:52:48 - Fecha recibida: 
+2025-05-22 14:59:30 - Fecha recibida: 
+2025-05-22 15:00:25 - Fecha recibida: 2025-05-22 15:00:31
+2025-05-22 15:00:25 - Hora inicio calculada: 15:00:27, Hora fin: 15:00:31
+2025-05-22 15:00:25 - Insert exitoso: Array
+(
+    [cliente] => Cliente B
+    [actividad] => Consultoria
+    [descripcion] => hola
+    [duracion] => 4
+    [fecha] => 2025-05-22 15:00:31
+    [id_usuario] => 1
+)
+
+2025-05-22 15:00:32 - Fecha recibida: 
+2025-05-22 15:01:30 - Fecha recibida: 
+2025-05-22 15:03:52 - Fecha recibida: 
+2025-05-22 15:03:55 - Fecha recibida: 
+2025-05-22 15:06:53 - Fecha recibida: 
+2025-05-22 15:07:37 - Fecha recibida: 
+2025-05-22 15:11:36 - Fecha recibida: 
+2025-05-22 15:14:30 - Fecha recibida: 
+2025-05-22 15:16:29 - Fecha recibida: 2025-05-22 15:16:34
+2025-05-22 15:16:29 - Hora inicio calculada: 15:16:16, Hora fin: 15:16:34
+2025-05-22 15:16:29 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hola
+    [duracion] => 18
+    [fecha] => 2025-05-22 15:16:34
+    [id_usuario] => 1
+)
+
+2025-05-22 15:16:47 - Fecha recibida: 
+2025-05-22 15:19:21 - Fecha recibida: 
+2025-05-22 15:20:22 - Fecha recibida: 
+2025-05-22 15:21:57 - Fecha recibida: 2025-05-22 15:22:02
+2025-05-22 15:21:57 - Hora inicio calculada: 15:21:52, Hora fin: 15:22:02
+2025-05-22 15:21:57 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Soporte
+    [descripcion] => hola
+    [duracion] => 10
+    [fecha] => 2025-05-22 15:22:02
+    [id_usuario] => 1
+)
+
+2025-05-22 15:22:05 - Fecha recibida: 
+2025-05-22 15:27:55 - Fecha recibida: 
+2025-05-23 06:49:38 - Fecha recibida: 
+2025-05-23 06:55:20 - Fecha recibida: 
+2025-05-23 06:58:40 - Fecha recibida: 
+2025-05-23 06:59:58 - Fecha recibida: 
+2025-05-23 07:05:12 - Fecha recibida: 
+2025-05-23 07:05:46 - Fecha recibida: 2025-05-23 07:05:50
+2025-05-23 07:05:46 - Hora inicio calculada: 07:05:42, Hora fin: 07:05:50
+2025-05-23 07:05:46 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Soporte
+    [descripcion] => Test - gestión RRSS
+    [duracion] => 8
+    [fecha] => 2025-05-23 07:05:50
+    [id_usuario] => 1
+)
+
+2025-05-23 07:15:08 - Fecha recibida: 
+2025-05-23 07:15:28 - Fecha recibida: 
+2025-05-23 07:22:11 - Fecha recibida: 
+2025-05-23 07:22:17 - Fecha recibida: 
+2025-05-23 07:22:51 - Fecha recibida: 
+2025-05-23 07:26:20 - Fecha recibida: 
+2025-05-23 07:28:04 - Fecha recibida: 
+2025-05-23 07:29:17 - Fecha recibida: 
+2025-05-23 07:30:05 - Fecha recibida: 
+2025-05-23 07:30:28 - Fecha recibida: 
+2025-05-23 07:30:40 - Fecha recibida: 
+2025-05-23 07:31:06 - Fecha recibida: 
+2025-05-23 07:33:28 - Fecha recibida: 
+2025-05-23 07:40:15 - Fecha recibida: 
+2025-05-23 07:43:20 - Fecha recibida: 
+2025-05-23 07:47:30 - Fecha recibida: 
+2025-05-23 07:48:24 - Fecha recibida: 
+2025-05-23 07:48:28 - Fecha recibida: 
+2025-05-23 07:48:34 - Fecha recibida: 
+2025-05-23 07:48:59 - Fecha recibida: 
+2025-05-23 07:53:53 - Fecha recibida: 
+2025-05-23 08:00:55 - Fecha recibida: 2025-05-23 08:01:01
+2025-05-23 08:00:55 - Hora inicio calculada: 08:00:57, Hora fin: 08:01:01
+2025-05-23 08:00:55 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => ggg
+    [duracion] => 4
+    [fecha] => 2025-05-23 08:01:01
+    [id_usuario] => 1
+)
+
+2025-05-23 08:01:23 - Fecha recibida: 
+2025-05-23 08:07:35 - Fecha recibida: 
+2025-05-23 08:11:52 - Fecha recibida: 
+2025-05-23 08:12:52 - Fecha recibida: 
+2025-05-23 08:13:11 - Fecha recibida: 
+2025-05-23 08:13:35 - Fecha recibida: 
+2025-05-23 08:13:50 - Fecha recibida: 
+2025-05-23 08:14:06 - Fecha recibida: 
+2025-05-23 08:16:49 - Fecha recibida: 
+2025-05-23 08:26:00 - Fecha recibida: 
+2025-05-23 08:28:14 - Fecha recibida: 
+2025-05-23 08:29:30 - Fecha recibida: 
+2025-05-23 08:31:59 - Fecha recibida: 
+2025-05-23 08:32:43 - Fecha recibida: 2025-05-23 08:32:49
+2025-05-23 08:32:43 - Hora inicio calculada: 08:32:46, Hora fin: 08:32:49
+2025-05-23 08:32:43 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hola3
+    [duracion] => 3
+    [fecha] => 2025-05-23 08:32:49
+    [id_usuario] => 1
+)
+
+2025-05-23 08:32:49 - Fecha recibida: 
+2025-05-23 08:33:12 - Fecha recibida: 2025-05-23 08:33:18
+2025-05-23 08:33:12 - Hora inicio calculada: 08:33:15, Hora fin: 08:33:18
+2025-05-23 08:33:12 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => test- gestion rrrss hhh rrrhhh
+    [duracion] => 3
+    [fecha] => 2025-05-23 08:33:18
+    [id_usuario] => 1
+)
+
+2025-05-23 08:33:14 - Fecha recibida: 
+2025-05-23 08:35:39 - Fecha recibida: 
+2025-05-23 08:36:38 - Fecha recibida: 
+2025-05-23 08:37:20 - Fecha recibida: 
+2025-05-23 08:38:09 - Fecha recibida: 
+2025-05-23 08:41:18 - Fecha recibida: 
+2025-05-23 09:08:05 - Fecha recibida: 
+2025-05-23 09:08:30 - Fecha recibida: 
+2025-05-23 09:09:04 - Fecha recibida: 
+2025-05-23 09:11:22 - Fecha recibida: 
+2025-05-23 09:12:51 - Fecha recibida: 
+2025-05-23 09:25:58 - Fecha recibida: 
+2025-05-23 09:26:30 - Fecha recibida: 
+2025-05-23 09:27:08 - Fecha recibida: 
+2025-05-23 09:30:16 - Fecha recibida: 
+2025-05-23 09:32:54 - Fecha recibida: 
+2025-05-23 09:34:23 - Fecha recibida: 
+2025-05-23 09:44:23 - Fecha recibida: 
+2025-05-23 09:53:09 - Fecha recibida: 
+2025-05-23 09:55:58 - Fecha recibida: 
+2025-05-23 09:56:14 - Fecha recibida: 
+2025-05-23 09:56:54 - Fecha recibida: 
+2025-05-23 09:57:53 - Fecha recibida: 
+2025-05-23 09:57:59 - Fecha recibida: 
+2025-05-23 10:01:16 - Fecha recibida: 
+2025-05-23 10:01:25 - Fecha recibida: 
+2025-05-23 10:01:34 - Fecha recibida: 
+2025-05-23 10:02:02 - Fecha recibida: 
+2025-05-23 10:08:49 - Fecha recibida: 
+2025-05-23 10:18:18 - Fecha recibida: 
+2025-05-23 10:20:02 - Fecha recibida: 
+2025-05-23 10:22:51 - Fecha recibida: 
+2025-05-23 10:25:12 - Fecha recibida: 
+2025-05-23 10:27:03 - Fecha recibida: 
+2025-05-23 10:29:16 - Fecha recibida: 
+2025-05-23 10:36:20 - Fecha recibida: 
+2025-05-23 10:42:20 - Fecha recibida: 
+2025-05-23 10:43:52 - Fecha recibida: 
+2025-05-23 10:44:53 - Fecha recibida: 
+2025-05-23 10:51:20 - Fecha recibida: 
+2025-05-23 10:51:37 - Fecha recibida: 
+2025-05-23 10:57:13 - Fecha recibida: 
+2025-05-23 10:58:44 - Fecha recibida: 
+2025-05-23 11:08:38 - Fecha recibida: 
+2025-05-23 11:11:03 - Fecha recibida: 
+2025-05-23 11:12:31 - Fecha recibida: 
+2025-05-23 11:18:57 - Fecha recibida: 
+2025-05-23 11:24:05 - Fecha recibida: 
+2025-05-23 11:24:28 - Fecha recibida: 
+2025-05-23 11:25:30 - Fecha recibida: 
+2025-05-23 11:25:55 - Fecha recibida: 
+2025-05-23 11:30:38 - Fecha recibida: 
+2025-05-23 11:37:24 - Fecha recibida: 
+2025-05-23 11:38:13 - Fecha recibida: 
+2025-05-23 11:38:26 - Fecha recibida: 
+2025-05-23 11:38:35 - Fecha recibida: 
+2025-05-23 11:39:03 - Fecha recibida: 
+2025-05-23 11:39:28 - Fecha recibida: 
+2025-05-23 11:39:58 - Fecha recibida: 
+2025-05-23 11:41:32 - Fecha recibida: 
+2025-05-23 11:42:05 - Fecha recibida: 
+2025-05-23 11:43:31 - Fecha recibida: 
+2025-05-23 11:43:49 - Fecha recibida: 
+2025-05-23 11:47:50 - Fecha recibida: 
+2025-05-23 11:49:09 - Fecha recibida: 
+2025-05-23 11:53:49 - Fecha recibida: 
+2025-05-23 11:58:39 - Fecha recibida: 
+2025-05-23 12:05:25 - Fecha recibida: 
+2025-05-23 12:05:59 - Fecha recibida: 
+2025-05-23 12:06:35 - Fecha recibida: 
+2025-05-23 12:07:12 - Fecha recibida: 
+2025-05-23 12:14:22 - Fecha recibida: 
+2025-05-23 12:16:28 - Fecha recibida: 
+2025-05-23 12:22:36 - Fecha recibida: 
+2025-05-23 12:23:48 - Fecha recibida: 
+2025-05-23 12:28:15 - Fecha recibida: 
+2025-05-23 12:35:38 - Fecha recibida: 
+2025-05-23 12:36:06 - Fecha recibida: 
+2025-05-23 12:38:11 - Fecha recibida: 
+2025-05-23 12:38:38 - Fecha recibida: 
+2025-05-23 12:39:31 - Fecha recibida: 
+2025-05-23 12:40:03 - Fecha recibida: 
+2025-05-23 12:41:02 - Fecha recibida: 
+2025-05-23 12:42:17 - Fecha recibida: 
+2025-05-23 12:42:21 - Fecha recibida: 
+2025-05-23 12:44:07 - Fecha recibida: 
+2025-05-23 12:45:24 - Fecha recibida: 
+2025-05-23 12:48:53 - Fecha recibida: 
+2025-05-23 12:49:24 - Fecha recibida: 
+2025-05-23 12:51:33 - Fecha recibida: 
+2025-05-23 12:53:03 - Fecha recibida: 
+2025-05-23 12:57:15 - Fecha recibida: 
+2025-05-23 12:59:50 - Fecha recibida: 
+2025-05-23 13:02:32 - Fecha recibida: 
+2025-05-23 13:02:44 - Fecha recibida: 
+2025-05-23 13:03:23 - Fecha recibida: 
+2025-05-23 13:03:36 - Fecha recibida: 
+2025-05-23 13:03:50 - Fecha recibida: 
+2025-05-23 13:04:12 - Fecha recibida: 
+2025-05-23 13:12:36 - Fecha recibida: 
+2025-05-23 13:13:35 - Fecha recibida: 2025-05-23 13:13:40
+2025-05-23 13:13:35 - Hora inicio calculada: 13:13:36, Hora fin: 13:13:40
+2025-05-23 13:13:35 - Insert exitoso: Array
+(
+    [cliente] => Cliente B
+    [actividad] => Diseno Web
+    [descripcion] => Actividad de diseño
+    [duracion] => 4
+    [fecha] => 2025-05-23 13:13:40
+    [id_usuario] => 1
+)
+
+2025-05-23 13:13:40 - Fecha recibida: 
+2025-05-23 13:14:01 - Fecha recibida: 
+2025-05-23 13:22:09 - Fecha recibida: 
+2025-05-23 13:29:27 - Fecha recibida: 
+2025-05-23 13:29:42 - Fecha recibida: 
+2025-05-23 13:31:10 - Fecha recibida: 
+2025-05-23 13:31:55 - Fecha recibida: 
+2025-05-23 13:35:20 - Fecha recibida: 
+2025-05-23 13:35:28 - Fecha recibida: 
+2025-05-23 13:36:54 - Fecha recibida: 
+2025-05-23 13:37:11 - Fecha recibida: 
+2025-05-23 13:39:47 - Fecha recibida: 
+2025-05-23 13:48:57 - Fecha recibida: 
+2025-05-23 14:24:03 - Fecha recibida: 
+2025-05-23 14:40:56 - Fecha recibida: 
+2025-05-23 14:46:19 - Fecha recibida: 
+2025-05-23 14:49:30 - Fecha recibida: 
+2025-05-23 14:49:36 - Fecha recibida: 
+2025-05-23 14:50:07 - Fecha recibida: 
+2025-05-23 14:50:28 - Fecha recibida: 
+2025-05-23 15:03:56 - Fecha recibida: 
+2025-05-23 15:04:05 - Fecha recibida: 
+2025-05-23 15:10:06 - Fecha recibida: 
+2025-05-23 15:11:05 - Fecha recibida: 
+2025-05-23 15:14:38 - Fecha recibida: 
+2025-05-23 15:26:18 - Fecha recibida: 
+2025-05-23 15:28:48 - Fecha recibida: 
+2025-05-23 15:29:04 - Fecha recibida: 
+2025-05-23 15:30:30 - Fecha recibida: 
+2025-05-23 15:32:18 - Fecha recibida: 
+2025-05-23 15:32:26 - Fecha recibida: 
+2025-05-26 06:48:42 - Fecha recibida: 
+2025-05-26 06:48:56 - Fecha recibida: 2025-05-26 06:49:01
+2025-05-26 06:48:56 - Hora inicio calculada: 06:48:58, Hora fin: 06:49:01
+2025-05-26 06:48:56 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hols
+    [duracion] => 3
+    [fecha] => 2025-05-26 06:49:01
+    [id_usuario] => 1
+)
+
+2025-05-26 06:49:00 - Fecha recibida: 
+2025-05-26 06:49:15 - Fecha recibida: 
+2025-05-26 06:51:21 - Fecha recibida: 2025-05-26 06:51:26
+2025-05-26 06:51:21 - Hora inicio calculada: 06:51:22, Hora fin: 06:51:26
+2025-05-26 06:51:21 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hola1
+    [duracion] => 4
+    [fecha] => 2025-05-26 06:51:26
+    [id_usuario] => 1
+)
+
+2025-05-26 06:51:26 - Fecha recibida: 
+2025-05-26 06:52:13 - Fecha recibida: 
+2025-05-26 06:56:03 - Fecha recibida: 
+2025-05-26 07:01:11 - Fecha recibida: 
+2025-05-26 07:01:26 - Fecha recibida: 
+2025-05-26 07:01:52 - Fecha recibida: 
+2025-05-26 07:03:24 - Fecha recibida: 2025-05-26 07:03:29
+2025-05-26 07:03:24 - Hora inicio calculada: 07:03:25, Hora fin: 07:03:29
+2025-05-26 07:03:24 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Soporte
+    [descripcion] => prueba1
+    [duracion] => 4
+    [fecha] => 2025-05-26 07:03:29
+    [id_usuario] => 1
+)
+
+2025-05-26 07:03:27 - Fecha recibida: 
+2025-05-26 07:03:34 - Fecha recibida: 
+2025-05-26 07:24:41 - Fecha recibida: 
+2025-05-26 07:25:05 - Fecha recibida: 2025-05-26 07:25:10
+2025-05-26 07:25:05 - Hora inicio calculada: 07:25:06, Hora fin: 07:25:10
+2025-05-26 07:25:05 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Soporte
+    [descripcion] => Prueba
+    [duracion] => 4
+    [fecha] => 2025-05-26 07:25:10
+    [id_usuario] => 1
+)
+
+2025-05-26 07:25:08 - Fecha recibida: 
+2025-05-26 07:25:27 - Fecha recibida: 
+2025-05-26 07:32:09 - Fecha recibida: 
+2025-05-26 07:37:36 - Fecha recibida: 
+2025-05-26 07:38:14 - Fecha recibida: 2025-05-26 07:38:19
+2025-05-26 07:38:14 - Hora inicio calculada: 07:38:15, Hora fin: 07:38:19
+2025-05-26 07:38:14 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hola
+    [duracion] => 4
+    [fecha] => 2025-05-26 07:38:19
+    [id_usuario] => 1
+)
+
+2025-05-26 07:40:46 - Fecha recibida: 
+2025-05-26 07:43:50 - Fecha recibida: 
+2025-05-26 07:48:24 - Fecha recibida: 
+2025-05-26 07:48:31 - Fecha recibida: 
+2025-05-26 07:49:02 - Fecha recibida: 2025-05-26 07:49:07
+2025-05-26 07:49:02 - Hora inicio calculada: 07:49:03, Hora fin: 07:49:07
+2025-05-26 07:49:02 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Soporte
+    [descripcion] => Prueba 1
+    [duracion] => 4
+    [fecha] => 2025-05-26 07:49:07
+    [id_usuario] => 1
+)
+
+2025-05-26 07:49:31 - Fecha recibida: 2025-05-26 07:49:36
+2025-05-26 07:49:31 - Hora inicio calculada: 07:49:33, Hora fin: 07:49:36
+2025-05-26 07:49:31 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba 2
+    [duracion] => 3
+    [fecha] => 2025-05-26 07:49:36
+    [id_usuario] => 1
+)
+
+2025-05-26 07:49:52 - Fecha recibida: 
+2025-05-26 07:50:23 - Fecha recibida: 2025-05-26 07:50:28
+2025-05-26 07:50:23 - Hora inicio calculada: 07:50:25, Hora fin: 07:50:28
+2025-05-26 07:50:23 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Soporte
+    [descripcion] => Prueba 2
+    [duracion] => 3
+    [fecha] => 2025-05-26 07:50:28
+    [id_usuario] => 1
+)
+
+2025-05-26 07:50:32 - Fecha recibida: 
+2025-05-26 07:50:40 - Fecha recibida: 
+2025-05-26 07:51:10 - Fecha recibida: 
+2025-05-26 07:51:56 - Fecha recibida: 2025-05-26 07:52:01
+2025-05-26 07:51:56 - Hora inicio calculada: 07:51:58, Hora fin: 07:52:01
+2025-05-26 07:51:56 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba 1
+    [duracion] => 3
+    [fecha] => 2025-05-26 07:52:01
+    [id_usuario] => 1
+)
+
+2025-05-26 07:58:03 - Fecha recibida: 
+2025-05-26 07:58:42 - Fecha recibida: 2025-05-26 07:58:47
+2025-05-26 07:58:42 - Hora inicio calculada: 07:58:45, Hora fin: 07:58:47
+2025-05-26 07:58:42 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba manual modo
+    [duracion] => 2
+    [fecha] => 2025-05-26 07:58:47
+    [id_usuario] => 1
+)
+
+2025-05-26 07:58:50 - Fecha recibida: 
+2025-05-26 07:59:27 - Fecha recibida: 2025-05-26 07:59:32
+2025-05-26 07:59:27 - Hora inicio calculada: 07:59:26, Hora fin: 07:59:32
+2025-05-26 07:59:27 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => prueba manual modo
+    [duracion] => 6
+    [fecha] => 2025-05-26 07:59:32
+    [id_usuario] => 1
+)
+
+2025-05-26 07:59:31 - Fecha recibida: 
+2025-05-26 08:00:10 - Fecha recibida: 
+2025-05-26 08:41:00 - Fecha recibida: 
+2025-05-26 09:14:16 - Fecha recibida: 
+2025-05-26 09:14:26 - Fecha recibida: 
+2025-05-26 09:19:24 - Fecha recibida: 
+2025-05-26 09:23:53 - Fecha recibida: 
+2025-05-26 09:25:43 - Fecha recibida: 
+2025-05-26 09:35:11 - Fecha recibida: 
+2025-05-26 09:38:06 - Fecha recibida: 
+2025-05-26 09:41:01 - Fecha recibida: 
+2025-05-26 09:41:07 - Fecha recibida: 
+2025-05-26 09:45:58 - Fecha recibida: 
+2025-05-26 09:47:07 - Fecha recibida: 
+2025-05-26 09:49:12 - Fecha recibida: 
+2025-05-26 09:51:11 - Fecha recibida: 
+2025-05-26 09:52:21 - Fecha recibida: 
+2025-05-26 10:16:33 - Fecha recibida: 
+2025-05-26 10:16:47 - Fecha recibida: 2025-05-26 10:16:52
+2025-05-26 10:16:47 - Hora inicio calculada: 10:16:50, Hora fin: 10:16:52
+2025-05-26 10:16:47 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba4
+    [duracion] => 2
+    [fecha] => 2025-05-26 10:16:52
+    [id_usuario] => 1
+)
+
+2025-05-26 10:16:50 - Fecha recibida: 
+2025-05-26 10:28:36 - Fecha recibida: 
+2025-05-26 10:55:37 - Fecha recibida: 
+2025-05-26 10:56:14 - Fecha recibida: 2025-05-26 10:56:19
+2025-05-26 10:56:14 - Hora inicio calculada: 10:56:18, Hora fin: 10:56:19
+2025-05-26 10:56:14 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Pueba 1
+    [duracion] => 1
+    [fecha] => 2025-05-26 10:56:19
+    [id_usuario] => 1
+)
+
+2025-05-26 10:56:16 - Fecha recibida: 
+2025-05-26 11:01:37 - Fecha recibida: 
+2025-05-26 11:01:40 - Fecha recibida: 
+2025-05-26 11:08:11 - Fecha recibida: 
+2025-05-26 11:12:39 - Fecha recibida: 
+2025-05-26 11:13:14 - Fecha recibida: 
+2025-05-26 11:13:29 - Fecha recibida: 
+2025-05-26 11:14:50 - Fecha recibida: 
+2025-05-26 11:15:02 - Fecha recibida: 
+2025-05-26 11:15:17 - Fecha recibida: 
+2025-05-26 11:15:57 - Fecha recibida: 
+2025-05-26 11:16:23 - Fecha recibida: 
+2025-05-26 11:24:36 - Fecha recibida: 
+2025-05-26 11:25:34 - Fecha recibida: 
+2025-05-26 11:29:58 - Fecha recibida: 
+2025-05-26 11:30:36 - Fecha recibida: 
+2025-05-26 11:31:14 - Fecha recibida: 
+2025-05-26 11:31:42 - Fecha recibida: 
+2025-05-26 11:34:05 - Fecha recibida: 
+2025-05-26 11:34:14 - Fecha recibida: 
+2025-05-26 11:50:54 - Fecha recibida: 
+2025-05-26 11:51:34 - Fecha recibida: 2025-05-26 11:51:39
+2025-05-26 11:51:34 - Hora inicio calculada: 11:51:31, Hora fin: 11:51:39
+2025-05-26 11:51:34 - Insert exitoso: Array
+(
+    [cliente] => Cliente B
+    [actividad] => Diseno Web
+    [descripcion] => Prueba 2
+    [duracion] => 8
+    [fecha] => 2025-05-26 11:51:39
+    [id_usuario] => 1
+)
+
+2025-05-26 11:51:37 - Fecha recibida: 
+2025-05-26 11:53:52 - Fecha recibida: 
+2025-05-26 12:01:41 - Fecha recibida: 
+2025-05-26 12:03:35 - Fecha recibida: 
+2025-05-26 12:03:50 - Fecha recibida: 
+2025-05-26 12:04:52 - Fecha recibida: 
+2025-05-26 12:05:44 - Fecha recibida: 
+2025-05-26 12:08:53 - Fecha recibida: 
+2025-05-26 12:09:28 - Fecha recibida: 
+2025-05-26 12:09:40 - Fecha recibida: 
+2025-05-26 12:13:46 - Fecha recibida: 
+2025-05-26 12:14:23 - Fecha recibida: 
+2025-05-26 12:16:07 - Fecha recibida: 
+2025-05-26 12:16:19 - Fecha recibida: 
+2025-05-26 12:20:06 - Fecha recibida: 
+2025-05-26 12:20:17 - Fecha recibida: 
+2025-05-26 12:21:06 - Fecha recibida: 
+2025-05-26 12:23:49 - Fecha recibida: 
+2025-05-26 12:27:41 - Fecha recibida: 
+2025-05-26 12:28:50 - Fecha recibida: 
+2025-05-26 12:29:00 - Fecha recibida: 
+2025-05-26 12:31:06 - Fecha recibida: 
+2025-05-26 12:32:39 - Fecha recibida: 
+2025-05-26 12:34:17 - Fecha recibida: 
+2025-05-26 12:34:46 - Fecha recibida: 
+2025-05-26 12:36:01 - Fecha recibida: 
+2025-05-26 12:41:26 - Fecha recibida: 
+2025-05-26 12:47:56 - Fecha recibida: 
+2025-05-26 12:48:44 - Fecha recibida: 
+2025-05-26 12:50:40 - Fecha recibida: 
+2025-05-26 12:51:25 - Fecha recibida: 
+2025-05-26 12:51:37 - Fecha recibida: 
+2025-05-26 12:52:46 - Fecha recibida: 
+2025-05-26 12:53:35 - Fecha recibida: 
+2025-05-26 12:59:56 - Fecha recibida: 
+2025-05-26 13:02:01 - Fecha recibida: 
+2025-05-26 13:04:30 - Fecha recibida: 
+2025-05-26 13:06:52 - Fecha recibida: 
+2025-05-26 13:10:17 - Fecha recibida: 
+2025-05-26 13:11:06 - Fecha recibida: 
+2025-05-26 13:12:41 - Fecha recibida: 
+2025-05-26 13:15:00 - Fecha recibida: 
+2025-05-26 13:21:27 - Fecha recibida: 
+2025-05-26 13:21:30 - Fecha recibida: 
+2025-05-26 13:21:53 - Fecha recibida: 
+2025-05-26 13:22:41 - Fecha recibida: 
+2025-05-26 13:25:12 - Fecha recibida: 
+2025-05-26 13:27:03 - Fecha recibida: 
+2025-05-26 13:27:12 - Fecha recibida: 
+2025-05-26 13:28:28 - Fecha recibida: 
+2025-05-26 13:29:42 - Fecha recibida: 
+2025-05-26 13:30:08 - Fecha recibida: 
+2025-05-26 13:32:11 - Fecha recibida: 
+2025-05-26 13:35:11 - Fecha recibida: 
+2025-05-26 13:35:28 - Fecha recibida: 
+2025-05-26 13:36:58 - Fecha recibida: 
+2025-05-26 13:57:53 - Fecha recibida: 
+2025-05-26 14:26:29 - Fecha recibida: 
+2025-05-26 14:26:49 - Fecha recibida: 
+2025-05-26 14:27:28 - Fecha recibida: 
+2025-05-26 14:34:05 - Fecha recibida: 
+2025-05-26 14:35:46 - Fecha recibida: 2025-05-26 14:35:51
+2025-05-26 14:35:46 - Hora inicio calculada: 14:35:42, Hora fin: 14:35:51
+2025-05-26 14:35:46 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Soporte
+    [descripcion] => Test
+    [duracion] => 9
+    [fecha] => 2025-05-26 14:35:51
+    [id_usuario] => 1
+)
+
+2025-05-26 14:35:53 - Fecha recibida: 
+2025-05-26 14:42:50 - Fecha recibida: 
+2025-05-27 06:51:07 - Fecha recibida: 
+2025-05-27 06:58:39 - Fecha recibida: 
+2025-05-27 07:00:04 - Fecha recibida: 
+2025-05-27 07:05:08 - Fecha recibida: 
+2025-05-27 07:05:45 - Fecha recibida: 
+2025-05-27 07:10:54 - Fecha recibida: 
+2025-05-27 07:16:21 - Fecha recibida: 
+2025-05-27 07:16:34 - Fecha recibida: 
+2025-05-27 07:19:45 - Fecha recibida: 
+2025-05-27 07:21:55 - Fecha recibida: 
+2025-05-27 07:25:32 - Fecha recibida: 
+2025-05-27 07:26:18 - Fecha recibida: 2025-05-27 07:26:24
+2025-05-27 07:26:18 - Hora inicio calculada: 07:26:19, Hora fin: 07:26:24
+2025-05-27 07:26:18 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba 2
+    [duracion] => 5
+    [fecha] => 2025-05-27 07:26:24
+    [id_usuario] => 1
+    [cobrado] => 1
+)
+
+2025-05-27 07:26:20 - Fecha recibida: 
+2025-05-27 07:29:40 - Fecha recibida: 
+2025-05-27 07:33:55 - Fecha recibida: 
+2025-05-27 07:34:08 - Fecha recibida: 
+2025-05-27 07:34:54 - Fecha recibida: 2025-05-27 07:35:00
+2025-05-27 07:34:54 - Hora inicio calculada: 07:34:55, Hora fin: 07:35:00
+2025-05-27 07:34:54 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hola
+    [duracion] => 5
+    [fecha] => 2025-05-27 07:35:00
+    [id_usuario] => 1
+    [cobrado] => 1
+)
+
+2025-05-27 07:34:56 - Fecha recibida: 
+2025-05-27 07:40:00 - Fecha recibida: 
+2025-05-27 07:40:50 - Fecha recibida: 
+2025-05-27 07:43:14 - Fecha recibida: 
+2025-05-27 07:44:44 - Fecha recibida: 
+2025-05-27 07:46:05 - Fecha recibida: 
+2025-05-27 07:47:00 - Fecha recibida: 
+2025-05-27 07:48:32 - Fecha recibida: 
+2025-05-27 07:49:02 - Fecha recibida: 
+2025-05-27 07:49:28 - Fecha recibida: 
+2025-05-27 07:50:38 - Fecha recibida: 
+2025-05-27 07:55:50 - Fecha recibida: 
+2025-05-27 07:56:12 - Fecha recibida: 
+2025-05-27 07:58:31 - Fecha recibida: 
+2025-05-27 08:00:23 - Fecha recibida: 
+2025-05-27 08:02:21 - Fecha recibida: 
+2025-05-27 08:03:11 - Fecha recibida: 
+2025-05-27 08:03:59 - Fecha recibida: 
+2025-05-27 08:15:38 - Fecha recibida: 
+2025-05-27 08:16:34 - Fecha recibida: 
+2025-05-27 08:16:51 - Fecha recibida: 
+2025-05-27 08:16:59 - Fecha recibida: 
+2025-05-27 08:18:16 - Fecha recibida: 
+2025-05-27 08:18:31 - Fecha recibida: 
+2025-05-27 08:18:39 - Fecha recibida: 
+2025-05-27 08:18:47 - Fecha recibida: 
+2025-05-27 08:19:35 - Fecha recibida: 
+2025-05-27 08:24:29 - Fecha recibida: 
+2025-05-27 08:26:02 - Fecha recibida: 
+2025-05-27 08:28:12 - Fecha recibida: 
+2025-05-27 08:31:34 - Fecha recibida: 
+2025-05-27 08:35:05 - Fecha recibida: 
+2025-05-27 08:35:28 - Fecha recibida: 
+2025-05-27 08:35:54 - Fecha recibida: 
+2025-05-27 08:36:05 - Fecha recibida: 
+2025-05-27 08:36:22 - Fecha recibida: 
+2025-05-27 08:36:44 - Fecha recibida: 
+2025-05-27 08:36:52 - Fecha recibida: 
+2025-05-27 08:38:06 - Fecha recibida: 
+2025-05-27 08:38:10 - Fecha recibida: 
+2025-05-27 08:38:36 - Fecha recibida: 2025-05-27 08:38:42
+2025-05-27 08:38:36 - Hora inicio calculada: 08:38:37, Hora fin: 08:38:42
+2025-05-27 08:38:36 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba 3
+    [duracion] => 5
+    [fecha] => 2025-05-27 08:38:42
+    [id_usuario] => 1
+    [cobrado] => 1
+)
+
+2025-05-27 08:38:38 - Fecha recibida: 
+2025-05-27 08:43:17 - Fecha recibida: 
+2025-05-27 08:43:52 - Fecha recibida: 2025-05-27 08:43:57
+2025-05-27 08:43:52 - Hora inicio calculada: 08:43:53, Hora fin: 08:43:57
+2025-05-27 08:43:52 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hola2
+    [duracion] => 4
+    [fecha] => 2025-05-27 08:43:57
+    [id_usuario] => 1
+    [cobrado] => 1
+)
+
+2025-05-27 08:43:54 - Fecha recibida: 
+2025-05-27 08:45:18 - Fecha recibida: 
+2025-05-27 08:45:21 - Fecha recibida: 
+2025-05-27 08:45:40 - Fecha recibida: 
+2025-05-27 08:46:00 - Fecha recibida: 2025-05-27 08:46:06
+2025-05-27 08:46:00 - Hora inicio calculada: 08:46:01, Hora fin: 08:46:06
+2025-05-27 08:46:00 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Hola 2
+    [duracion] => 5
+    [fecha] => 2025-05-27 08:46:06
+    [id_usuario] => 1
+    [cobrado] => 1
+)
+
+2025-05-27 08:46:02 - Fecha recibida: 
+2025-05-27 08:57:13 - Fecha recibida: 
+2025-05-27 09:08:15 - Fecha recibida: 
+2025-05-27 09:09:00 - Fecha recibida: 
+2025-05-27 09:11:40 - Fecha recibida: 
+2025-05-27 09:18:21 - Fecha recibida: 
+2025-05-27 09:37:08 - Fecha recibida: 
+2025-05-27 09:37:26 - Fecha recibida: 
+2025-05-27 09:47:33 - Fecha recibida: 
+2025-05-27 09:48:31 - Fecha recibida: 
+2025-05-27 09:48:54 - Fecha recibida: 
+2025-05-27 09:49:28 - Fecha recibida: 
+2025-05-27 09:49:49 - Fecha recibida: 
+2025-05-27 09:56:27 - Fecha recibida: 
+2025-05-27 09:59:07 - Fecha recibida: 
+2025-05-27 10:00:32 - Fecha recibida: 
+2025-05-27 10:02:13 - Fecha recibida: 
+2025-05-27 10:03:38 - Fecha recibida: 
+2025-05-27 10:06:46 - Fecha recibida: 
+2025-05-27 10:07:03 - Fecha recibida: 
+2025-05-27 10:15:44 - Fecha recibida: 
+2025-05-27 10:16:20 - Fecha recibida: 
+2025-05-27 10:18:19 - Fecha recibida: 
+2025-05-27 10:21:20 - Fecha recibida: 
+2025-05-27 10:25:09 - Fecha recibida: 
+2025-05-27 10:25:47 - Fecha recibida: 
+2025-05-27 10:26:43 - Fecha recibida: 
+2025-05-27 10:27:10 - Fecha recibida: 
+2025-05-27 10:27:29 - Fecha recibida: 
+2025-05-27 10:27:48 - Fecha recibida: 
+2025-05-27 10:29:41 - Fecha recibida: 
+2025-05-27 10:30:06 - Fecha recibida: 
+2025-05-27 10:30:26 - Fecha recibida: 
+2025-05-27 10:31:00 - Fecha recibida: 
+2025-05-27 10:31:41 - Fecha recibida: 
+2025-05-27 10:31:53 - Fecha recibida: 
+2025-05-27 11:05:37 - Fecha recibida: 
+2025-05-27 11:05:53 - Fecha recibida: 
+2025-05-27 11:15:25 - Fecha recibida: 
+2025-05-27 11:16:05 - Fecha recibida: 
+2025-05-27 11:16:46 - Fecha recibida: 
+2025-05-27 11:22:50 - Fecha recibida: 
+2025-05-27 11:23:50 - Fecha recibida: 
+2025-05-27 11:24:12 - Fecha recibida: 
+2025-05-27 11:24:38 - Fecha recibida: 
+2025-05-27 11:25:09 - Fecha recibida: 
+2025-05-27 11:28:18 - Fecha recibida: 
+2025-05-28 12:05:19 - Fecha recibida: 
+2025-05-29 07:38:03 - Fecha recibida: 
+2025-05-29 07:38:16 - Fecha recibida: 2025-05-29 07:38:16
+2025-05-29 07:38:16 - Hora inicio calculada: 07:38:15, Hora fin: 07:38:16
+2025-05-29 07:38:16 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => hlla
+    [duracion] => 1
+    [fecha] => 2025-05-29 07:38:16
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-05-29 07:38:18 - Fecha recibida: 
+2025-05-29 07:38:27 - Fecha recibida: 
+2025-05-29 07:38:52 - Fecha recibida: 
+2025-05-29 07:55:33 - Fecha recibida: 
+2025-05-29 07:55:55 - Fecha recibida: 
+2025-05-29 08:00:54 - Fecha recibida: 
+2025-05-29 08:01:56 - Fecha recibida: 
+2025-05-29 08:16:13 - Fecha recibida: 
+2025-05-29 08:24:46 - Fecha recibida: 
+2025-05-29 08:39:40 - Fecha recibida: 
+2025-05-29 08:42:36 - Fecha recibida: 
+2025-05-29 09:14:11 - Fecha recibida: 
+2025-05-29 09:48:53 - Fecha recibida: 
+2025-05-29 10:29:50 - Fecha recibida: 
+2025-05-29 10:55:11 - Fecha recibida: 
+2025-05-29 11:09:48 - Fecha recibida: 
+2025-05-29 11:10:02 - Fecha recibida: 2025-05-29 11:10:03
+2025-05-29 11:10:02 - Hora inicio calculada: 11:09:58, Hora fin: 11:10:03
+2025-05-29 11:10:02 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba 1
+    [duracion] => 5
+    [fecha] => 2025-05-29 11:10:03
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-05-29 11:15:13 - Fecha recibida: 
+2025-05-29 11:17:04 - Fecha recibida: 
+2025-05-29 11:17:09 - Fecha recibida: 
+2025-05-29 11:26:20 - Fecha recibida: 
+2025-05-29 11:30:09 - Fecha recibida: 
+2025-05-29 11:30:19 - Fecha recibida: 
+2025-05-29 11:30:27 - Fecha recibida: 
+2025-05-29 11:30:34 - Fecha recibida: 
+2025-05-29 11:31:30 - Fecha recibida: 
+2025-05-29 11:32:16 - Fecha recibida: 
+2025-05-29 11:39:32 - Fecha recibida: 
+2025-05-29 11:39:47 - Fecha recibida: 
+2025-05-29 11:40:21 - Fecha recibida: 
+2025-05-29 11:40:56 - Fecha recibida: 2025-05-29 11:40:56
+2025-05-29 11:40:56 - Hora inicio calculada: 11:40:51, Hora fin: 11:40:56
+2025-05-29 11:40:56 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Soporte
+    [descripcion] => Prueba 2
+    [duracion] => 5
+    [fecha] => 2025-05-29 11:40:56
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-05-29 11:45:50 - Fecha recibida: 
+2025-05-29 11:46:40 - Fecha recibida: 
+2025-05-29 11:54:06 - Fecha recibida: 
+2025-05-29 11:56:47 - Fecha recibida: 
+2025-05-29 11:58:30 - Fecha recibida: 
+2025-05-29 12:00:09 - Fecha recibida: 
+2025-05-29 12:01:57 - Fecha recibida: 
+2025-05-29 12:07:34 - Fecha recibida: 
+2025-05-29 12:09:19 - Fecha recibida: 
+2025-05-29 12:53:02 - Fecha recibida: 
+2025-05-29 12:53:20 - Fecha recibida: 
+2025-05-29 13:04:08 - Fecha recibida: 
+2025-05-29 13:09:37 - Fecha recibida: 
+2025-05-29 13:11:28 - Fecha recibida: 2025-05-29 13:11:29
+2025-05-29 13:11:28 - Hora inicio calculada: 13:11:24, Hora fin: 13:11:29
+2025-05-29 13:11:28 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba 3
+    [duracion] => 5
+    [fecha] => 2025-05-29 13:11:29
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-05-29 13:12:43 - Fecha recibida: 
+2025-05-29 13:35:09 - Fecha recibida: 
+2025-05-29 13:58:42 - Fecha recibida: 
+2025-05-29 14:10:44 - Fecha recibida: 
+2025-05-29 15:29:43 - Fecha recibida: 
+2025-05-30 06:56:48 - Fecha recibida: 
+2025-05-30 06:57:37 - Fecha recibida: 
+2025-05-30 06:57:45 - Fecha recibida: 
+2025-05-30 06:57:47 - Fecha recibida: 
+2025-05-30 06:58:11 - Fecha recibida: 
+2025-05-30 06:58:28 - Fecha recibida: 
+2025-05-30 07:21:46 - Fecha recibida: 
+2025-05-30 07:24:34 - Fecha recibida: 
+2025-05-30 07:31:23 - Fecha recibida: 
+2025-05-30 07:40:40 - Fecha recibida: 
+2025-05-30 07:44:07 - Fecha recibida: 
+2025-05-30 07:45:11 - Fecha recibida: 
+2025-05-30 08:29:10 - Fecha recibida: 
+2025-05-30 08:40:04 - Fecha recibida: 
+2025-05-30 08:51:02 - Fecha recibida: 
+2025-05-30 09:00:19 - Fecha recibida: 
+2025-05-30 09:00:44 - Fecha recibida: 
+2025-05-30 12:05:58 - Fecha recibida: 
+2025-05-30 12:11:55 - Fecha recibida: 
+2025-05-30 12:15:50 - Fecha recibida: 
+2025-05-30 12:18:31 - Fecha recibida: 
+2025-05-30 12:20:11 - Fecha recibida: 
+2025-05-30 12:20:24 - Fecha recibida: 
+2025-05-30 12:21:17 - Fecha recibida: 2025-05-30 12:21:17
+2025-05-30 12:21:17 - Hora inicio calculada: 12:21:12, Hora fin: 12:21:17
+2025-05-30 12:21:17 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba 4
+    [duracion] => 5
+    [fecha] => 2025-05-30 12:21:17
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-05-30 12:31:36 - Fecha recibida: 
+2025-05-30 12:32:05 - Fecha recibida: 
+2025-05-30 12:32:28 - Fecha recibida: 
+2025-05-30 12:45:11 - Fecha recibida: 
+2025-05-30 12:49:28 - Fecha recibida: 
+2025-05-30 12:49:29 - Fecha recibida: 
+2025-05-30 14:04:37 - Fecha recibida: 
+2025-05-30 15:04:02 - Fecha recibida: 
+2025-06-03 07:56:13 - Fecha recibida: 
+2025-06-03 08:14:42 - Fecha recibida: 
+2025-06-03 08:45:26 - Fecha recibida: 
+2025-06-03 08:46:31 - Fecha recibida: 
+2025-06-03 08:55:09 - Fecha recibida: 
+2025-06-03 09:01:49 - Fecha recibida: 
+2025-06-03 09:02:04 - Fecha recibida: 
+2025-06-03 09:07:09 - Fecha recibida: 
+2025-06-03 09:39:11 - Fecha recibida: 
+2025-06-03 09:41:26 - Fecha recibida: 
+2025-06-03 09:59:12 - Fecha recibida: 
+2025-06-03 10:01:34 - Fecha recibida: 
+2025-06-03 10:01:45 - Fecha recibida: 
+2025-06-03 10:07:38 - Fecha recibida: 
+2025-06-03 10:07:41 - Fecha recibida: 
+2025-06-03 10:14:31 - Fecha recibida: 
+2025-06-03 10:14:43 - Fecha recibida: 
+2025-06-03 10:16:39 - Fecha recibida: 
+2025-06-03 10:16:49 - Fecha recibida: 
+2025-06-03 10:17:11 - Fecha recibida: 
+2025-06-03 10:21:47 - Fecha recibida: 
+2025-06-03 10:22:44 - Fecha recibida: 
+2025-06-03 10:25:42 - Fecha recibida: 
+2025-06-03 10:25:53 - Fecha recibida: 
+2025-06-03 10:27:22 - Fecha recibida: 
+2025-06-03 10:27:34 - Fecha recibida: 
+2025-06-03 10:31:27 - Fecha recibida: 
+2025-06-03 10:33:48 - Fecha recibida: 
+2025-06-03 10:34:17 - Fecha recibida: 2025-06-03 10:34:17
+2025-06-03 10:34:17 - Hora inicio calculada: 10:34:07, Hora fin: 10:34:17
+2025-06-03 10:34:17 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Reuniones
+    [descripcion] => Prueba 1
+    [duracion] => 10
+    [fecha] => 2025-06-03 10:34:17
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-06-03 10:34:55 - Fecha recibida: 
+2025-06-03 10:34:59 - Fecha recibida: 
+2025-06-03 10:37:04 - Fecha recibida: 
+2025-06-03 10:38:37 - Fecha recibida: 
+2025-06-03 11:26:51 - Fecha recibida: 
+2025-06-03 11:44:15 - Fecha recibida: 
+2025-06-03 11:50:43 - Fecha recibida: 

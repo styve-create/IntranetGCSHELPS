@@ -1,0 +1,133 @@
+
+
+2025-05-16 13:33:45 - 🔄 Iniciando proceso de actualización de ausencia
+2025-05-16 13:33:45 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => 1
+    [documento] => 1
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 19
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-05-01 - 2025-05-16
+    [observaciones] => 
+)
+
+2025-05-16 13:33:45 - 🔎 Buscando trabajador con documento: 1
+2025-05-16 13:33:45 - ✅ Trabajador encontrado - ID: 16
+2025-05-16 13:33:45 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-05-16 13:33:45 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-05-16 13:33:47 - ✔️ Datos insertados en la base de datos
+2025-05-16 13:36:34 - 🔄 Iniciando proceso de actualización de ausencia
+2025-05-16 13:36:34 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => 1
+    [documento] => 3
+    [email] => 1@gmail.com
+    [id_campana] => 9
+    [nombre_jefe] => Jennifer Manrique Rodriguez
+    [tipo_ausencia] => Vacaciones
+    [rango_fechas] => 2025-05-01 - 2025-05-16
+    [observaciones] => 1
+)
+
+2025-05-16 13:36:34 - 🔎 Buscando trabajador con documento: 3
+2025-05-16 13:36:34 - ✅ Trabajador encontrado - ID: 14
+2025-05-16 13:36:34 - 🔍 Buscando jefe por nombre: Jennifer Manrique Rodriguez
+2025-05-16 13:36:34 - ✅ Jefe encontrado - ID: 49, Email: 
+2025-05-16 13:36:34 - ✔️ Datos insertados en la base de datos
+2025-05-16 13:38:26 - 🔄 Iniciando proceso de actualización de ausencia
+2025-05-16 13:38:26 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => 1
+    [documento] => 1020798964
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 6
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-05-01 - 2025-05-16
+    [observaciones] => 
+)
+
+2025-05-16 13:38:26 - 🔎 Buscando trabajador con documento: 1020798964
+2025-05-16 13:38:26 - ✅ Trabajador encontrado - ID: 49
+2025-05-16 13:38:26 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-05-16 13:38:26 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-05-16 13:38:27 - ✔️ Datos insertados en la base de datos
+2025-05-21 10:30:37 - 🔄 Iniciando proceso de actualización de ausencia
+2025-05-21 10:30:37 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => 1
+    [documento] => 3
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 6
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-05-01 - 2025-05-08
+    [observaciones] => 1
+)
+
+2025-05-21 10:30:37 - 🔎 Buscando trabajador con documento: 3
+2025-05-21 10:30:37 - ✅ Trabajador encontrado - ID: 14
+2025-05-21 10:30:37 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-05-21 10:30:37 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-05-21 10:30:38 - ✔️ Datos insertados en la base de datos
+2025-05-21 11:33:55 - 🔄 Iniciando proceso de actualización de ausencia
+2025-05-21 11:33:55 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => 1
+    [documento] => 3
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 9
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-05-01 - 2025-05-08
+    [observaciones] => 1
+)
+
+2025-05-21 11:33:55 - 🔎 Buscando trabajador con documento: 3
+2025-05-21 11:33:55 - ✅ Trabajador encontrado - ID: 14
+2025-05-21 11:33:55 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-05-21 11:33:55 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-05-21 11:33:55 - ✔️ Comprobante guardado: 1000023152.jpg
+2025-05-21 11:33:59 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-05-21 11:40:21 - 🔄 Iniciando proceso de actualización de ausencia
+2025-05-21 11:40:21 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => 1
+    [documento] => 3
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 9
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-05-01 - 2025-05-08
+    [observaciones] => 1
+)
+
+2025-05-21 11:40:21 - 🔎 Buscando trabajador con documento: 3
+2025-05-21 11:40:21 - ✅ Trabajador encontrado - ID: 14
+2025-05-21 11:40:21 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-05-21 11:40:21 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-05-21 11:40:22 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-05-21 14:12:55 - 🔄 Iniciando proceso de actualización de ausencia
+2025-05-21 14:12:55 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => 1
+    [documento] => 3
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 9
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-05-01 - 2025-05-08
+    [observaciones] => 12
+)
+
+2025-05-21 14:12:55 - 🔎 Buscando trabajador con documento: 3
+2025-05-21 14:12:55 - ✅ Trabajador encontrado - ID: 14
+2025-05-21 14:12:55 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-05-21 14:12:55 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-05-21 14:12:55 - ✔️ Comprobante guardado: FORM-682e0073cbda2_1000023152.jpg
+2025-05-21 14:12:58 - ✔️ Datos insertados en la base de datos
