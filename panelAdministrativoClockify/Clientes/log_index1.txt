@@ -1,0 +1,29 @@
+2025-06-04 15:24:47 - >>> Inicio del script actualizar_actividad.php
+2025-06-04 15:24:47 - 📥 Raw JSON recibido: {"id":"2","nombre_actividad":"Prueba2","descripcion":"hola24","duracion":"1.00","precio":"10.00"}
+2025-06-04 15:24:47 - ✅ JSON decodificado: Array
+(
+    [id] => 2
+    [nombre_actividad] => Prueba2
+    [descripcion] => hola24
+    [duracion] => 1.00
+    [precio] => 10.00
+)
+
+2025-06-04 15:24:47 - ⏱️ Duración en horas: 1 => en segundos: 3600
+2025-06-04 15:24:47 - 📤 Ejecutando UPDATE en proyecto_actividad...
+2025-06-04 15:24:47 - ✅ UPDATE ejecutado con éxito
+2025-06-04 15:30:13 - >>> Inicio del script actualizar_actividad.php
+2025-06-04 15:30:13 - 📥 Raw JSON recibido: {"id":"2","nombre_actividad":"Prueba2","descripcion":"hola245","duracion":"1.00","precio":"10.00"}
+2025-06-04 15:30:13 - ✅ JSON decodificado: Array
+(
+    [id] => 2
+    [nombre_actividad] => Prueba2
+    [descripcion] => hola245
+    [duracion] => 1.00
+    [precio] => 10.00
+)
+
+2025-06-04 15:30:13 - ⏱️ Duración en horas: 1 => en segundos: 3600
+2025-06-04 15:30:13 - 🔗 id_actividad relacionado: 6
+2025-06-04 15:30:13 - ✅ UPDATE realizado en proyecto_actividad
+2025-06-04 15:30:13 - ✅ UPDATE realizado en actividades
