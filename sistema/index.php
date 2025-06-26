@@ -79,6 +79,9 @@ include_once(__DIR__ . '/../layout/parte1.php');
     <img src="<?php echo $URL; ?>/imagen/GCS3.png" alt="Logo GCS" class="img-fluid" style="max-width: 80%; height: auto;">
   </a>
   <hr style="border: 1px solid white; opacity: 0.3; margin-bottom: 20px;">
+  <a href="#" data-link="home" class="btn btn-outline-light w-100 mb-3 text-start enlaceDinamicos">
+  <i class="fas fa-home me-2"></i> Inicio
+</a>
 
 
 
@@ -121,7 +124,10 @@ include_once(__DIR__ . '/../layout/parte1.php');
         'icono' => 'fas fa-users',
         'id' => 'collapePanelAdministrativo',
         'items' => [
-          ['texto' => 'Projectos', 'icono' => 'fas fa-list', 'url' => 'Projectos'],
+          ['texto' => 'Clientes', 'icono' => 'fas fa-list', 'url' => 'Clientes'],
+           ['texto' => 'Reportes', 'icono' => 'fas fa-list', 'url' => 'reportes'],
+           ['texto' => 'Reportes OPS', 'icono' => 'fas fa-list', 'url' => 'reportesHoraios'],
+           ['texto' => 'facturas', 'icono' => 'fas fa-list', 'url' => 'facturas'],
           
         ],
       ],
@@ -206,8 +212,8 @@ include_once(__DIR__ . '/../layout/parte1.php');
         'icono' => 'fas fa-users',
         'id' => 'collapseUsuarios',
         'items' => [
-          ['texto' => 'Registro de Inventario', 'icono' => 'fas fa-list', 'url' => 'inventarioRegistro'],
-          ['texto' => 'Listado de Inventario', 'icono' => 'fas fa-user-plus', 'url' => 'listadoInventario'],
+          ['texto' => 'Registro de Inventario', 'icono' => 'fas fa-user-plus', 'url' => 'inventarioRegistro'],
+          ['texto' => 'Listado de Inventario', 'icono' => 'fas fa-list ', 'url' => 'listadoInventario'],
         ],
       ],
     [
@@ -439,7 +445,7 @@ if (idConexion) {
 </script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const pageInicial = 'informacionTrabajador'; // Página que quieres cargar al inicio
+  const pageInicial = 'home'; // Página que quieres cargar al inicio
 
   // Cargar automáticamente el contenido inicial
   const url = `/intranet/sistema/paginasdinamicas.php?page=${pageInicial}&ajax=1`;
@@ -487,14 +493,23 @@ document.addEventListener('DOMContentLoaded', function () {
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const contenedor = document.getElementById('contenido-dinamico');
+  
+ 
+  document.addEventListener('click', async function(e) {
+  const enlace = e.target.closest('.enlaceDinamicos');
+  if (!enlace) return;
+    e.preventDefault();
 
-  document.querySelectorAll('.enlaceDinamicos').forEach(link => {
-    link.addEventListener('click', async function (e) {
-      e.preventDefault();
-      const page = this.dataset.link;
-      if (!page) return;
+    // Leemos data-link y opcionalmente data-id
+    const page = enlace.dataset.link;
+    const id   = enlace.dataset.id;  
+    if (!page) return;
 
-      const url = `/intranet/sistema/paginasdinamicas.php?page=${page}&ajax=1`;
+    // Construimos URL con parámetros
+    const params = new URLSearchParams({ page, ajax: 1 });
+    if (id) params.append('id', id);
+
+      const url = `/intranet/sistema/paginasdinamicas.php?page=${page}&ajax=1`  + (id ? `&id=${id}` : '');
 
       try {
         const res = await fetch(url, {
@@ -503,7 +518,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         const html = await res.text();
-        console.log("🧩 HTML recibido desde el servidor:", html);
+        
         const tempDiv = document.createElement('div');
         tempDiv.innerHTML = html;
 
@@ -511,21 +526,43 @@ document.addEventListener('DOMContentLoaded', function () {
         contenedor.innerHTML = '';
         contenedor.appendChild(contenido);
 
-        // Ejecutar scripts embebidos
-   tempDiv.querySelectorAll('script').forEach(script => {
-  if (script.src) {
-    const nuevo = document.createElement('script');
-    nuevo.src = script.src;
-    nuevo.async = false; // 👈 muy importante para que se cargue en orden
-    nuevo.onload = () => console.log("✅ Script cargado:", nuevo.src);
-    nuevo.onerror = () => console.error("❌ Error al cargar script:", nuevo.src);
-    document.head.appendChild(nuevo); // 👈 usar HEAD en lugar de BODY
-  } else {
-    const nuevo = document.createElement('script');
-    nuevo.textContent = script.textContent;
-    document.body.appendChild(nuevo);
+        
+// Ejecutar scripts embebidos
+// 1) Separamos scripts externos e inline
+const externos = Array.from(tempDiv.querySelectorAll('script[src]'));
+const inlines  = Array.from(tempDiv.querySelectorAll('script:not([src])'));
+
+// 2) Función para cargar un script externo y saber cuándo terminó
+function cargarExterno(script) {
+  return new Promise((resolve, reject) => {
+    const s = document.createElement('script');
+    s.src = script.src;
+    s.async = false;       // mantiene el orden
+    s.onload  = () => resolve();
+    s.onerror = e => reject(e);
+    document.body.appendChild(s);
+  });
+}
+
+// 3) Primero cargamos TODOS los externos uno a uno, en serie
+(async () => {
+  for (let scr of externos) {
+    console.log('👉 Cargando externo', scr.src);
+    try {
+      await cargarExterno(scr);
+      console.log('✅ Externo cargado', scr.src);
+    } catch (e) {
+      console.error('❌ Falló al cargar externo', scr.src, e);
+    }
   }
-});
+  // 4) Sólo cuando TODOS los externos están listos, inyectamos los inline
+  inlines.forEach(script => {
+    const s = document.createElement('script');
+    s.textContent = script.textContent;
+    document.body.appendChild(s);
+    console.log('🖋️ Inline ejecutado');
+  });
+})();
 
         // Agregar estilos si los hay
         tempDiv.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
@@ -535,7 +572,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         // Actualizar URL
-        history.pushState(null, '', `index.php?page=${page}`);
+       history.pushState(null, '', `index.php?page=${page}${id ? `&id=${id}` : ''}`);
 
       } catch (err) {
         console.error("❌ Error cargando página dinámica:", err);
@@ -549,10 +586,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(location.search);
     const page = params.get('page');
     if (page) {
+      
       document.querySelector(`[data-link="${page}"]`)?.click();
     }
   });
-});
+  
+
 </script>
 <?php
 include_once(__DIR__ . '/../layout/parte2.php');

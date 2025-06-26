@@ -142,7 +142,7 @@ $campanas = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <input type="email" name="email" class="form-control" required>
             </div>
             <div class="mb-3">
-                <label class="form-label">Campaña - (Account)</label>
+                <label class="form-label">Proyectos - (Account)</label>
                 <select name="id_campana" id="campana" class="form-select" required>
                     <option value="">Selecciona una campaña</option>
                     <?php foreach ($campanas as $campana): ?>
@@ -160,7 +160,7 @@ $campanas = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </div>
            <div class="mb-3">
     <label class="form-label">Tipo de Ausencia - (Request type)</label>
-    <select name="tipo_ausencia" class="form-select" required>
+    <select id="tipoAusencia" name="tipo_ausencia" class="form-select" required>
         <option value="">Selecciona una opción</option>
         <option value="Citas medicas">Citas médicas</option>
         <option value="Licencia no remunerada - Permiso personal">Licencia no remunerada - Permiso personal</option>
@@ -173,6 +173,13 @@ $campanas = $stmt->fetchAll(PDO::FETCH_ASSOC);
         <option value="Dia de la familia">Día de la familia</option>
         <option value="Trabajo desde casa">Solicitud de trabajo desde casa</option>
     </select>
+</div>
+<div id="vacacionesSection" class="mb-3" style="display: none;">
+  <label class="form-label">Listado de Tareas (Vacaciones)</label>
+  <div id="vacacionesTasksContainer"></div>
+  <button type="button" id="addVacacionTask" class="btn btn-outline-secondary btn-sm mb-2">
+    <i class="bi bi-plus-circle"></i> Agregar tarea
+  </button>
 </div>
             <div class="row g-3">
                 <div class="mb-3">
@@ -199,7 +206,56 @@ $campanas = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </div>
 
 <script>
+
 $(document).ready(function () {
+          let vacaIndex = 0;
+
+  // Plantilla de fila de tarea
+  function makeVacacionTaskRow(idx) {
+    return `
+      <div class="vacation-task-row input-group mb-2" data-index="${idx}">
+        <input type="text"
+               name="vacaciones_tareas[${idx}][tarea]"
+               class="form-control"
+               placeholder="Tarea" required>
+        <input type="text"
+               name="vacaciones_tareas[${idx}][responsable]"
+               class="form-control"
+               placeholder="Responsable" required>
+        <input type="date"
+               name="vacaciones_tareas[${idx}][fecha]"
+               class="form-control" required>
+        <button type="button" class="btn btn-outline-danger remove-task">
+          <i class="bi bi-dash-circle"></i>
+        </button>
+      </div>`;
+  }
+
+  // 1) Toggle sección al cambiar el select
+  $('#tipoAusencia').on('change', function(){
+    if (this.value === 'Vacaciones') {
+      $('#vacacionesSection').show();
+      // si no hay filas, agregamos una inicial
+      if (!$('#vacacionesTasksContainer .vacation-task-row').length) {
+        $('#vacacionesTasksContainer').append(makeVacacionTaskRow(vacaIndex++));
+      }
+    } else {
+      // al ocultar limpiamos filas y reset index
+      $('#vacacionesSection').hide().find('#vacacionesTasksContainer').empty();
+      vacaIndex = 0;
+    }
+  });
+
+  // 2) “Agregar tarea”
+  $('#addVacacionTask').on('click', function(){
+    $('#vacacionesTasksContainer').append(makeVacacionTaskRow(vacaIndex++));
+  });
+
+  // 3) Delegación para remover fila
+  $('#vacacionesTasksContainer').on('click', '.remove-task', function(){
+    $(this).closest('.vacation-task-row').remove();
+  });
+  
  $('#campana').on('change', function () {
     let id_campana = $(this).val();
     let documento = $('input[name="documento"]').val(); // obtener el documento ingresado

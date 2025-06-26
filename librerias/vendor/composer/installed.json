@@ -81,6 +81,66 @@
         ]
     },
     {
+        "name": "dompdf/dompdf",
+        "version": "v2.0.8",
+        "version_normalized": "2.0.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dompdf/dompdf.git",
+            "reference": "c20247574601700e1f7c8dab39310fca1964dc52"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dompdf/dompdf/zipball/c20247574601700e1f7c8dab39310fca1964dc52",
+            "reference": "c20247574601700e1f7c8dab39310fca1964dc52",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-mbstring": "*",
+            "masterminds/html5": "^2.0",
+            "phenx/php-font-lib": ">=0.5.4 <1.0.0",
+            "phenx/php-svg-lib": ">=0.5.2 <1.0.0",
+            "php": "^7.1 || ^8.0"
+        },
+        "require-dev": {
+            "ext-json": "*",
+            "ext-zip": "*",
+            "mockery/mockery": "^1.3",
+            "phpunit/phpunit": "^7.5 || ^8 || ^9",
+            "squizlabs/php_codesniffer": "^3.5"
+        },
+        "suggest": {
+            "ext-gd": "Needed to process images",
+            "ext-gmagick": "Improves image processing performance",
+            "ext-imagick": "Improves image processing performance",
+            "ext-zlib": "Needed for pdf stream compression"
+        },
+        "time": "2024-04-29T13:06:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dompdf\\": "src/"
+            },
+            "classmap": [
+                "lib/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "The Dompdf Community",
+                "homepage": "https://github.com/dompdf/dompdf/blob/master/AUTHORS.md"
+            }
+        ],
+        "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
+        "homepage": "https://github.com/dompdf/dompdf"
+    },
+    {
         "name": "maennchen/zipstream-php",
         "version": "3.1.1",
         "version_normalized": "3.1.1.0",
@@ -267,18 +327,309 @@
         }
     },
     {
-        "name": "phpoffice/math",
-        "version": "0.2.0",
-        "version_normalized": "0.2.0.0",
+        "name": "masterminds/html5",
+        "version": "2.9.0",
+        "version_normalized": "2.9.0.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/PHPOffice/Math.git",
-            "reference": "fc2eb6d1a61b058d5dac77197059db30ee3c8329"
+            "url": "https://github.com/Masterminds/html5-php.git",
+            "reference": "f5ac2c0b0a2eefca70b2ce32a5809992227e75a6"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/PHPOffice/Math/zipball/fc2eb6d1a61b058d5dac77197059db30ee3c8329",
-            "reference": "fc2eb6d1a61b058d5dac77197059db30ee3c8329",
+            "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/f5ac2c0b0a2eefca70b2ce32a5809992227e75a6",
+            "reference": "f5ac2c0b0a2eefca70b2ce32a5809992227e75a6",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.8.35 || ^5.7.21 || ^6 || ^7 || ^8 || ^9"
+        },
+        "time": "2024-03-31T07:05:07+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Masterminds\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matt Butcher",
+                "email": "technosophos@gmail.com"
+            },
+            {
+                "name": "Matt Farina",
+                "email": "matt@mattfarina.com"
+            },
+            {
+                "name": "Asmir Mustafic",
+                "email": "goetas@gmail.com"
+            }
+        ],
+        "description": "An HTML5 parser and serializer.",
+        "homepage": "http://masterminds.github.io/html5-php",
+        "keywords": [
+            "HTML5",
+            "dom",
+            "html",
+            "parser",
+            "querypath",
+            "serializer",
+            "xml"
+        ]
+    },
+    {
+        "name": "npm-asset/bootstrap",
+        "version": "5.3.6",
+        "version_normalized": "5.3.6.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.6.tgz"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "npm-asset/bootstrap-icons",
+        "version": "1.13.1",
+        "version_normalized": "1.13.1.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/bootstrap-icons/-/bootstrap-icons-1.13.1.tgz"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "npm-asset/chart.js",
+        "version": "4.4.9",
+        "version_normalized": "4.4.9.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/chart.js/-/chart.js-4.4.9.tgz"
+        },
+        "require": {
+            "npm-asset/kurkle--color": ">=0.3.0,<0.4.0"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "npm-asset/chartjs-plugin-datalabels",
+        "version": "2.2.0",
+        "version_normalized": "2.2.0.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/chartjs-plugin-datalabels/-/chartjs-plugin-datalabels-2.2.0.tgz"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "npm-asset/datatables.net",
+        "version": "1.13.11",
+        "version_normalized": "1.13.11.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/datatables.net/-/datatables.net-1.13.11.tgz"
+        },
+        "require": {
+            "npm-asset/jquery": ">=1.8,<5.0"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "npm-asset/datatables.net-bs5",
+        "version": "1.13.11",
+        "version_normalized": "1.13.11.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/datatables.net-bs5/-/datatables.net-bs5-1.13.11.tgz"
+        },
+        "require": {
+            "npm-asset/datatables.net": "1.13.11",
+            "npm-asset/jquery": ">=1.8,<5.0"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "npm-asset/jquery",
+        "version": "3.7.1",
+        "version_normalized": "3.7.1.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "npm-asset/kurkle--color",
+        "version": "0.3.2",
+        "version_normalized": "0.3.2.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/@kurkle/color/-/color-0.3.2.tgz"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "npm-asset/sweetalert2",
+        "version": "11.19.1",
+        "version_normalized": "11.19.1.0",
+        "dist": {
+            "type": "tar",
+            "url": "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.19.1.tgz"
+        },
+        "type": "npm-asset",
+        "installation-source": "dist",
+        "license": [
+            "MIT"
+        ]
+    },
+    {
+        "name": "phenx/php-font-lib",
+        "version": "0.5.6",
+        "version_normalized": "0.5.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dompdf/php-font-lib.git",
+            "reference": "a1681e9793040740a405ac5b189275059e2a9863"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dompdf/php-font-lib/zipball/a1681e9793040740a405ac5b189275059e2a9863",
+            "reference": "a1681e9793040740a405ac5b189275059e2a9863",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*"
+        },
+        "require-dev": {
+            "symfony/phpunit-bridge": "^3 || ^4 || ^5 || ^6"
+        },
+        "time": "2024-01-29T14:45:26+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "FontLib\\": "src/FontLib"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Ménager",
+                "email": "fabien.menager@gmail.com"
+            }
+        ],
+        "description": "A library to read, parse, export and make subsets of different types of font files.",
+        "homepage": "https://github.com/PhenX/php-font-lib",
+        "support": {
+            "issues": "https://github.com/dompdf/php-font-lib/issues",
+            "source": "https://github.com/dompdf/php-font-lib/tree/0.5.6"
+        }
+    },
+    {
+        "name": "phenx/php-svg-lib",
+        "version": "0.5.4",
+        "version_normalized": "0.5.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dompdf/php-svg-lib.git",
+            "reference": "46b25da81613a9cf43c83b2a8c2c1bdab27df691"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dompdf/php-svg-lib/zipball/46b25da81613a9cf43c83b2a8c2c1bdab27df691",
+            "reference": "46b25da81613a9cf43c83b2a8c2c1bdab27df691",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": "^7.1 || ^8.0",
+            "sabberworm/php-css-parser": "^8.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^7.5 || ^8.5 || ^9.5"
+        },
+        "time": "2024-04-08T12:52:34+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Svg\\": "src/Svg"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Ménager",
+                "email": "fabien.menager@gmail.com"
+            }
+        ],
+        "description": "A library to read, parse and export to PDF SVG files.",
+        "homepage": "https://github.com/PhenX/php-svg-lib"
+    },
+    {
+        "name": "phpoffice/math",
+        "version": "0.3.0",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPOffice/Math.git",
+            "reference": "fc31c8f57a7a81f962cbf389fd89f4d9d06fc99a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPOffice/Math/zipball/fc31c8f57a7a81f962cbf389fd89f4d9d06fc99a",
+            "reference": "fc31c8f57a7a81f962cbf389fd89f4d9d06fc99a",
             "shasum": ""
         },
         "require": {
@@ -290,7 +641,7 @@
             "phpstan/phpstan": "^0.12.88 || ^1.0.0",
             "phpunit/phpunit": "^7.0 || ^9.0"
         },
-        "time": "2024-08-12T07:30:45+00:00",
+        "time": "2025-05-29T08:31:49+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -314,21 +665,25 @@
             "MathML",
             "officemathml",
             "php"
-        ]
+        ],
+        "support": {
+            "issues": "https://github.com/PHPOffice/Math/issues",
+            "source": "https://github.com/PHPOffice/Math/tree/0.3.0"
+        }
     },
     {
         "name": "phpoffice/phpspreadsheet",
-        "version": "4.1.0",
-        "version_normalized": "4.1.0.0",
+        "version": "4.3.1",
+        "version_normalized": "4.3.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-            "reference": "6ff18c3a8df3a945492f75ce455d77f7ad55dd5c"
+            "reference": "d0ac70d610fb62ccad38c2696569ae1ad42acc70"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/6ff18c3a8df3a945492f75ce455d77f7ad55dd5c",
-            "reference": "6ff18c3a8df3a945492f75ce455d77f7ad55dd5c",
+            "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/d0ac70d610fb62ccad38c2696569ae1ad42acc70",
+            "reference": "d0ac70d610fb62ccad38c2696569ae1ad42acc70",
             "shasum": ""
         },
         "require": {
@@ -361,8 +716,9 @@
             "mitoteam/jpgraph": "^10.3",
             "mpdf/mpdf": "^8.1.1",
             "phpcompatibility/php-compatibility": "^9.3",
-            "phpstan/phpstan": "^1.1",
-            "phpstan/phpstan-phpunit": "^1.0",
+            "phpstan/phpstan": "^1.1 || ^2.0",
+            "phpstan/phpstan-deprecation-rules": "^1.0 || ^2.0",
+            "phpstan/phpstan-phpunit": "^1.0 || ^2.0",
             "phpunit/phpunit": "^10.5",
             "squizlabs/php_codesniffer": "^3.7",
             "tecnickcom/tcpdf": "^6.5"
@@ -374,7 +730,7 @@
             "mpdf/mpdf": "Option for rendering PDF with PDF Writer",
             "tecnickcom/tcpdf": "Option for rendering PDF with PDF Writer"
         },
-        "time": "2025-03-02T06:52:24+00:00",
+        "time": "2025-05-26T18:51:08+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -420,52 +776,51 @@
         ],
         "support": {
             "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-            "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/4.1.0"
+            "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/4.3.1"
         }
     },
     {
         "name": "phpoffice/phpword",
-        "version": "1.3.0",
-        "version_normalized": "1.3.0.0",
+        "version": "1.4.0",
+        "version_normalized": "1.4.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/PHPOffice/PHPWord.git",
-            "reference": "8392134ce4b5dba65130ba956231a1602b848b7f"
+            "reference": "6d75328229bc93790b37e93741adf70646cea958"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/PHPOffice/PHPWord/zipball/8392134ce4b5dba65130ba956231a1602b848b7f",
-            "reference": "8392134ce4b5dba65130ba956231a1602b848b7f",
+            "url": "https://api.github.com/repos/PHPOffice/PHPWord/zipball/6d75328229bc93790b37e93741adf70646cea958",
+            "reference": "6d75328229bc93790b37e93741adf70646cea958",
             "shasum": ""
         },
         "require": {
             "ext-dom": "*",
+            "ext-gd": "*",
             "ext-json": "*",
             "ext-xml": "*",
+            "ext-zip": "*",
             "php": "^7.1|^8.0",
-            "phpoffice/math": "^0.2"
+            "phpoffice/math": "^0.3"
         },
         "require-dev": {
-            "dompdf/dompdf": "^2.0",
-            "ext-gd": "*",
+            "dompdf/dompdf": "^2.0 || ^3.0",
             "ext-libxml": "*",
-            "ext-zip": "*",
             "friendsofphp/php-cs-fixer": "^3.3",
-            "mpdf/mpdf": "^8.1",
+            "mpdf/mpdf": "^7.0 || ^8.0",
             "phpmd/phpmd": "^2.13",
-            "phpstan/phpstan-phpunit": "@stable",
+            "phpstan/phpstan": "^0.12.88 || ^1.0.0",
+            "phpstan/phpstan-phpunit": "^1.0 || ^2.0",
             "phpunit/phpunit": ">=7.0",
             "symfony/process": "^4.4 || ^5.0",
             "tecnickcom/tcpdf": "^6.5"
         },
         "suggest": {
             "dompdf/dompdf": "Allows writing PDF",
-            "ext-gd2": "Allows adding images",
             "ext-xmlwriter": "Allows writing OOXML and ODF",
-            "ext-xsl": "Allows applying XSL style sheet to headers, to main document part, and to footers of an OOXML template",
-            "ext-zip": "Allows writing OOXML and ODF"
+            "ext-xsl": "Allows applying XSL style sheet to headers, to main document part, and to footers of an OOXML template"
         },
-        "time": "2024-08-30T18:03:42+00:00",
+        "time": "2025-06-05T10:32:36+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -475,7 +830,7 @@
         },
         "notification-url": "https://packagist.org/downloads/",
         "license": [
-            "LGPL-3.0"
+            "LGPL-3.0-only"
         ],
         "authors": [
             {
@@ -528,7 +883,11 @@
             "template processor",
             "word",
             "writer"
-        ]
+        ],
+        "support": {
+            "issues": "https://github.com/PHPOffice/PHPWord/issues",
+            "source": "https://github.com/PHPOffice/PHPWord/tree/1.4.0"
+        }
     },
     {
         "name": "psr/http-client",
@@ -747,6 +1106,73 @@
         ],
         "support": {
             "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
+        }
+    },
+    {
+        "name": "sabberworm/php-css-parser",
+        "version": "v8.8.0",
+        "version_normalized": "8.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
+            "reference": "3de493bdddfd1f051249af725c7e0d2c38fed740"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/3de493bdddfd1f051249af725c7e0d2c38fed740",
+            "reference": "3de493bdddfd1f051249af725c7e0d2c38fed740",
+            "shasum": ""
+        },
+        "require": {
+            "ext-iconv": "*",
+            "php": "^5.6.20 || ^7.0.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41"
+        },
+        "suggest": {
+            "ext-mbstring": "for parsing UTF-8 CSS"
+        },
+        "time": "2025-03-23T17:59:05+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-main": "9.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Sabberworm\\CSS\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Raphael Schweikert"
+            },
+            {
+                "name": "Oliver Klee",
+                "email": "github@oliverklee.de"
+            },
+            {
+                "name": "Jake Hotson",
+                "email": "jake.github@qzdesign.co.uk"
+            }
+        ],
+        "description": "Parser for CSS Files written in PHP",
+        "homepage": "https://www.sabberworm.com/blog/2010/6/10/php-css-parser",
+        "keywords": [
+            "css",
+            "parser",
+            "stylesheet"
+        ],
+        "support": {
+            "issues": "https://github.com/MyIntervals/PHP-CSS-Parser/issues",
+            "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.8.0"
         }
     }
 ]

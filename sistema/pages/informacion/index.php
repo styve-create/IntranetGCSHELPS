@@ -58,8 +58,8 @@ if (!isset($_GET['ajax']) || $_GET['ajax'] != '1') {
 
 ?>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="<?php echo $URL; ?>/librerias/vendor/npm-asset/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap-icons/font/bootstrap-icons.css">
 <style>
   .gradient-custom {
     background: #f6d365;
@@ -72,48 +72,65 @@ if (!isset($_GET['ajax']) || $_GET['ajax'] != '1') {
     border-radius: 50%;
   }
 
- .anuncio-card {
-  width: 100%;
-  max-width: 540px;
-  height: 370px; 
-  margin: 0 auto;
+.ladoDerecho {
   display: flex;
   flex-direction: column;
-  border-radius: .5rem;
-  overflow: hidden;
-  
-  max-height: 370px;
-  
+  height: 100vh;         /* o la altura que necesites */
 }
 
-.cardbody1 {
+.carruselAnuncios{
+ padding: 10px;
+  flex: 50%;   
+}
+.certificados {
+padding: 10px;
+  flex: 50%;
+}
+
+/* 1) Tarjeta fija */
+.anuncio-card {
   display: flex;
-  height: 240px;
+  flex-direction: column;
+  height: 370px;
   overflow: hidden;
 }
 
-.cardbody1 .col-md-4 {
-  width: 240px;
-  height: 240px;
+/* Header y footer fijos */
+.anuncio-card .card-header,
+.anuncio-card .card-footer {
   flex-shrink: 0;
-  overflow: hidden;
-  padding: 0;
 }
 
-.cardbody1 .col-md-8 {
-  flex-grow: 1;
-  height: 240px;
-  padding: 0.75rem;
+/* 2) Cuerpo: un solo flex-container */
+.anuncio-card .cardbody1 {
+  display: flex;
+  flex: 1 1 auto;
+  overflow: hidden;
+  min-height: 0; /* importante para que clippee bien */
+}
+
+/* 3) Columna imagen: ancho fijo */
+.anuncio-card .image-col {
+  flex: 0 0 240px;     /* aquí defines un ancho fijo */
+  height: 100%;
+  overflow: hidden;
+}
+
+/* 4) Columna texto: rellena todo lo que queda */
+.anuncio-card .text-col {
+  flex: 1 1 auto;
+  height: 100%;
   overflow-y: auto;
 }
 
+/* 5) Imagen ocupa todo su contenedor */
 .anuncioImg {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: .5rem 0 0 .5rem;
   display: block;
 }
+
 
 .card-body {
   flex-grow: 1;
@@ -160,133 +177,44 @@ if (!isset($_GET['ajax']) || $_GET['ajax'] != '1') {
 </style>
 
 <div id="contenido-principal">
-<div class="card shadow-sm w-100" style="border-radius: .5rem;">
+<div class="container d-flex justify-content-center my-4">
+  <div class="card shadow-sm w-100" style="max-width: 960px;">
     <div class="row g-0">
-        <!-- Lado izquierdo: Información del trabajador -->
-        <div class="col-md-4 bg-light text-dark d-flex flex-column align-items-center justify-content-center p-3">
-            <div class="position-relative d-inline-block text-black-50 bg-white p-2 rounded-circle mb-2"
-                style="width: 190px; height: 190px; display: flex; align-items: center; justify-content: center;">
-                <img id="profile-img-preview"
-                     src="<?= $URL . htmlspecialchars($trabajador['foto_perfil']) ?>"
-                     class="img-fluid rounded-circle anuncioImg cursor-zoom"
-                     data-bs-toggle="modal" data-bs-target="#modalImagenAnuncio"
-                      onclick="ampliarImagen(this)"
-                     style="width: 170px; height: 170px; object-fit: cover;"
-                     alt="Foto de perfil">
-
-                <label for="upload-photo"
-                       class="btn btn-light position-absolute bottom-0 end-0 m-2 d-flex align-items-center justify-content-center shadow"
-                       style="width: 40px; height: 40px; border-radius: 50%; cursor: pointer;">
-                    <i class="bi bi-camera"></i>
-                    <input type="file" id="upload-photo" name="foto" class="d-none" accept="image/*">
-                </label>
-            </div>
-
-            <h5><?= htmlspecialchars($trabajador['nombre_completo']) ?></h5>
-            <p><?= htmlspecialchars($trabajador['cargo_certificado'] ?? '') ?></p>
-
-            <div class="card-body p-2 bg-white border rounded">
-                <p class="text-muted mb-0"><strong>Documento: </strong><?= htmlspecialchars($trabajador['numero_documento']) ?></p>
-                <p class="text-muted mb-0"><strong>Teléfono: </strong><?= htmlspecialchars($trabajador['celular']) ?></p>
-                <p class="text-muted mb-0"><strong>Email: </strong><?= htmlspecialchars($trabajador['email']) ?></p>
-                <p class="text-muted mb-0"><strong>RH+: </strong><?= htmlspecialchars($trabajador['grupo_sanguineo']) ?></p>
-                <p class="text-muted mb-0"><strong>Dirección: </strong><?= htmlspecialchars($trabajador['domicilio']) ?></p>
-                <p class="text-muted mb-0"><strong>Contacto Emergencia: </strong><?= htmlspecialchars($trabajador['nombre_contacto_emergencia']) ?></p>
-                <p class="text-muted mb-0"><strong>Tel. Emergencia: </strong><?= htmlspecialchars($trabajador['numero_contacto_emergencia']) ?></p>
-                <p class="text-muted mb-0"><strong>EPS: </strong><?= htmlspecialchars($trabajador['eps']) ?></p>
-            </div>
+      <!-- Menú lateral -->
+      <div class="col-md-4 border-end bg-light p-3">
+        <h5 class="mb-3"><strong>Datos Personales</strong></h5>
+        <div class="nav flex-column nav-pills" id="v-tabs" role="tablist">
+          <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#perfil" type="button">Mi perfil</button>
+          <button class="nav-link" data-bs-toggle="pill" data-bs-target="#Documentos" type="button">Documentos</button>
         </div>
+      </div>
 
-        <!-- Lado derecho: Carrusel y certificados -->
-        <div class="col-md-8">
-            <div id="carruselAnuncios" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
-                <div class="carousel-inner">
-                    <?php if (count($items) === 0): ?>
-                        <div class="carousel-item active">
-                            <div class="card anuncio-card shadow-sm d-flex flex-column text-center justify-content-center align-items-center">
-                                <div class="card-body">
-                                    <h5 class="text-muted">📭 No hay anuncios disponibles</h5>
-                                    <p class="text-muted">Vuelve pronto para ver nuevos anuncios corporativos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    <?php else: ?>
-                        <?php foreach ($items as $index => $item): ?>
-                            <?php
-                            $tieneImagen = !empty($item['imagen_url']);
-                            $ruta_imagen = $tieneImagen ? $URL . $item['imagen_url'] : null;
-                            $isActive = $index === 0 ? 'active' : '';
-                            ?>
-                            <div class="carousel-item <?= $isActive ?>">
-                                <div class="card anuncio-card shadow-sm d-flex flex-column">
-                                    <div class="card-header text-center bg-primary text-white">📢 Anuncio Corporativo</div>
-
-                                    <?php if ($tieneImagen): ?>
-                                        <div class="row g-0 flex-grow-1 cardbody1">
-                                            <div class="col-md-4">
-                                                <img src="<?= $ruta_imagen ?>"
-                                                 class="img-fluid anuncioImg cursor-zoom"
-                                                 onclick="ampliarImagen(this)"
-                                                 alt="Anuncio">
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="card-body">
-                                                    <h5 class="card-title"><?= htmlspecialchars($item['titulo']) ?></h5>
-                                                    <p class="card-text"><?= enlazarTexto($item['descripcion']) ?></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php else: ?>
-                                        <div class="row g-0 flex-grow-1 cardbody2">
-                                            <div class="col-md-12 d-flex align-items-center justify-content-center">
-                                                <div class="card-body text-center">
-                                                    <h5 class="card-title"><?= htmlspecialchars($item['titulo']) ?></h5>
-                                                    <p class="card-text"><?= enlazarTexto($item['descripcion']) ?></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php endif; ?>
-
-                                    <div class="card-footer text-muted text-center">
-                                        🕒 Publicado: <?= date("d M Y", strtotime($item['creado_en'] ?? 'now')) ?>
-                                    </div>
-                                </div>
-                            </div>
-                        <?php endforeach; ?>
-                    <?php endif; ?>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carruselAnuncios" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carruselAnuncios" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </button>
-            </div>
-
-            <div class="card-body p-4 bg-white border rounded mt-3">
-                <h6>Documentos disponibles</h6>
-                <form id="form-certificados" method="POST" action="generar_certificados.php">
-                    <input type="hidden" name="documento" value="<?= htmlspecialchars($trabajador['numero_documento']) ?>">
-                    <label><input type="checkbox" name="certificados[]" value="Certificacion_ACTIVO_GCS.docx"> Certificación ACTIVO GCS</label><br>
-                    <label><input type="checkbox" name="certificados[]" value="Certificacion_RETIRO_GCS.docx"> Certificación RETIRO GCS</label><br>
-                    <button type="submit" class="btn btn-primary btn-sm mt-2"><i class="bi bi-download"></i> Descargar certificados</button>
-                </form>
-                <div id="status-certificados" class="mt-2"></div>
-            </div>
+      <!-- Contenido -->
+      <div class="col-md-8 p-4">
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="perfil">
+            <?php include 'tab_perfil.php'; ?>
+          </div>
+          <div class="tab-pane fade" id="Documentos">
+            <?php include 'tab_Documentos.php'; ?>
+          </div>
         </div>
-    </div>
-</div>
-
-<!-- Modal de imagen ampliada -->
-<div class="modal fade" id="modalImagenAnuncio" tabindex="-1" aria-labelledby="modalImagenLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" >
-    <div class="modal-content">
-      <div class="modal-body p-0">
-        <img id="imagenAmpliada" src="" class="img-fluid  rounded" alt="Imagen ampliada">
       </div>
     </div>
   </div>
-</div>    
+</div>
+  
+
+    <!-- Modal de imagen ampliada -->
+    <div class="modal fade" id="modalImagenAnuncio" tabindex="-1" aria-labelledby="modalImagenLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" >
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <img id="imagenAmpliada" src="" class="img-fluid  rounded" alt="Imagen ampliada">
+          </div>
+        </div>
+      </div>
+    </div>    
     
 </div>
         
@@ -320,13 +248,15 @@ if (!isset($_GET['ajax']) || $_GET['ajax'] != '1') {
     body: formData
   })
   .then(res => res.json())
-  .then(data => {
-    if (data.success) {
-      document.getElementById('profile-img-preview').src = data.ruta;
-    } else {
-      alert(data.message || 'Error al subir imagen');
-    }
-  })
+ .then(data => {
+  if (data.success) {
+    // Añadir timestamp para forzar recarga y evitar caché
+    const timestamp = new Date().getTime();
+    document.getElementById('profile-img-preview').src = data.ruta + '?t=' + timestamp;
+  } else {
+    alert(data.message || 'Error al subir imagen');
+  }
+})
   .catch(err => {
     console.error('Error:', err);
     alert('Error al subir imagen');
@@ -370,8 +300,8 @@ window.ampliarImagen = function (img) {
   
     })();
 </script>
+<script src="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
 

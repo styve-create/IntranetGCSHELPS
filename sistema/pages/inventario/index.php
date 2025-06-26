@@ -43,14 +43,10 @@ $equipos = [
 log_index("Equipos a asignar definidos.");
 ?>
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Formulario de Equipos Asignados</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-   <link href="<?php echo $URL; ?>/librerias/DataTables/datatables.min.css" rel="stylesheet">
-    <link href="<?php echo $URL; ?>/librerias/DataTables/datatables.css" rel="stylesheet">
+
+ <link rel="stylesheet" href="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="<?php echo $URL; ?>/librerias/vendor/npm-asset/bootstrap/dist/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <style>
         body {
@@ -87,27 +83,26 @@ log_index("Equipos a asignar definidos.");
 
 
     </style>
-</head>
-<body>
-  
-<div class="container-fluid">
+
+  <div id="contenido-principal">
+      <div class="container-fluid">
     <div class="form-container">
         <div class="form-title">Asignación de Equipos</div>
         <form method="post" id="formAsignacion">
-            <div class="mb-3">
-                <label class="form-label">Seleccionar trabajador</label>
-               <label class="form-label" for="selectTrabajador">Seleccionar trabajador</label>
-                 <select id="selectTrabajador" name="trabajador_id" class="form-select" autocomplete="off">
-                    <option value="">-- Manual --</option>
-                    <?php foreach ($trabajadores as $t): ?>
-                        <option value="<?= $t['id'] ?>"
-                                data-nombre="<?= htmlspecialchars($t['nombre_completo'] ?? '') ?>"
-                                data-documento="<?= htmlspecialchars($t['numero_documento'] ?? '') ?>"
-                                data-email="<?= htmlspecialchars($t['email'] ?? '') ?>">
-                            <?= htmlspecialchars($t['nombre_completo'] ?? '') ?>
-                        </option>
-                    <?php endforeach; ?>
-                </select>
+           <div class="mb-3">
+              
+              <label class="form-label" for="selectTrabajador">Seleccionar trabajador</label>
+              <select id="selectTrabajador" name="trabajador_id" class="form-select" autocomplete="off">
+                <option value="">-- Manual --</option>
+                <?php foreach ($trabajadores as $t): ?>
+                <option value="<?= $t['id'] ?>"
+                        data-nombre="<?= htmlspecialchars($t['nombre_completo'] ?? '') ?>"
+                        data-documento="<?= htmlspecialchars($t['numero_documento'] ?? '') ?>"
+                        data-email="<?= htmlspecialchars($t['email'] ?? '') ?>">
+                  <?= htmlspecialchars($t['nombre_completo'] ?? '') ?>
+                </option>
+                <?php endforeach; ?>
+              </select>
             </div>
             
                    <div class="row mb-3">
@@ -155,126 +150,105 @@ log_index("Equipos a asignar definidos.");
             </form>
         </div>
 </div>
+</div>
 
+<script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/sweetalert2/dist/sweetalert2.all.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    // 1. Autocompletar datos del trabajador
-    document.getElementById('selectTrabajador').addEventListener('change', function () {
-        const selected = this.options[this.selectedIndex];
-        document.getElementById('nombre').value = selected.dataset.nombre || '';
-        document.getElementById('documento').value = selected.dataset.documento || '';
-        document.getElementById('email').value = selected.dataset.email || '';
-    });
-
-    // 2. Habilitar/deshabilitar input de serial al seleccionar equipo
-    document.querySelectorAll('.equipo-check').forEach(checkbox => {
-        checkbox.addEventListener('change', function () {
-            const serialInput = this.closest('.form-check').querySelector('.serial-input');
-            if (this.checked && serialInput) {
-                serialInput.disabled = false;
-                serialInput.required = true;
-            } else if (serialInput) {
-                serialInput.disabled = true;
-                serialInput.value = '';
-                serialInput.removeAttribute('required');
-            }
-        });
-    });
-
-    // 3. Envío con fetch
-    document.getElementById('formAsignacion').addEventListener('submit', function (e) {
-        e.preventDefault();
-        const form = this;
-        const formData = new FormData(form);
-        const btnEnviar = document.getElementById('btnEnviar');
-        const url = '/intranet/sistema/pages/inventario/save.php';
-
-        console.log('Datos del formulario:', [...formData.entries()]);
-        console.log('Ruta de la solicitud:', url);
-
-        btnEnviar.disabled = true;
-        btnEnviar.textContent = 'Enviando...';
-
-        fetch(url, {
-            method: 'POST',
-            body: formData,
-        })
-        .then(response => response.json())
-        .then(res => {
-            console.log("Respuesta del servidor:", res);
-            if (res.status === 'success') {
-                Swal.fire({
-                    icon: 'success',
-                    title: 'Asignación completada',
-                    text: res.message || 'Los equipos fueron asignados correctamente.',
-                    confirmButtonColor: '#007ea7'
-                }).then(() => {
-                    form.reset();
-                    btnEnviar.disabled = false;
-                    btnEnviar.textContent = 'Enviar';
-                });
-            } else {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Error',
-                    text: res.message || 'Ocurrió un error al guardar la asignación.',
-                    confirmButtonColor: '#d33'
-                });
-                btnEnviar.disabled = false;
-                btnEnviar.textContent = 'Enviar';
-            }
-        })
-        .catch(error => {
-            console.error('Error en la petición:', error);
-            Swal.fire({
-                icon: 'error',
-                title: 'Error de servidor',
-                text: 'No se pudo procesar la solicitud. Inténtalo más tarde.',
-                confirmButtonColor: '#d33'
-            });
-            btnEnviar.disabled = false;
-            btnEnviar.textContent = 'Enviar';
-        });
-    });
+(function(){
+    
+    $('#selectTrabajador').select2({
+  placeholder: 'Escribe para buscar…',
+  width: '100%'
 });
+    
+   $(document).on('input', '#searchTrabajador', function(){
+    const term = this.value.toLowerCase();
+    $('#selectTrabajador option').each(function(){
+      const $opt = $(this);
+      if ($opt.val() === '' || $opt.text().toLowerCase().includes(term)) {
+        $opt.show();
+      } else {
+        $opt.hide();
+      }
+    });
+  });
+
+  // 2) Autocompletar datos
+  $(document).on('change', '#selectTrabajador', function(){
+    const $sel = $(this).find('option:selected');
+    $('#nombre').val( $sel.data('nombre')   || '' );
+    $('#documento').val( $sel.data('documento') || '' );
+    $('#email').val( $sel.data('email')     || '' );
+  });
+  
+    // 3) Serial inputs
+  $(document).on('change', '.equipo-check', function(){
+    const $inp = $(this).closest('.form-check').find('.serial-input');
+    if (this.checked) $inp.prop({disabled:false, required:true});
+    else             $inp.prop({disabled:true, required:false}).val('');
+  });
+
+  // 2. Habilitar/deshabilitar serial
+  document.querySelectorAll('.equipo-check').forEach(chk => {
+    chk.addEventListener('change', function(){
+      const inp = this.closest('.form-check').querySelector('.serial-input');
+      if (this.checked && inp) {
+        inp.disabled = false;
+        inp.required = true;
+      } else if (inp) {
+        inp.disabled = true;
+        inp.value = '';
+        inp.removeAttribute('required');
+      }
+    });
+  });
+
+  // 3. Envío con fetch
+  document.getElementById('formAsignacion').addEventListener('submit', function(e){
+    e.preventDefault();
+    const form = this;
+    const btn  = document.getElementById('btnEnviar');
+    const fd   = new FormData(form);
+
+    btn.disabled = true;
+    btn.textContent = 'Enviando…';
+
+    fetch('<?= $URL ?>/sistema/pages/inventario/save.php', {  // usa aquí tu $URL correcto
+      method: 'POST',
+      body: fd
+    })
+    .then(r => r.json())
+    .then(res => {
+      if (res.status === 'success') {
+        Swal.fire({
+          icon: 'success',
+          title: 'Asignación completada',
+          text: res.message || 'Los equipos fueron asignados correctamente.',
+          confirmButtonColor: '#007ea7'
+        }).then(() => form.reset());
+      } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error',
+          text: res.message || 'Ocurrió un error al guardar la asignación.',
+          confirmButtonColor: '#d33'
+        });
+      }
+    })
+    .catch(() => {
+      Swal.fire({
+        icon: 'error',
+        title: 'Error de servidor',
+        text: 'No se pudo procesar la solicitud. Inténtalo más tarde.',
+        confirmButtonColor: '#d33'
+      });
+    })
+    .finally(() => {
+      btn.disabled = false;
+      btn.textContent = 'Enviar';
+    });
+  });
+})();
 </script>
-<script>
-let beaconSent = false;
-
-// Guardar el tiempo de inicio real cuando se abre la página
-const tiempoInicio = performance.now();
-
-window.addEventListener("beforeunload", function () {
-    if (beaconSent) return;
-
-    // Obtener uso de RAM si está disponible
-    let ramUsageMb = null;
-    try {
-        if (performance.memory) {
-            ramUsageMb = Math.round(performance.memory.usedJSHeapSize / 1024 / 1024); // en MB
-        }
-    } catch (e) {
-        console.warn("No se pudo obtener uso de RAM:", e);
-    }
-
-    // Calcular tiempo de uso de la página (aproximado, en segundos)
-    const tiempoCPU = Math.round(performance.now() / 1000);
-
-    // Preparar datos para enviar al servidor
-    const payload = {
-        id_conexion: '<?php echo $_SESSION['id_conexion'] ?? ''; ?>',
-        pagina: '<?php echo $_SERVER['REQUEST_URI']; ?>',
-        tiempo_inicio: '<?php echo $_SESSION['tiempo_inicio'] ?? microtime(true); ?>',
-        ram_usage_mb: ramUsageMb,
-        tiempo_cpu: tiempoCPU
-    };
-
-    // Enviar con sendBeacon
-    const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
-    navigator.sendBeacon('<?php echo $URL; ?>/sistema/cerrar_pagina.php', blob);
-
-    beaconSent = true;
-});
-</script>
-</body>
-</html>

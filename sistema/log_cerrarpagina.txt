@@ -6278,3 +6278,533 @@
 
 2025-06-03 12:07:19 - Datos incompletos. id_usuario: 1, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&id=1'
 2025-06-03 12:07:19 - === FIN cerrarpagina.php ===
+2025-06-11 09:09:09 - === INICIO cerrarpagina.php ===
+2025-06-11 09:09:09 - RAW JSON: {"id_conexion":"conn_684981c5a7c5a0.93117791","pagina":"/intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1","tiempo_inicio":"1749647818.0734","ram_usage_mb":10,"tiempo_cpu":3136}
+2025-06-11 09:09:09 - JSON INPUT: Array
+(
+    [id_conexion] => conn_684981c5a7c5a0.93117791
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1
+    [tiempo_inicio] => 1749647818.0734
+    [ram_usage_mb] => 10
+    [tiempo_cpu] => 3136
+)
+
+2025-06-11 09:09:09 - Sesión iniciada
+2025-06-11 09:09:09 - SESSION: Array
+(
+)
+
+2025-06-11 09:09:09 - POST: Array
+(
+)
+
+2025-06-11 09:09:09 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1'
+2025-06-11 09:09:09 - === FIN cerrarpagina.php ===
+2025-06-12 09:26:44 - === INICIO cerrarpagina.php ===
+2025-06-12 09:26:44 - RAW JSON: {"id_conexion":"conn_684add13cc6b22.69331764","pagina":"/intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1","tiempo_inicio":"1749736732.6709","ram_usage_mb":13,"tiempo_cpu":1681}
+2025-06-12 09:26:44 - JSON INPUT: Array
+(
+    [id_conexion] => conn_684add13cc6b22.69331764
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1
+    [tiempo_inicio] => 1749736732.6709
+    [ram_usage_mb] => 13
+    [tiempo_cpu] => 1681
+)
+
+2025-06-12 09:26:44 - Sesión iniciada
+2025-06-12 09:26:44 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 2147483652
+            [email] => styvenmunera1@gmail.com
+            [nombre] => styven3
+            [rol] => 3
+        )
+
+    [id_conexion] => conn_684add13cc6b22.69331764
+)
+
+2025-06-12 09:26:44 - POST: Array
+(
+)
+
+2025-06-12 09:26:44 - Actualización exitosa para usuario 2147483652 en página /intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1
+2025-06-12 09:26:44 - === FIN cerrarpagina.php ===
+2025-06-12 09:29:07 - === INICIO cerrarpagina.php ===
+2025-06-12 09:29:07 - RAW JSON: {"id_conexion":"conn_684add13cc6b22.69331764","pagina":"/intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1","tiempo_inicio":"1749738407.2407","ram_usage_mb":12,"tiempo_cpu":143}
+2025-06-12 09:29:07 - JSON INPUT: Array
+(
+    [id_conexion] => conn_684add13cc6b22.69331764
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1
+    [tiempo_inicio] => 1749738407.2407
+    [ram_usage_mb] => 12
+    [tiempo_cpu] => 143
+)
+
+2025-06-12 09:29:07 - Sesión iniciada
+2025-06-12 09:29:07 - SESSION: Array
+(
+)
+
+2025-06-12 09:29:07 - POST: Array
+(
+)
+
+2025-06-12 09:29:07 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1'
+2025-06-12 09:29:07 - === FIN cerrarpagina.php ===
+2025-06-12 09:40:31 - === INICIO cerrarpagina.php ===
+2025-06-12 09:40:31 - RAW JSON: {"id_conexion":"conn_684ae4648e7858.70966035","pagina":"/intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1","tiempo_inicio":"1749738600.22","ram_usage_mb":3,"tiempo_cpu":635}
+2025-06-12 09:40:31 - JSON INPUT: Array
+(
+    [id_conexion] => conn_684ae4648e7858.70966035
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1
+    [tiempo_inicio] => 1749738600.22
+    [ram_usage_mb] => 3
+    [tiempo_cpu] => 635
+)
+
+2025-06-12 09:40:31 - Sesión iniciada
+2025-06-12 09:40:31 - SESSION: Array
+(
+)
+
+2025-06-12 09:40:31 - POST: Array
+(
+)
+
+2025-06-12 09:40:31 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=inventarioRegistro&ajax=1'
+2025-06-12 09:40:31 - === FIN cerrarpagina.php ===
+2025-06-12 11:37:33 - === INICIO cerrarpagina.php ===
+2025-06-12 11:37:33 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&id=1","tiempo_inicio":"1749746250.2637","ram_usage_mb":15.58735466003418,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-12 11:37:33 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&id=1
+    [tiempo_inicio] => 1749746250.2637
+    [ram_usage_mb] => 15.587354660034
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-12 11:37:33 - Sesión iniciada
+2025-06-12 11:37:33 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 1
+            [email] => styvenmunera6@gmail.com
+            [nombre] => styven
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_684b01bb94fc89.37650390
+)
+
+2025-06-12 11:37:33 - POST: Array
+(
+)
+
+2025-06-12 11:37:33 - Datos incompletos. id_usuario: 1, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&id=1'
+2025-06-12 11:37:33 - === FIN cerrarpagina.php ===
+2025-06-13 14:56:05 - === INICIO cerrarpagina.php ===
+2025-06-13 14:56:05 - RAW JSON: {"id_conexion":"conn_684c79b658a931.94856590","pagina":"/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1","tiempo_inicio":"1749842368.3084","ram_usage_mb":13,"tiempo_cpu":2207}
+2025-06-13 14:56:05 - JSON INPUT: Array
+(
+    [id_conexion] => conn_684c79b658a931.94856590
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1
+    [tiempo_inicio] => 1749842368.3084
+    [ram_usage_mb] => 13
+    [tiempo_cpu] => 2207
+)
+
+2025-06-13 14:56:05 - Sesión iniciada
+2025-06-13 14:56:05 - SESSION: Array
+(
+)
+
+2025-06-13 14:56:05 - POST: Array
+(
+)
+
+2025-06-13 14:56:05 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1'
+2025-06-13 14:56:05 - === FIN cerrarpagina.php ===
+2025-06-18 08:55:14 - === INICIO cerrarpagina.php ===
+2025-06-18 08:55:14 - RAW JSON: {"id_conexion":"conn_6852c4fb7d4176.21479734","pagina":"/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1","tiempo_inicio":"1750254848.5615","ram_usage_mb":7,"tiempo_cpu":72}
+2025-06-18 08:55:14 - JSON INPUT: Array
+(
+    [id_conexion] => conn_6852c4fb7d4176.21479734
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1
+    [tiempo_inicio] => 1750254848.5615
+    [ram_usage_mb] => 7
+    [tiempo_cpu] => 72
+)
+
+2025-06-18 08:55:14 - Sesión iniciada
+2025-06-18 08:55:14 - SESSION: Array
+(
+)
+
+2025-06-18 08:55:14 - POST: Array
+(
+)
+
+2025-06-18 08:55:14 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1'
+2025-06-18 08:55:14 - === FIN cerrarpagina.php ===
+2025-06-18 09:43:23 - === INICIO cerrarpagina.php ===
+2025-06-18 09:43:23 - RAW JSON: {"id_conexion":"conn_6852c0d47e4340.08043044","pagina":"/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1","tiempo_inicio":"1750253795.6103","ram_usage_mb":12,"tiempo_cpu":4023}
+2025-06-18 09:43:23 - JSON INPUT: Array
+(
+    [id_conexion] => conn_6852c0d47e4340.08043044
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1
+    [tiempo_inicio] => 1750253795.6103
+    [ram_usage_mb] => 12
+    [tiempo_cpu] => 4023
+)
+
+2025-06-18 09:43:23 - Sesión iniciada
+2025-06-18 09:43:23 - SESSION: Array
+(
+)
+
+2025-06-18 09:43:23 - POST: Array
+(
+)
+
+2025-06-18 09:43:23 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1'
+2025-06-18 09:43:23 - === FIN cerrarpagina.php ===
+2025-06-18 15:04:14 - === INICIO cerrarpagina.php ===
+2025-06-18 15:04:14 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654","tiempo_inicio":"1750277031.9617","ram_usage_mb":10.205080032348633,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-18 15:04:14 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654
+    [tiempo_inicio] => 1750277031.9617
+    [ram_usage_mb] => 10.205080032349
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-18 15:04:14 - Sesión iniciada
+2025-06-18 15:04:14 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 2147483654
+            [email] => diego.silva@dlivrd.io
+            [nombre] => Diego Silva
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_68531b832f5ce6.59696939
+)
+
+2025-06-18 15:04:14 - POST: Array
+(
+)
+
+2025-06-18 15:04:14 - Datos incompletos. id_usuario: 2147483654, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654'
+2025-06-18 15:04:14 - === FIN cerrarpagina.php ===
+2025-06-18 15:05:46 - === INICIO cerrarpagina.php ===
+2025-06-18 15:05:46 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654","tiempo_inicio":"1750277054.6791","ram_usage_mb":6.0740251541137695,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-18 15:05:46 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654
+    [tiempo_inicio] => 1750277054.6791
+    [ram_usage_mb] => 6.0740251541138
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-18 15:05:46 - Sesión iniciada
+2025-06-18 15:05:46 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 2147483654
+            [email] => diego.silva@dlivrd.io
+            [nombre] => Diego Silva
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_68531b832f5ce6.59696939
+)
+
+2025-06-18 15:05:46 - POST: Array
+(
+)
+
+2025-06-18 15:05:46 - Datos incompletos. id_usuario: 2147483654, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654'
+2025-06-18 15:05:46 - === FIN cerrarpagina.php ===
+2025-06-18 15:06:33 - === INICIO cerrarpagina.php ===
+2025-06-18 15:06:33 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654","tiempo_inicio":"1750277146.6406","ram_usage_mb":4.8865461349487305,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-18 15:06:33 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654
+    [tiempo_inicio] => 1750277146.6406
+    [ram_usage_mb] => 4.8865461349487
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-18 15:06:33 - Sesión iniciada
+2025-06-18 15:06:33 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 2147483654
+            [email] => diego.silva@dlivrd.io
+            [nombre] => Diego Silva
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_68531b832f5ce6.59696939
+)
+
+2025-06-18 15:06:33 - POST: Array
+(
+)
+
+2025-06-18 15:06:33 - Datos incompletos. id_usuario: 2147483654, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654'
+2025-06-18 15:06:33 - === FIN cerrarpagina.php ===
+2025-06-18 15:06:34 - === INICIO cerrarpagina.php ===
+2025-06-18 15:06:34 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654","tiempo_inicio":"1750277193.2266","ram_usage_mb":5.347193717956543,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-18 15:06:34 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654
+    [tiempo_inicio] => 1750277193.2266
+    [ram_usage_mb] => 5.3471937179565
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-18 15:06:34 - Sesión iniciada
+2025-06-18 15:06:34 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 2147483654
+            [email] => diego.silva@dlivrd.io
+            [nombre] => Diego Silva
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_68531b832f5ce6.59696939
+)
+
+2025-06-18 15:06:34 - POST: Array
+(
+)
+
+2025-06-18 15:06:34 - Datos incompletos. id_usuario: 2147483654, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&id=2147483654'
+2025-06-18 15:06:34 - === FIN cerrarpagina.php ===
+2025-06-18 15:14:58 - === INICIO cerrarpagina.php ===
+2025-06-18 15:14:58 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1","tiempo_inicio":"1750277695.7524","ram_usage_mb":10.638181686401367,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-18 15:14:58 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1
+    [tiempo_inicio] => 1750277695.7524
+    [ram_usage_mb] => 10.638181686401
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-18 15:14:58 - Sesión iniciada
+2025-06-18 15:14:58 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 2147483654
+            [email] => diego.silva@dlivrd.io
+            [nombre] => Diego Silva
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_68531e05f31f65.70413432
+)
+
+2025-06-18 15:14:58 - POST: Array
+(
+)
+
+2025-06-18 15:14:58 - Datos incompletos. id_usuario: 2147483654, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1'
+2025-06-18 15:14:58 - === FIN cerrarpagina.php ===
+2025-06-18 15:21:44 - === INICIO cerrarpagina.php ===
+2025-06-18 15:21:44 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1","tiempo_inicio":"1750277714.0811","ram_usage_mb":8.716259956359863,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-18 15:21:44 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1
+    [tiempo_inicio] => 1750277714.0811
+    [ram_usage_mb] => 8.7162599563599
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-18 15:21:44 - Sesión iniciada
+2025-06-18 15:21:44 - SESSION: Array
+(
+)
+
+2025-06-18 15:21:44 - POST: Array
+(
+)
+
+2025-06-18 15:21:44 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1'
+2025-06-18 15:21:44 - === FIN cerrarpagina.php ===
+2025-06-19 07:06:03 - === INICIO cerrarpagina.php ===
+2025-06-19 07:06:03 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1","tiempo_inicio":"1750334760.7048","ram_usage_mb":5.340137481689453,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-19 07:06:03 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1
+    [tiempo_inicio] => 1750334760.7048
+    [ram_usage_mb] => 5.3401374816895
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-19 07:06:03 - Sesión iniciada
+2025-06-19 07:06:03 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 1
+            [email] => styvenmunera6@gmail.com
+            [nombre] => styven
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_6853fd1958baf0.28745405
+)
+
+2025-06-19 07:06:03 - POST: Array
+(
+)
+
+2025-06-19 07:06:03 - Datos incompletos. id_usuario: 1, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1'
+2025-06-19 07:06:03 - === FIN cerrarpagina.php ===
+2025-06-19 07:53:51 - === INICIO cerrarpagina.php ===
+2025-06-19 07:53:51 - RAW JSON: {"id_conexion":"conn_685407a2b58f16.23831004","pagina":"/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1","tiempo_inicio":"1750337471.0297","ram_usage_mb":6,"tiempo_cpu":164}
+2025-06-19 07:53:51 - JSON INPUT: Array
+(
+    [id_conexion] => conn_685407a2b58f16.23831004
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1
+    [tiempo_inicio] => 1750337471.0297
+    [ram_usage_mb] => 6
+    [tiempo_cpu] => 164
+)
+
+2025-06-19 07:53:51 - Sesión iniciada
+2025-06-19 07:53:51 - SESSION: Array
+(
+)
+
+2025-06-19 07:53:51 - POST: Array
+(
+)
+
+2025-06-19 07:53:51 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1'
+2025-06-19 07:53:51 - === FIN cerrarpagina.php ===
+2025-06-19 07:58:05 - === INICIO cerrarpagina.php ===
+2025-06-19 07:58:05 - RAW JSON: {"id_conexion":"conn_6854087226e208.32479755","pagina":"/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1","tiempo_inicio":"1750337652.8285","ram_usage_mb":4,"tiempo_cpu":235}
+2025-06-19 07:58:05 - JSON INPUT: Array
+(
+    [id_conexion] => conn_6854087226e208.32479755
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1
+    [tiempo_inicio] => 1750337652.8285
+    [ram_usage_mb] => 4
+    [tiempo_cpu] => 235
+)
+
+2025-06-19 07:58:05 - Sesión iniciada
+2025-06-19 07:58:05 - SESSION: Array
+(
+)
+
+2025-06-19 07:58:05 - POST: Array
+(
+)
+
+2025-06-19 07:58:05 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1'
+2025-06-19 07:58:05 - === FIN cerrarpagina.php ===
+2025-06-19 08:10:38 - === INICIO cerrarpagina.php ===
+2025-06-19 08:10:38 - RAW JSON: {"id_conexion":"conn_68540a77bc7f41.34858640","pagina":"/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1","tiempo_inicio":"1750338272.9517","ram_usage_mb":4,"tiempo_cpu":471}
+2025-06-19 08:10:38 - JSON INPUT: Array
+(
+    [id_conexion] => conn_68540a77bc7f41.34858640
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1
+    [tiempo_inicio] => 1750338272.9517
+    [ram_usage_mb] => 4
+    [tiempo_cpu] => 471
+)
+
+2025-06-19 08:10:38 - Sesión iniciada
+2025-06-19 08:10:38 - SESSION: Array
+(
+)
+
+2025-06-19 08:10:38 - POST: Array
+(
+)
+
+2025-06-19 08:10:38 - Datos incompletos. id_usuario: NULL, pagina: '/intranet/sistema/paginasdinamicas.php?page=listadoInventario&ajax=1'
+2025-06-19 08:10:38 - === FIN cerrarpagina.php ===
+2025-06-19 12:31:44 - === INICIO cerrarpagina.php ===
+2025-06-19 12:31:44 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=2147483655","tiempo_inicio":"1750354300.1783","ram_usage_mb":11.224151611328125,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-19 12:31:44 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=2147483655
+    [tiempo_inicio] => 1750354300.1783
+    [ram_usage_mb] => 11.224151611328
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-19 12:31:44 - Sesión iniciada
+2025-06-19 12:31:44 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 2147483655
+            [email] => HR@gcshelps.com
+            [nombre] => Yesika
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_68544944e568b9.70896676
+)
+
+2025-06-19 12:31:44 - POST: Array
+(
+)
+
+2025-06-19 12:31:44 - Datos incompletos. id_usuario: 2147483655, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=2147483655'
+2025-06-19 12:31:44 - === FIN cerrarpagina.php ===
+2025-06-24 11:15:47 - === INICIO cerrarpagina.php ===
+2025-06-24 11:15:47 - RAW JSON: {"id_conexion":"","pagina":"/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1","tiempo_inicio":"1750781744.126","ram_usage_mb":8.660591125488281,"gpu_info":"ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)"}
+2025-06-24 11:15:47 - JSON INPUT: Array
+(
+    [id_conexion] => 
+    [pagina] => /intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1
+    [tiempo_inicio] => 1750781744.126
+    [ram_usage_mb] => 8.6605911254883
+    [gpu_info] => ANGLE (Intel, Intel(R) UHD Graphics 620 (0x00003EA0) Direct3D11 vs_5_0 ps_5_0, D3D11)
+)
+
+2025-06-24 11:15:47 - Sesión iniciada
+2025-06-24 11:15:47 - SESSION: Array
+(
+    [usuario_info] => Array
+        (
+            [id] => 1
+            [email] => styvenmunera6@gmail.com
+            [nombre] => styven
+            [rol] => 1
+        )
+
+    [id_conexion] => conn_685acef0717211.06848928
+)
+
+2025-06-24 11:15:47 - POST: Array
+(
+)
+
+2025-06-24 11:15:47 - Datos incompletos. id_usuario: 1, pagina: '/intranet/sistema/paginasdinamicas.php?page=update_user&ajax=1&id=1'
+2025-06-24 11:15:47 - === FIN cerrarpagina.php ===

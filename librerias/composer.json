@@ -1,7 +1,21 @@
 {
-    "require": {
-        "phpoffice/phpspreadsheet": "^4.1",
-        "phpoffice/phpword": "^1.0"
-        
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
     }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^4.1",
+    "phpoffice/phpword": "^1.0",
+    "dompdf/dompdf": "^2.0",
+    "npm-asset/bootstrap": "^5.3",
+    "npm-asset/datatables.net": "^1.13",
+    "npm-asset/datatables.net-bs5": "^1.13",
+    "npm-asset/jquery": "^3.7",
+    "npm-asset/sweetalert2": "^11",
+    "npm-asset/bootstrap-icons":"^1.10",
+    "npm-asset/chart.js":"^4.3",
+    "npm-asset/chartjs-plugin-datalabels": "^2.2"
+  }
 }

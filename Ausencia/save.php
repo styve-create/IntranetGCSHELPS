@@ -37,7 +37,9 @@ try {
     $fecha_fin = $rango[1] ?? $rango[0] ?? '';
     $observaciones = $_POST['observaciones'] ?? '';
     $nombre_jefe = $_POST['nombre_jefe'] ?? '';
-
+    
+$tareas = $_POST['vacaciones_tareas'] ?? [];        // array de filas
+$tareas_json = json_encode(array_values($tareas)); // JSON para DB
     // Validaciones
     if (!$nombre || !$documento || !$email || !$id_campana || !$tipo_ausencia || !$fecha_inicio || !$fecha_fin) {
         throw new Exception("❗ Faltan campos requeridos");
@@ -152,20 +154,46 @@ if (empty($id_jefe)) {
 
     
 
+$tablaTareas  = '';
+
+if ($tipo_ausencia === 'Vacaciones' && !empty($tareas)) {
+    $tablaTareas = "<h3>Listado de Tareas</h3>
+      <table style='width:100%; border-collapse: collapse;'>
+        <thead>
+          <tr>
+            <th style='border:1px solid #ddd;padding:8px;'>Tarea</th>
+            <th style='border:1px solid #ddd;padding:8px;'>Responsable</th>
+            <th style='border:1px solid #ddd;padding:8px;'>Fecha</th>
+          </tr>
+        </thead>
+        <tbody>";
+    foreach ($tareas as $fila) {
+        $tablaTareas .= "<tr>
+          <td style='border:1px solid #ddd;padding:8px;'>"
+            .htmlspecialchars($fila['tarea'])."</td>
+          <td style='border:1px solid #ddd;padding:8px;'>"
+            .htmlspecialchars($fila['responsable'])."</td>
+          <td style='border:1px solid #ddd;padding:8px;'>"
+            .htmlspecialchars($fila['fecha'])."</td>
+        </tr>";
+    }
+    $tablaTareas .= "</tbody></table><br>";
+}
 
 
         // Armar mensaje HTML para el jefe
-        $mensaje_jefe = "
-        <div style='font-family: Arial, sans-serif; padding: 20px;'>
-            <h2 style='color: #2E4053;'>Detalles de la solicitud de ausencia</h2>
-            <p><strong>Nombre del Solicitante:</strong> $nombre</p>
-            <p><strong>Documento del Solicitante:</strong> $documento</p>
-            <p><strong>Email del Solicitante:</strong> <a href='mailto:$email'>$email</a></p>
-            <p><strong>Tipo de solicitud:</strong> $tipo_ausencia</p>
-            <p><strong>Fecha de inicio:</strong> $fecha_inicio_mostrar</p>
-            <p><strong>Fecha de fin:</strong> $fecha_fin_mostrar</p>
-            <p><strong>Comentarios:</strong> $observaciones</p>
-            $enlacesHTML
+$mensaje_jefe = "
+<div style='font-family: Arial, sans-serif; padding: 20px;'>
+  <h2 style='color: #2E4053;'>Detalles de la solicitud de ausencia</h2>
+  <p><strong>Nombre del Solicitante:</strong> $nombre</p>
+  <p><strong>Documento del Solicitante:</strong> $documento</p>
+  <p><strong>Email del Solicitante:</strong> <a href='mailto:$email'>$email</a></p>
+  <p><strong>Tipo de solicitud:</strong> $tipo_ausencia</p>
+  <p><strong>Fecha de inicio:</strong> $fecha_inicio_mostrar</p>
+  <p><strong>Fecha de fin:</strong> $fecha_fin_mostrar</p>
+  $tablaTareas                      <!-- ← Aquí inyectas la tabla -->
+  <p><strong>Comentarios:</strong> $observaciones</p>
+  $enlacesHTML
             <div style='margin-top: 30px;'>
                 <p style='font-weight: bold; color: #8B0000;'>Acciones:</p>
                 <a href='$url_aprobar_jefe' 
@@ -193,23 +221,17 @@ if (empty($id_jefe)) {
 
 // Insertar en la base de datos
 $stmt = $pdo->prepare("INSERT INTO tb_ausencias
-    (numero_formulario, id_trabajador, id_campana, id_jefe, tipo_ausencia, fecha_inicio, fecha_fin, observaciones, comprobantes, fecha_registro, nombre, documento, email)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+    (numero_formulario, id_trabajador, id_campana, id_jefe, tipo_ausencia,
+     fecha_inicio, fecha_fin, observaciones, comprobantes, fecha_registro,
+     nombre, documento, email, tareas)
+  VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)");
 
 $stmt->execute([
-    $numero_formulario,
-    $id_trabajador,
-    $id_campana,
-    $id_jefe, 
-    $tipo_ausencia,
-    $fecha_inicio,
-    $fecha_fin,
-    $observaciones,
-    $comprobantes_serializados,
-    $fecha_registro,
-    $nombre,
-    $documento,
-    $email
+  $numero_formulario, $id_trabajador, $id_campana, $id_jefe,
+  $tipo_ausencia, $fecha_inicio, $fecha_fin, $observaciones,
+  $comprobantes_serializados, $fecha_registro,
+  $nombre, $documento, $email,
+  $tareas_json
 ]);
 
 logDebug("✔️ Datos insertados en la base de datos");

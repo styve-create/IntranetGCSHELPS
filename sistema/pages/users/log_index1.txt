@@ -1,0 +1,20 @@
+2025-06-24 13:04:33 - >>> Inicio del script
+2025-06-24 13:04:33 - Sesión iniciada. Usuario ID: 1
+2025-06-24 13:04:33 - Contenido recibido: {"nombres":"styven9","email":"styvenmunera9@gmail.com","password_user":"123456","id_rol":"1","trabajador_id":"124"}
+2025-06-24 13:04:33 - ✅ JSON decodificado correctamente
+2025-06-24 13:04:33 - Datos extraídos: nombres=styven9, email=styvenmunera9@gmail.com, rol=1, trabajador_id=124
+2025-06-24 13:04:33 - Iniciando verificación de correo duplicado
+2025-06-24 13:04:33 - Correo duplicado: NO
+2025-06-24 13:04:33 - Password hasheada correctamente
+2025-06-24 13:04:33 - ✅ Usuario creado exitosamente. ID: 2147483656
+2025-06-24 13:04:33 - <<< Fin del script
+2025-06-24 13:11:03 - >>> Inicio del script
+2025-06-24 13:11:03 - Sesión iniciada. Usuario ID: 1
+2025-06-24 13:11:03 - Contenido recibido: {"nombres":"styven9","email":"styvenmunera9@gmail.com","password_user":"123456","id_rol":"1","trabajador_id":"124"}
+2025-06-24 13:11:03 - ✅ JSON decodificado correctamente
+2025-06-24 13:11:03 - Datos extraídos: nombres=styven9, email=styvenmunera9@gmail.com, rol=1, trabajador_id=124
+2025-06-24 13:11:03 - Iniciando verificación de correo duplicado
+2025-06-24 13:11:03 - Correo duplicado: NO
+2025-06-24 13:11:03 - Password hasheada correctamente
+2025-06-24 13:11:03 - ✅ Usuario creado exitosamente. ID: 2147483657
+2025-06-24 13:11:03 - <<< Fin del script

@@ -1,12 +1,12 @@
 <?php
-
 header('Content-Type: application/json');
+
 if (session_status() === PHP_SESSION_NONE) {
     session_name('mi_sesion_personalizada');
     session_start();
 }
 // Verificar si el usuario está autenticado
-if (!isset($_SESSION['usuario_info'])) {
+if (!isset($_SESSION['usuario_info']['id'])) {
     http_response_code(401); // Unauthorized
     echo json_encode(["error" => "No autenticado"]);
     exit;

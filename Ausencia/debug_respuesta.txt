@@ -131,3 +131,458 @@
 2025-05-21 14:12:55 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
 2025-05-21 14:12:55 - ✔️ Comprobante guardado: FORM-682e0073cbda2_1000023152.jpg
 2025-05-21 14:12:58 - ✔️ Datos insertados en la base de datos
+2025-06-16 13:03:25 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-16 13:03:25 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => styven munera
+    [documento] => 1
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 6
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => 1
+                    [responsable] => carlos
+                    [fecha] => 2025-06-16
+                )
+
+        )
+
+    [rango_fechas] => 2025-06-03 - 2025-06-18
+    [observaciones] => 1
+)
+
+2025-06-16 13:03:25 - 🔎 Buscando trabajador con documento: 1
+2025-06-16 13:03:25 - ✅ Trabajador encontrado - ID: 16
+2025-06-16 13:03:25 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-06-16 13:03:25 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-06-16 13:03:26 - ✔️ Datos insertados en la base de datos
+2025-06-16 14:15:46 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-16 14:15:46 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => styven munera
+    [documento] => 1
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 6
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => 1
+                    [responsable] => carlos
+                    [fecha] => 2025-06-16
+                )
+
+        )
+
+    [rango_fechas] => 2025-06-03 - 2025-06-18
+    [observaciones] => 1
+)
+
+2025-06-16 14:15:46 - 🔎 Buscando trabajador con documento: 1
+2025-06-16 14:15:46 - ✅ Trabajador encontrado - ID: 16
+2025-06-16 14:15:46 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-06-16 14:15:46 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-06-16 14:15:47 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-06-17 07:33:01 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-17 07:33:01 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => styven munera
+    [documento] => 1
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 6
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => 1
+                    [responsable] => carlos
+                    [fecha] => 2025-06-16
+                )
+
+            [1] => Array
+                (
+                    [tarea] => 1
+                    [responsable] => carlos
+                    [fecha] => 2025-06-18
+                )
+
+        )
+
+    [rango_fechas] => 2025-06-03 - 2025-06-18
+    [observaciones] => 1
+)
+
+2025-06-17 07:33:01 - 🔎 Buscando trabajador con documento: 1
+2025-06-17 07:33:01 - ✅ Trabajador encontrado - ID: 16
+2025-06-17 07:33:01 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-06-17 07:33:01 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-06-17 07:33:02 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-06-19 14:33:15 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-19 14:33:15 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Juliana Carolina Quiroz Caceres
+    [documento] => 1098823097
+    [email] => juliana.quiroz@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => 
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => Closing Shift
+                    [responsable] => No one
+                    [fecha] => 2025-07-25
+                )
+
+        )
+
+    [rango_fechas] => 2025-07-25 - 2025-07-25
+    [observaciones] => Hello, I am requesting this vacation day, as Vacaciones Anticipadas! Thanks 
+)
+
+2025-06-19 14:33:15 - 🔎 Buscando trabajador con documento: 1098823097
+2025-06-19 14:33:15 - ✅ Trabajador encontrado - ID: 80
+2025-06-19 14:33:15 - 🔍 Buscando jefe por nombre: 
+2025-06-19 14:33:15 - ❌ Jefe no activo encontrado: 
+2025-06-19 14:33:32 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-19 14:33:32 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Juliana Carolina Quiroz Caceres
+    [documento] => 1098823097
+    [email] => juliana.quiroz@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Jose Carlos Caballero Uribe
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => Closing Shift
+                    [responsable] => No one
+                    [fecha] => 2025-07-25
+                )
+
+        )
+
+    [rango_fechas] => 2025-07-25 - 2025-07-25
+    [observaciones] => Hello, I am requesting this vacation day, as Vacaciones Anticipadas! Thanks 
+)
+
+2025-06-19 14:33:32 - 🔎 Buscando trabajador con documento: 1098823097
+2025-06-19 14:33:32 - ✅ Trabajador encontrado - ID: 80
+2025-06-19 14:33:32 - 🔍 Buscando jefe por nombre: Jose Carlos Caballero Uribe
+2025-06-19 14:33:32 - ✅ Jefe encontrado - ID: 52, Email: jose.caballero@dlivrd.io
+2025-06-19 14:33:33 - ✔️ Datos insertados en la base de datos
+2025-06-20 09:58:14 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-20 09:58:14 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => santiago rodriguez lopez
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-06-20 - 2025-06-20
+    [observaciones] => I would like to take an early out today for 1 hour. I need to finish my shift by 2:30 PM EST (1:30 PM CSR).
+)
+
+2025-06-20 09:58:14 - 🔎 Buscando trabajador con documento: 1005483223
+2025-06-20 09:58:14 - ✅ Trabajador encontrado - ID: 148
+2025-06-20 09:58:14 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-06-20 09:58:14 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-06-20 09:58:15 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-06-20 10:22:05 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-20 10:22:05 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => santiago rodriguez lopez
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-06-20 - 2025-06-20
+    [observaciones] => I would like to take an early out today for 1 hour. I need to finish my shift by 2:30 PM EST (1:30 PM CSR).
+)
+
+2025-06-20 10:22:05 - 🔎 Buscando trabajador con documento: 1005483223
+2025-06-20 10:22:05 - ✅ Trabajador encontrado - ID: 148
+2025-06-20 10:22:05 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-06-20 10:22:05 - ✅ Jefe encontrado - ID: 80, Email: styvenmunera6@gmail.com
+2025-06-20 10:22:06 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-06-23 06:20:46 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-23 06:20:46 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Fabian Andres Arenas Olave
+    [documento] => 1005157464
+    [email] => fabian.arenas@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Yuly Marcela Muñoz Estupiñan
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [1] => Array
+                (
+                    [tarea] => Support
+                    [responsable] => Co-workers 
+                    [fecha] => 2025-09-02
+                )
+
+        )
+
+    [rango_fechas] => 2025-09-02 - 2025-09-06
+    [observaciones] => Viaje Familiar, Ya compre los vuelos:))
+)
+
+2025-06-23 06:20:46 - 🔎 Buscando trabajador con documento: 1005157464
+2025-06-23 06:20:46 - ✅ Trabajador encontrado - ID: 135
+2025-06-23 06:20:46 - 🔍 Buscando jefe por nombre: Yuly Marcela Muñoz Estupiñan
+2025-06-23 06:20:46 - ✅ Jefe encontrado - ID: 84, Email: yuly.mu-oz@dlivrd.io
+2025-06-23 06:20:48 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-06-24 10:25:06 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-24 10:25:06 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Juliana Carolina Quiroz Caceres
+    [documento] => 1098823097
+    [email] => juliana.quiroz@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Jose Carlos Caballero Uribe
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => Closing Shift
+                    [responsable] => No one
+                    [fecha] => 2025-07-25
+                )
+
+        )
+
+    [rango_fechas] => 2025-07-25 - 2025-07-25
+    [observaciones] => Hello, I am requesting this vacation day, as Vacaciones Anticipadas! Thanks
+)
+
+2025-06-24 10:25:06 - 🔎 Buscando trabajador con documento: 1098823097
+2025-06-24 10:25:06 - ✅ Trabajador encontrado - ID: 80
+2025-06-24 10:25:06 - 🔍 Buscando jefe por nombre: Jose Carlos Caballero Uribe
+2025-06-24 10:25:06 - ✅ Jefe encontrado - ID: 52, Email: jose.caballero@dlivrd.io
+2025-06-24 10:25:07 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-06-24 14:28:26 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-24 14:28:26 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => santiago rodriguez lopez
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-06-26 - 2025-06-26
+    [observaciones] => de 1 de la tarde a 3 de la tarde 
+)
+
+2025-06-24 14:28:26 - 🔎 Buscando trabajador con documento: 1005483223
+2025-06-24 14:28:26 - ✅ Trabajador encontrado - ID: 148
+2025-06-24 14:28:26 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-06-24 14:28:26 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-06-24 14:28:26 - ✔️ Comprobante guardado: WhatsApp Image 2025-06-24 at 3.27.16 PM.jpeg
+2025-06-24 14:28:26 - ✔️ Comprobante guardado: WhatsApp Image 2025-06-24 at 3.26.53 PM.jpeg
+2025-06-24 14:28:28 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-06-24 15:48:19 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-24 15:48:19 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Álvaro Andrés Sarmiento Rueda
+    [documento] => 1098806024
+    [email] => alvarosarmiento1998@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => Support Specialist
+                    [responsable] => Álvaro Sarmiento
+                    [fecha] => 2025-08-13
+                )
+
+        )
+
+    [rango_fechas] => 2025-08-13 - 2025-08-17
+    [observaciones] => Me gustaría solicitar un permiso de vacaciones para asistir a un evento académico de gran relevancia para mi desarrollo profesional, laboral y académico.
+
+Se trata del evento geocientífico más importante del país, un espacio de encuentro para la ciencia, la exploración y el conocimiento geológico. Contará con conferencias, presentaciones de pósters, muestra comercial, conversatorios, oportunidades de networking, salidas de campo, entre otras actividades. Además de fortalecer mis conocimientos, me permitirá establecer conexiones valiosas con profesionales de la industria, el gremio, el gobierno, la academia y la sociedad civil, tanto a nivel nacional como internacional.
+
+Estoy convencido de que esta experiencia enriquecerá mi perfil profesional y me permitirá aplicar nuevos aprendizajes en mi labor diaria. Agradezco de antemano tu comprensión y apoyo para poder asistir.
+)
+
+2025-06-24 15:48:19 - 🔎 Buscando trabajador con documento: 1098806024
+2025-06-24 15:48:19 - ✅ Trabajador encontrado - ID: 124
+2025-06-24 15:48:19 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-06-24 15:48:19 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-06-24 15:48:19 - ✔️ Comprobante guardado: XX congreso de Geologia.png
+2025-06-24 15:48:21 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-06-24 16:00:49 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-24 16:00:49 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Fabian Andres Arenas Olave
+    [documento] => 1005157464
+    [email] => fabian.arenas@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Yuly Marcela Muñoz Estupiñan
+    [tipo_ausencia] => Incapacidad medica
+    [rango_fechas] => 2025-06-24 - 2025-06-25
+    [observaciones] => Adjunto mi incapacidad medica que cubre los dias 24 y 25 de Junio. El lunes festivo 23 de Junio trabaje mi jornada laboral completa. Gracias:)
+)
+
+2025-06-24 16:00:49 - 🔎 Buscando trabajador con documento: 1005157464
+2025-06-24 16:00:49 - ✅ Trabajador encontrado - ID: 135
+2025-06-24 16:00:49 - 🔍 Buscando jefe por nombre: Yuly Marcela Muñoz Estupiñan
+2025-06-24 16:00:49 - ✅ Jefe encontrado - ID: 84, Email: yuly.mu-oz@dlivrd.io
+2025-06-24 16:00:49 - ✔️ Comprobante guardado: Incapacidad médica Fabian Arenas Olave.pdf
+2025-06-24 16:00:52 - ✔️ Datos insertados en la base de datos
+2025-06-24 16:58:14 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-24 16:58:14 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Kathe Quintero Samaca
+    [documento] => 1095787771
+    [email] => kathe.quintero.0101@gmail.com
+    [id_campana] => 12
+    [nombre_jefe] => 
+    [tipo_ausencia] => Festivo libre
+    [rango_fechas] => 2025-06-28 - 2025-06-28
+    [observaciones] => Las 5 horas del día sábado se repondran entre semana, los días 24 al 27 junio 
+)
+
+2025-06-24 16:58:14 - 🔎 Buscando trabajador con documento: 1095787771
+2025-06-24 16:58:14 - ✅ Trabajador encontrado - ID: 64
+2025-06-24 16:58:14 - 🔍 Buscando jefe por nombre: 
+2025-06-24 16:58:14 - ❌ Jefe no activo encontrado: 
+2025-06-24 16:58:18 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-24 16:58:18 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Kathe Quintero Samaca
+    [documento] => 1095787771
+    [email] => kathe.quintero.0101@gmail.com
+    [id_campana] => 12
+    [nombre_jefe] => 
+    [tipo_ausencia] => Festivo libre
+    [rango_fechas] => 2025-06-28 - 2025-06-28
+    [observaciones] => Las 5 horas del día sábado se repondran entre semana, los días 24 al 27 junio 
+)
+
+2025-06-24 16:58:18 - 🔎 Buscando trabajador con documento: 1095787771
+2025-06-24 16:58:18 - ✅ Trabajador encontrado - ID: 64
+2025-06-24 16:58:18 - 🔍 Buscando jefe por nombre: 
+2025-06-24 16:58:18 - ❌ Jefe no activo encontrado: 
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-06-25 11:12:31 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-25 11:12:31 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => santiago rodriguez lopez
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Incapacidad medica
+    [rango_fechas] => 2025-06-25 - 2025-06-25
+    [observaciones] => Me caí de la moto y sufrí raspaduras en la mano, el brazo y las piernas. En este momento no puedo usar el computador debido a las heridas en la mano. Fui a urgencias hoy y me asignaron una cita prioritaria para mañana, donde me valorarán y me emitirán la incapacidad médica en dado caso de que aplique.
+
+Por ahora, adjunto las imágenes del triage y de mis heridas como soporte provisional para justificar mi ausencia de hoy, tal como me indicaron en el centro médico.
+
+Quedo atento a cualquier indicación y muchas gracias por la comprensión.
+)
+
+2025-06-25 11:12:31 - 🔎 Buscando trabajador con documento: 1005483223
+2025-06-25 11:12:31 - ✅ Trabajador encontrado - ID: 148
+2025-06-25 11:12:31 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-06-25 11:12:31 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-06-25 11:12:31 - ✔️ Comprobante guardado: 2a3a587e-e00e-4258-9aef-5542b1b52cd2.jpg
+2025-06-25 11:12:31 - ✔️ Comprobante guardado: 52cbf3d5-00d0-460a-a401-7f9c29292181.jpg
+2025-06-25 11:12:31 - ✔️ Comprobante guardado: WhatsApp Image 2025-06-25 at 1.31.27 AM.jpeg
+2025-06-25 11:12:31 - ✔️ Comprobante guardado: WhatsApp Image 2025-06-25 at 11.49.44 AM.jpeg
+2025-06-25 11:12:31 - ✔️ Comprobante guardado: WhatsApp Image 2025-06-25 at 11.50.17 AM.jpeg
+2025-06-25 11:12:31 - ✔️ Comprobante guardado: WhatsApp Image 2025-06-25 at 11.50.02 AM.jpeg
+2025-06-25 11:12:34 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-06-25 15:55:42 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-25 15:55:42 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Adriana Graterol
+    [documento] => 1127573470
+    [email] => adriana.graterol@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Sergio Alberto Angulo Amorocho
+    [tipo_ausencia] => Incapacidad medica
+    [rango_fechas] => 2025-06-25 - 2025-06-26
+    [observaciones] => 
+)
+
+2025-06-25 15:55:42 - 🔎 Buscando trabajador con documento: 1127573470
+2025-06-25 15:55:42 - ✅ Trabajador encontrado - ID: 121
+2025-06-25 15:55:42 - 🔍 Buscando jefe por nombre: Sergio Alberto Angulo Amorocho
+2025-06-25 15:55:42 - ✅ Jefe encontrado - ID: 82, Email: sergio.angulo@dlivrd.io
+2025-06-25 15:55:42 - ✔️ Comprobante guardado: Incapacidad..pdf
+2025-06-25 15:55:45 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-06-25 19:46:53 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-25 19:46:53 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Santiago Rodríguez López 
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => 
+    [tipo_ausencia] => Trabajo desde casa
+    [rango_fechas] => 2025-06-26 - 2025-06-26
+    [observaciones] => El día de mañana tenía pensado ir a la cita a sacar la incapacidad, sin embargo tengo otra cita de rayos x qué llevo esperando casi un mes, y amabas quedaron casi que para el mismo tiempo, entonces tendré que ir a la cita de rayos x y no podré sacar la incapacidad mañana si no el viernes en dado caso, yo ya tenia aprobado el permiso de la cita sin embargo quisiera saber si podría trabajar desde casa ya que no me siento bien por el golpe y el viernes sacaría la incapacidad 
+)
+
+2025-06-25 19:46:53 - 🔎 Buscando trabajador con documento: 1005483223
+2025-06-25 19:46:53 - ✅ Trabajador encontrado - ID: 148
+2025-06-25 19:46:53 - 🔍 Buscando jefe por nombre: 
+2025-06-25 19:46:53 - ❌ Jefe no activo encontrado: 
+2025-06-25 19:47:03 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-25 19:47:03 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Santiago Rodríguez López 
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Trabajo desde casa
+    [rango_fechas] => 2025-06-26 - 2025-06-26
+    [observaciones] => El día de mañana tenía pensado ir a la cita a sacar la incapacidad, sin embargo tengo otra cita de rayos x qué llevo esperando casi un mes, y amabas quedaron casi que para el mismo tiempo, entonces tendré que ir a la cita de rayos x y no podré sacar la incapacidad mañana si no el viernes en dado caso, yo ya tenia aprobado el permiso de la cita sin embargo quisiera saber si podría trabajar desde casa ya que no me siento bien por el golpe y el viernes sacaría la incapacidad 
+)
+
+2025-06-25 19:47:03 - 🔎 Buscando trabajador con documento: 1005483223
+2025-06-25 19:47:03 - ✅ Trabajador encontrado - ID: 148
+2025-06-25 19:47:03 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-06-25 19:47:03 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-06-25 19:47:03 - ✔️ Comprobante guardado: IMG_0654.png
+2025-06-25 19:47:05 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh

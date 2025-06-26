@@ -1,0 +1,8 @@
+2025-06-24 13:32:18 - >>> Inicio de updateUsuario.php
+2025-06-24 13:32:18 - Raw input: {"nombres":"styven1","email":"styvenmunera6@gmail.com","password":"","id_rol":"1"}
+2025-06-24 13:32:18 - Datos recibidos: nombres=styven1, email=styvenmunera6@gmail.com, id_rol=1
+2025-06-24 13:32:18 - Usuario 1 actualizado sin cambiar contraseña.
+2025-06-25 09:43:40 - >>> Inicio de updateUsuario.php
+2025-06-25 09:43:40 - Raw input: {"nombres":"Yesika","email":"HR@gcshelps.com","password":"123456","id_rol":"2"}
+2025-06-25 09:43:40 - Datos recibidos: nombres=Yesika, email=HR@gcshelps.com, id_rol=2
+2025-06-25 09:43:40 - Usuario 2147483655 actualizado con nueva contraseña.

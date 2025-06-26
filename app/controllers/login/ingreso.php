@@ -17,23 +17,23 @@ if (isset($_POST['email']) && isset($_POST['password_user']) && !empty($_POST['e
     $email = $_POST['email'];
     $password_user = $_POST['password_user'];
 
-    log_debug("Formulario recibido: email = $email\n");
+   
 
     $sql = "SELECT * FROM tb_usuarios WHERE email = :email";
-    log_debug("Consulta SQL: $sql\n");
+   
 
     try {
         $query = $pdo->prepare($sql);
         $query->bindParam(':email', $email, PDO::PARAM_STR);
         $query->execute();
-        log_debug("Consulta ejecutada con éxito para el email: $email\n");
+        
     } catch (Exception $e) {
-        log_debug("Error al ejecutar la consulta SQL: " . $e->getMessage() . "\n");
+        
         exit();
     }
 
     $usuario = $query->fetch(PDO::FETCH_ASSOC);
-log_debug("Datos del usuario desde BD:\n" . print_r($usuario, true));
+
     if ($usuario) {
         log_debug("Usuario encontrado: email = $email\n");
         $password_user_tabla = $usuario['password_user'];
@@ -44,13 +44,11 @@ log_debug("Datos del usuario desde BD:\n" . print_r($usuario, true));
 
         if (password_verify($password_user, $password_user_tabla)) {
             $password_correct = true;
-            log_debug("Contraseña verificada correctamente con password_verify()\n");
-        } elseif ($password_user === $password_user_tabla) {
+            
+        } else if ($password_user === $password_user_tabla) {
             $password_correct = true;
-            log_debug("Contraseña válida en texto plano\n");
-        } else {
-            log_debug("Contraseña incorrecta\n");
-        }
+            
+        } 
 
      if ($password_correct) {
     // Verificar si ya hay una conexión activa
@@ -60,7 +58,7 @@ log_debug("Datos del usuario desde BD:\n" . print_r($usuario, true));
     $conexion_activa = $stmt_check->fetch(PDO::FETCH_ASSOC);
 
     if ($conexion_activa) {
-        log_debug("Intento de conexión rechazado: usuario ya conectado.\n");
+        
         $_SESSION['mensaje'] = "Ya tienes una sesión activa en otro dispositivo o navegador.";
         header('Location: ' . $URL . '/index.php');
         exit();
@@ -77,7 +75,7 @@ $_SESSION['usuario_info'] = [
     
 ];
 
-log_debug("Datos en la sesión:\n" . print_r($_SESSION, true));
+
 function detectar_dispositivo($user_agent) {
     $user_agent = strtolower($user_agent);
 
@@ -102,12 +100,12 @@ try {
     
 $latitud = $_POST['latitud'] ?? null;
 $longitud = $_POST['longitud'] ?? null;
-log_debug("Latitud recibida: " . var_export($latitud, true));
-log_debug("Longitud recibida: " . var_export($longitud, true));
+
+
 $ubicacion = null;
 
 
-log_debug("Respuesta de API : " . print_r($data, true) . "\n");
+
     $id_conexion = uniqid('conn_', true);
     $_SESSION['id_conexion'] = $id_conexion;
     
@@ -134,7 +132,7 @@ log_debug("Respuesta de API : " . print_r($data, true) . "\n");
         ':rango' => $rango
     ];
 
-    log_debug("Datos a insertar en usuarios_conectados:\n" . print_r($datos_insert, true));
+    
 
 $sql_insert = "INSERT INTO usuarios_conectados 
 (id_usuario, nombre, sistema, ip, fecha_ingreso, ultima_actividad, estado, email, id_conexion, ubicacion, latitud, longitud, rango) 
@@ -144,32 +142,32 @@ VALUES (:id_usuario, :nombre, :sistema, :ip, :fecha_ingreso, :ultima_actividad, 
     $stmt_insert->execute($datos_insert);
     
     
-    log_debug("Usuario insertado en usuarios_conectados con id_conexion = $id_conexion\n");
+   
 
 } catch (PDOException $e) {
-    log_debug("Error al actualizar/insertar usuario conectado: " . $e->getMessage() . "\n");
+    
 }
 
-log_debug("Login exitoso para el usuario: $email\n");
+
 
 
 header('Location: ' . $URL . '/sistema/index.php');
 exit();
 } else {
             $_SESSION['mensaje'] = "Datos incorrectos, vuelva a intentarlo.";
-            log_debug("Redirigiendo por contraseña incorrecta\n");
+           
             header('Location: ' . $URL . '/index.php?error=login');
             exit();
         }
     } else {
         $_SESSION['mensaje'] = "Usuario no encontrado.";
-        log_debug("Redirigiendo por usuario no encontrado\n");
+        
         header('Location: ' . $URL . '/index.php?error=nouser');
         exit();
     }
 } else {
     $_SESSION['mensaje'] = "Por favor, complete todos los campos del formulario.";
-    log_debug("Formulario incompleto\n");
+   
     header('Location: ' . $URL . '/index.php?error=incompleto');
     exit();
 }

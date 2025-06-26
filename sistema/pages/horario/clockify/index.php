@@ -20,8 +20,8 @@ function log_debug($mensaje) {
 log_debug("Fecha recibida: ");
 ?>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="<?php echo $URL; ?>/librerias/vendor/npm-asset/bootstrap/dist/css/bootstrap.min.css">
   <style>
     body { background-color: #f6f8fb; font-family: 'Inter', sans-serif; }
     .card { background-color: #ffffff; border-radius: 12px; }
@@ -37,6 +37,7 @@ log_debug("Fecha recibida: ");
 .icon-cobro:hover {transform: scale(1.2);color: #0d6efd; }
 .icon-cobro.selected {color: #0d6efd !important;}
 .d-flex.align-items-center { flex-wrap: wrap; }
+.dropdown-menu {max-height: 60px; overflow-y: auto;}
   </style>
   
 <div id="contenido-principal">
@@ -79,7 +80,11 @@ log_debug("Fecha recibida: ");
 </div> 
 </div>
 
-
+<script src="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/jquery/dist/jquery.min.js"></script>
+<script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/datatables.net-bs5/js/dataTables.bootstrap5.min.js"></script>
+<script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <script>
 (function(){
 
@@ -151,7 +156,7 @@ const updateTotals = () => {
     let rawFecha = act.fecha;
     if (!rawFecha) return;
 
-    // Forzar formato ISO si es necesario
+   
     if (!rawFecha.includes('T')) rawFecha = rawFecha.replace(' ', 'T');
     if (!rawFecha.includes('+') && !rawFecha.includes('-')) rawFecha += '-05:00';
 
@@ -285,7 +290,7 @@ btn.addEventListener('click', () => {
 
 
 
-// Agrega lógica para el cronómetro individual de cada actividad
+
 let actividadActiva = null;
 let intervalActividad = null;
 let segundosActividad = 0;
@@ -322,16 +327,16 @@ function detenerActividad() {
   clearInterval(intervalActividad);
   const { item, cardBody, duracionText, playBtn } = actividadActiva;
     
-  // Obtener la hora fin actual
+ 
   const ahora = new Date();
   const horaFinStr = ahora.toTimeString().split(' ')[0].substring(0, 5); // "HH:MM"
 
-  // Solo sumamos los segundos del cronómetro, NO recalculamos con hora_inicio
+  
   const duracionFinalSegundos = (item.duracion || 0) + segundosActividad;
   
 
 
-  // Actualizamos visualmente
+  
   cardBody.querySelector('.hora-fin').value = horaFinStr;
   duracionText.textContent = formatTime(duracionFinalSegundos);
 
@@ -358,7 +363,7 @@ function detenerActividad() {
       }
     });
 
-  // Restaurar icono y estado
+  
   const icon = playBtn.querySelector('i');
   icon.classList.remove('bi-stop');
   icon.classList.add('bi-play');
@@ -367,12 +372,12 @@ function detenerActividad() {
   segundosActividad = 0;
 }
 
-// Código actualizado para proteger la edición durante el cronómetro activo
+
 let clickedHoraInput = null;
 let cobrarActividad = false;
 
 
-// Solo ejecutamos calcularDuracion si hubo clic previo en el mismo input y se cambió el valor
+
 document.addEventListener('change', function (event) {
 
   if (event.target.matches('.fecha-input')) {
@@ -400,7 +405,7 @@ document.addEventListener('change', function (event) {
   }
 });
 
-// Marcar actividad como cobrada o no cobrada
+
 function toggleCobro(icon, actividadId) {
   const isCurrentlyCobrada = icon.classList.contains('text-primary');
   const nowCobrada = !isCurrentlyCobrada;
@@ -441,7 +446,7 @@ function toggleCobro(icon, actividadId) {
   }
   cargarActividades();
 }
-// Adaptar formato 24h para los campos de hora
+
 function adaptarFormatoHoraInputs() {
   document.querySelectorAll('.hora-inicio, .hora-fin').forEach(input => {
     input.setAttribute('step', '60');
@@ -449,7 +454,7 @@ function adaptarFormatoHoraInputs() {
   });
 }
 
-// Incluir icono de cobro en renderActividad
+
 function renderActividad(item) {
   const div = document.createElement('div');
   div.className = 'mb-2';
@@ -471,14 +476,14 @@ function renderActividad(item) {
 
         <!-- Fecha -->
         <div class="flex-shrink-0">
-          <input type="date" class="form-control form-control-sm fecha-input" style="width: 50px;" value="${item.fecha.substring(0, 10)}" data-id="${item.id}" />
+          <input type="date" class="form-control form-control-sm fecha-input" style="width: 150px;" value="${item.fecha.substring(0, 10)}" data-id="${item.id}" />
         </div>
 
         <!-- Hora inicio - fin -->
         <div class="d-flex align-items-center gap-1 flex-shrink-0">
-          <input type="time" class="form-control form-control-sm hora-inicio" style="width: 100px;" value="${item.hora_inicio}">
+          <input type="time" class="form-control form-control-sm hora-inicio" style="width: 150px;" value="${item.hora_inicio}">
           <span>-</span>
-          <input type="time" class="form-control form-control-sm hora-fin" style="width: 100px;" value="${item.hora_fin}">
+          <input type="time" class="form-control form-control-sm hora-fin" style="width: 150px;" value="${item.hora_fin}">
         </div>
 
         <!-- Duración -->
@@ -501,7 +506,7 @@ function renderActividad(item) {
       </div>
     </div>
   `;
-//Envento de la cambio de hora 
+
   div.querySelector(".hora-inicio").addEventListener("click", function () {
   clickedHoraInput = this;
 });
@@ -616,44 +621,80 @@ todayTotalEl.textContent = formatTime(totalHoy);
 document.getElementById('projectDropdown').addEventListener('click', () => {
   console.log("🟢 Se hizo clic en el botón de Project");
 
-  fetch('/intranet/sistema/pages/horario/clockify/getActividades.php')
+ fetch(`/intranet/sistema/pages/horario/clockify/getActividades.php`
+        + `?user_id=${encodeURIComponent(ID_USUARIO)}`
+        + `&t=${new Date().getTime()}`)
     .then(res => res.json())
     .then(data => {
       const dropdownMenu = document.querySelector('#projectDropdown').parentElement.querySelector('.dropdown-menu');
       dropdownMenu.innerHTML = '';
 
-      for (const cliente in data.estructura) {
-        const header = document.createElement('h6');
-        header.className = 'dropdown-header';
-        header.textContent = cliente;
-        dropdownMenu.appendChild(header);
+      // Agrega barra de búsqueda
+      const searchWrapper = document.createElement('div');
+      searchWrapper.className = 'px-3 py-2';
+      searchWrapper.innerHTML = `
+        <input type="text" class="form-control form-control-sm" placeholder="Buscar cliente o actividad..." id="searchActividad">
+        <hr class="dropdown-divider mt-2 mb-0">
+      `;
+      dropdownMenu.appendChild(searchWrapper);
 
-        data.estructura[cliente].forEach(actividad => {
-          const item = document.createElement('a');
-          item.className = 'dropdown-item';
-          item.href = '#';
-          item.textContent = actividad;
+      const renderDropdown = (filtro = '') => {
+        
+        dropdownMenu.querySelectorAll('.dropdown-header, .dropdown-item, hr').forEach(el => el.remove());
 
-          item.addEventListener('click', (e) => {
-            e.preventDefault();
-            const btn = document.getElementById('projectDropdown');
-            btn.innerHTML = `<i class="bi bi-check-circle-fill"></i> ${cliente} - ${actividad}`;
-            btn.dataset.cliente = cliente;
-            btn.dataset.actividad = actividad;
-          });
+        const filtroLower = filtro.toLowerCase();
 
-          dropdownMenu.appendChild(item);
-        });
+        for (const cliente in data.estructura) {
+          const actividades = data.estructura[cliente];
+          const clienteLower = cliente.toLowerCase();
 
-        const divider = document.createElement('li');
-        divider.innerHTML = '<hr class="dropdown-divider">';
-        dropdownMenu.appendChild(divider);
-      }
+          const coincideCliente = clienteLower.includes(filtroLower);
+          const actividadesFiltradas = actividades.filter(a => a.toLowerCase().includes(filtroLower));
 
-      // Forzar que el dropdown se muestre después de llenar dinámicamente
+          
+          if (coincideCliente || actividadesFiltradas.length > 0) {
+            const header = document.createElement('h6');
+            header.className = 'dropdown-header';
+            header.textContent = cliente;
+            dropdownMenu.appendChild(header);
+
+            const actividadesAMostrar = coincideCliente ? actividades : actividadesFiltradas;
+
+            actividadesAMostrar.forEach(actividad => {
+              const item = document.createElement('a');
+              item.className = 'dropdown-item';
+              item.href = '#';
+              item.textContent = actividad;
+
+              item.addEventListener('click', (e) => {
+                e.preventDefault();
+                const btn = document.getElementById('projectDropdown');
+                btn.innerHTML = `<i class="bi bi-check-circle-fill"></i> ${cliente} - ${actividad}`;
+                btn.dataset.cliente = cliente;
+                btn.dataset.actividad = actividad;
+              });
+
+              dropdownMenu.appendChild(item);
+            });
+
+            const divider = document.createElement('li');
+            divider.innerHTML = '<hr class="dropdown-divider">';
+            dropdownMenu.appendChild(divider);
+          }
+        }
+      };
+
+      
+      renderDropdown();
+
+      
+      document.getElementById('searchActividad').addEventListener('input', function () {
+        renderDropdown(this.value);
+      });
+
+
       const dropdown = bootstrap.Dropdown.getOrCreateInstance(document.getElementById('projectDropdown'));
       dropdown.show();
-
     });
 });
 

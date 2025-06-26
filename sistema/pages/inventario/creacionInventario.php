@@ -28,12 +28,29 @@ function parseList($string) {
 
 ?>
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Listado de Formularios Asignación</title>
-    <link href="<?php echo $URL; ?>/librerias/DataTables/datatables.min.css" rel="stylesheet">
+<!-- 1) Bootstrap CSS -->
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+
+<!-- 2) DataTables Bootstrap5 CSS -->
+<link
+  href="https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css"
+  rel="stylesheet"
+/>
+
+<!-- 3) Buttons Bootstrap5 CSS -->
+<link
+  href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.bootstrap5.min.css"
+  rel="stylesheet"
+/>
+
+<!-- 4) FontAwesome (para el icono Excel) -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  rel="stylesheet"
+/>
   
 
     <style>
@@ -62,9 +79,8 @@ function parseList($string) {
     margin-right: 5px;
 }
     </style>
-</head>
-<body>
-<div class="container-fluid mt-4">
+<div id="contenido-principal">
+    <div class="container-fluid mt-4">
     <div class="card-custom">
          <h2 class="text-center">Formulario de Asignaciones</h2>
        <br>  
@@ -137,13 +153,38 @@ function parseList($string) {
     </div>
    
 </div>
+</div>
 
-<!-- Scripts al final para evitar errores -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="<?php echo $URL; ?>/librerias/DataTables/datatables.min.js"></script>
+
+<!-- 5) jQuery (requerido por DataTables) -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+<!-- 6) Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- 7) DataTables core JS -->
+<script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+
+<!-- 8) DataTables Bootstrap5 integration -->
+<script src="https://cdn.datatables.net/1.13.5/js/dataTables.bootstrap5.min.js"></script>
+
+<!-- 9) Buttons core JS -->
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+
+<!-- 10) Buttons Bootstrap5 integration -->
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.bootstrap5.min.js"></script>
+
+<!-- 11) JSZip (necesario para excelHtml5) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+<!-- 12) HTML5 export (Excel) -->
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
+
+<!-- 13) SweetAlert2 (si usas alertas) -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
-$(document).ready(function () {
+    (function() {
+        $(document).ready(function () {
     console.log('Document ready, initializing DataTable...');
 
     var tabla = $('#tablaFormularios').DataTable({
@@ -155,18 +196,15 @@ $(document).ready(function () {
         paging: true,
         info: false,
         searching: true,
+         dom: 'Bfrtip',
 
-        layout: {
-            topStart: {
-                buttons: [
-                    {
-                        extend: 'excel',
-                        text: '<i class="fas fa-file-excel"></i> Excel',
-                        className: 'btn btn-success custom-excel-btn'
-                    }
-                ]
+        buttons: [
+            {
+                extend: 'excelHtml5',     // para exportar a Excel
+                text: '<i class="fas fa-file-excel"></i> Excel',
+                className: 'btn btn-success custom-excel-btn'
             }
-        },
+        ],
         language: {
             url: '//cdn.datatables.net/plug-ins/1.13.5/i18n/es-ES.json',
             paginate: {
@@ -217,44 +255,8 @@ $(document).ready(function () {
         tabla.search('').columns().search('').draw(); // <- Esto reinicia todo el filtrado
     });
 });
+
+})();
+
 </script>
-<script>
-let beaconSent = false;
 
-// Guardar el tiempo de inicio real cuando se abre la página
-const tiempoInicio = performance.now();
-
-window.addEventListener("beforeunload", function () {
-    if (beaconSent) return;
-
-    // Obtener uso de RAM si está disponible
-    let ramUsageMb = null;
-    try {
-        if (performance.memory) {
-            ramUsageMb = Math.round(performance.memory.usedJSHeapSize / 1024 / 1024); // en MB
-        }
-    } catch (e) {
-        console.warn("No se pudo obtener uso de RAM:", e);
-    }
-
-    // Calcular tiempo de uso de la página (aproximado, en segundos)
-    const tiempoCPU = Math.round(performance.now() / 1000);
-
-    // Preparar datos para enviar al servidor
-    const payload = {
-        id_conexion: '<?php echo $_SESSION['id_conexion'] ?? ''; ?>',
-        pagina: '<?php echo $_SERVER['REQUEST_URI']; ?>',
-        tiempo_inicio: '<?php echo $_SESSION['tiempo_inicio'] ?? microtime(true); ?>',
-        ram_usage_mb: ramUsageMb,
-        tiempo_cpu: tiempoCPU
-    };
-
-    // Enviar con sendBeacon
-    const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' });
-    navigator.sendBeacon('<?php echo $URL; ?>/sistema/cerrar_pagina.php', blob);
-
-    beaconSent = true;
-});
-</script>
-</body>
-</html>

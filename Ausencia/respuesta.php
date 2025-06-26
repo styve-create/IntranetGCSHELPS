@@ -128,6 +128,7 @@ try {
     a.nombre AS nombre_solicitante,
     a.documento AS documento_solicitante,
     a.email AS email_solicitante,
+    a.tareas as tareas,
     j.email AS email_jefe
     FROM tb_ausencias a
     JOIN trabajadores j ON a.id_jefe = j.id
@@ -145,6 +146,37 @@ try {
     $f1 = $info['fecha_inicio'];
     $f2 = $info['fecha_fin'];
     $obs = $info['observaciones'];
+    
+$tareas = json_decode($info['tareas'], true);
+
+// 2) Construye el HTML de la tabla (si hay tareas)
+$tablaTareas = '';
+if (!empty($tareas) && is_array($tareas)) {
+    $tablaTareas .= "<h3>Listado de Tareas (Vacaciones):</h3>
+    <table style='width:100%; border-collapse: collapse; margin-bottom:1rem;'>
+      <thead>
+        <tr>
+          <th style='border:1px solid #ddd;padding:8px;'>Tarea</th>
+          <th style='border:1px solid #ddd;padding:8px;'>Responsable</th>
+          <th style='border:1px solid #ddd;padding:8px;'>Fecha</th>
+        </tr>
+      </thead>
+      <tbody>";
+    foreach ($tareas as $fila) {
+        $tablaTareas .= "<tr>
+          <td style='border:1px solid #ddd;padding:8px;'>"
+            . htmlspecialchars($fila['tarea']) .
+          "</td>
+          <td style='border:1px solid #ddd;padding:8px;'>"
+            . htmlspecialchars($fila['responsable']) .
+          "</td>
+          <td style='border:1px solid #ddd;padding:8px;'>"
+            . htmlspecialchars($fila['fecha']) .
+          "</td>
+        </tr>";
+    }
+    $tablaTareas .= "</tbody></table>";
+}
     
     setlocale(LC_TIME, 'es_CO.UTF-8'); // Intenta establecer localización en español colombiano
     date_default_timezone_set('America/Bogota'); // Asegura zona horaria de Colombia
@@ -235,6 +267,8 @@ if ($tieneComprobantes) {
                 <p><strong>Hasta:</strong>$f2</p>
                 <p><strong>Observaciones:</strong> $obs</p>
                 $bloqueComprobantes
+                <br><hr>
+                $tablaTareas
                
                 <div style='margin-top: 30px;'>
                     <p style='font-weight: bold; color: #8B0000;'>Acciones:</p>

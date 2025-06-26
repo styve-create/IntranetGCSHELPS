@@ -6,144 +6,160 @@ include_once(__DIR__ . '/../../analisisRecursos.php');
 $stmt_roles = $pdo->query("SELECT * FROM tb_roles");
 $roles = $stmt_roles->fetchAll(PDO::FETCH_ASSOC);
 
-// Procesar formulario
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    header('Content-Type: application/json');
+// Obtener los trabajadores disponibles
+$stmt_trabajadores = $pdo->query("SELECT id, nombre_completo FROM trabajadores WHERE estado = 'activo' ORDER BY nombre_completo ASC");
+$trabajadores = $stmt_trabajadores->fetchAll(PDO::FETCH_ASSOC);
 
-    $nombres = trim($_POST['nombres'] ?? '');
-    $email = trim($_POST['email'] ?? '');
-    $password = $_POST['password_user'] ?? '';
-    $id_rol = $_POST['id_rol'] ?? '';
 
-    if (!empty($nombres) && !empty($email) && !empty($password) && !empty($id_rol)) {
-        try {
-            // Verificar si el correo ya existe
-            $stmt_check = $pdo->prepare("SELECT COUNT(*) FROM tb_usuarios WHERE email = ?");
-            $stmt_check->execute([$email]);
-            $email_exists = $stmt_check->fetchColumn();
-
-            if ($email_exists) {
-                echo json_encode(['status' => 'error', 'message' => 'El correo ya está registrado.']);
-                exit;
-            }
-
-            $password_hashed = password_hash($password, PASSWORD_DEFAULT);
-
-            $stmt = $pdo->prepare("
-                INSERT INTO tb_usuarios (nombres, email, password_user, id_rol, fyh_creacion, fyh_actualizacion)
-                VALUES (?, ?, ?, ?, NOW(), NOW())
-            ");
-            $success = $stmt->execute([$nombres, $email, $password_hashed, $id_rol]);
-
-            if ($success) {
-                $id_nuevo_usuario = $pdo->lastInsertId(); // Capturamos el ID generado automáticamente
-                echo json_encode([
-                    'status' => 'success',
-                    'message' => 'Usuario creado exitosamente.',
-                    'id' => $id_nuevo_usuario
-                ]);
-            } else {
-                echo json_encode(['status' => 'error', 'message' => 'Error al crear el usuario.']);
-            }
-        } catch (Exception $e) {
-            echo json_encode(['status' => 'error', 'message' => 'Excepción: ' . $e->getMessage()]);
-        }
-    } else {
-        echo json_encode(['status' => 'error', 'message' => 'Todos los campos son obligatorios.']);
-    }
-    exit;
-}
 ?>
-<html>
-    <head>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">  
-    </head>
-    <body>
-        <!-- HTML -->
-<div class="container mt-4">
-    <h2>Nuevo Usuario</h2>
-    <form id="formCrearUsuario">
-        <div class="mb-2">
-            <label for="nombres" class="form-label">Nombre Usuario</label>
-            <input type="text" name="nombres" class="form-control" required>
-        </div>
-        <div class="mb-2">
-            <label for="email" class="form-label">Correo electrónico</label>
-            <input type="email" name="email" class="form-control" required>
-        </div>
-        <div class="mb-2">
-            <label for="password_user" class="form-label">Contraseña</label>
-            <input type="password" name="password_user" class="form-control" required>
-        </div>
-        <div class="mb-3">
-            <label for="id_rol" class="form-label">Rol</label>
-            <select name="id_rol" class="form-select" required>
-                <option value="" disabled selected>Seleccione un rol</option>
-                <?php foreach ($roles as $rol): ?>
-                    <option value="<?= htmlspecialchars($rol['id_rol']) ?>">
-                        <?= htmlspecialchars($rol['rol']) ?>
-                    </option>
-                <?php endforeach; ?>
-            </select>
-        </div>
-        <div class="mb-3">
-            <label for="id_rol" class="form-label">Trabajdor</label>
-            <select name="id_rol" class="form-select" required>
-                <option value="" disabled selected>Seleccione un trabajador</option>
-                <?php foreach ($trabajadores as $trabajadore): ?>
-                    <option value="<?= htmlspecialchars($rol['id_rol']) ?>">
-                        <?= htmlspecialchars($rol['rol']) ?>
-                    </option>
-                <?php endforeach; ?>
-            </select>
-        </div>
-        <button type="submit" class="btn btn-success" id="btnGuardar">Guardar</button>
-        <div id="mensaje" class="mt-3"></div>
-    </form>
-</div>
 
-<!-- JS -->
-<script>
-$(document).ready(function() {
-    $('#formCrearUsuario').on('submit', function(e) {
-        e.preventDefault();
-        const btn = $('#btnGuardar');
-        btn.prop('disabled', true).text('Guardando...');
+<!-- 1) Bootstrap CSS -->
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+<!-- Select2 CSS & JS -->
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
-        $.post('pages/users/create.php', $(this).serialize())
-            .done(function(response) {
-                if (response.status === 'success') {
-                    Swal.fire({
-                        icon: 'success',
-                        title: '¡Éxito!',
-                        text: response.message
-                    });
-                    $('#formCrearUsuario')[0].reset();
-                } else {
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Error',
-                        text: response.message
-                    });
-                }
-            })
-            .fail(function(xhr, status, error) {
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Error inesperado',
-                    text: 'No se pudo procesar la solicitud: ' + error
-                });
-            })
-            .always(function() {
-                btn.prop('disabled', false).text('Guardar');
-            });
-    });
-});
-</script>
+<div id="contenido-principal">
+           <!-- HTML -->
+        <div class="container mt-4">
+            <h2>Nuevo Usuario</h2>
+            <form id="formCrearUsuario">
+                <div class="mb-2">
+                    <label for="nombres" class="form-label">Nombre Usuario</label>
+                    <input type="text" name="nombres" class="form-control" required>
+                </div>
+                <div class="mb-2">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-2">
+                    <label for="password_user" class="form-label">Contraseña</label>
+                    <input type="password" name="password_user" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="id_rol" class="form-label">Rol</label>
+                    <select name="id_rol" class="form-select" required>
+                        <option value="" disabled selected>Seleccione un rol</option>
+                        <?php foreach ($roles as $rol): ?>
+                            <option value="<?= htmlspecialchars($rol['id_rol']) ?>">
+                                <?= htmlspecialchars($rol['rol']) ?>
+                            </option>
+                        <?php endforeach; ?>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="trabajador_id" class="form-label">Trabajador</label>
+                    <select name="trabajador_id" id="trabajador_id" class="form-select" required>
+                        <option value="">Seleccione un trabajador</option>
+                        <?php foreach ($trabajadores as $trabajador): ?>
+                            <option value="<?= htmlspecialchars($trabajador['id']) ?>">
+                                <?= htmlspecialchars($trabajador['nombre_completo']) ?>
+                            </option>
+                        <?php endforeach; ?>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success" id="btnGuardar">Guardar</button>
+                <div id="mensaje" class="mt-3"></div>
+            </form>
+        </div> 
+</div>  
+
+
+
+
+<!-- 6) Bootstrap Bundle JS (incluye Popper) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
-</html>
 
+<!-- 13) SweetAlert2 (si usas alertas) -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Select2 CSS & JS -->
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
+<script>
+(function () {
+    window.enviaralback = function () {
+        const form = document.getElementById('formCrearUsuario');
+        const btn = document.getElementById('btnGuardar');
+
+        if (!form || !btn) {
+            console.warn("Formulario o botón no encontrado.");
+            return;
+        }
+
+        $('#trabajador_id').select2({
+            placeholder: "Buscar trabajador...",
+            width: '100%',
+            allowClear: true
+        });
+
+        form.addEventListener('submit', async function (e) {
+    e.preventDefault();
+
+    btn.disabled = true;
+    btn.textContent = 'Guardando...';
+
+    const formData = new FormData(form);
+    const url = `/intranet/sistema/pages/users/createUsuario.php?t=${new Date().getTime()}`;
+
+    console.log("📡 URL del fetch:", url);
+
+    for (let [key, value] of formData.entries()) {
+        console.log(`📤 Enviando: ${key} = ${value}`);
+    }
+
+    try {
+        const res = await fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(Object.fromEntries(formData.entries())),
+            headers: { 'Content-Type': 'application/json' },
+            credentials: 'include'
+        });
+
+        const text = await res.text();
+        console.log('📥 Respuesta cruda:', text);
+
+        let data;
+        try {
+            data = JSON.parse(text);
+        } catch (err) {
+            throw new Error('Respuesta no es JSON válido');
+        }
+
+        if (data.status === 'success') {
+            Swal.fire({
+                icon: 'success',
+                title: '¡Éxito!',
+                text: data.message
+            });
+            form.reset();
+            $('#trabajador_id').val(null).trigger('change');
+        } else {
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: data.message
+            });
+        }
+
+    } catch (err) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Error inesperado',
+            text: 'No se pudo procesar la solicitud: ' + err.message
+        });
+    } finally {
+        btn.disabled = false;
+        btn.textContent = 'Guardar';
+    }
+});
+    };
+
+    window.enviaralback();
+})();
+</script>
+  
 
 

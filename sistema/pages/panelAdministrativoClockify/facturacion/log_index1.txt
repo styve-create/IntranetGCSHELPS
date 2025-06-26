@@ -1,0 +1,37 @@
+2025-06-11 20:34:11 - >>> Inicio send_invoice.php
+2025-06-11 15:34:11 - RAW $_POST: Array
+(
+    [invoiceNumber] => INV-1749674033875
+    [email] => styvenmunera6@gmail.com
+    [subject] => Factura INV-1749674033875 de Global Connection
+    [body] => 
+    Hola,
+
+    Te adjunto la factura INV-1749674033875 correspondiente al periodo 
+    01/05/2025 – 
+    30/06/2025.
+
+    Saludos.
+)
+
+2025-06-11 15:34:11 - RAW $_FILES: Array
+(
+    [pdf] => Array
+        (
+            [name] => INV-1749674033875.pdf
+            [full_path] => INV-1749674033875.pdf
+            [type] => application/pdf
+            [tmp_name] => /tmp/phpxdwGVa
+            [error] => 0
+            [size] => 2698
+        )
+
+)
+
+2025-06-11 15:34:11 - PDF guardado en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/panelAdministrativoClockify/facturacion/uploads/facturas/INV-1749674033875.pdf
+2025-06-11 15:34:11 - invoiceNum = INV-1749674033875
+2025-06-11 15:34:11 - emailDest = styvenmunera6@gmail.com
+2025-06-11 15:34:11 - Adjuntado PDF a PHPMailer
+2025-06-11 15:34:14 - Mail enviado con exito
+2025-06-11 15:34:14 - >>> Fin send_invoice.php
+

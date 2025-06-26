@@ -1,5 +1,10 @@
 <?php
-$pagina = $_GET['page'] ?? null;
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$page = $_GET['page'] ?? '';
+
 
   $paginas_validas = [
           'home' => 'pages/home/index.php',
@@ -25,17 +30,23 @@ $pagina = $_GET['page'] ?? null;
           'horarioclockify' => 'pages/horario/clockify/index.php',
           'informacionTrabajador' => 'pages/informacion/index.php',
           'panelAdministrativoAnuncios' => 'pages/informacion/panelAdministrativoAnuncios.php',
-          'Projectos' => 'pages/panelAdministrativoClockify/Projectos/index.php',
+          'Clientes' => 'pages/panelAdministrativoClockify/Clientes/index.php',
+          'reportes' => 'pages/panelAdministrativoClockify/reportes/index.php',
+          'facturas' => 'pages/panelAdministrativoClockify/facturacion/index.php',
+          'reportesHoraios' => 'pages/panelAdministrativoClockify/reportesHorarios/index.php',
+          
           
       ];
       
-      if (!isset($pagina) || !array_key_exists($pagina, $paginas_validas)) {
+if (!isset($page) || !array_key_exists($page, $paginas_validas)) {
     http_response_code(404);
     echo "❌ Página no válida.";
     exit;
 }
 
-include $paginas_validas[$pagina];
+include $paginas_validas[$page];
+
+
 
 
       

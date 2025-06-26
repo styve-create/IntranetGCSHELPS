@@ -33,13 +33,8 @@ $campanas_raiz = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<link rel="stylesheet" href="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap-icons/font/bootstrap-icons.css">
+<link rel="stylesheet" href="<?php echo $URL; ?>/librerias/vendor/npm-asset/bootstrap/dist/css/bootstrap.min.css">
 
 <style>
 /* Base general */
@@ -152,9 +147,8 @@ body {
     background-color: rgba(0, 128, 0, 0.08);
 }
 </style>
-</head>
-<body>
-<div class="container">
+<div id="contenido-principal">
+    <div class="container">
     <h2 class="text-center"> Jerarquía de Campañas</h2>
     <br>
 <?php foreach ($campanas_raiz as $campana): ?>
@@ -196,11 +190,14 @@ body {
     </div>
   </div>
 </div>
+</div>
 
 
+<script src="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <script>
-// 🧠 Función de validación de arrastrables
-function isDraggableValid(target) {
+    (function() {
+        function isDraggableValid(target) {
   const tipo = target.dataset.tipo;
   const jerarquia = parseInt(target.dataset.jerarquia);
   if (tipo === 'campana' && jerarquia === 1) return false;
@@ -222,6 +219,7 @@ function handleDragStart(e) {
     campana: this.dataset.campana,
     jefe: this.dataset.tipo === 'jefe' ? this.dataset.id : this.dataset.jefe || null
   };
+ console.log("📦 Arrastrando:", draggedItem);
 
   this.classList.add('dragging');
   e.dataTransfer.effectAllowed = 'move';
@@ -525,18 +523,12 @@ document.querySelectorAll('.edit-btn, .add-btn, .delete-btn').forEach(function (
 let draggedItem = null;
 let isProcessing = false;
 
-// 🚀 Llamada única final
-document.addEventListener('DOMContentLoaded', function () {
-  inicializarEventosJerarquia();
-});
+inicializarEventosJerarquia();
+})();
+
+
 </script>
 
 
 
-<!-- Bootstrap 5 JS y Popper.js -->
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<!-- SweetAlert  -->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</body>
-</html>

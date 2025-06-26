@@ -42,20 +42,35 @@ foreach ($trabajadores as $trabajador) {
 }
 ?>
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $URL; ?>/librerias/DataTables/datatables.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<!-- 1) Bootstrap CSS -->
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+/>
+
+<!-- 2) DataTables Bootstrap5 CSS -->
+<link
+  href="https://cdn.datatables.net/1.13.5/css/dataTables.bootstrap5.min.css"
+  rel="stylesheet"
+/>
+
+<!-- 3) Buttons Bootstrap5 CSS -->
+<link
+  href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.bootstrap5.min.css"
+  rel="stylesheet"
+/>
+
+<!-- 4) FontAwesome (para el icono Excel) -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  rel="stylesheet"
+/>
+
     <style>
 .table-responsive {
             overflow-x: auto;
             margin-top: 20px;
         }
-
 
 .card-custom {
     background: #fff;
@@ -76,9 +91,8 @@ foreach ($trabajadores as $trabajador) {
     margin-right: 5px;
 }
     </style>
-</head>
-<body>
-    <div class="container-fluid mt-4">
+<div id="contenido-principal">
+     <div class="container-fluid mt-4">
         <div class="row">
             <div class="col-12">
                 <div class="card-custom">
@@ -110,9 +124,13 @@ foreach ($trabajadores as $trabajador) {
                                     <td><?= htmlspecialchars($trabajador['estado'] ?? '-') ?></td>
                                     <td>
                                         <div class="d-flex gap-2">
-                                            <a href="<?= $URL ?>/sistema/paginasdinamicas.php?page=ver_trabajadores&id=<?= $trabajador['id'] ?>&ajax=1" class="btn btn-sm btn-primary">
-                                                Ver
+                                            <a href="#" 
+                                               class="btn btn-sm btn-primary enlaceDinamicos"
+                                               data-link="ver_trabajadores"
+                                               data-id="<?= $trabajador['id'] ?>">
+                                              Ver
                                             </a>
+                                            
                                             <a href="#" class="btn btn-sm btn-danger btn-eliminar"
                                                data-id="<?= $trabajador['id'] ?>"
                                                data-nombre="<?= htmlspecialchars($trabajador['nombre_completo']) ?>">
@@ -131,15 +149,38 @@ foreach ($trabajadores as $trabajador) {
             </div>
         </div>
     </div>
+</div>
+   
+<!-- 5) jQuery (requerido por DataTables) -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
-<!-- Scripts al final para evitar errores -->
+<!-- 6) Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="<?php echo $URL; ?>/librerias/DataTables/datatables.min.js"></script>
+<!-- 7) DataTables core JS -->
+<script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
 
+<!-- 8) DataTables Bootstrap5 integration -->
+<script src="https://cdn.datatables.net/1.13.5/js/dataTables.bootstrap5.min.js"></script>
 
+<!-- 9) Buttons core JS -->
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+
+<!-- 10) Buttons Bootstrap5 integration -->
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.bootstrap5.min.js"></script>
+
+<!-- 11) JSZip (necesario para excelHtml5) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+<!-- 12) HTML5 export (Excel) -->
+<script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
+
+<!-- 13) SweetAlert2 (si usas alertas) -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   <script>
-    $(document).ready(function () {
+(function() { 
+   $(document).ready(function () {
         console.log('Document ready, initializing DataTable...');
 
         var tabla = $('#tablaTrabajadores').DataTable({
@@ -224,13 +265,12 @@ foreach ($trabajadores as $trabajador) {
             });
         });
 
-    });
+    });  
+    
+})();
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
 
 
 
