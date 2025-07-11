@@ -1016,3 +1016,59 @@
     [ajax] => 1
 )
 
+2025-06-26 14:32:00 - Cargado index.php
+2025-06-26 14:32:00 - GET detectado en index.php
+2025-06-26 14:32:00 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-06-27 07:39:50 - Cargado index.php
+2025-06-27 07:39:50 - GET detectado en index.php
+2025-06-27 07:39:50 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-07-02 10:37:59 - Cargado index.php
+2025-07-02 10:37:59 - GET detectado en index.php
+2025-07-02 10:37:59 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-07-02 10:38:25 - Cargado index.php
+2025-07-02 10:38:25 - GET detectado en index.php
+2025-07-02 10:38:25 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-07-04 12:30:33 - Cargado index.php
+2025-07-04 12:30:33 - GET detectado en index.php
+2025-07-04 12:30:33 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-07-08 14:21:36 - Cargado index.php
+2025-07-08 14:21:36 - GET detectado en index.php
+2025-07-08 14:21:36 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+
+2025-07-10 15:18:19 - Cargado index.php
+2025-07-10 15:18:19 - GET detectado en index.php
+2025-07-10 15:18:19 - Contenido GET: Array
+(
+    [page] => registros_huellas
+    [ajax] => 1
+)
+

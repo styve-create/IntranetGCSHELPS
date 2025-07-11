@@ -5,10 +5,7 @@ error_reporting(E_ALL);
 
 include_once(__DIR__ . '/../../../app/controllers/config.php');
 include_once(__DIR__ . '/../../analisisRecursos.php');
-// Obtener todos los formularios
-$sql = "SELECT * FROM formularios_asignacion ORDER BY fecha_registro DESC";
-$sentencia = $pdo->query($sql);
-$formularios = $sentencia->fetchAll(PDO::FETCH_ASSOC);
+
 
 // Determinar cuántos equipos máximos hay en un formulario
 $maxEquipos = 0;
@@ -100,58 +97,60 @@ function parseList($string) {
        
     </div>
 </div>
-        
+        <button id="exportExcelFiltro" class="btn btn-success custom-excel-btn mb-3">
+  <i class="fas fa-file-excel"></i> Descargar Excel Filtrado
+</button>
+
     <div class="table-responsive">
         <table id="tablaFormularios" class="table table-bordered table-striped">
-                    <thead>
-                        <tr>
-                            <th>N° Formulario</th>
-                            <th>Fecha Registro</th>
-                            <th>Nombre</th>
-                            <th>Documento</th>
-                            <th>Email</th>
-                            <?php for ($i = 1; $i <= $maxEquipos; $i++): ?>
-                                <th>Equipo <?= $i ?></th>
-                                <th>Serial <?= $i ?></th>
-                            <?php endfor; ?>
-                            
-                            <th>Estado Trabajador</th>
-                            <th>Fecha Trabajador</th>
-                            <th>Comentarios</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach ($formularios as $formulario): 
-                            $equipos = parseList($formulario['equipos'] ?? '');
-                            $seriales = parseList($formulario['seriales'] ?? '');
-                        ?>
-                        <tr>
-                            <td><?= htmlspecialchars($formulario['numero_formulario']?? '') ?></td>
-                            <td><?= date('Y-m-d', strtotime($formulario['fecha_registro'])) ?></td>
-                            <td><?= htmlspecialchars($formulario['nombre']?? '') ?></td>
-                            <td><?= htmlspecialchars($formulario['documento']?? '') ?></td>
-                            <td><?= htmlspecialchars($formulario['email']?? '') ?></td>
-                    
-                            <?php for ($i = 0; $i < $maxEquipos; $i++): 
-                                $equipo = $equipos[$i] ?? '-';
-                                $serial = is_array($seriales) 
-                                    ? ($seriales[$equipo] ?? '-') 
-                                    : '-';
-                            ?>
-                                <td><?= htmlspecialchars($equipo) ?></td>
-                                <td><?= htmlspecialchars($serial) ?></td>
-                            <?php endfor; ?>
-                    
-                            <td><?= htmlspecialchars($formulario['estado_trabajador']?? '') ?></td>
-                            <td><?= htmlspecialchars($formulario['fecha_trabajador']?? '') ?></td>
-                            <td><?= nl2br(htmlspecialchars($formulario['comentarios_trabajador']?? '')) ?></td>
-                        </tr>
-                        <?php endforeach; ?>
-                    </tbody>
+                <thead>
+  <tr data-id="<?= $formulario['id'] ?>">
+    <th>N° Formulario</th>
+    <th>Fecha Registro</th>
+    <th>Nombre</th>
+    <th>Documento</th>
+    <th>Ver Detalle</th>
+    <th>Actualizar</th>
+    <th>Recibir Equipos</th>
+  </tr>
+</thead>
+<tbody id="tbodyFormularios">
+  <!-- Aquí se insertarán las filas dinámicamente -->
+</tbody>
         </table>
     </div>
     </div>
    
+</div>
+        <div class="modal fade" id="modalDetalle" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Detalles del Formulario</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body" id="detalleFormulario">
+        <!-- Aquí se insertará el contenido dinámicamente -->
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalRecibir" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Recibir Equipos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <form id="formRecibirEquipos">
+        <div class="modal-body" id="contenedorEquipos"></div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger">Desasignar Equipos</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 </div>
 
@@ -182,12 +181,58 @@ function parseList($string) {
 
 <!-- 13) SweetAlert2 (si usas alertas) -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 <script>
     (function() {
-        $(document).ready(function () {
-    console.log('Document ready, initializing DataTable...');
+        
+   window.cargarFormularios = function() {
+  fetch('/intranet/sistema/pages/inventario/get_formularios.php?t=' + Date.now())
+    .then(res => res.json())
+    .then(data => {
+      const tbody = document.getElementById('tbodyFormularios');
+      tbody.innerHTML = '';
 
-    var tabla = $('#tablaFormularios').DataTable({
+      data.forEach(formulario => {
+        const equipos = JSON.parse(formulario.equipos || '[]');
+        const seriales = JSON.parse(formulario.seriales || '{}');
+
+        const detalle = JSON.stringify(formulario).replace(/"/g, '&quot;');
+
+        const fila = `
+          <tr data-id="${formulario.id}">
+            <td>${formulario.numero_formulario}</td>
+            <td>${formulario.fecha_registro.split(' ')[0]}</td>
+            <td>${formulario.nombre}</td>
+            <td>${formulario.documento}</td>
+            <td>
+              <button class="btn btn-info btn-sm ver-detalle" data-formulario="${detalle}">
+                <i class="fas fa-eye"></i> Ver
+              </button>
+            </td>
+            <td>
+              <a href="#" class="btn btn-warning enlaceDinamicos" data-link="inventarioActualizarRegistros" data-id="${formulario.id}">
+                <i class="fas fa-edit"></i> Actualizar
+              </a>
+            </td>
+            <td>
+              <button class="btn btn-success btn-recibir"
+                      data-id="${formulario.id}"
+                      data-equipos='${JSON.stringify(equipos)}'
+                      data-seriales='${JSON.stringify(seriales)}'>
+                <i class="fas fa-box-open"></i> Recibir
+              </button>
+            </td>
+          </tr>
+        `;
+        tbody.insertAdjacentHTML('beforeend', fila);
+      });
+
+      // 🔥 Destruir DataTable existente y volver a crear
+      if ($.fn.DataTable.isDataTable('#tablaFormularios')) {
+        $('#tablaFormularios').DataTable().destroy();
+      }
+
+      $('#tablaFormularios').DataTable({
         scrollX: true,
         responsive: true,
         pageLength: 5,
@@ -196,27 +241,36 @@ function parseList($string) {
         paging: true,
         info: false,
         searching: true,
-         dom: 'Bfrtip',
-
         buttons: [
-            {
-                extend: 'excelHtml5',     // para exportar a Excel
-                text: '<i class="fas fa-file-excel"></i> Excel',
-                className: 'btn btn-success custom-excel-btn'
-            }
+          {
+            extend: 'excelHtml5',
+            text: '<i class="fas fa-file-excel"></i> Excel',
+            className: 'btn btn-success custom-excel-btn'
+          }
         ],
         language: {
-            url: '//cdn.datatables.net/plug-ins/1.13.5/i18n/es-ES.json',
-            paginate: {
-                previous: '‹',
-                next: '›',
-                first: '«',
-                last: '»'
-            }
+          url: '//cdn.datatables.net/plug-ins/1.13.5/i18n/es-ES.json',
+          paginate: {
+            previous: '‹',
+            next: '›',
+            first: '«',
+            last: '»'
+          }
         }
+        
+      });
+
+    })
+    .catch(err => {
+      console.error('Error al cargar formularios:', err);
     });
+};
 
-
+        $(document).ready(function () {
+            
+    console.log('Document ready, initializing DataTable...');
+    window.cargarFormularios();
+    
    // Filtro personalizado de fechas
     $.fn.dataTable.ext.search.push(
         function (settings, data, dataIndex) {
@@ -254,7 +308,122 @@ function parseList($string) {
         $('#end_date').val('');
         tabla.search('').columns().search('').draw(); // <- Esto reinicia todo el filtrado
     });
+    
+    $('#exportExcelFiltro').on('click', function () {
+    const start = $('#start_date').val();
+    const end = $('#end_date').val();
+
+    if (!start || !end) {
+        Swal.fire('Fechas requeridas', 'Selecciona una fecha de inicio y fin para exportar.', 'warning');
+        return;
+    }
+
+    const url = `/intranet/sistema/pages/inventario/exportar_excel.php?start=${start}&end=${end}&t=${Date.now()}`;
+    window.open(url, '_blank');
 });
+    
+    $(document).on('click', '.ver-detalle', function () {
+  const data = JSON.parse($(this).attr('data-formulario'));
+  let html = `<p><strong>Número:</strong> ${data.numero_formulario}</p>
+              <p><strong>Nombre:</strong> ${data.nombre}</p>
+              <p><strong>Documento:</strong> ${data.documento}</p>
+              <p><strong>Email:</strong> ${data.email}</p>
+              <p><strong>Fecha Registro:</strong> ${data.fecha_registro}</p>
+              <p><strong>Estado:</strong> ${data.estado_trabajador}</p>
+              <p><strong>Comentario:</strong> ${data.comentarios_trabajador}</p>`;
+
+  try {
+    const equipos = JSON.parse(data.equipos);
+    const seriales = JSON.parse(data.seriales);
+    html += `<h5>Equipos:</h5><ul>`;
+    equipos.forEach(eq => {
+      html += `<li>${eq} - Serial: ${seriales[eq] || '-'}</li>`;
+    });
+    html += `</ul>`;
+  } catch (e) {}
+
+  $('#detalleFormulario').html(html);
+  $('#modalDetalle').modal('show');
+});
+
+$(document).on('click', '.btn-recibir', function () {
+  const id = $(this).data('id');
+
+  fetch(`/intranet/sistema/pages/inventario/get_detalle_formulario.php?id=${id}&t=${Date.now()}`)
+    .then(res => res.json())
+    .then(data => {
+      const equipos = JSON.parse(data.equipos || '[]');
+      const seriales = JSON.parse(data.seriales || '{}');
+
+      let html = `<input type="hidden" name="formulario_id" value="${id}">`;
+      html += `<p>Selecciona los equipos a desasignar:</p>`;
+
+      equipos.forEach(eq => {
+        const serial = seriales[eq] || 'N/A';
+        html += `
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" name="equipos[]" value="${eq}">
+            <label class="form-check-label">${eq} - Serial: ${serial}</label>
+          </div>`;
+      });
+
+      $('#contenedorEquipos').html(html);
+      $('#modalRecibir').modal('show');
+    })
+    .catch(err => {
+      console.error('Error al obtener detalles del formulario:', err);
+      Swal.fire('Error', 'No se pudieron obtener los datos actualizados.', 'error');
+    });
+});
+
+// Enviar el formulario
+$('#formRecibirEquipos').on('submit', function (e) {
+  e.preventDefault();
+  const formData = $(this).serialize();
+  const id = $(this).data('id');
+
+  Swal.fire({
+    title: '¿Estás seguro?',
+    text: "Los equipos seleccionados serán desasignados.",
+    icon: 'warning',
+    showCancelButton: true,
+    confirmButtonText: 'Sí, desasignar',
+    cancelButtonText: 'Cancelar'
+  }).then(result => {
+    if (result.isConfirmed) {
+      fetch(`/intranet/sistema/pages/inventario/desasignar_equipos.php?t=${Date.now()}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: formData
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.status === 'success') {
+          Swal.fire('¡Desasignado!', data.message, 'success').then(() => {
+  $('#modalRecibir').modal('hide');
+
+  // 🔄 Actualizar la fila de la tabla con nueva información por AJAX
+  fetch(`/intranet/sistema/pages/inventario/get_fila_formulario.php?id=${id}&t=${Date.now()}`)
+    .then(r => r.text())
+    .then(html => {
+      // Reemplaza la fila de la tabla por el nuevo contenido
+      const row = $(`#tablaFormularios tr[data-id="${id}"]`);
+      if (row.length) {
+        row.replaceWith(html);
+      }
+    });
+});
+        } else {
+          Swal.fire('Error', data.message, 'error');
+        }
+      });
+    }
+  });
+});
+
+});
+
+
 
 })();
 

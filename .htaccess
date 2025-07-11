@@ -18,3 +18,8 @@
 AddType application/javascript .js
 SSLProtocol all -SSLv2 -SSLv3 -TLSv1 -TLSv1.1
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+# Bloquear acceso directo a config.env.php
+<Files "config.env.php">
+    Order allow,deny
+    Deny from all
+</Files>

@@ -144,8 +144,9 @@ log_index("Equipos a asignar definidos.");
                     <input type="date" name="fecha_registro" id="fecha_registro" class="form-control">
                 </div>
                 <div class="d-flex gap-2">
-                    <button type="submit" class="btn btn-primary w-45" id="btnEnviar">Enviar</button>
-                    <button type="reset" class="btn btn-secondary w-45">Cancelar</button>
+                    <button type="submit" class="btn btn-primary " id="btnEnviar">Enviar</button>
+                    <a href="#" class="btn btn-secondary enlaceDinamicos" data-link="listadoInventario">Cancelar</a>
+                    
                 </div>
             </form>
         </div>

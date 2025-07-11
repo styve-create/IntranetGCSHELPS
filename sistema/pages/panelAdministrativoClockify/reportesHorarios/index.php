@@ -3,6 +3,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 include_once(__DIR__ . '/../../../../app/controllers/config.php');
+include_once(__DIR__ . '/../../../analisisRecursos.php');
 
 if (session_status() === PHP_SESSION_NONE) {
     session_name('mi_sesion_personalizada');
@@ -37,19 +38,19 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
 </style>
 <div id="contenido-principal">
         <div class="container-fluid p-4">
-                    <h4 class="mb-4"><strong >Reporte de Tiempos OPS</strong></h4>
+                    <h4 class="mb-4"><strong ><p class="traducible">Reporte de Tiempos OPS</p></strong></h4>
                     <div id="app" data-id-usuario="<?= htmlspecialchars($id_usuario) ?>"></div>
                     <div class="row g-2 mb-4">
                         <!-- Filtro de cliente -->
-                        <div class="col-md-2"><select id="filtroCliente" class="form-select form-select-sm"><option value="">Cargando clientes...</option></select></div>
+                        <div class="col-md-2"><select id="filtroCliente" class="form-select form-select-sm"><option value=""><p class="traducible">Cargando clientes...</p></option></select></div>
                         <!-- Filtro de actividad -->
-                        <div class="col-md-2"><select id="filtroActividad" class="form-select form-select-sm"><option value="all">Todas las actividades</option></select></div>
+                        <div class="col-md-2"><select id="filtroActividad" class="form-select form-select-sm"><option value="all"><p class="traducible">Todas las actividades</p></option></select></div>
                         <!-- Filtro de fecha de inicio -->
                         <div class="col-md-2"><input type="date" id="fechaInicio" class="form-control form-control-sm" /></div>
                         <!-- Filtro de fecha de fin -->
                         <div class="col-md-2"><input type="date" id="fechaFin" class="form-control form-control-sm" /></div>
                         <!-- Botón para aplicar los filtros -->
-                        <div class="col-md-2"><button id="btnFiltrar" class="btn btn-primary btn-sm w-100"><i class="bi bi-funnel"></i> Aplicar Filtro</button></div>
+                        <div class="col-md-2"><button id="btnFiltrar" class="btn btn-primary btn-sm w-100"><i class="bi bi-funnel"></i><p class="traducible">Aplicar Filtro</p></button></div>
                     </div>
                     
                     <!-- contenedor de la tabla -->
@@ -60,14 +61,14 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                       <div class="modal-dialog">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title">Assign Activity to <span id="modalUsuario"></span></h5>
+                            <h5 class="modal-title"><p class="traducible">Asignar Actividad</p><span id="modalUsuario"></span></h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                           </div>
                           <div class="modal-body">
                             <select id="modalActividad" class="form-select"></select>
                           </div>
                           <div class="modal-footer">
-                            <button id="modalGuardar" class="btn btn-primary">Save</button>
+                            <button id="modalGuardar" class="btn btn-primary"><p class="traducible">Guardar</p></button>
                           </div>
                         </div>
                       </div>
@@ -80,12 +81,8 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
 
 
      <div class="modal-header border-0 pb-0"><!-- quita el borde y padding-bottom -->
-        <h5 class="modal-title">
-          Detalle de Horarios — <span id="detalleUsuario"></span>
-        </h5>
-        <button id="btnNuevoRegistro" class="btn btn-sm btn-success ms-3">
-          + Nuevo Registro
-        </button>
+        <h5 class="modal-title"><p class="traducible">Detalle de Horarios </p><span id="detalleUsuario"></span></h5>
+        <button id="btnNuevoRegistro" class="btn btn-sm btn-success ms-3"><p class="traducible">+ Nuevo Registro</p></button>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
 
@@ -98,10 +95,15 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
           >
             <thead class="table-light">
               <tr>
-                <th>Fecha</th><th>Inicio</th><th>Fin</th>
-                <th>Break1</th><th>Break2</th><th>Break3</th>
-                <th>Horas Extras</th>
-                <th>Actividad</th><th>Acciones</th>
+                <th><p class="traducible">Fecha</p></th>
+                <th><p class="traducible">Inicio</p></th>
+                <th><p class="traducible">Fin</p></th>
+                <th><p class="traducible">Break 1</p></th>
+                <th><p class="traducible">Break 2</p></th>
+                <th><p class="traducible">Break 3</p></th>
+                <th><p class="traducible">Horas Extras</p></th>
+                <th><p class="traducible">Actividad</p></th>
+                <th><p class="traducible">Acciones</p></th>
               </tr>
             </thead>
             <tbody></tbody>
@@ -112,10 +114,10 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
      <!-- Footer centrado con botones grandes -->
      <div class="modal-footer border-0 justify-content-center">
        <button type="button" class="btn btn-success">
-         <i class="bi bi-check-circle-fill"></i> Guardar
+         <i class="bi bi-check-circle-fill"></i><p class="traducible">Guardar</p> 
        </button>
        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
-         <i class="bi bi-x-circle-fill"></i> Salir
+         <i class="bi bi-x-circle-fill"></i><p class="traducible">Salir</p> 
       </button>
    </div>
 
@@ -131,6 +133,7 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
 <script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <script src="<?= $URL; ?>/librerias/vendor/npm-asset/chart.js/dist/chart.umd.js"></script>
 <script src="<?= $URL; ?>/librerias/vendor/npm-asset/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.min.js"></script>
+<script src="<?= $URL; ?>/sistema/traduccionsistema.php"></script>
 <script>
 (function(){
   // ——— 1) referencias al DOM ———
@@ -150,7 +153,7 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
       .then(r => r.json())
       .then(data => {
         const lista = Array.isArray(data) ? data : data.clientes;
-        filtroClienteElement.innerHTML = '<option value="">Todos los clientes</option>';
+        filtroClienteElement.innerHTML = '<option value=""><p class="traducible">Todos los clientes</p></option>';
         lista.forEach(c => {
           const opt = document.createElement('option');
           opt.value = c.id_cliente;
@@ -159,14 +162,14 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
         });
       })
       .catch(() => {
-        filtroClienteElement.innerHTML = '<option value="">Error al cargar clientes</option>';
+        filtroClienteElement.innerHTML = '<option value=""><p class="traducible">Error al cargar clientes</p></option>';
       });
   }
 
   // ——— 3) cuando cambio cliente, cargo actividades ———
   filtroClienteElement.addEventListener('change', () => {
     const cli = filtroClienteElement.value;
-    filtroActividadElement.innerHTML = '<option value="all">Todas las actividades</option>';
+    filtroActividadElement.innerHTML = '<option value="all"><p class="traducible">Todas las actividades</p></option>';
     if (!cli) return;
     fetch(`/intranet/sistema/pages/panelAdministrativoClockify/reportesHorarios/get_actividades.php?cliente_id=${cli}&t=${Date.now()}`)
       .then(r => r.json())
@@ -180,7 +183,7 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
         });
       })
       .catch(() => {
-        filtroActividadElement.innerHTML = '<option value="all">Error al cargar actividades</option>';
+        filtroActividadElement.innerHTML = '<option value="all"><p class="traducible">Error al cargar actividades</p></option>';
       });
   });
 
@@ -194,11 +197,11 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
       <table id="tablaFiltrada" class="table table-sm table-bordered">
         <thead>
           <tr>
-            <th>Usuario</th>
-            <th>Tiempo</th>
-            <th>Horas Extra</th>
-            <th>Asignar Actividad</th>
-            <th>Ver Detalle</th>
+            <th><p class="traducible">Usuario</p></th>
+            <th><p class="traducible">Tiempo</p></th>
+            <th><p class="traducible">Horas Extra</p></th>
+            <th><p class="traducible">Asignar Actividad</p></th>
+            <th><p class="traducible">Ver Detalle</p></th>
           </tr>
         </thead>
         <tbody>
@@ -212,20 +215,24 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                   ${actividades.map(a => `<option value="${a.nombre_actividad}">${a.nombre_actividad}</option>`).join('')}
                 </select>
               </td>
-              <td><button class="btn btn-sm btn-info btnVerDetalle">Ver Detalle</button></td>
+              <td><button class="btn btn-sm btn-info btnVerDetalle"><p class="traducible">Ver Detalle</p></button></td>
             </tr>
           `).join('')}
         </tbody>
       </table>
     `;
+    
+window.traducirTextos(document.querySelector('#tablaFiltrada'));
 
-    // inicializo DataTable
+    // ✅ Inicializo DataTable solo cuando ya traduje
     $('#tablaFiltrada').DataTable({
       paging: true,
       ordering: true,
       info: false,
       autoWidth: false
     });
+  
+ 
 
     // handler asignar
     $('#tablaFiltrada')

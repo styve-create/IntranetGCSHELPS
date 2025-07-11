@@ -18,3 +18,43 @@
 
 )
 
+2025-06-26 19:32:06 - Archivo procesar_excel.php llamado
+2025-06-26 19:32:06 - POST recibido
+2025-06-26 19:32:06 - Contenido POST: Array
+(
+)
+
+2025-06-26 19:32:06 - Archivos: Array
+(
+    [archivo_excel] => Array
+        (
+            [name] => mes complero marzo.xls
+            [full_path] => mes complero marzo.xls
+            [type] => application/vnd.ms-excel
+            [tmp_name] => /tmp/phpwFpXFX
+            [error] => 0
+            [size] => 1119534
+        )
+
+)
+
+2025-07-04 17:30:52 - Archivo procesar_excel.php llamado
+2025-07-04 17:30:52 - POST recibido
+2025-07-04 17:30:52 - Contenido POST: Array
+(
+)
+
+2025-07-04 17:30:52 - Archivos: Array
+(
+    [archivo_excel] => Array
+        (
+            [name] => 6 - 12.xls
+            [full_path] => 6 - 12.xls
+            [type] => application/vnd.ms-excel
+            [tmp_name] => /tmp/phpC6E28m
+            [error] => 0
+            [size] => 153255
+        )
+
+)
+

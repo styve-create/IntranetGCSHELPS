@@ -26,7 +26,7 @@ include_once(__DIR__ . '/../../analisisRecursos.php');
 
 <div id="contenido-principal" class="p-4">
   <!-- Botón para abrir modal -->
-  <button class="btn btn-primary mb-3" id="btnAgregarAnuncio">
+  <button class="btn btn-primary mb-3 traducible" id="btnAgregarAnuncio">
     <i class="bi bi-plus-circle"></i> Agregar Anuncio
   </button>
 
@@ -34,11 +34,11 @@ include_once(__DIR__ . '/../../analisisRecursos.php');
  <table class="table" id="tablaCarrusel">
   <thead>
     <tr>
-      <th>Imagen</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Estado</th>
-      <th>Acciones</th>
+      <th class="traducible">Imagen</th>
+      <th class="traducible">Título</th>
+      <th class="traducible">Descripción</th>
+      <th class="traducible">Estado</th>
+      <th class="traducible">Acciones</th>
     </tr>
   </thead>
   <tbody id="carruselBody">
@@ -52,7 +52,7 @@ include_once(__DIR__ . '/../../analisisRecursos.php');
     <div class="modal-content">
       <form id="formCarrusel" enctype="multipart/form-data">
         <div class="modal-header">
-          <h5 class="modal-title">Agregar / Editar Anuncio</h5>
+          <h5 class="modal-title traducible">Agregar / Editar Anuncio</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
         </div>
         <div class="modal-body">
@@ -63,36 +63,36 @@ include_once(__DIR__ . '/../../analisisRecursos.php');
 
           <!-- Contenedor de vista previa -->
           <div class="mb-3" id="previewContainer" style="display:none;">
-            <label class="form-label">Imagen actual:</label>
+            <label class="form-label traducible">Imagen actual:</label>
             <img id="previewImagen" src="" class="img-fluid rounded mb-2" style="max-height:200px;">
           </div>
 
           <div class="mb-2">
-            <label class="form-label">Título</label>
+            <label class="form-label traducible">Título</label>
             <input type="text" name="titulo" class="form-control" required>
           </div>
           <div class="mb-2">
-            <label class="form-label">Descripción</label>
+            <label class="form-label traducible">Descripción</label>
             <textarea name="descripcion" class="form-control" required></textarea>
           </div>
           <div class="row">
             <div class="col-md-6 mb-2">
-              <label class="form-label">Fecha Inicio</label>
+              <label class="form-label traducible">Fecha Inicio</label>
               <input type="date" name="fecha_inicio" class="form-control" required>
             </div>
             <div class="col-md-6 mb-2">
-              <label class="form-label">Fecha Fin</label>
+              <label class="form-label traducible">Fecha Fin</label>
               <input type="date" name="fecha_fin" class="form-control" required>
             </div>
           </div>
           <div class="mb-2">
-            <label class="form-label">Imagen (opcional)</label>
+            <label class="form-label traducible">Imagen (opcional)</label>
             <input type="file" name="imagen" id="inputImagen" class="form-control">
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-          <button type="submit" class="btn btn-primary">Guardar</button>
+          <button type="button" class="btn btn-secondary traducible" data-bs-dismiss="modal">Cancelar</button>
+          <button type="submit" class="btn btn-primary traducible">Guardar</button>
         </div>
       </form>
     </div>

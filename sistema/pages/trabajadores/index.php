@@ -125,13 +125,13 @@ foreach ($trabajadores as $trabajador) {
                                     <td>
                                         <div class="d-flex gap-2">
                                             <a href="#" 
-                                               class="btn btn-sm btn-primary enlaceDinamicos"
+                                               class="btn  btn-primary enlaceDinamicos"
                                                data-link="ver_trabajadores"
                                                data-id="<?= $trabajador['id'] ?>">
                                               Ver
                                             </a>
                                             
-                                            <a href="#" class="btn btn-sm btn-danger btn-eliminar"
+                                            <a href="#" class="btn  btn-danger btn-eliminar"
                                                data-id="<?= $trabajador['id'] ?>"
                                                data-nombre="<?= htmlspecialchars($trabajador['nombre_completo']) ?>">
                                                 Eliminar

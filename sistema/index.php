@@ -24,6 +24,10 @@ if (!isset($_SESSION['usuario_info']['id']) || !isset($_SESSION['id_conexion']))
     exit;
 }
 
+if (!isset($_SESSION['idioma'])) {
+    $_SESSION['idioma'] = 'ES'; // valor por defecto
+}
+
 $usuario_id = $_SESSION['usuario_info']['id'];
 $id_conexion_sesion = $_SESSION['id_conexion'];
 
@@ -66,24 +70,27 @@ log_index1("Asignando id_conexion: $id_conexion_sesion a la sesión");
 include_once(__DIR__ . '/../layout/parte1.php');
 
 
-
+log_index1("Contenido de la sesión: " . var_export($_SESSION, true));
 ?>
-<div class="container-fluid">
-  <div class="row align-items-start">
-<!-- Sidebar unificada para todos los roles -->
-<div class="col-md-3 sidebar text-white" >
-  <nav class="nav flex-column p-3">
+
+<div style="display: flex; height: 100vh;">
+
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar text-white">
+    <!-- ... contenido de la sidebar ... -->
+      <nav class="nav flex-column p-3">
 
   <!-- Logo -->
   <a href="/" class="d-flex align-items-center mb-3">
     <img src="<?php echo $URL; ?>/imagen/GCS3.png" alt="Logo GCS" class="img-fluid" style="max-width: 80%; height: auto;">
   </a>
   <hr style="border: 1px solid white; opacity: 0.3; margin-bottom: 20px;">
-  <a href="#" data-link="home" class="btn btn-outline-light w-100 mb-3 text-start enlaceDinamicos">
-  <i class="fas fa-home me-2"></i> Inicio
+ <a href="#" data-link="home" class="btn btn-outline-light w-100 mb-3 text-start enlaceDinamicos d-flex align-items-center">
+  <div class="icono-wrapper me-2">
+    <i class="fas fa-home"></i>
+  </div>
+  <span class="texto-btn"><p class="traducible">inicio</p></span>
 </a>
-
-
 
   <?php
   $menu_por_rol = [
@@ -231,15 +238,17 @@ include_once(__DIR__ . '/../layout/parte1.php');
   ];
   if (isset($menu_por_rol[$usuario_rol])) {
     foreach ($menu_por_rol[$usuario_rol] as $seccion) {
-      echo '<button class="btn btn-outline-light w-100 mb-2 text-start toggle-btn" data-target="#' . $seccion['id'] . '">';
-      echo '<i class="' . $seccion['icono'] . ' me-2"></i>' . $seccion['titulo'];
-      echo '</button>';
+      echo '<button class="btn btn-outline-light w-100 mb-2 text-start toggle-btn d-flex align-items-center justify-content-start" data-target="#' . $seccion['id'] . '">';
+echo '<div class="icono-wrapper me-2"><i class="' . $seccion['icono'] . '"></i></div>';
+echo '<span class="texto-btn traducible">' . $seccion['titulo'] . '</span>';
+echo '</button>';
 
       echo '<div class="collapse" id="' . $seccion['id'] . '"><div class="ps-3 pb-3">';
       foreach ($seccion['items'] as $item) {
-        echo '<a href="#" data-link="' . $item['url'] . '" class="d-block text-white mb-1 enlaceDinamicos">';
-        echo '<i class="' . $item['icono'] . ' me-2"></i>' . $item['texto'];
-        echo '</a>';
+       echo '<a href="#" data-link="' . $item['url'] . '" class="d-block text-white mb-1 enlaceDinamicos d-flex align-items-center">';
+echo '<div class="icono-wrapper me-2"><i class="' . $item['icono'] . '"></i></div>';
+echo '<span class="texto-btn traducible">' . $item['texto'] . '</span>';
+echo '</a>';
       }
       echo '</div></div>';
     }
@@ -248,62 +257,171 @@ include_once(__DIR__ . '/../layout/parte1.php');
   
   <hr style="border: 1px solid white; opacity: 0.3; margin-top: 20px;">
 
-<a href="#" id="btnLogout" class="btn btn-danger w-100 mt-2">
-  <i class="fas fa-sign-out-alt me-2"></i> Cerrar Sesión
+<a href="#" id="btnLogout" class="btn btn-danger w-100 mt-2 d-flex align-items-center">
+  <div class="icono-wrapper me-2">
+    <i class="fas fa-sign-out-alt"></i>
+  </div>
+  <span class="texto-btn">Cerrar Sesión</span>
 </a>
 </nav>
-</div>
-
-
-<div class="col-md-9">
-  <div id="contenido-dinamico" class="p-3" style="min-height: 600px;"></div>
-
   </div>
-</div>
+
+  <!-- Contenedor derecho -->
+  <div class="main-wrapper">
+   <div class="navbar-custom">
+  <button id="toggleSidebar" class="toggle-btn"><i class="fas fa-bars"></i></button>
+  <span style="font-weight: bold;">Bienvenido<?php echo isset($_SESSION['usuario_info']['nombre']) ? ', ' . htmlspecialchars($_SESSION['usuario_info']['nombre']) : ''; ?></span>
+  <button id="btnLanguage" class="btn btn-md ms-2">
+    <?php echo htmlspecialchars($_SESSION['idioma']); ?>
+</button>
   </div>
+    <div class="main-content" style="flex: 1; overflow-y: auto;">
+      <div id="contenido-dinamico" style="padding: 20px;">
+        <!-- contenido dinámico -->
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <script>
+document.addEventListener('DOMContentLoaded', () => {
+     
+    const btnLang = document.getElementById('btnLanguage');
+
+    btnLang.addEventListener('click', () => {
+        const nuevoIdioma = btnLang.textContent.trim() === 'EN' ? 'ES' : 'EN';
+
+        fetch(`/intranet/sistema/setIdioma.php?t=${Date.now()}`, {
+            method: 'POST',
+            credentials: 'include',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ idioma: nuevoIdioma })
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log("Respuesta setIdioma.php:", data);
+            if (data.success) {
+                btnLang.textContent = nuevoIdioma;
+                window.currentLang = nuevoIdioma;
+
+                // Ahora llamamos a traduccionsistema.php para actualizar el estado en cliente
+                fetch(`/intranet/sistema/traduccionsistema.php?t=${Date.now()}`, {
+                    credentials: 'include'
+                })
+                .then(res => res.text())
+                .then(script => {
+                    console.log("Respuesta traduccionsistema.php cargada.");
+                    // Ejecutamos el código que devuelve traduccionsistema.php
+                    const s = document.createElement('script');
+                    s.textContent = script;
+                    document.body.appendChild(s);
+
+                    if (typeof window.traducirTextos === 'function') {
+                        window.traducirTextos(document);
+                    }
+                })
+                .catch(err => {
+                    console.error("Error al llamar a traduccionsistema.php:", err);
+                });
+
+            } else {
+                console.error("Error cambiando idioma:", data.message);
+            }
+        })
+        .catch(err => {
+            console.error("Error en fetch setIdioma.php:", err);
+        });
+    });
+});
+</script>
+<script>
+    window.cargarTraducciones = () => {
+    fetch('/intranet/sistema/traduccionsistema.php?t=' + Date.now(), {
+        credentials: 'include'
+    })
+    .then(res => res.text())
+    .then(script => {
+        const s = document.createElement('script');
+        s.textContent = script;
+        document.head.appendChild(s);
+
+        if (typeof window.traducirTextos === 'function') {
+            // Traducimos todo el documento actual
+            window.traducirTextos(document);
+        }
+    })
+    .catch(err => {
+        console.error("❌ Error al cargar traducciones:", err);
+    });
+};
+</script>
+<script>
     console.log('Inicializando toggles de sidebar');
   document.addEventListener('DOMContentLoaded', function () {
+      
+const btnToggle = document.getElementById("toggleSidebar");
+  const sidebar = document.querySelector(".sidebar");
+  const mainWrapper = document.querySelector(".main-wrapper");
+
+  btnToggle.addEventListener("click", () => {
+    sidebar.classList.toggle("colapsada");
+    mainWrapper.classList.toggle("colapsada");
+  });
+
+  // Expansión temporal con hover solo si está colapsada
+  sidebar.addEventListener("mouseenter", () => {
+    if (sidebar.classList.contains("colapsada")) {
+      sidebar.classList.add("expandida-hover");
+      mainWrapper.classList.add("expandida-hover");
+    }
+  });
+
+  sidebar.addEventListener("mouseleave", () => {
+    sidebar.classList.remove("expandida-hover");
+    mainWrapper.classList.remove("expandida-hover");
+  });
     const buttons = document.querySelectorAll('.toggle-btn');
 
-    buttons.forEach(button => {
-      const targetId = button.getAttribute('data-target');
-      const target = document.querySelector(targetId);
+   buttons.forEach(button => {
+  const targetId = button.getAttribute('data-target');
+  if (!targetId) return; // ⛔ No tiene target, saltar
 
-    
-      target.classList.add('notransition');
+  const target = document.querySelector(targetId);
+  if (!target) {
+    console.warn(`⚠️ No se encontró el elemento colapsable para el ID: ${targetId}`);
+    return;
+  }
 
-      const collapse = new bootstrap.Collapse(target, {
-        toggle: false
-      });
+  target.classList.add('notransition');
 
-      const state = localStorage.getItem(targetId);
-      if (state === 'show') {
-        collapse.show();
-      } else {
-        collapse.hide();
-      }
+  const collapse = new bootstrap.Collapse(target, { toggle: false });
 
-      // Evento de click para abrir/cerrar y guardar en localStorage
-      button.addEventListener('click', function () {
-        const isShown = target.classList.contains('show');
-        if (isShown) {
-          collapse.hide();
-          localStorage.setItem(targetId, 'hide');
-        } else {
-          collapse.show();
-          localStorage.setItem(targetId, 'show');
-        }
-      });
+  const state = localStorage.getItem(targetId);
+  if (state === 'show') {
+    collapse.show();
+  } else {
+    collapse.hide();
+  }
 
-      // Esperar un frame para aplicar visibilidad y transición normal
-      requestAnimationFrame(() => {
-        target.classList.remove('notransition');
-        target.classList.add('ready');
-      });
-    });
+  button.addEventListener('click', function () {
+    const isShown = target.classList.contains('show');
+    if (isShown) {
+      collapse.hide();
+      localStorage.setItem(targetId, 'hide');
+    } else {
+      collapse.show();
+      localStorage.setItem(targetId, 'show');
+    }
+  });
+
+  requestAnimationFrame(() => {
+    target.classList.remove('notransition');
+    target.classList.add('ready');
+  });
+});
   });
 </script>
 
@@ -443,156 +561,109 @@ if (idConexion) {
 }
 
 </script>
+
+
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  const pageInicial = 'home'; // Página que quieres cargar al inicio
+  const contenedor = document.getElementById('contenido-dinamico');
 
-  // Cargar automáticamente el contenido inicial
-  const url = `/intranet/sistema/paginasdinamicas.php?page=${pageInicial}&ajax=1`;
-  fetch(url, {
-    method: 'GET',
-    credentials: 'include'
-  })
-    .then(res => res.text())
-    .then(html => {
+  // ✅ Detectar página inicial (de URL o home)
+  const params = new URLSearchParams(window.location.search);
+  let page = params.get('page') || 'home';
+  let id = params.get('id');
+
+  cargarPagina(page, id, true);
+
+  // 📄 Función para cargar página dinámica
+  async function cargarPagina(page, id = null, replaceState = false) {
+    const url = `/intranet/sistema/paginasdinamicas.php?page=${page}&ajax=1` + (id ? `&id=${id}` : '');
+    try {
+      const res = await fetch(url, { method: 'GET', credentials: 'include' });
+      const html = await res.text();
+
       const tempDiv = document.createElement('div');
       tempDiv.innerHTML = html;
 
       const contenido = tempDiv.querySelector('#contenido-principal') || tempDiv;
-      const contenedor = document.getElementById('contenido-dinamico');
       contenedor.innerHTML = '';
       contenedor.appendChild(contenido);
 
-      // Ejecutar scripts embebidos
-      tempDiv.querySelectorAll('script').forEach(script => {
-        const nuevo = document.createElement('script');
-        if (script.src) {
-          nuevo.src = script.src;
-        } else {
-          nuevo.textContent = script.textContent;
-        }
-        document.body.appendChild(nuevo);
+      if (typeof window.traducirTextos === 'function') {
+        window.traducirTextos(contenedor);
+      }
+
+      // 📄 Cargar scripts embebidos
+      const externos = Array.from(tempDiv.querySelectorAll('script[src]'));
+      const inlines = Array.from(tempDiv.querySelectorAll('script:not([src])'));
+
+      for (let scr of externos) {
+        console.log('👉 Cargando externo', scr.src);
+        await new Promise((resolve, reject) => {
+          const s = document.createElement('script');
+          s.src = scr.src;
+          s.async = false;
+          s.onload = resolve;
+          s.onerror = reject;
+          document.body.appendChild(s);
+        });
+      }
+
+      inlines.forEach(script => {
+        const s = document.createElement('script');
+        s.textContent = script.textContent;
+        document.body.appendChild(s);
+        console.log('🖋️ Inline ejecutado');
       });
 
-      // Agrega estilos si vienen
+      // 📄 Agregar estilos si los hay
       tempDiv.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
         if (![...document.head.querySelectorAll('link')].some(e => e.href === link.href)) {
           document.head.appendChild(link.cloneNode());
         }
       });
 
-      // Actualiza la URL (opcional)
-      history.pushState(null, '', `index.php?page=${pageInicial}`);
-    })
-    .catch(err => {
-      document.getElementById('contenido-dinamico').innerHTML = '<div class="alert alert-danger">Error al cargar el contenido inicial.</div>';
-      console.error('Error al cargar contenido inicial:', err);
-    });
-});
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  const contenedor = document.getElementById('contenido-dinamico');
-  
- 
-  document.addEventListener('click', async function(e) {
-  const enlace = e.target.closest('.enlaceDinamicos');
-  if (!enlace) return;
-    e.preventDefault();
+      // 📄 Actualizar URL
+      const nuevaURL = `index.php?page=${page}${id ? `&id=${id}` : ''}`;
+      if (replaceState) {
+        history.replaceState(null, '', nuevaURL);
+      } else {
+        history.pushState(null, '', nuevaURL);
+      }
 
-    // Leemos data-link y opcionalmente data-id
-    const page = enlace.dataset.link;
-    const id   = enlace.dataset.id;  
-    if (!page) return;
+      if (typeof window.cargarTraducciones === 'function') {
+        window.cargarTraducciones();
+      }
 
-    // Construimos URL con parámetros
-    const params = new URLSearchParams({ page, ajax: 1 });
-    if (id) params.append('id', id);
-
-      const url = `/intranet/sistema/paginasdinamicas.php?page=${page}&ajax=1`  + (id ? `&id=${id}` : '');
-
-      try {
-        const res = await fetch(url, {
-          method: 'GET',
-          credentials: 'include'
-        });
-
-        const html = await res.text();
-        
-        const tempDiv = document.createElement('div');
-        tempDiv.innerHTML = html;
-
-        const contenido = tempDiv.querySelector('#contenido-principal') || tempDiv;
-        contenedor.innerHTML = '';
-        contenedor.appendChild(contenido);
-
-        
-// Ejecutar scripts embebidos
-// 1) Separamos scripts externos e inline
-const externos = Array.from(tempDiv.querySelectorAll('script[src]'));
-const inlines  = Array.from(tempDiv.querySelectorAll('script:not([src])'));
-
-// 2) Función para cargar un script externo y saber cuándo terminó
-function cargarExterno(script) {
-  return new Promise((resolve, reject) => {
-    const s = document.createElement('script');
-    s.src = script.src;
-    s.async = false;       // mantiene el orden
-    s.onload  = () => resolve();
-    s.onerror = e => reject(e);
-    document.body.appendChild(s);
-  });
-}
-
-// 3) Primero cargamos TODOS los externos uno a uno, en serie
-(async () => {
-  for (let scr of externos) {
-    console.log('👉 Cargando externo', scr.src);
-    try {
-      await cargarExterno(scr);
-      console.log('✅ Externo cargado', scr.src);
-    } catch (e) {
-      console.error('❌ Falló al cargar externo', scr.src, e);
+    } catch (err) {
+      console.error("❌ Error al cargar página:", err);
+      contenedor.innerHTML = '<div class="alert alert-danger">Error al cargar la página seleccionada.</div>';
     }
   }
-  // 4) Sólo cuando TODOS los externos están listos, inyectamos los inline
-  inlines.forEach(script => {
-    const s = document.createElement('script');
-    s.textContent = script.textContent;
-    document.body.appendChild(s);
-    console.log('🖋️ Inline ejecutado');
-  });
-})();
 
-        // Agregar estilos si los hay
-        tempDiv.querySelectorAll('link[rel="stylesheet"]').forEach(link => {
-          if (![...document.head.querySelectorAll('link')].some(e => e.href === link.href)) {
-            document.head.appendChild(link.cloneNode());
-          }
-        });
+  // 📄 Manejo de clics en enlaces dinámicos
+  document.addEventListener('click', function (e) {
+    const enlace = e.target.closest('.enlaceDinamicos');
+    if (!enlace) return;
 
-        // Actualizar URL
-       history.pushState(null, '', `index.php?page=${page}${id ? `&id=${id}` : ''}`);
+    e.preventDefault();
+    const page = enlace.dataset.link;
+    const id = enlace.dataset.id || null;
+    if (!page) return;
 
-      } catch (err) {
-        console.error("❌ Error cargando página dinámica:", err);
-        contenedor.innerHTML = '<div class="alert alert-danger">Error al cargar la página seleccionada.</div>';
-      }
-    });
+    cargarPagina(page, id, false);
   });
 
-  // Soporte para botón "atrás" del navegador
+  // 📄 Soporte para botón "atrás/adelante"
   window.addEventListener('popstate', function () {
     const params = new URLSearchParams(location.search);
-    const page = params.get('page');
-    if (page) {
-      
-      document.querySelector(`[data-link="${page}"]`)?.click();
-    }
-  });
-  
+    const page = params.get('page') || 'home';
+    const id = params.get('id') || null;
 
+    cargarPagina(page, id, true);
+  });
+});
 </script>
+
 <?php
 include_once(__DIR__ . '/../layout/parte2.php');
 ?>

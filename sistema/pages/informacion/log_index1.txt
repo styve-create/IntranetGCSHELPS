@@ -274,3 +274,24 @@
 2025-06-25 08:37:13 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_685bfb89a65fa
 2025-06-25 08:37:13 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_685bfb89a65fa.zip
 2025-06-25 08:37:13 - ✅ FIN del script sin errores.
+2025-07-04 12:39:18 - >>> INICIO del script certificados
+2025-07-04 12:39:18 - ➡ Se recibió una petición POST.
+2025-07-04 12:39:18 - 📄 Documento recibido: 1095822658
+2025-07-04 12:39:18 - 📁 Certificados seleccionados: ["Certificacion_ACTIVO_GCS.docx"]
+2025-07-04 12:39:18 - ✅ Consulta ejecutada correctamente para documento: 1095822658
+2025-07-04 12:39:18 - 👤 Datos del trabajador: {"id":55,"nombre_completo":"Yesika Alejandra Leon Fontecha","grupo_sanguineo":null,"estado_civil":null,"edad":null,"tipo_documento":null,"numero_documento":"1095822658","fecha_expedicion":null,"lugar_expedicion":null,"fecha_nacimiento":null,"lugar_nacimiento":null,"nivel_estudio":null,"profesion":null,"cargo_certificado":null,"domicilio":null,"ciudad":null,"celular":null,"email":"yesikaleon511@gmail.com","nombre_contacto_emergencia":null,"numero_contacto_emergencia":null,"cuenta_bancaria":null,"banco":null,"tipo_cuenta":null,"tipo_contrato":null,"horas_contratadas":null,"salario_basico":null,"auxilio_transporte":null,"eps":null,"codigo_pension":null,"codigo_cesantias":null,"estado":"Activo","fecha_ingreso_falcon":null,"fecha_retiro_falcon":null,"salario_falcon_pesos":null,"salario_falcon_usd":null,"fecha_ingreso_gcs":null,"fecha_retiro_gcs":null,"tipo_retiro":null,"finalizacion_contractual":null,"fecha_registro":"2025-04-16 20:38:36","foto_perfil":"\/sistema\/pages\/informacion\/uploads\/perfil\/perfil_686811b4e79203.38607590.jpg"}
+2025-07-04 12:39:18 - 📂 Directorio temporal creado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_686811c6cd015
+2025-07-04 12:39:18 - 🔧 Procesando archivo: Certificacion_ACTIVO_GCS.docx (ruta: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx)
+2025-07-04 12:39:18 - 🔄 Iniciando TemplateProcessor con: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/modelos_certificados/Certificacion_ACTIVO_GCS.docx
+2025-07-04 12:39:18 - 💰 Salario convertido a float: 0
+2025-07-04 12:39:18 - 📝 Asignando valores al template...
+2025-07-04 12:39:18 - 💾 Guardando archivo DOCX en: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_686811c6cd015/Certificacion_ACTIVO_GCS.docx
+2025-07-04 12:39:18 - ✅ Archivo DOCX generado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_686811c6cd015/Certificacion_ACTIVO_GCS.docx
+2025-07-04 12:39:18 - ➕ Añadido al ZIP: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_686811c6cd015/Certificacion_ACTIVO_GCS.docx
+2025-07-04 12:39:18 - ✅ ZIP creado correctamente: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_686811c6cd015.zip
+2025-07-04 12:39:18 - ⬇ Iniciando descarga del ZIP...
+2025-07-04 12:39:18 - ✅ ZIP enviado al navegador.
+2025-07-04 12:39:18 - 🧹 Archivo temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_686811c6cd015/Certificacion_ACTIVO_GCS.docx
+2025-07-04 12:39:18 - 🧹 Directorio temporal eliminado: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_686811c6cd015
+2025-07-04 12:39:18 - 🧹 ZIP eliminado tras la descarga: /home/u589041854/domains/gcshelps.com/public_html/intranet/sistema/pages/informacion/tmp_686811c6cd015.zip
+2025-07-04 12:39:18 - ✅ FIN del script sin errores.

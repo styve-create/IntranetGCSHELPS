@@ -182,10 +182,10 @@ padding: 10px;
     <div class="row g-0">
       <!-- Menú lateral -->
       <div class="col-md-4 border-end bg-light p-3">
-        <h5 class="mb-3"><strong>Datos Personales</strong></h5>
+        <h5 class="mb-3 traducible"><strong>Datos Personales</strong></h5>
         <div class="nav flex-column nav-pills" id="v-tabs" role="tablist">
-          <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#perfil" type="button">Mi perfil</button>
-          <button class="nav-link" data-bs-toggle="pill" data-bs-target="#Documentos" type="button">Documentos</button>
+          <button class="nav-link active traducible" data-bs-toggle="pill" data-bs-target="#perfil" type="button">Mi perfil</button>
+          <button class="nav-link traducible" data-bs-toggle="pill" data-bs-target="#Documentos" type="button">Documentos</button>
         </div>
       </div>
 

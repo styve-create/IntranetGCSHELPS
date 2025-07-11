@@ -4,7 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 include_once(__DIR__ . '/../../../../app/controllers/config.php');
-
+include_once(__DIR__ . '/../../../analisisRecursos.php');
 
 try {
     $stmtClientes = $pdo->query("SELECT id_cliente, nombre_cliente, direccion, moneda, estado, fyh_creacion FROM clientes ORDER BY nombre_cliente ASC");
@@ -32,27 +32,27 @@ try {
   </style>
 <div id="contenido-principal">
 <div class="container py-4">
-  <h4 class="mb-3 fw-bold">Clients</h4>
+  <h4 class="mb-3 fw-bold traducible">Clientes</h4>
 
   <div class="d-flex gap-2 mb-3">
     <select id="filterEstado" class="form-select w-auto">
-      <option value="">Show all</option>
-      <option value="activo">Show active</option>
-      <option value="inactivo">Show inactive</option>
+      <option value="" class="traducible">Mostrar todos</option>
+      <option value="activo" class="traducible">Mostrar activos</option>
+      <option value="inactivo" class="traducible">Mostrar inactivos</option>
     </select>
     <input id="searchInput" type="text" class="form-control" placeholder="Search by name" style="max-width: 250px;">
     <div class="ms-auto d-flex gap-2">
       <input id="nuevoCliente" type="text" class="form-control" placeholder="Add new Client">
-      <button class="btn btn-primary" id="btnAdd">ADD</button>
+      <button class="btn btn-primary traducible" id="btnAdd">Agregar</button>
     </div>
   </div>
 
  <table class="table table-hover bg-white rounded shadow-sm">
     <thead>
       <tr>
-        <th scope="col">NAME</th>
-        <th scope="col">ADDRESS</th>
-        <th scope="col">CURRENCY</th>
+        <th scope="col" class="traducible">Nombre</th>
+        <th scope="col" class="traducible">Direccion</th>
+        <th scope="col" class="traducible">Moneda</th>
         <th></th>
       </tr>
     </thead>
@@ -77,45 +77,45 @@ try {
   <div class="modal-dialog">
     <div class="modal-content p-3">
       <div class="modal-header">
-        <h5 class="modal-title">Edit Client</h5>
+        <h5 class="modal-title traducible">Editar Cliente</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <input type="hidden" id="editId">
         <div class="mb-2">
-          <label>Name</label>
+          <label class="traducible">Nombre</label>
           <input type="text" id="editNombre" class="form-control" required>
         </div>
         <div class="mb-2">
-          <label>Address</label>
+          <label class="traducible">Direccion</label>
           <textarea id="editDireccion" class="form-control"></textarea>
         </div>
         <div class="mb-2">
-          <label>Currency</label>
+          <label class="traducible">Moneda</label>
           <select id="editMoneda" class="form-select">
             <option value="USD">USD</option>
             <option value="COP">COP</option>
           </select>
         </div>
         <div class="mb-2">
-          <label>Status</label>
+          <label class="traducible">Estatus</label>
           <select id="editEstado" class="form-select">
-            <option value="activo">Activo</option>
-            <option value="inactivo">Inactivo</option>
+            <option value="activo" class="traducible">Activo</option>
+            <option value="inactivo" class="traducible">Inactivo</option>
           </select>
         </div>
         <div class="mb-2">
-          <label>Hours Worked</label>
+          <label class="traducible">Horas Trabajadas</label>
           <input type="number" id="nuevaDuracionCliente" class="form-control">
         </div>
         <div class="mb-2">
-          <label>Hourly Rate</label>
+          <label class="traducible">Precio Horas</label>
           <input type="number"  id="nuevaPrecioCliente" class="form-control">
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-link" data-bs-dismiss="modal">Cancel</button>
-        <button class="btn btn-primary" id="btnSaveEdit">Save</button>
+        <button class="btn btn-link traducible" data-bs-dismiss="modal">Cancelar</button>
+        <button class="btn btn-primary traducible" id="btnSaveEdit">Guardar</button>
       </div>
     </div>
   </div>
@@ -126,23 +126,23 @@ try {
   <div class="modal-dialog modal-lg">
     <div class="modal-content p-3">
       <div class="modal-header">
-        <h5 class="modal-title">Clientes Actividades</h5>
+        <h5 class="modal-title traducible">Clientes Actividades</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
           <div class="d-flex justify-content-end mb-2">
-  <button class="btn btn-primary btn-sm" id="btnNuevaActividad">
+  <button class="btn btn-primary btn-sm traducible" id="btnNuevaActividad">
     <i class="bi bi-plus-circle"></i> Nueva Actividad
   </button>
 </div>
         <table class="table">
           <thead>
             <tr>
-              <th>Actividad</th>
-              <th>Descripción</th>
-              <th>Hours Worked</th>
-              <th>Hourly Rate</th>
-              <th>Acción</th>
+              <th class="traducible">Actividad</th>
+              <th class="traducible">Descripción</th>
+              <th class="traducible">Horas trabajadas</th>
+              <th class="traducible">Precio Horas</th>
+              <th class="traducible">Acción</th>
             </tr>
           </thead>
           <tbody id="tablaActividadesCliente"></tbody>
@@ -157,31 +157,31 @@ try {
   <div class="modal-dialog">
     <div class="modal-content p-3">
       <div class="modal-header">
-        <h5 class="modal-title">Crear Nueva Actividad</h5>
+        <h5 class="modal-title traducible">Crear Nueva Actividad</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
       <div class="modal-body">
         <input type="hidden" id="nuevaActividadClienteId">
         <div class="mb-2">
-          <label>Nombre de Actividad</label>
+          <label class="traducible">Nombre de Actividad</label>
           <input type="text" id="nuevaNombre" class="form-control" required>
         </div>
         <div class="mb-2">
-          <label>Descripción</label>
+          <label class="traducible">Descripción</label>
           <textarea id="nuevaDescripcion" class="form-control"></textarea>
         </div>
         <div class="mb-2">
-          <label>Hours Worked</label>
+          <label class="traducible">Horas trabajadas</label>
           <input type="number" id="nuevaDuracion" class="form-control">
         </div>
         <div class="mb-2">
-          <label>Hourly Rate</label>
+          <label class="traducible">Precio Horas</label>
           <input type="number"  id="nuevaPrecio" class="form-control">
         </div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-link" data-bs-dismiss="modal">Cancelar</button>
-        <button class="btn btn-primary" id="btnGuardarNuevaActividad">Guardar</button>
+        <button class="btn btn-link traducible" data-bs-dismiss="modal">Cancelar</button>
+        <button class="btn btn-primary traducible" id="btnGuardarNuevaActividad">Guardar</button>
       </div>
     </div>
   </div>
@@ -191,17 +191,17 @@ try {
   <div class="modal-dialog modal-lg">
     <div class="modal-content p-3">
       <div class="modal-header">
-        <h5 class="modal-title">Trabajadores Asignados</h5>
+        <h5 class="modal-title traducible">Trabajadores Asignados</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
       <div class="modal-body">
         <input type="hidden" id="trabajadorClienteId">
         <div class="mb-3">
-          <input type="text" id="buscarTrabajador" class="form-control" placeholder="Buscar trabajador por nombre...">
+          <input type="text" id="buscarTrabajador" class="form-control traducible" placeholder="Buscar trabajador por nombre...">
         </div>
         <div id="resultadosBusqueda"></div>
         <hr>
-        <h6>Trabajadores Asignados</h6>
+        <h6 class="traducible">Trabajadores Asignados</h6>
         <ul class="list-group" id="listaTrabajadoresAsignados"></ul>
       </div>
     </div>
@@ -211,6 +211,7 @@ try {
 
 <script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/sweetalert2/dist/sweetalert2.all.min.js"></script>
 <script src="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="<?= $URL; ?>/sistema/traduccionsistema.php"></script>
 
 <script>
 (function(){ 
@@ -328,12 +329,13 @@ if (e.target.classList.contains("bi-file-earmark-text")) {
       <td><input class="form-control form-control-sm" type="number" min="0" step="0.1" value="${duracionHoras}"></td>
       <td><input class="form-control form-control-sm" type="number" min="0" step="0.01" value="${act.precio}"> ${act.moneda}</td>
       <td>
-        <button class="btn btn-sm btn-outline-success btnGuardarActividad">Guardar</button>
-         <button class="btn btn-sm btn-outline-danger btnEliminarActividad">Eliminar</button>
+        <button class="btn btn-sm btn-outline-success btnGuardarActividad "><p class="traducible">Guardar</p></button>
+         <button class="btn btn-sm btn-outline-danger btnEliminarActividad "><p class="traducible">Eliminar</p></button>
       </td>
     </tr>`;
 });
 
+       window.traducirTextos(tbody);
         const modal = new bootstrap.Modal(document.getElementById("modalActividadesCliente"));
         modal.show();
       });
@@ -355,14 +357,15 @@ if (e.target.classList.contains("bi-file-earmark-text")) {
         li.textContent = t.nombre_completo;
 
         const btn = document.createElement("button");
-        btn.className = "btn btn-danger btn-sm";
-        btn.textContent = "Eliminar";
+        btn.className = "btn btn-danger btn-sm ";
+        btn.innerHTML = `<p class="traducible">Eliminar</p>`;
         btn.onclick = () => eliminarTrabajador(clienteId, t.id_trabajador);
 
         li.appendChild(btn);
         lista.appendChild(li);
+        
       });
-
+    window.traducirTextos(lista);
       const modal = new bootstrap.Modal(document.getElementById("modalTrabajadoresCliente"));
       modal.show();
     });
@@ -530,7 +533,7 @@ document.getElementById("buscarTrabajador").addEventListener("input", function (
         const div = document.createElement("div");
         div.className = "d-flex justify-content-between align-items-center border p-2 mb-1";
         div.innerHTML = `<span>${t.nombre_completo}</span>
-          <button class="btn btn-success btn-sm">Agregar</button>`;
+          <button class="btn btn-success btn-sm traducible">Agregar</button>`;
 
        div.querySelector("button").onclick = () => {
   console.log(`✅ Click en agregar trabajador ${t.id} al cliente ${clienteId}`);
@@ -577,7 +580,7 @@ function cargarTrabajadores(clienteId) {
       lista.innerHTML = "";
 
       if (!Array.isArray(data) || data.length === 0) {
-        lista.innerHTML = '<li class="list-group-item text-muted">No hay trabajadores asignados.</li>';
+        lista.innerHTML = '<li class="list-group-item text-muted traducible">No hay trabajadores asignados.</li>';
         return;
       }
 
@@ -590,7 +593,7 @@ data.forEach(t => {
   li.textContent = nombre;
 
   const btn = document.createElement("button");
-  btn.className = "btn btn-danger btn-sm";
+  btn.className = "btn btn-danger btn-sm traducible";
   btn.textContent = "Eliminar";
   btn.onclick = () => eliminarTrabajador(clienteId, idTrabajador);
 

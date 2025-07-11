@@ -3574,3 +3574,955 @@
 2025-06-26 13:13:10 - Trabajador ID: 15
 2025-06-26 13:13:10 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
 2025-06-26 13:13:10 - JSON enviado correctamente
+2025-06-27 09:34:38 - >>> Inicio del script get_clientes.php
+2025-06-27 09:34:38 - Parámetro user_id recibido: '2147483654'
+2025-06-27 09:34:38 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-06-27 09:34:38 - Trabajador ID: 58
+2025-06-27 09:34:38 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-06-27 09:34:38 - JSON enviado correctamente
+2025-06-27 09:34:39 - >>> Inicio del script get_clientes.php
+2025-06-27 09:34:39 - Parámetro user_id recibido: '2147483654'
+2025-06-27 09:34:39 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-06-27 09:34:39 - Trabajador ID: 58
+2025-06-27 09:34:39 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-06-27 09:34:39 - JSON enviado correctamente
+2025-07-03 11:02:22 - >>> Inicio del script get_clientes.php
+2025-07-03 11:02:22 - Parámetro user_id recibido: '1'
+2025-07-03 11:02:22 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-03 11:02:22 - Trabajador ID: 15
+2025-07-03 11:02:22 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-03 11:02:22 - JSON enviado correctamente
+2025-07-03 11:02:24 - >>> Inicio del script get_clientes.php
+2025-07-03 11:02:24 - Parámetro user_id recibido: '1'
+2025-07-03 11:02:24 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-03 11:02:24 - Trabajador ID: 15
+2025-07-03 11:02:24 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-03 11:02:24 - JSON enviado correctamente
+2025-07-07 15:09:01 - >>> Inicio del script get_clientes.php
+2025-07-07 15:09:01 - Parámetro user_id recibido: '1'
+2025-07-07 15:09:01 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-07 15:09:01 - Trabajador ID: 15
+2025-07-07 15:09:01 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-07 15:09:01 - JSON enviado correctamente
+2025-07-07 15:09:02 - >>> Inicio del script get_clientes.php
+2025-07-07 15:09:02 - Parámetro user_id recibido: '1'
+2025-07-07 15:09:02 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-07 15:09:02 - Trabajador ID: 15
+2025-07-07 15:09:02 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-07 15:09:02 - JSON enviado correctamente
+2025-07-07 15:09:38 - >>> Inicio del script get_clientes.php
+2025-07-07 15:09:38 - Parámetro user_id recibido: '2147483654'
+2025-07-07 15:09:38 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-07 15:09:38 - Trabajador ID: 58
+2025-07-07 15:09:38 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-07 15:09:38 - JSON enviado correctamente
+2025-07-07 15:09:59 - >>> Inicio del script get_clientes.php
+2025-07-07 15:09:59 - Parámetro user_id recibido: '1'
+2025-07-07 15:09:59 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-07 15:09:59 - Trabajador ID: 15
+2025-07-07 15:09:59 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-07 15:09:59 - JSON enviado correctamente
+2025-07-07 15:10:32 - >>> Inicio del script get_clientes.php
+2025-07-07 15:10:32 - Parámetro user_id recibido: '2147483654'
+2025-07-07 15:10:32 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-07 15:10:32 - Trabajador ID: 58
+2025-07-07 15:10:32 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"}]
+2025-07-07 15:10:32 - JSON enviado correctamente
+2025-07-07 15:24:23 - >>> Inicio del script get_clientes.php
+2025-07-07 15:24:23 - Parámetro user_id recibido: '1'
+2025-07-07 15:24:23 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-07 15:24:23 - Trabajador ID: 15
+2025-07-07 15:24:23 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-07 15:24:23 - JSON enviado correctamente
+2025-07-07 15:24:26 - >>> Inicio del script get_clientes.php
+2025-07-07 15:24:26 - Parámetro user_id recibido: '1'
+2025-07-07 15:24:26 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-07 15:24:26 - Trabajador ID: 15
+2025-07-07 15:24:26 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-07 15:24:26 - JSON enviado correctamente
+2025-07-07 15:25:16 - >>> Inicio del script get_clientes.php
+2025-07-07 15:25:16 - Parámetro user_id recibido: '1'
+2025-07-07 15:25:16 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-07 15:25:16 - Trabajador ID: 15
+2025-07-07 15:25:16 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-07 15:25:16 - JSON enviado correctamente
+2025-07-07 15:25:17 - >>> Inicio del script get_clientes.php
+2025-07-07 15:25:17 - Parámetro user_id recibido: '1'
+2025-07-07 15:25:17 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-07 15:25:17 - Trabajador ID: 15
+2025-07-07 15:25:17 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-07 15:25:17 - JSON enviado correctamente
+2025-07-08 06:51:31 - >>> Inicio del script get_clientes.php
+2025-07-08 06:51:31 - Parámetro user_id recibido: '1'
+2025-07-08 06:51:31 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 06:51:31 - Trabajador ID: 15
+2025-07-08 06:51:31 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 06:51:31 - JSON enviado correctamente
+2025-07-08 06:51:32 - >>> Inicio del script get_clientes.php
+2025-07-08 06:51:32 - Parámetro user_id recibido: '1'
+2025-07-08 06:51:32 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 06:51:32 - Trabajador ID: 15
+2025-07-08 06:51:32 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 06:51:32 - JSON enviado correctamente
+2025-07-08 06:52:01 - >>> Inicio del script get_clientes.php
+2025-07-08 06:52:01 - Parámetro user_id recibido: '2147483654'
+2025-07-08 06:52:01 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-08 06:52:01 - Trabajador ID: 58
+2025-07-08 06:52:01 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"}]
+2025-07-08 06:52:01 - JSON enviado correctamente
+2025-07-08 06:52:11 - >>> Inicio del script get_clientes.php
+2025-07-08 06:52:11 - Parámetro user_id recibido: '1'
+2025-07-08 06:52:11 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 06:52:11 - Trabajador ID: 15
+2025-07-08 06:52:11 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 06:52:11 - JSON enviado correctamente
+2025-07-08 06:52:11 - >>> Inicio del script get_clientes.php
+2025-07-08 06:52:11 - Parámetro user_id recibido: '1'
+2025-07-08 06:52:11 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 06:52:11 - Trabajador ID: 15
+2025-07-08 06:52:11 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 06:52:11 - JSON enviado correctamente
+2025-07-08 07:23:49 - >>> Inicio del script get_clientes.php
+2025-07-08 07:23:49 - Parámetro user_id recibido: '1'
+2025-07-08 07:23:49 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:23:49 - Trabajador ID: 15
+2025-07-08 07:23:49 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:23:49 - JSON enviado correctamente
+2025-07-08 07:23:51 - >>> Inicio del script get_clientes.php
+2025-07-08 07:23:51 - Parámetro user_id recibido: '1'
+2025-07-08 07:23:51 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:23:51 - Trabajador ID: 15
+2025-07-08 07:23:51 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:23:51 - JSON enviado correctamente
+2025-07-08 07:34:08 - >>> Inicio del script get_clientes.php
+2025-07-08 07:34:08 - Parámetro user_id recibido: '1'
+2025-07-08 07:34:08 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:34:08 - Trabajador ID: 15
+2025-07-08 07:34:08 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:34:08 - JSON enviado correctamente
+2025-07-08 07:34:09 - >>> Inicio del script get_clientes.php
+2025-07-08 07:34:09 - Parámetro user_id recibido: '1'
+2025-07-08 07:34:09 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:34:09 - Trabajador ID: 15
+2025-07-08 07:34:09 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:34:09 - JSON enviado correctamente
+2025-07-08 07:47:40 - >>> Inicio del script get_clientes.php
+2025-07-08 07:47:40 - Parámetro user_id recibido: '1'
+2025-07-08 07:47:40 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:47:40 - Trabajador ID: 15
+2025-07-08 07:47:40 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:47:40 - JSON enviado correctamente
+2025-07-08 07:47:41 - >>> Inicio del script get_clientes.php
+2025-07-08 07:47:41 - Parámetro user_id recibido: '1'
+2025-07-08 07:47:41 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:47:41 - Trabajador ID: 15
+2025-07-08 07:47:41 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:47:41 - JSON enviado correctamente
+2025-07-08 07:49:54 - >>> Inicio del script get_clientes.php
+2025-07-08 07:49:54 - Parámetro user_id recibido: '1'
+2025-07-08 07:49:54 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:49:54 - Trabajador ID: 15
+2025-07-08 07:49:54 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:49:54 - JSON enviado correctamente
+2025-07-08 07:49:54 - >>> Inicio del script get_clientes.php
+2025-07-08 07:49:54 - Parámetro user_id recibido: '1'
+2025-07-08 07:49:54 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:49:54 - Trabajador ID: 15
+2025-07-08 07:49:54 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:49:54 - JSON enviado correctamente
+2025-07-08 07:49:56 - >>> Inicio del script get_clientes.php
+2025-07-08 07:49:56 - Parámetro user_id recibido: '1'
+2025-07-08 07:49:56 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:49:56 - Trabajador ID: 15
+2025-07-08 07:49:56 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:49:56 - JSON enviado correctamente
+2025-07-08 07:55:04 - >>> Inicio del script get_clientes.php
+2025-07-08 07:55:04 - Parámetro user_id recibido: '1'
+2025-07-08 07:55:04 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:55:04 - Trabajador ID: 15
+2025-07-08 07:55:04 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:55:04 - JSON enviado correctamente
+2025-07-08 07:55:05 - >>> Inicio del script get_clientes.php
+2025-07-08 07:55:05 - Parámetro user_id recibido: '1'
+2025-07-08 07:55:05 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 07:55:05 - Trabajador ID: 15
+2025-07-08 07:55:05 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 07:55:05 - JSON enviado correctamente
+2025-07-08 08:01:05 - >>> Inicio del script get_clientes.php
+2025-07-08 08:01:05 - Parámetro user_id recibido: '1'
+2025-07-08 08:01:05 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:01:05 - Trabajador ID: 15
+2025-07-08 08:01:05 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:01:05 - JSON enviado correctamente
+2025-07-08 08:01:06 - >>> Inicio del script get_clientes.php
+2025-07-08 08:01:06 - Parámetro user_id recibido: '1'
+2025-07-08 08:01:06 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:01:06 - Trabajador ID: 15
+2025-07-08 08:01:06 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:01:06 - JSON enviado correctamente
+2025-07-08 08:07:24 - >>> Inicio del script get_clientes.php
+2025-07-08 08:07:24 - Parámetro user_id recibido: '1'
+2025-07-08 08:07:24 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:07:24 - Trabajador ID: 15
+2025-07-08 08:07:24 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:07:24 - JSON enviado correctamente
+2025-07-08 08:07:25 - >>> Inicio del script get_clientes.php
+2025-07-08 08:07:25 - Parámetro user_id recibido: '1'
+2025-07-08 08:07:25 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:07:25 - Trabajador ID: 15
+2025-07-08 08:07:25 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:07:25 - JSON enviado correctamente
+2025-07-08 08:09:25 - >>> Inicio del script get_clientes.php
+2025-07-08 08:09:25 - Parámetro user_id recibido: '1'
+2025-07-08 08:09:25 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:09:25 - Trabajador ID: 15
+2025-07-08 08:09:25 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:09:25 - JSON enviado correctamente
+2025-07-08 08:09:26 - >>> Inicio del script get_clientes.php
+2025-07-08 08:09:26 - Parámetro user_id recibido: '1'
+2025-07-08 08:09:26 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:09:26 - Trabajador ID: 15
+2025-07-08 08:09:26 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:09:26 - JSON enviado correctamente
+2025-07-08 08:14:36 - >>> Inicio del script get_clientes.php
+2025-07-08 08:14:36 - Parámetro user_id recibido: '1'
+2025-07-08 08:14:36 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:14:36 - Trabajador ID: 15
+2025-07-08 08:14:36 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:14:36 - JSON enviado correctamente
+2025-07-08 08:14:37 - >>> Inicio del script get_clientes.php
+2025-07-08 08:14:37 - Parámetro user_id recibido: '1'
+2025-07-08 08:14:37 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:14:37 - Trabajador ID: 15
+2025-07-08 08:14:37 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:14:37 - JSON enviado correctamente
+2025-07-08 08:30:38 - >>> Inicio del script get_clientes.php
+2025-07-08 08:30:38 - Parámetro user_id recibido: '1'
+2025-07-08 08:30:38 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:30:38 - Trabajador ID: 15
+2025-07-08 08:30:38 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:30:38 - JSON enviado correctamente
+2025-07-08 08:30:39 - >>> Inicio del script get_clientes.php
+2025-07-08 08:30:39 - Parámetro user_id recibido: '1'
+2025-07-08 08:30:39 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:30:39 - Trabajador ID: 15
+2025-07-08 08:30:39 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:30:39 - JSON enviado correctamente
+2025-07-08 08:31:16 - >>> Inicio del script get_clientes.php
+2025-07-08 08:31:16 - Parámetro user_id recibido: '1'
+2025-07-08 08:31:16 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:31:16 - Trabajador ID: 15
+2025-07-08 08:31:16 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:31:16 - JSON enviado correctamente
+2025-07-08 08:31:25 - >>> Inicio del script get_clientes.php
+2025-07-08 08:31:25 - Parámetro user_id recibido: '2147483654'
+2025-07-08 08:31:25 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-08 08:31:25 - Trabajador ID: 58
+2025-07-08 08:31:25 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:31:25 - JSON enviado correctamente
+2025-07-08 08:31:58 - >>> Inicio del script get_clientes.php
+2025-07-08 08:31:58 - Parámetro user_id recibido: '1'
+2025-07-08 08:31:58 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:31:58 - Trabajador ID: 15
+2025-07-08 08:31:58 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:31:58 - JSON enviado correctamente
+2025-07-08 08:32:14 - >>> Inicio del script get_clientes.php
+2025-07-08 08:32:14 - Parámetro user_id recibido: '2147483654'
+2025-07-08 08:32:14 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-08 08:32:14 - Trabajador ID: 58
+2025-07-08 08:32:14 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:32:14 - JSON enviado correctamente
+2025-07-08 08:34:57 - >>> Inicio del script get_clientes.php
+2025-07-08 08:34:57 - Parámetro user_id recibido: '1'
+2025-07-08 08:34:57 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:34:57 - Trabajador ID: 15
+2025-07-08 08:34:57 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:34:57 - JSON enviado correctamente
+2025-07-08 08:34:58 - >>> Inicio del script get_clientes.php
+2025-07-08 08:34:58 - Parámetro user_id recibido: '1'
+2025-07-08 08:34:58 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:34:58 - Trabajador ID: 15
+2025-07-08 08:34:58 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:34:58 - JSON enviado correctamente
+2025-07-08 08:35:17 - >>> Inicio del script get_clientes.php
+2025-07-08 08:35:17 - Parámetro user_id recibido: '1'
+2025-07-08 08:35:17 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:35:17 - Trabajador ID: 15
+2025-07-08 08:35:17 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:35:17 - JSON enviado correctamente
+2025-07-08 08:36:36 - >>> Inicio del script get_clientes.php
+2025-07-08 08:36:36 - Parámetro user_id recibido: '2147483654'
+2025-07-08 08:36:36 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-08 08:36:36 - Trabajador ID: 58
+2025-07-08 08:36:36 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-08 08:36:36 - JSON enviado correctamente
+2025-07-08 08:40:51 - >>> Inicio del script get_clientes.php
+2025-07-08 08:40:51 - Parámetro user_id recibido: '1'
+2025-07-08 08:40:51 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:40:51 - Trabajador ID: 15
+2025-07-08 08:40:51 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:40:51 - JSON enviado correctamente
+2025-07-08 08:41:23 - >>> Inicio del script get_clientes.php
+2025-07-08 08:41:23 - Parámetro user_id recibido: '1'
+2025-07-08 08:41:23 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:41:23 - Trabajador ID: 15
+2025-07-08 08:41:23 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:41:23 - JSON enviado correctamente
+2025-07-08 08:41:24 - >>> Inicio del script get_clientes.php
+2025-07-08 08:41:24 - Parámetro user_id recibido: '1'
+2025-07-08 08:41:24 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:41:24 - Trabajador ID: 15
+2025-07-08 08:41:24 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:41:24 - JSON enviado correctamente
+2025-07-08 08:42:16 - >>> Inicio del script get_clientes.php
+2025-07-08 08:42:16 - Parámetro user_id recibido: '1'
+2025-07-08 08:42:16 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:42:16 - Trabajador ID: 15
+2025-07-08 08:42:16 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:42:16 - JSON enviado correctamente
+2025-07-08 08:42:17 - >>> Inicio del script get_clientes.php
+2025-07-08 08:42:17 - Parámetro user_id recibido: '1'
+2025-07-08 08:42:17 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:42:17 - Trabajador ID: 15
+2025-07-08 08:42:17 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:42:17 - JSON enviado correctamente
+2025-07-08 08:42:34 - >>> Inicio del script get_clientes.php
+2025-07-08 08:42:34 - Parámetro user_id recibido: '1'
+2025-07-08 08:42:34 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:42:34 - Trabajador ID: 15
+2025-07-08 08:42:34 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:42:34 - JSON enviado correctamente
+2025-07-08 08:42:40 - >>> Inicio del script get_clientes.php
+2025-07-08 08:42:40 - Parámetro user_id recibido: '2147483654'
+2025-07-08 08:42:40 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-08 08:42:40 - Trabajador ID: 58
+2025-07-08 08:42:40 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:42:40 - JSON enviado correctamente
+2025-07-08 08:43:00 - >>> Inicio del script get_clientes.php
+2025-07-08 08:43:00 - Parámetro user_id recibido: '1'
+2025-07-08 08:43:00 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:43:00 - Trabajador ID: 15
+2025-07-08 08:43:00 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:43:00 - JSON enviado correctamente
+2025-07-08 08:44:56 - >>> Inicio del script get_clientes.php
+2025-07-08 08:44:56 - Parámetro user_id recibido: '1'
+2025-07-08 08:44:56 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:44:56 - Trabajador ID: 15
+2025-07-08 08:44:56 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:44:56 - JSON enviado correctamente
+2025-07-08 08:44:57 - >>> Inicio del script get_clientes.php
+2025-07-08 08:44:57 - Parámetro user_id recibido: '1'
+2025-07-08 08:44:57 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:44:57 - Trabajador ID: 15
+2025-07-08 08:44:57 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:44:57 - JSON enviado correctamente
+2025-07-08 08:45:14 - >>> Inicio del script get_clientes.php
+2025-07-08 08:45:14 - Parámetro user_id recibido: '1'
+2025-07-08 08:45:14 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:45:14 - Trabajador ID: 15
+2025-07-08 08:45:14 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:45:14 - JSON enviado correctamente
+2025-07-08 08:45:19 - >>> Inicio del script get_clientes.php
+2025-07-08 08:45:19 - Parámetro user_id recibido: '2147483654'
+2025-07-08 08:45:19 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-08 08:45:19 - Trabajador ID: 58
+2025-07-08 08:45:19 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:45:19 - JSON enviado correctamente
+2025-07-08 08:46:15 - >>> Inicio del script get_clientes.php
+2025-07-08 08:46:15 - Parámetro user_id recibido: '1'
+2025-07-08 08:46:15 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:46:15 - Trabajador ID: 15
+2025-07-08 08:46:15 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:46:15 - JSON enviado correctamente
+2025-07-08 08:46:16 - >>> Inicio del script get_clientes.php
+2025-07-08 08:46:16 - Parámetro user_id recibido: '1'
+2025-07-08 08:46:16 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:46:16 - Trabajador ID: 15
+2025-07-08 08:46:16 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:46:16 - JSON enviado correctamente
+2025-07-08 08:47:34 - >>> Inicio del script get_clientes.php
+2025-07-08 08:47:34 - Parámetro user_id recibido: '1'
+2025-07-08 08:47:34 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:47:34 - Trabajador ID: 15
+2025-07-08 08:47:34 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:47:34 - JSON enviado correctamente
+2025-07-08 08:55:15 - >>> Inicio del script get_clientes.php
+2025-07-08 08:55:15 - Parámetro user_id recibido: '1'
+2025-07-08 08:55:15 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:55:15 - Trabajador ID: 15
+2025-07-08 08:55:15 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:55:15 - JSON enviado correctamente
+2025-07-08 08:55:15 - >>> Inicio del script get_clientes.php
+2025-07-08 08:55:15 - Parámetro user_id recibido: '1'
+2025-07-08 08:55:15 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:55:15 - Trabajador ID: 15
+2025-07-08 08:55:15 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:55:15 - JSON enviado correctamente
+2025-07-08 08:55:38 - >>> Inicio del script get_clientes.php
+2025-07-08 08:55:38 - Parámetro user_id recibido: '1'
+2025-07-08 08:55:38 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:55:38 - Trabajador ID: 15
+2025-07-08 08:55:38 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:55:38 - JSON enviado correctamente
+2025-07-08 08:55:44 - >>> Inicio del script get_clientes.php
+2025-07-08 08:55:44 - Parámetro user_id recibido: '2147483654'
+2025-07-08 08:55:44 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-08 08:55:44 - Trabajador ID: 58
+2025-07-08 08:55:44 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-08 08:55:44 - JSON enviado correctamente
+2025-07-08 08:59:12 - >>> Inicio del script get_clientes.php
+2025-07-08 08:59:12 - Parámetro user_id recibido: '1'
+2025-07-08 08:59:12 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:59:12 - Trabajador ID: 15
+2025-07-08 08:59:12 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:59:12 - JSON enviado correctamente
+2025-07-08 08:59:13 - >>> Inicio del script get_clientes.php
+2025-07-08 08:59:13 - Parámetro user_id recibido: '1'
+2025-07-08 08:59:13 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-08 08:59:13 - Trabajador ID: 15
+2025-07-08 08:59:13 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-08 08:59:13 - JSON enviado correctamente
+2025-07-10 14:20:00 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:00 - Parámetro user_id recibido: '1'
+2025-07-10 14:20:00 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:20:00 - Trabajador ID: 15
+2025-07-10 14:20:00 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:00 - JSON enviado correctamente
+2025-07-10 14:20:00 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:00 - Parámetro user_id recibido: '1'
+2025-07-10 14:20:00 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:20:00 - Trabajador ID: 15
+2025-07-10 14:20:00 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:00 - JSON enviado correctamente
+2025-07-10 14:20:01 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:01 - Parámetro user_id recibido: '1'
+2025-07-10 14:20:01 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:20:01 - Trabajador ID: 15
+2025-07-10 14:20:01 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:01 - JSON enviado correctamente
+2025-07-10 14:20:01 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:01 - Parámetro user_id recibido: '1'
+2025-07-10 14:20:01 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:20:01 - Trabajador ID: 15
+2025-07-10 14:20:01 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:01 - JSON enviado correctamente
+2025-07-10 14:20:21 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:21 - Parámetro user_id recibido: '1'
+2025-07-10 14:20:21 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:20:21 - Trabajador ID: 15
+2025-07-10 14:20:21 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:21 - JSON enviado correctamente
+2025-07-10 14:20:21 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:21 - Parámetro user_id recibido: '1'
+2025-07-10 14:20:21 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:20:21 - Trabajador ID: 15
+2025-07-10 14:20:21 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:21 - JSON enviado correctamente
+2025-07-10 14:20:31 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:31 - Parámetro user_id recibido: '2147483654'
+2025-07-10 14:20:31 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 14:20:31 - Trabajador ID: 58
+2025-07-10 14:20:31 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:31 - JSON enviado correctamente
+2025-07-10 14:20:37 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:37 - Parámetro user_id recibido: '1'
+2025-07-10 14:20:37 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:20:37 - Trabajador ID: 15
+2025-07-10 14:20:37 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:37 - JSON enviado correctamente
+2025-07-10 14:20:37 - >>> Inicio del script get_clientes.php
+2025-07-10 14:20:37 - Parámetro user_id recibido: '1'
+2025-07-10 14:20:37 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:20:37 - Trabajador ID: 15
+2025-07-10 14:20:37 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:20:37 - JSON enviado correctamente
+2025-07-10 14:26:13 - >>> Inicio del script get_clientes.php
+2025-07-10 14:26:13 - Parámetro user_id recibido: '1'
+2025-07-10 14:26:13 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:26:13 - Trabajador ID: 15
+2025-07-10 14:26:13 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:26:13 - JSON enviado correctamente
+2025-07-10 14:26:13 - >>> Inicio del script get_clientes.php
+2025-07-10 14:26:13 - Parámetro user_id recibido: '1'
+2025-07-10 14:26:13 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:26:13 - Trabajador ID: 15
+2025-07-10 14:26:13 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:26:13 - JSON enviado correctamente
+2025-07-10 14:26:48 - >>> Inicio del script get_clientes.php
+2025-07-10 14:26:48 - Parámetro user_id recibido: '1'
+2025-07-10 14:26:48 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:26:48 - Trabajador ID: 15
+2025-07-10 14:26:48 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:26:48 - JSON enviado correctamente
+2025-07-10 14:26:49 - >>> Inicio del script get_clientes.php
+2025-07-10 14:26:49 - Parámetro user_id recibido: '1'
+2025-07-10 14:26:49 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:26:49 - Trabajador ID: 15
+2025-07-10 14:26:49 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:26:49 - JSON enviado correctamente
+2025-07-10 14:26:53 - >>> Inicio del script get_clientes.php
+2025-07-10 14:26:53 - Parámetro user_id recibido: '1'
+2025-07-10 14:26:53 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:26:53 - Trabajador ID: 15
+2025-07-10 14:26:53 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:26:53 - JSON enviado correctamente
+2025-07-10 14:26:58 - >>> Inicio del script get_clientes.php
+2025-07-10 14:26:58 - Parámetro user_id recibido: '1'
+2025-07-10 14:26:58 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:26:58 - Trabajador ID: 15
+2025-07-10 14:26:58 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:26:58 - JSON enviado correctamente
+2025-07-10 14:34:30 - >>> Inicio del script get_clientes.php
+2025-07-10 14:34:30 - Parámetro user_id recibido: '1'
+2025-07-10 14:34:30 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:34:30 - Trabajador ID: 15
+2025-07-10 14:34:30 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:34:30 - JSON enviado correctamente
+2025-07-10 14:34:31 - >>> Inicio del script get_clientes.php
+2025-07-10 14:34:31 - Parámetro user_id recibido: '1'
+2025-07-10 14:34:31 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:34:31 - Trabajador ID: 15
+2025-07-10 14:34:31 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:34:31 - JSON enviado correctamente
+2025-07-10 14:34:31 - >>> Inicio del script get_clientes.php
+2025-07-10 14:34:31 - Parámetro user_id recibido: '1'
+2025-07-10 14:34:31 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:34:31 - Trabajador ID: 15
+2025-07-10 14:34:31 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:34:31 - JSON enviado correctamente
+2025-07-10 14:34:32 - >>> Inicio del script get_clientes.php
+2025-07-10 14:34:32 - Parámetro user_id recibido: '1'
+2025-07-10 14:34:32 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:34:32 - Trabajador ID: 15
+2025-07-10 14:34:32 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:34:32 - JSON enviado correctamente
+2025-07-10 14:34:33 - >>> Inicio del script get_clientes.php
+2025-07-10 14:34:33 - Parámetro user_id recibido: '1'
+2025-07-10 14:34:33 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:34:33 - Trabajador ID: 15
+2025-07-10 14:34:33 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:34:33 - JSON enviado correctamente
+2025-07-10 14:34:34 - >>> Inicio del script get_clientes.php
+2025-07-10 14:34:34 - Parámetro user_id recibido: '1'
+2025-07-10 14:34:34 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:34:34 - Trabajador ID: 15
+2025-07-10 14:34:34 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:34:34 - JSON enviado correctamente
+2025-07-10 14:34:53 - >>> Inicio del script get_clientes.php
+2025-07-10 14:34:53 - Parámetro user_id recibido: '2147483654'
+2025-07-10 14:34:53 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 14:34:53 - Trabajador ID: 58
+2025-07-10 14:34:53 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-10 14:34:53 - JSON enviado correctamente
+2025-07-10 14:35:05 - >>> Inicio del script get_clientes.php
+2025-07-10 14:35:05 - Parámetro user_id recibido: '1'
+2025-07-10 14:35:05 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:35:05 - Trabajador ID: 15
+2025-07-10 14:35:05 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:35:05 - JSON enviado correctamente
+2025-07-10 14:35:14 - >>> Inicio del script get_clientes.php
+2025-07-10 14:35:14 - Parámetro user_id recibido: '2147483654'
+2025-07-10 14:35:14 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 14:35:14 - Trabajador ID: 58
+2025-07-10 14:35:14 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:35:14 - JSON enviado correctamente
+2025-07-10 14:36:34 - >>> Inicio del script get_clientes.php
+2025-07-10 14:36:34 - Parámetro user_id recibido: '2147483654'
+2025-07-10 14:36:34 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 14:36:34 - Trabajador ID: 58
+2025-07-10 14:36:34 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:36:34 - JSON enviado correctamente
+2025-07-10 14:36:54 - >>> Inicio del script get_clientes.php
+2025-07-10 14:36:54 - Parámetro user_id recibido: '2147483654'
+2025-07-10 14:36:54 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 14:36:54 - Trabajador ID: 58
+2025-07-10 14:36:54 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:36:54 - JSON enviado correctamente
+2025-07-10 14:39:01 - >>> Inicio del script get_clientes.php
+2025-07-10 14:39:01 - Parámetro user_id recibido: '1'
+2025-07-10 14:39:01 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:39:01 - Trabajador ID: 15
+2025-07-10 14:39:01 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:39:01 - JSON enviado correctamente
+2025-07-10 14:39:02 - >>> Inicio del script get_clientes.php
+2025-07-10 14:39:02 - Parámetro user_id recibido: '1'
+2025-07-10 14:39:02 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:39:02 - Trabajador ID: 15
+2025-07-10 14:39:02 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:39:02 - JSON enviado correctamente
+2025-07-10 14:39:18 - >>> Inicio del script get_clientes.php
+2025-07-10 14:39:18 - Parámetro user_id recibido: '2147483654'
+2025-07-10 14:39:18 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 14:39:18 - Trabajador ID: 58
+2025-07-10 14:39:18 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"}]
+2025-07-10 14:39:18 - JSON enviado correctamente
+2025-07-10 14:41:06 - >>> Inicio del script get_clientes.php
+2025-07-10 14:41:06 - Parámetro user_id recibido: '1'
+2025-07-10 14:41:06 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:41:06 - Trabajador ID: 15
+2025-07-10 14:41:06 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:41:06 - JSON enviado correctamente
+2025-07-10 14:45:16 - >>> Inicio del script get_clientes.php
+2025-07-10 14:45:16 - Parámetro user_id recibido: '1'
+2025-07-10 14:45:16 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:45:16 - Trabajador ID: 15
+2025-07-10 14:45:16 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:45:16 - JSON enviado correctamente
+2025-07-10 14:45:17 - >>> Inicio del script get_clientes.php
+2025-07-10 14:45:17 - Parámetro user_id recibido: '1'
+2025-07-10 14:45:17 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:45:17 - Trabajador ID: 15
+2025-07-10 14:45:17 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:45:17 - JSON enviado correctamente
+2025-07-10 14:45:35 - >>> Inicio del script get_clientes.php
+2025-07-10 14:45:35 - Parámetro user_id recibido: '1'
+2025-07-10 14:45:35 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 14:45:35 - Trabajador ID: 15
+2025-07-10 14:45:35 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:45:35 - JSON enviado correctamente
+2025-07-10 14:48:22 - >>> Inicio del script get_clientes.php
+2025-07-10 14:48:22 - Parámetro user_id recibido: '2147483654'
+2025-07-10 14:48:22 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 14:48:22 - Trabajador ID: 58
+2025-07-10 14:48:22 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 14:48:22 - JSON enviado correctamente
+2025-07-10 15:07:22 - >>> Inicio del script get_clientes.php
+2025-07-10 15:07:22 - Parámetro user_id recibido: '1'
+2025-07-10 15:07:22 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 15:07:22 - Trabajador ID: 15
+2025-07-10 15:07:22 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 15:07:22 - JSON enviado correctamente
+2025-07-10 15:07:24 - >>> Inicio del script get_clientes.php
+2025-07-10 15:07:24 - Parámetro user_id recibido: '1'
+2025-07-10 15:07:24 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 15:07:24 - Trabajador ID: 15
+2025-07-10 15:07:24 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 15:07:24 - JSON enviado correctamente
+2025-07-10 15:07:44 - >>> Inicio del script get_clientes.php
+2025-07-10 15:07:44 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:07:44 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:07:44 - Trabajador ID: 58
+2025-07-10 15:07:44 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-10 15:07:44 - JSON enviado correctamente
+2025-07-10 15:07:56 - >>> Inicio del script get_clientes.php
+2025-07-10 15:07:56 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:07:56 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:07:56 - Trabajador ID: 58
+2025-07-10 15:07:56 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 15:07:56 - JSON enviado correctamente
+2025-07-10 15:08:05 - >>> Inicio del script get_clientes.php
+2025-07-10 15:08:05 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:08:05 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:08:05 - Trabajador ID: 58
+2025-07-10 15:08:05 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"}]
+2025-07-10 15:08:05 - JSON enviado correctamente
+2025-07-10 15:08:09 - >>> Inicio del script get_clientes.php
+2025-07-10 15:08:09 - Parámetro user_id recibido: '1'
+2025-07-10 15:08:09 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-10 15:08:09 - Trabajador ID: 15
+2025-07-10 15:08:09 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 15:08:09 - JSON enviado correctamente
+2025-07-10 15:10:55 - >>> Inicio del script get_clientes.php
+2025-07-10 15:10:55 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:10:55 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:10:55 - Trabajador ID: 58
+2025-07-10 15:10:55 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-10 15:10:55 - JSON enviado correctamente
+2025-07-10 15:10:55 - >>> Inicio del script get_clientes.php
+2025-07-10 15:10:55 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:10:55 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:10:55 - Trabajador ID: 58
+2025-07-10 15:10:55 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-10 15:10:55 - JSON enviado correctamente
+2025-07-10 15:10:55 - >>> Inicio del script get_clientes.php
+2025-07-10 15:10:55 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:10:55 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:10:55 - Trabajador ID: 58
+2025-07-10 15:10:55 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"}]
+2025-07-10 15:10:55 - JSON enviado correctamente
+2025-07-10 15:10:55 - >>> Inicio del script get_clientes.php
+2025-07-10 15:10:55 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:10:55 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:10:55 - Trabajador ID: 58
+2025-07-10 15:10:55 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-10 15:10:55 - JSON enviado correctamente
+2025-07-10 15:10:55 - >>> Inicio del script get_clientes.php
+2025-07-10 15:10:55 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:10:55 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:10:55 - Trabajador ID: 58
+2025-07-10 15:10:55 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 15:10:55 - JSON enviado correctamente
+2025-07-10 15:10:55 - >>> Inicio del script get_clientes.php
+2025-07-10 15:10:55 - Parámetro user_id recibido: '2147483654'
+2025-07-10 15:10:55 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-10 15:10:55 - Trabajador ID: 58
+2025-07-10 15:10:55 - Clientes obtenidos: [{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"},{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-10 15:10:55 - JSON enviado correctamente
+2025-07-11 07:16:22 - >>> Inicio del script get_clientes.php
+2025-07-11 07:16:22 - Parámetro user_id recibido: '1'
+2025-07-11 07:16:22 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-11 07:16:22 - Trabajador ID: 15
+2025-07-11 07:16:22 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-11 07:16:22 - JSON enviado correctamente
+2025-07-11 07:16:23 - >>> Inicio del script get_clientes.php
+2025-07-11 07:16:23 - Parámetro user_id recibido: '1'
+2025-07-11 07:16:23 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-11 07:16:23 - Trabajador ID: 15
+2025-07-11 07:16:23 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-11 07:16:23 - JSON enviado correctamente
+2025-07-11 07:16:40 - >>> Inicio del script get_clientes.php
+2025-07-11 07:16:40 - Parámetro user_id recibido: '1'
+2025-07-11 07:16:40 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-11 07:16:40 - Trabajador ID: 15
+2025-07-11 07:16:40 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-11 07:16:40 - JSON enviado correctamente
+2025-07-11 07:16:43 - >>> Inicio del script get_clientes.php
+2025-07-11 07:16:43 - Parámetro user_id recibido: '2147483654'
+2025-07-11 07:16:43 - tb_usuarios row: array (
+  'trabajador_id' => 58,
+)
+2025-07-11 07:16:43 - Trabajador ID: 58
+2025-07-11 07:16:43 - Clientes obtenidos: [{"id_cliente":2,"nombre_cliente":"Cliente B","moneda":"USD"},{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"},{"id_cliente":6,"nombre_cliente":"Cliente C","moneda":"USD"}]
+2025-07-11 07:16:43 - JSON enviado correctamente
+2025-07-11 07:16:49 - >>> Inicio del script get_clientes.php
+2025-07-11 07:16:49 - Parámetro user_id recibido: '1'
+2025-07-11 07:16:49 - tb_usuarios row: array (
+  'trabajador_id' => 15,
+)
+2025-07-11 07:16:49 - Trabajador ID: 15
+2025-07-11 07:16:49 - Clientes obtenidos: [{"id_cliente":1,"nombre_cliente":"Cliente A","moneda":"USD"}]
+2025-07-11 07:16:49 - JSON enviado correctamente

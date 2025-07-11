@@ -23,6 +23,7 @@ $page = $_GET['page'] ?? '';
           'jerarquias' => 'pages/jerarquias/index.php',
           'jerarquiasGuardarJefe' => 'pages/jerarquias/guardar_jefe.php',
           'inventarioRegistro' => 'pages/inventario/index.php',
+          'inventarioActualizarRegistros' => 'pages/inventario/editar_asignacion.php',
           'listadoInventario' => 'pages/inventario/creacionInventario.php',
           'horario' => 'pages/horario/index.php',
           'horarioTrabajadores' => 'pages/horario/horarioTrabajadores.php',

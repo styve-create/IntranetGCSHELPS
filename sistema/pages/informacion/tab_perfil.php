@@ -25,16 +25,16 @@
     <!-- Lado derecho: información personal -->
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="mb-3">Información personal</h5>
+        <h5 class="mb-3 traducible">Información personal</h5>
         <div class="row">
-          <div class="col-sm-6 mb-2"><strong>Documento:</strong> <?= htmlspecialchars($trabajador['numero_documento']?? '') ?></div>
-          <div class="col-sm-6 mb-2"><strong>Teléfono:</strong> <?= htmlspecialchars($trabajador['celular']?? '') ?></div>
-          <div class="col-sm-6 mb-2"><strong>Email:</strong> <?= htmlspecialchars($trabajador['email']?? '') ?></div>
-          <div class="col-sm-6 mb-2"><strong>Grupo sanguíneo:</strong> <?= htmlspecialchars($trabajador['grupo_sanguineo']?? '') ?></div>
-          <div class="col-sm-12 mb-2"><strong>Dirección:</strong> <?= htmlspecialchars($trabajador['domicilio']?? '') ?></div>
-          <div class="col-sm-6 mb-2"><strong>Contacto de emergencia:</strong> <?= htmlspecialchars($trabajador['nombre_contacto_emergencia']?? '') ?></div>
-          <div class="col-sm-6 mb-2"><strong>Tel. emergencia:</strong> <?= htmlspecialchars($trabajador['numero_contacto_emergencia']?? '') ?></div>
-          <div class="col-sm-6 mb-2"><strong>EPS:</strong> <?= htmlspecialchars($trabajador['eps']?? '') ?></div>
+          <div class="col-sm-6 mb-2 "><strong class="traducible">Documento:</strong> <?= htmlspecialchars($trabajador['numero_documento']?? '') ?></div>
+          <div class="col-sm-6 mb-2"><strong class="traducible">Teléfono:</strong> <?= htmlspecialchars($trabajador['celular']?? '') ?></div>
+          <div class="col-sm-6 mb-2"><strong class="traducible">Email:</strong> <?= htmlspecialchars($trabajador['email']?? '') ?></div>
+          <div class="col-sm-6 mb-2"><strong class="traducible">Grupo sanguíneo:</strong> <?= htmlspecialchars($trabajador['grupo_sanguineo']?? '') ?></div>
+          <div class="col-sm-12 mb-2"><strong class="traducible">Dirección:</strong> <?= htmlspecialchars($trabajador['domicilio']?? '') ?></div>
+          <div class="col-sm-6 mb-2"><strong class="traducible">Contacto de emergencia:</strong> <?= htmlspecialchars($trabajador['nombre_contacto_emergencia']?? '') ?></div>
+          <div class="col-sm-6 mb-2"><strong class="traducible">Tel. emergencia:</strong> <?= htmlspecialchars($trabajador['numero_contacto_emergencia']?? '') ?></div>
+          <div class="col-sm-6 mb-2"><strong class="traducible">EPS:</strong> <?= htmlspecialchars($trabajador['eps']?? '') ?></div>
         </div>
       </div>
     </div>

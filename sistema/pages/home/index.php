@@ -6,11 +6,16 @@ date_default_timezone_set('America/Bogota');
 
 
 include_once(__DIR__ . '/../../../app/controllers/config.php');
+include_once(__DIR__ . '/../../analisisRecursos.php');
+
+
 
 ?>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="manifest" href="https://gcshelps.com/intranet/sistema/pages/home/pwa/manifest.json">
+
   <style>
     body {
       background-color: #f8f9fa;
@@ -71,14 +76,14 @@ include_once(__DIR__ . '/../../../app/controllers/config.php');
                       <div>
                         <div class="d-flex justify-content-between align-items-center">
                           <div>
-                            <h3 class="fw-bold">Ausencias</h3>
-                            <p class="mb-0">Formulario de ausencias</p>
+                            <h3 class="fw-bold traducible">Ausencias</h3>
+                            <p class="mb-0 traducible">Formulario de ausencias</p>
                           </div>
                           <i class="bi bi-calendar-x display-5"></i>
                         </div>
                       </div>
                     </div>
-                    <div class="card-footer text-white text-center bg-primary-subtle">
+                    <div class="card-footer text-white text-center bg-primary-subtle traducible">
                       Más información <i class="bi bi-arrow-right-circle"></i>
                     </div>
                   </div>
@@ -93,14 +98,14 @@ include_once(__DIR__ . '/../../../app/controllers/config.php');
                       <div>
                         <div class="d-flex justify-content-between align-items-center">
                           <div>
-                            <h3 class="fw-bold">Actividades</h3>
-                            <p class="mb-0">Formulario de Actividades</p>
+                            <h3 class="fw-bold traducible">Actividades</h3>
+                            <p class="mb-0 traducible">Formulario de Actividades</p>
                           </div>
                           <i class="bi bi-clock-history display-5"></i>
                         </div>
                       </div>
                     </div>
-                    <div class="card-footer text-white text-center bg-success-subtle">
+                    <div class="card-footer text-white text-center bg-success-subtle traducible">
                       Más información <i class="bi bi-arrow-right-circle"></i>
                     </div>
                   </div>
@@ -108,15 +113,23 @@ include_once(__DIR__ . '/../../../app/controllers/config.php');
               </div>
             </div>
         </div>
+        
+
+
     </div>
-    
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
+
     (function() { 
+        
+
          const BASE_URL = "<?= $URL ?>";
+ 
          
         window.editarRegistro = function() {
+            
     fetch(`/intranet/sistema/pages/home/api_carrusel.php?t=${Date.now()}`)
     .then(response => response.json())
     .then(data => renderCarrusel(data))
@@ -134,12 +147,16 @@ function renderCarrusel(items) {
       <div class="carousel-item active">
         <div class="card anuncio-card shadow-sm d-flex flex-column text-center justify-content-center align-items-center">
           <div class="card-body">
-            <h5 class="text-muted">📭 No hay anuncios disponibles</h5>
-            <p class="text-muted">Vuelve pronto para ver nuevos anuncios corporativos.</p>
+            <h5 class="text-muted traducible">📭 No hay anuncios disponibles</h5>
+            <p class="text-muted traducible">Vuelve pronto para ver nuevos anuncios corporativos.</p>
           </div>
         </div>
       </div>
     `;
+     if (typeof window.traducirTextos === 'function') {
+        window.traducirTextos(container);
+    }
+    
     return;
   }
 
@@ -168,7 +185,7 @@ function renderCarrusel(items) {
     const itemHTML = `
       <div class="carousel-item ${isActive}">
         <div class="card anuncio-card shadow-sm d-flex flex-column">
-          <div class="card-header text-center bg-primary text-white">📢 Anuncio Corporativo</div>
+          <div class="card-header text-center bg-primary text-white traducible">📢 Anuncio Corporativo</div>
           ${cuerpoHTML}
           <div class="card-footer text-muted text-center">
             🕒 Publicado: ${new Date(item.creado_en).toLocaleDateString()}
@@ -179,6 +196,8 @@ function renderCarrusel(items) {
 
     container.insertAdjacentHTML('beforeend', itemHTML);
   });
+  
+  
 }
 
 // Escapa texto para evitar XSS
@@ -197,7 +216,11 @@ function enlazarTexto(texto) {
 }
 
 window.editarRegistro ();
+
+
+
     })();
 
 </script>
+
 

@@ -1726,3 +1726,604 @@
 2025-06-26 11:39:43 - Transacción completada exitosamente.
 2025-06-26 11:44:23 - Cargado index.php
 2025-06-26 11:45:19 - Cargado index.php
+2025-06-27 07:40:02 - Cargado index.php
+2025-06-27 09:54:24 - Cargado index.php
+2025-06-27 09:54:43 - Verificando si el trabajador está en la campaña especificada...
+2025-06-27 09:54:43 - El trabajador no está asignado, procediendo a insertarlo.
+2025-06-27 09:54:43 - Transacción completada exitosamente.
+2025-06-27 14:54:50 - Cargado agregar_trabajador.php
+2025-06-27 09:54:50 - Verificando datos enviados...
+2025-06-27 09:54:50 - Datos recibidos: jefe_id = 15, campana_id = 21
+2025-06-27 09:54:50 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-06-27 09:54:50 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-06-27 09:54:50 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-06-27 09:54:50 - Número de trabajadores encontrados: 82
+2025-06-27 09:54:50 - Formulario HTML generado correctamente.
+2025-06-27 09:54:50 - Enviando respuesta JSON al cliente.
+2025-06-27 14:54:53 - == INICIO guardar_trabajador.php ==
+2025-06-27 14:54:53 - Incluyendo config.php...
+2025-06-27 09:54:53 - Config incluido correctamente.
+2025-06-27 09:54:53 - Verificando datos POST...
+2025-06-27 09:54:53 - Datos POST presentes.
+2025-06-27 09:54:53 - POST procesado: trabajador_id=16, jefe_id=15, campana_id=21, cargo_id=3
+2025-06-27 09:54:53 - Verificando existencia en trabajadores_campanas...
+2025-06-27 09:54:53 - No existe en trabajadores_campanas, se insertará.
+2025-06-27 09:54:53 - Insertado correctamente en trabajadores_campanas.
+2025-06-27 09:54:53 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-06-27 09:54:53 - No existe en jerarquía, se insertará.
+2025-06-27 09:54:53 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-06-27 09:54:53 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-06-27 09:54:53 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-06-27 09:54:53 - == FIN guardar_trabajador.php ==
+2025-06-27 14:57:37 - Inicio del script eliminar_trabajador.php
+2025-06-27 09:57:37 - Incluido config.php
+2025-06-27 09:57:37 - Datos recibidos - trabajador_id: 16, campana_id: 21, jefe_id: 15
+2025-06-27 09:57:37 - Validando si el trabajador pertenece a la campaña
+2025-06-27 09:57:37 - El trabajador está asociado a la campaña
+2025-06-27 09:57:37 - Validando si el trabajador está vinculado al jefe
+2025-06-27 09:57:37 - El trabajador está correctamente vinculado al jefe
+2025-06-27 09:57:37 - Formulario generado correctamente
+2025-06-27 09:57:37 - Fin del script con éxito
+2025-06-27 09:57:38 - Inicio de eliminar_trabajador.php
+2025-06-27 09:57:38 - Datos recibidos: trabajador_id=16, campana_id=21, jefe_id=15
+2025-06-27 09:57:38 - Transacción iniciada.
+2025-06-27 09:57:38 - Validación existencia del trabajador: {"total":1}
+2025-06-27 09:57:38 - Validación jefe vinculado: {"total":1}
+2025-06-27 09:57:38 - Eliminación de jerarquía ejecutada.
+2025-06-27 09:57:38 - Eliminación de trabajador en campaña ejecutada.
+2025-06-27 09:57:38 - Transacción completada con éxito.
+2025-06-27 09:58:50 - Cargado index.php
+2025-07-02 10:37:44 - Cargado index.php
+2025-07-04 12:31:58 - Cargado index.php
+2025-07-04 12:32:36 - Verificando si el trabajador está en la campaña especificada...
+2025-07-04 12:32:36 - El trabajador ya está asignado a la campaña, actualizando el cargo.
+2025-07-04 12:32:36 - Transacción completada exitosamente.
+2025-07-08 10:51:27 - Cargado index.php
+2025-07-08 13:52:25 - Cargado index.php
+2025-07-08 14:12:59 - Cargado index.php
+2025-07-08 14:14:00 - Cargado index.php
+2025-07-08 14:15:46 - Cargado index.php
+2025-07-09 07:09:56 - Cargado index.php
+2025-07-09 07:10:11 - Cargado index.php
+2025-07-09 07:10:11 - Cabecera Content-Type: application/json establecida
+2025-07-09 07:10:11 - ID del jefe recibido: 49
+2025-07-09 07:10:11 - Consulta para obtener datos del jefe ejecutada: SELECT t.id, t.nombre_completo, tc.campana_id, tc.cargo_id 
+        FROM trabajadores t
+        INNER JOIN trabajadores_campanas tc ON t.id = tc.trabajador_id
+        WHERE t.id = ? AND tc.campana_id = ?
+2025-07-09 07:10:11 - Datos del jefe obtenidos: {"id":49,"nombre_completo":"Jennifer Manrique Rodriguez","campana_id":1,"cargo_id":2}
+2025-07-09 07:10:11 - Campañas activas obtenidas: 13 campañas
+2025-07-09 07:10:11 - Cargos obtenidos: 27 cargos
+2025-07-09 07:10:11 - Trabajadores obtenidos: 83 trabajadores
+2025-07-09 07:10:11 - Formulario HTML generado para el jefe con ID: 49
+2025-07-09 07:10:11 - Respuesta JSON enviada con el formulario
+2025-07-09 07:13:15 - Cargado index.php
+2025-07-09 07:39:05 - Cargado index.php
+2025-07-09 07:39:30 - Cargado index.php
+2025-07-09 07:39:30 - Cabecera Content-Type: application/json establecida
+2025-07-09 07:39:30 - ID del jefe recibido: 49
+2025-07-09 07:39:30 - Consulta para obtener datos del jefe ejecutada: SELECT t.id, t.nombre_completo, tc.campana_id, tc.cargo_id 
+        FROM trabajadores t
+        INNER JOIN trabajadores_campanas tc ON t.id = tc.trabajador_id
+        WHERE t.id = ? AND tc.campana_id = ?
+2025-07-09 07:39:30 - Datos del jefe obtenidos: {"id":49,"nombre_completo":"Jennifer Manrique Rodriguez","campana_id":1,"cargo_id":2}
+2025-07-09 07:39:30 - Campañas activas obtenidas: 13 campañas
+2025-07-09 07:39:30 - Cargos obtenidos: 27 cargos
+2025-07-09 07:39:30 - Trabajadores obtenidos: 84 trabajadores
+2025-07-09 07:39:30 - Formulario HTML generado para el jefe con ID: 49
+2025-07-09 07:39:30 - Respuesta JSON enviada con el formulario
+2025-07-09 07:39:43 - ==== INICIO DE PROCESO DE ACTUALIZACIÓN DE JEFE ====
+2025-07-09 07:39:43 - Contenido completo de $_POST: {"id":"49","campana_id":"1","cargo_id":"2","nombre":"Jennifer Manrique Rodriguez","nuevo_jefe_id":"168"}
+2025-07-09 07:39:43 - Cabecera Content-Type: application/json establecida.
+2025-07-09 07:39:43 - Validación de campos requeridos: id, nombre, campana_id, cargo_id
+2025-07-09 07:39:43 - Datos recibidos - ID: 49, Nombre: Jennifer Manrique Rodriguez, Campaña ID: 1, Cargo ID: 2, Nuevo Jefe ID: 168
+2025-07-09 07:39:43 - Iniciando transacción...
+2025-07-09 07:39:43 - ✅ El trabajador está asignado a la campaña correcta.
+2025-07-09 07:39:43 - ❌ ERROR: El nuevo jefe no está asignado a la misma campaña.
+2025-07-09 07:39:43 - ==== TRANSACCIÓN CANCELADA ====
+2025-07-09 07:40:00 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 07:40:00 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 07:40:00 - Transacción completada exitosamente.
+2025-07-09 07:40:17 - Cargado index.php
+2025-07-09 07:40:17 - Cabecera Content-Type: application/json establecida
+2025-07-09 07:40:17 - ID del jefe recibido: 49
+2025-07-09 07:40:17 - Consulta para obtener datos del jefe ejecutada: SELECT t.id, t.nombre_completo, tc.campana_id, tc.cargo_id 
+        FROM trabajadores t
+        INNER JOIN trabajadores_campanas tc ON t.id = tc.trabajador_id
+        WHERE t.id = ? AND tc.campana_id = ?
+2025-07-09 07:40:17 - Datos del jefe obtenidos: {"id":49,"nombre_completo":"Jennifer Manrique Rodriguez","campana_id":1,"cargo_id":2}
+2025-07-09 07:40:17 - Campañas activas obtenidas: 13 campañas
+2025-07-09 07:40:17 - Cargos obtenidos: 27 cargos
+2025-07-09 07:40:17 - Trabajadores obtenidos: 84 trabajadores
+2025-07-09 07:40:17 - Formulario HTML generado para el jefe con ID: 49
+2025-07-09 07:40:17 - Respuesta JSON enviada con el formulario
+2025-07-09 07:40:29 - ==== INICIO DE PROCESO DE ACTUALIZACIÓN DE JEFE ====
+2025-07-09 07:40:29 - Contenido completo de $_POST: {"id":"49","campana_id":"1","cargo_id":"2","nombre":"Jennifer Manrique Rodriguez","nuevo_jefe_id":"168"}
+2025-07-09 07:40:29 - Cabecera Content-Type: application/json establecida.
+2025-07-09 07:40:29 - Validación de campos requeridos: id, nombre, campana_id, cargo_id
+2025-07-09 07:40:29 - Datos recibidos - ID: 49, Nombre: Jennifer Manrique Rodriguez, Campaña ID: 1, Cargo ID: 2, Nuevo Jefe ID: 168
+2025-07-09 07:40:29 - Iniciando transacción...
+2025-07-09 07:40:29 - ✅ El trabajador está asignado a la campaña correcta.
+2025-07-09 07:40:30 - No se encontraron subordinados. Procesando como trabajador individual.
+2025-07-09 07:40:30 - No se encontró jerarquía previa para el trabajador 49.
+2025-07-09 07:40:30 - ⚠️ Cargo del trabajador 49 cambiado de jefe (2) a trabajador (3).
+2025-07-09 07:40:30 - ✅ Transacción completada con éxito.
+2025-07-09 07:40:30 - ==== FIN EXITOSO ====
+2025-07-09 07:41:13 - Cargado index.php
+2025-07-09 07:41:13 - Cabecera Content-Type: application/json establecida
+2025-07-09 07:41:13 - ID del jefe recibido: 168
+2025-07-09 07:41:13 - Consulta para obtener datos del jefe ejecutada: SELECT t.id, t.nombre_completo, tc.campana_id, tc.cargo_id 
+        FROM trabajadores t
+        INNER JOIN trabajadores_campanas tc ON t.id = tc.trabajador_id
+        WHERE t.id = ? AND tc.campana_id = ?
+2025-07-09 07:41:13 - Datos del jefe obtenidos: {"id":168,"nombre_completo":"Carlos Campos","campana_id":1,"cargo_id":2}
+2025-07-09 07:41:13 - Campañas activas obtenidas: 13 campañas
+2025-07-09 07:41:13 - Cargos obtenidos: 27 cargos
+2025-07-09 07:41:13 - Trabajadores obtenidos: 84 trabajadores
+2025-07-09 07:41:13 - Formulario HTML generado para el jefe con ID: 168
+2025-07-09 07:41:13 - Respuesta JSON enviada con el formulario
+2025-07-09 07:41:18 - ==== INICIO DE PROCESO DE ACTUALIZACIÓN DE JEFE ====
+2025-07-09 07:41:18 - Contenido completo de $_POST: {"id":"168","campana_id":"1","cargo_id":"2","nombre":"Carlos Campos","nuevo_jefe_id":"49"}
+2025-07-09 07:41:18 - Cabecera Content-Type: application/json establecida.
+2025-07-09 07:41:18 - Validación de campos requeridos: id, nombre, campana_id, cargo_id
+2025-07-09 07:41:18 - Datos recibidos - ID: 168, Nombre: Carlos Campos, Campaña ID: 1, Cargo ID: 2, Nuevo Jefe ID: 49
+2025-07-09 07:41:18 - Iniciando transacción...
+2025-07-09 07:41:18 - ✅ El trabajador está asignado a la campaña correcta.
+2025-07-09 07:41:18 - No se encontraron subordinados. Procesando como trabajador individual.
+2025-07-09 07:41:18 - No se encontró jerarquía previa para el trabajador 168.
+2025-07-09 07:41:18 - ⚠️ Cargo del trabajador 168 cambiado de jefe (2) a trabajador (3).
+2025-07-09 07:41:18 - ⚠️ Cargo del nuevo jefe actualizado a jefe (cargo_id = 2).
+2025-07-09 07:41:18 - ✅ Transacción completada con éxito.
+2025-07-09 07:41:18 - ==== FIN EXITOSO ====
+2025-07-09 07:41:40 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 07:41:40 - El trabajador ya está asignado a la campaña, actualizando el cargo.
+2025-07-09 07:41:40 - Transacción completada exitosamente.
+2025-07-09 07:42:20 - Cargado index.php
+2025-07-09 07:43:03 - Cargado index.php
+2025-07-09 07:43:51 - Cargado index.php
+2025-07-09 07:44:21 - Cargado index.php
+2025-07-09 07:44:42 - Cargado index.php
+2025-07-09 07:45:52 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 07:45:52 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 07:45:52 - Transacción completada exitosamente.
+2025-07-09 07:46:25 - Cargado index.php
+2025-07-09 07:47:36 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 07:47:36 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 07:47:36 - Transacción completada exitosamente.
+2025-07-09 12:47:46 - Cargado agregar_trabajador.php
+2025-07-09 07:47:46 - Verificando datos enviados...
+2025-07-09 07:47:46 - Datos recibidos: jefe_id = 15, campana_id = 18
+2025-07-09 07:47:46 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 07:47:46 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 07:47:46 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 07:47:46 - Número de trabajadores encontrados: 84
+2025-07-09 07:47:46 - Formulario HTML generado correctamente.
+2025-07-09 07:47:46 - Enviando respuesta JSON al cliente.
+2025-07-09 12:48:06 - == INICIO guardar_trabajador.php ==
+2025-07-09 12:48:06 - Incluyendo config.php...
+2025-07-09 07:48:06 - Config incluido correctamente.
+2025-07-09 07:48:06 - Verificando datos POST...
+2025-07-09 07:48:06 - Datos POST presentes.
+2025-07-09 07:48:06 - POST procesado: trabajador_id=161, jefe_id=15, campana_id=18, cargo_id=3
+2025-07-09 07:48:06 - Verificando existencia en trabajadores_campanas...
+2025-07-09 07:48:06 - Ya existe en trabajadores_campanas.
+2025-07-09 07:48:06 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 07:48:06 - No existe en jerarquía, se insertará.
+2025-07-09 07:48:06 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 07:48:06 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 07:48:06 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 07:48:06 - == FIN guardar_trabajador.php ==
+2025-07-09 12:48:29 - Cargado agregar_trabajador.php
+2025-07-09 07:48:29 - Verificando datos enviados...
+2025-07-09 07:48:29 - Datos recibidos: jefe_id = 15, campana_id = 18
+2025-07-09 07:48:29 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 07:48:29 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 07:48:29 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 07:48:29 - Número de trabajadores encontrados: 83
+2025-07-09 07:48:29 - Formulario HTML generado correctamente.
+2025-07-09 07:48:29 - Enviando respuesta JSON al cliente.
+2025-07-09 12:49:46 - == INICIO guardar_trabajador.php ==
+2025-07-09 12:49:46 - Incluyendo config.php...
+2025-07-09 07:49:46 - Config incluido correctamente.
+2025-07-09 07:49:46 - Verificando datos POST...
+2025-07-09 07:49:46 - Datos POST presentes.
+2025-07-09 07:49:46 - POST procesado: trabajador_id=52, jefe_id=15, campana_id=18, cargo_id=3
+2025-07-09 07:49:46 - Verificando existencia en trabajadores_campanas...
+2025-07-09 07:49:46 - No existe en trabajadores_campanas, se insertará.
+2025-07-09 07:49:46 - Insertado correctamente en trabajadores_campanas.
+2025-07-09 07:49:46 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 07:49:46 - No existe en jerarquía, se insertará.
+2025-07-09 07:49:46 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 07:49:46 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 07:49:46 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 07:49:46 - == FIN guardar_trabajador.php ==
+2025-07-09 12:50:32 - Cargado agregar_trabajador.php
+2025-07-09 07:50:32 - Verificando datos enviados...
+2025-07-09 07:50:32 - Datos recibidos: jefe_id = 169, campana_id = 3
+2025-07-09 07:50:32 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 07:50:32 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 07:50:32 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 07:50:32 - Número de trabajadores encontrados: 84
+2025-07-09 07:50:32 - Formulario HTML generado correctamente.
+2025-07-09 07:50:32 - Enviando respuesta JSON al cliente.
+2025-07-09 12:50:39 - == INICIO guardar_trabajador.php ==
+2025-07-09 12:50:39 - Incluyendo config.php...
+2025-07-09 07:50:39 - Config incluido correctamente.
+2025-07-09 07:50:39 - Verificando datos POST...
+2025-07-09 07:50:39 - Datos POST presentes.
+2025-07-09 07:50:39 - POST procesado: trabajador_id=168, jefe_id=169, campana_id=3, cargo_id=3
+2025-07-09 07:50:39 - Verificando existencia en trabajadores_campanas...
+2025-07-09 07:50:39 - Ya existe en trabajadores_campanas.
+2025-07-09 07:50:39 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 07:50:39 - No existe en jerarquía, se insertará.
+2025-07-09 07:50:39 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 07:50:39 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 07:50:39 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 07:50:39 - == FIN guardar_trabajador.php ==
+2025-07-09 12:50:54 - Inicio del script eliminar_trabajador.php
+2025-07-09 07:50:54 - Incluido config.php
+2025-07-09 07:50:54 - Datos recibidos - trabajador_id: 168, campana_id: 3, jefe_id: 169
+2025-07-09 07:50:54 - Validando si el trabajador pertenece a la campaña
+2025-07-09 07:50:54 - El trabajador está asociado a la campaña
+2025-07-09 07:50:54 - Validando si el trabajador está vinculado al jefe
+2025-07-09 07:50:54 - El trabajador está correctamente vinculado al jefe
+2025-07-09 07:50:54 - Formulario generado correctamente
+2025-07-09 07:50:54 - Fin del script con éxito
+2025-07-09 07:50:55 - Inicio de eliminar_trabajador.php
+2025-07-09 07:50:55 - Datos recibidos: trabajador_id=168, campana_id=3, jefe_id=169
+2025-07-09 07:50:55 - Transacción iniciada.
+2025-07-09 07:50:55 - Validación existencia del trabajador: {"total":1}
+2025-07-09 07:50:55 - Validación jefe vinculado: {"total":1}
+2025-07-09 07:50:55 - Eliminación de jerarquía ejecutada.
+2025-07-09 07:50:55 - Eliminación de trabajador en campaña ejecutada.
+2025-07-09 07:50:55 - Transacción completada con éxito.
+2025-07-09 09:18:34 - Cargado index.php
+2025-07-09 09:21:23 - Cargado index.php
+2025-07-09 09:21:33 - Cargado index.php
+2025-07-09 09:22:11 - Cargado index.php
+2025-07-09 09:24:02 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 09:24:02 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 09:24:02 - Transacción completada exitosamente.
+2025-07-09 14:24:11 - Cargado agregar_trabajador.php
+2025-07-09 09:24:11 - Verificando datos enviados...
+2025-07-09 09:24:11 - Datos recibidos: jefe_id = 15, campana_id = 18
+2025-07-09 09:24:11 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 09:24:11 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 09:24:11 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 09:24:11 - Número de trabajadores encontrados: 84
+2025-07-09 09:24:11 - Formulario HTML generado correctamente.
+2025-07-09 09:24:11 - Enviando respuesta JSON al cliente.
+2025-07-09 14:24:23 - == INICIO guardar_trabajador.php ==
+2025-07-09 14:24:23 - Incluyendo config.php...
+2025-07-09 09:24:23 - Config incluido correctamente.
+2025-07-09 09:24:23 - Verificando datos POST...
+2025-07-09 09:24:23 - Datos POST presentes.
+2025-07-09 09:24:23 - POST procesado: trabajador_id=58, jefe_id=15, campana_id=18, cargo_id=3
+2025-07-09 09:24:23 - Verificando existencia en trabajadores_campanas...
+2025-07-09 09:24:23 - Ya existe en trabajadores_campanas.
+2025-07-09 09:24:23 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 09:24:23 - No existe en jerarquía, se insertará.
+2025-07-09 09:24:23 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 09:24:23 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:24:23 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:24:23 - == FIN guardar_trabajador.php ==
+2025-07-09 14:24:43 - Inicio del script eliminar_trabajador.php
+2025-07-09 09:24:43 - Incluido config.php
+2025-07-09 09:24:43 - Datos recibidos - trabajador_id: 58, campana_id: 18, jefe_id: 15
+2025-07-09 09:24:43 - Validando si el trabajador pertenece a la campaña
+2025-07-09 09:24:43 - El trabajador está asociado a la campaña
+2025-07-09 09:24:43 - Validando si el trabajador está vinculado al jefe
+2025-07-09 09:24:43 - El trabajador está correctamente vinculado al jefe
+2025-07-09 09:24:43 - Formulario generado correctamente
+2025-07-09 09:24:43 - Fin del script con éxito
+2025-07-09 09:26:16 - Cargado index.php
+2025-07-09 09:27:32 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 09:27:32 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 09:27:32 - Transacción completada exitosamente.
+2025-07-09 14:27:40 - Cargado agregar_trabajador.php
+2025-07-09 09:27:40 - Verificando datos enviados...
+2025-07-09 09:27:40 - Datos recibidos: jefe_id = 15, campana_id = 17
+2025-07-09 09:27:40 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 09:27:40 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 09:27:40 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 09:27:40 - Número de trabajadores encontrados: 84
+2025-07-09 09:27:40 - Formulario HTML generado correctamente.
+2025-07-09 09:27:40 - Enviando respuesta JSON al cliente.
+2025-07-09 14:27:44 - == INICIO guardar_trabajador.php ==
+2025-07-09 14:27:44 - Incluyendo config.php...
+2025-07-09 09:27:44 - Config incluido correctamente.
+2025-07-09 09:27:44 - Verificando datos POST...
+2025-07-09 09:27:44 - Datos POST presentes.
+2025-07-09 09:27:44 - POST procesado: trabajador_id=52, jefe_id=15, campana_id=17, cargo_id=3
+2025-07-09 09:27:44 - Verificando existencia en trabajadores_campanas...
+2025-07-09 09:27:44 - No existe en trabajadores_campanas, se insertará.
+2025-07-09 09:27:44 - Insertado correctamente en trabajadores_campanas.
+2025-07-09 09:27:44 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 09:27:44 - No existe en jerarquía, se insertará.
+2025-07-09 09:27:44 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 09:27:44 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:27:44 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:27:44 - == FIN guardar_trabajador.php ==
+2025-07-09 09:28:05 - Cargado index.php
+2025-07-09 09:28:18 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 09:28:18 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 09:28:18 - Transacción completada exitosamente.
+2025-07-09 14:28:32 - Cargado agregar_trabajador.php
+2025-07-09 09:28:32 - Verificando datos enviados...
+2025-07-09 09:28:32 - Datos recibidos: jefe_id = 15, campana_id = 18
+2025-07-09 09:28:32 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 09:28:32 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 09:28:32 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 09:28:32 - Número de trabajadores encontrados: 84
+2025-07-09 09:28:32 - Formulario HTML generado correctamente.
+2025-07-09 09:28:32 - Enviando respuesta JSON al cliente.
+2025-07-09 14:28:35 - == INICIO guardar_trabajador.php ==
+2025-07-09 14:28:35 - Incluyendo config.php...
+2025-07-09 09:28:35 - Config incluido correctamente.
+2025-07-09 09:28:35 - Verificando datos POST...
+2025-07-09 09:28:35 - Datos POST presentes.
+2025-07-09 09:28:35 - POST procesado: trabajador_id=52, jefe_id=15, campana_id=18, cargo_id=3
+2025-07-09 09:28:35 - Verificando existencia en trabajadores_campanas...
+2025-07-09 09:28:35 - Ya existe en trabajadores_campanas.
+2025-07-09 09:28:35 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 09:28:35 - No existe en jerarquía, se insertará.
+2025-07-09 09:28:35 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 09:28:35 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:28:35 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:28:35 - == FIN guardar_trabajador.php ==
+2025-07-09 14:28:41 - Inicio del script eliminar_trabajador.php
+2025-07-09 09:28:41 - Incluido config.php
+2025-07-09 09:28:41 - Datos recibidos - trabajador_id: 52, campana_id: 18, jefe_id: 15
+2025-07-09 09:28:41 - Validando si el trabajador pertenece a la campaña
+2025-07-09 09:28:41 - El trabajador está asociado a la campaña
+2025-07-09 09:28:41 - Validando si el trabajador está vinculado al jefe
+2025-07-09 09:28:41 - El trabajador está correctamente vinculado al jefe
+2025-07-09 09:28:41 - Formulario generado correctamente
+2025-07-09 09:28:41 - Fin del script con éxito
+2025-07-09 09:28:42 - Inicio de eliminar_trabajador.php
+2025-07-09 09:28:42 - Datos recibidos: trabajador_id=52, campana_id=18, jefe_id=15
+2025-07-09 09:28:42 - Transacción iniciada.
+2025-07-09 09:28:42 - Validación existencia del trabajador: {"total":1}
+2025-07-09 09:28:42 - Validación jefe vinculado: {"total":1}
+2025-07-09 09:28:42 - Eliminación de jerarquía ejecutada.
+2025-07-09 09:28:42 - Eliminación de trabajador en campaña ejecutada.
+2025-07-09 09:28:42 - Transacción completada con éxito.
+2025-07-09 09:29:28 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 09:29:28 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 09:29:28 - Transacción completada exitosamente.
+2025-07-09 14:29:35 - Cargado agregar_trabajador.php
+2025-07-09 09:29:35 - Verificando datos enviados...
+2025-07-09 09:29:35 - Datos recibidos: jefe_id = 71, campana_id = 22
+2025-07-09 09:29:35 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 09:29:35 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 09:29:35 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 09:29:35 - Número de trabajadores encontrados: 84
+2025-07-09 09:29:35 - Formulario HTML generado correctamente.
+2025-07-09 09:29:35 - Enviando respuesta JSON al cliente.
+2025-07-09 14:29:43 - == INICIO guardar_trabajador.php ==
+2025-07-09 14:29:43 - Incluyendo config.php...
+2025-07-09 09:29:43 - Config incluido correctamente.
+2025-07-09 09:29:43 - Verificando datos POST...
+2025-07-09 09:29:43 - Datos POST presentes.
+2025-07-09 09:29:43 - POST procesado: trabajador_id=57, jefe_id=71, campana_id=22, cargo_id=3
+2025-07-09 09:29:43 - Verificando existencia en trabajadores_campanas...
+2025-07-09 09:29:43 - No existe en trabajadores_campanas, se insertará.
+2025-07-09 09:29:43 - Insertado correctamente en trabajadores_campanas.
+2025-07-09 09:29:43 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 09:29:43 - No existe en jerarquía, se insertará.
+2025-07-09 09:29:43 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 09:29:43 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:29:43 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:29:43 - == FIN guardar_trabajador.php ==
+2025-07-09 09:32:16 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 09:32:16 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 09:32:16 - Transacción completada exitosamente.
+2025-07-09 14:32:25 - Cargado agregar_trabajador.php
+2025-07-09 09:32:25 - Verificando datos enviados...
+2025-07-09 09:32:25 - Datos recibidos: jefe_id = 15, campana_id = 18
+2025-07-09 09:32:25 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 09:32:25 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 09:32:25 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 09:32:25 - Número de trabajadores encontrados: 84
+2025-07-09 09:32:25 - Formulario HTML generado correctamente.
+2025-07-09 09:32:25 - Enviando respuesta JSON al cliente.
+2025-07-09 14:32:30 - == INICIO guardar_trabajador.php ==
+2025-07-09 14:32:30 - Incluyendo config.php...
+2025-07-09 09:32:30 - Config incluido correctamente.
+2025-07-09 09:32:30 - Verificando datos POST...
+2025-07-09 09:32:30 - Datos POST presentes.
+2025-07-09 09:32:30 - POST procesado: trabajador_id=71, jefe_id=15, campana_id=18, cargo_id=3
+2025-07-09 09:32:30 - Verificando existencia en trabajadores_campanas...
+2025-07-09 09:32:30 - Ya existe en trabajadores_campanas.
+2025-07-09 09:32:30 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 09:32:30 - No existe en jerarquía, se insertará.
+2025-07-09 09:32:30 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 09:32:30 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:32:30 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:32:30 - == FIN guardar_trabajador.php ==
+2025-07-09 14:32:35 - Cargado agregar_trabajador.php
+2025-07-09 09:32:35 - Verificando datos enviados...
+2025-07-09 09:32:35 - Datos recibidos: jefe_id = 15, campana_id = 18
+2025-07-09 09:32:35 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 09:32:35 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 09:32:35 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 09:32:35 - Número de trabajadores encontrados: 83
+2025-07-09 09:32:35 - Formulario HTML generado correctamente.
+2025-07-09 09:32:35 - Enviando respuesta JSON al cliente.
+2025-07-09 14:32:44 - == INICIO guardar_trabajador.php ==
+2025-07-09 14:32:44 - Incluyendo config.php...
+2025-07-09 09:32:44 - Config incluido correctamente.
+2025-07-09 09:32:44 - Verificando datos POST...
+2025-07-09 09:32:44 - Datos POST presentes.
+2025-07-09 09:32:44 - POST procesado: trabajador_id=57, jefe_id=15, campana_id=18, cargo_id=3
+2025-07-09 09:32:44 - Verificando existencia en trabajadores_campanas...
+2025-07-09 09:32:44 - Ya existe en trabajadores_campanas.
+2025-07-09 09:32:44 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 09:32:44 - No existe en jerarquía, se insertará.
+2025-07-09 09:32:44 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 09:32:44 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:32:44 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:32:44 - == FIN guardar_trabajador.php ==
+2025-07-09 14:32:54 - Inicio del script eliminar_trabajador.php
+2025-07-09 09:32:54 - Incluido config.php
+2025-07-09 09:32:54 - Datos recibidos - trabajador_id: 71, campana_id: 18, jefe_id: 15
+2025-07-09 09:32:54 - Validando si el trabajador pertenece a la campaña
+2025-07-09 09:32:54 - El trabajador está asociado a la campaña
+2025-07-09 09:32:54 - Validando si el trabajador está vinculado al jefe
+2025-07-09 09:32:54 - El trabajador está correctamente vinculado al jefe
+2025-07-09 09:32:54 - Formulario generado correctamente
+2025-07-09 09:32:54 - Fin del script con éxito
+2025-07-09 09:32:55 - Inicio de eliminar_trabajador.php
+2025-07-09 09:32:55 - Datos recibidos: trabajador_id=71, campana_id=18, jefe_id=15
+2025-07-09 09:32:55 - Transacción iniciada.
+2025-07-09 09:32:55 - Validación existencia del trabajador: {"total":1}
+2025-07-09 09:32:55 - Validación jefe vinculado: {"total":1}
+2025-07-09 09:32:55 - Eliminación de jerarquía ejecutada.
+2025-07-09 09:32:55 - Eliminación de trabajador en campaña ejecutada.
+2025-07-09 09:32:55 - Transacción completada con éxito.
+2025-07-09 14:33:00 - Inicio del script eliminar_trabajador.php
+2025-07-09 09:33:00 - Incluido config.php
+2025-07-09 09:33:00 - Datos recibidos - trabajador_id: 57, campana_id: 18, jefe_id: 15
+2025-07-09 09:33:00 - Validando si el trabajador pertenece a la campaña
+2025-07-09 09:33:00 - El trabajador está asociado a la campaña
+2025-07-09 09:33:00 - Validando si el trabajador está vinculado al jefe
+2025-07-09 09:33:00 - El trabajador está correctamente vinculado al jefe
+2025-07-09 09:33:00 - Formulario generado correctamente
+2025-07-09 09:33:00 - Fin del script con éxito
+2025-07-09 09:33:01 - Inicio de eliminar_trabajador.php
+2025-07-09 09:33:01 - Datos recibidos: trabajador_id=57, campana_id=18, jefe_id=15
+2025-07-09 09:33:01 - Transacción iniciada.
+2025-07-09 09:33:01 - Validación existencia del trabajador: {"total":1}
+2025-07-09 09:33:01 - Validación jefe vinculado: {"total":1}
+2025-07-09 09:33:01 - Eliminación de jerarquía ejecutada.
+2025-07-09 09:33:01 - Eliminación de trabajador en campaña ejecutada.
+2025-07-09 09:33:01 - Transacción completada con éxito.
+2025-07-09 09:34:51 - Cargado index.php
+2025-07-09 14:35:09 - Cargado agregar_trabajador.php
+2025-07-09 09:35:09 - Verificando datos enviados...
+2025-07-09 09:35:09 - Datos recibidos: jefe_id = 71, campana_id = 22
+2025-07-09 09:35:09 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 09:35:09 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 09:35:09 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 09:35:09 - Número de trabajadores encontrados: 84
+2025-07-09 09:35:09 - Formulario HTML generado correctamente.
+2025-07-09 09:35:09 - Enviando respuesta JSON al cliente.
+2025-07-09 14:35:20 - == INICIO guardar_trabajador.php ==
+2025-07-09 14:35:20 - Incluyendo config.php...
+2025-07-09 09:35:20 - Config incluido correctamente.
+2025-07-09 09:35:20 - Verificando datos POST...
+2025-07-09 09:35:20 - Datos POST presentes.
+2025-07-09 09:35:20 - POST procesado: trabajador_id=170, jefe_id=71, campana_id=22, cargo_id=3
+2025-07-09 09:35:20 - Verificando existencia en trabajadores_campanas...
+2025-07-09 09:35:20 - Ya existe en trabajadores_campanas.
+2025-07-09 09:35:20 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 09:35:20 - No existe en jerarquía, se insertará.
+2025-07-09 09:35:20 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 09:35:20 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:35:20 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 09:35:20 - == FIN guardar_trabajador.php ==
+2025-07-09 09:36:34 - Cargado index.php
+2025-07-09 12:16:47 - Cargado index.php
+2025-07-09 12:17:12 - Verificando si el trabajador está en la campaña especificada...
+2025-07-09 12:17:12 - El trabajador no está asignado, procediendo a insertarlo.
+2025-07-09 12:17:12 - Transacción completada exitosamente.
+2025-07-09 17:17:22 - Cargado agregar_trabajador.php
+2025-07-09 12:17:22 - Verificando datos enviados...
+2025-07-09 12:17:22 - Datos recibidos: jefe_id = 15, campana_id = 22
+2025-07-09 12:17:22 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 12:17:22 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 12:17:22 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 12:17:22 - Número de trabajadores encontrados: 83
+2025-07-09 12:17:22 - Formulario HTML generado correctamente.
+2025-07-09 12:17:22 - Enviando respuesta JSON al cliente.
+2025-07-09 17:17:29 - Cargado agregar_trabajador.php
+2025-07-09 12:17:29 - Verificando datos enviados...
+2025-07-09 12:17:29 - Datos recibidos: jefe_id = 15, campana_id = 22
+2025-07-09 12:17:29 - Ejecutando consulta para obtener cargo para trabajador normal...
+2025-07-09 12:17:29 - Cargo encontrado: Array
+(
+    [id] => 3
+    [nombre] => Trabajador Normal
+)
+
+2025-07-09 12:17:29 - Ejecutando consulta para obtener trabajadores no asignados a la campaña...
+2025-07-09 12:17:29 - Número de trabajadores encontrados: 83
+2025-07-09 12:17:29 - Formulario HTML generado correctamente.
+2025-07-09 12:17:29 - Enviando respuesta JSON al cliente.
+2025-07-09 17:17:35 - == INICIO guardar_trabajador.php ==
+2025-07-09 17:17:35 - Incluyendo config.php...
+2025-07-09 12:17:35 - Config incluido correctamente.
+2025-07-09 12:17:35 - Verificando datos POST...
+2025-07-09 12:17:35 - Datos POST presentes.
+2025-07-09 12:17:35 - POST procesado: trabajador_id=16, jefe_id=15, campana_id=22, cargo_id=3
+2025-07-09 12:17:35 - Verificando existencia en trabajadores_campanas...
+2025-07-09 12:17:35 - No existe en trabajadores_campanas, se insertará.
+2025-07-09 12:17:35 - Insertado correctamente en trabajadores_campanas.
+2025-07-09 12:17:35 - Verificando existencia en tb_jerarquia_trabajadores...
+2025-07-09 12:17:35 - No existe en jerarquía, se insertará.
+2025-07-09 12:17:35 - Insertado correctamente en tb_jerarquia_trabajadores.
+2025-07-09 12:17:35 - == INICIO Verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 12:17:35 - == Fin de la verificación de campaña correcta para evitar modificaciones no deseadas ==
+2025-07-09 12:17:35 - == FIN guardar_trabajador.php ==
+2025-07-10 13:05:39 - Cargado index.php
+2025-07-11 07:14:05 - Cargado index.php

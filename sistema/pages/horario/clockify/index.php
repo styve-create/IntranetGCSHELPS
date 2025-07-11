@@ -38,6 +38,7 @@ log_debug("Fecha recibida: ");
 .icon-cobro.selected {color: #0d6efd !important;}
 .d-flex.align-items-center { flex-wrap: wrap; }
 .dropdown-menu {max-height: 60px; overflow-y: auto;}
+
   </style>
   
 <div id="contenido-principal">
@@ -58,7 +59,7 @@ log_debug("Fecha recibida: ");
     <div class="d-flex justify-content-end align-items-center gap-3">
       <div class="d-flex align-items-center gap-2  pe-3" id="timerSection">
         <div id="stopwatch" class="fw-bold fs-3 text-muted">00:00:00</div>
-       
+       <button id="minimizeBtn" class="btn btn-outline-secondary traducible">Minimizar</button>
         <button id="startStopBtn" class="btn btn-primary stopwatch-btn">Start</button>
       </div>
       
@@ -78,6 +79,8 @@ log_debug("Fecha recibida: ");
   <div class="bg-white rounded shadow-sm p-3 mt-3 w-100" id="contenedorSemana" ></div>
   <div id="app" data-id-usuario="<?= htmlspecialchars($id_usuario) ?>"></div>
 </div> 
+
+
 </div>
 
 <script src="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -491,15 +494,15 @@ function renderActividad(item) {
 
         <!-- Iconos -->
         <div class="d-flex align-items-center gap-2 flex-shrink-0">
-          <i class="bi bi-currency-dollar ${cobradoIcon} fs-5 cursor-pointer icon-cobro" data-id="${item.id}" title="Cobrar"></i>
+          <i class="bi bi-currency-dollar ${cobradoIcon} fs-5 cursor-pointer icon-cobro" data-id="${item.id}" title="Billable hours"></i>
           <button class="btn btn-sm btn-outline-secondary play-btn"><i class="bi bi-play"></i></button>
           <div class="dropdown">
             <a href="#" class="text-muted" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
               <i class="bi bi-three-dots-vertical fs-5"></i>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
-              <li><a class="dropdown-item" href="#" data-action="duplicate" data-id="${item.id}">Duplicar</a></li>
-              <li><a class="dropdown-item text-danger" href="#" data-action="delete" data-id="${item.id}">Eliminar</a></li>
+              <li><a class="dropdown-item traducible" href="#" data-action="duplicate" data-id="${item.id}">Duplicar</a></li>
+              <li><a class="dropdown-item text-danger traducible" href="#" data-action="delete" data-id="${item.id}">Eliminar</a></li>
             </ul>
           </div>
         </div>
@@ -544,77 +547,75 @@ div.querySelector(".hora-fin").addEventListener("change", function (event) {
 
 setTimeout(adaptarFormatoHoraInputs, 500);
 
-
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 function cargarActividades() {
   fetch('/intranet/sistema/pages/horario/clockify/getRegistroActividades.php')
     .then(res => res.json())
     .then(data => {
       let totalHoy = 0;
       let totalSemana = 0;
-     registroActividades = [...data.hoy, ...data.semana];
-     
-      
+
+      registroActividades = [...data.hoy, ...data.semana];
+
       const contenedorHoy = document.getElementById('contenedorhoy');
       const contenedorSemana = document.getElementById('contenedorSemana');
       const thisWeekTotalEl = document.getElementById('thisWeekTotal');
-     
 
-       contenedorHoy.innerHTML = `
-  <div class="mb-4 d-flex justify-content-between">
-    <strong>Today</strong><span id="todayTotal">00:00:00</span>
-  </div>`;
+      contenedorHoy.innerHTML = `
+        <div class="mb-4 d-flex justify-content-between">
+          <strong>Today</strong><span id="todayTotal">00:00:00</span>
+        </div>`;
 
-const todayTotalEl = document.getElementById('todayTotal'); 
-todayTotalEl.textContent = formatTime(totalHoy);
-      contenedorSemana.innerHTML = `<h5 class="mb-3">Resumen Semanal</h5>`;
+      const todayTotalEl = document.getElementById('todayTotal');
+      todayTotalEl.textContent = formatTime(totalHoy);
+
+      contenedorSemana.innerHTML = `<h5 class="mb-3 traducible">Resumen Semanal</h5>`;
 
       data.hoy.forEach(item => {
-  totalHoy += (item.duracion || 0);
-  contenedorHoy.appendChild(renderActividad(item));
-});
-      
-      registroActividades = [...data.hoy, ...data.semana].filter((item, index, self) =>
-          index === self.findIndex((t) => t.id === item.id)
-        );
+        totalHoy += (item.duracion || 0);
+        contenedorHoy.appendChild(renderActividad(item));
+      });
 
-          const resumenSemanal = {};
-        data.semana.forEach(item => {
-          const fecha = item.fecha.substring(0, 10);
-          const duracion = (item.duracion || 0); 
-          totalSemana += duracion;
-          if (!resumenSemanal[fecha]) resumenSemanal[fecha] = { actividades: [], total: 0 };
-          resumenSemanal[fecha].actividades.push(item);
-          resumenSemanal[fecha].total += duracion;
-        });
+      const resumenSemanal = {};
+      data.semana.forEach(item => {
+        const fecha = item.fecha.substring(0, 10);
+        const duracion = (item.duracion || 0);
+        totalSemana += duracion;
+        if (!resumenSemanal[fecha]) resumenSemanal[fecha] = { actividades: [], total: 0 };
+        resumenSemanal[fecha].actividades.push(item);
+        resumenSemanal[fecha].total += duracion;
+      });
 
       for (const fecha in resumenSemanal) {
         const dia = resumenSemanal[fecha];
         const card = document.createElement('div');
         card.className = 'card mb-3';
-            card.innerHTML = `
+        card.innerHTML = `
           <div class="card-header fw-bold bg-light d-flex justify-content-between">
-            <span>${fechaBonita(fecha)}</span>
+            <span class="traducible" data-original-text="${fechaBonita(fecha)}">${fechaBonita(fecha)}</span>
             <span>${formatTime(dia.total)}</span>
           </div>
           <div class="card-body p-2"></div>`;
-        
+
         const cardBody = card.querySelector('.card-body');
         dia.actividades.forEach(item => {
           cardBody.appendChild(renderActividad(item));
         });
+        
         contenedorSemana.appendChild(card);
+        window.traducirTextos(card);
       }
 
       todayTotalEl.textContent = formatTime(totalHoy);
       thisWeekTotalEl.textContent = formatTime(totalSemana);
+
+      updateTotals();
+
+      if (typeof window.traducirTextos === 'function') {
+        window.traducirTextos(contenedorHoy);
+        window.traducirTextos(contenedorSemana);
+      }
     });
-    registroActividades.forEach(act => {
-  let rawFecha = act.fecha;
-  if (!rawFecha.includes('T')) rawFecha = rawFecha.replace(' ', 'T');
-  const fecha = new Date(rawFecha);
-  
-});
-    updateTotals();
 }
 
 
@@ -790,6 +791,27 @@ function calcularDuracion(event) {
   .catch(err => console.error('❌ Error en la petición:', err));
 }
 cargarActividades();
+
+document.getElementById('minimizeBtn')?.addEventListener('click', () => {
+  const descripcion = document.querySelector('input.form-control').value;
+  const cliente = document.getElementById('projectDropdown').dataset.cliente;
+  const actividad = document.getElementById('projectDropdown').dataset.actividad;
+
+  // Enviar a content_script
+  window.postMessage({
+    source: 'web_to_extension',
+    type: 'MOSTRAR_STICKER',
+    data: {
+      descripcion,
+      cliente,
+      actividad,
+      tiempo: stopwatch.textContent,
+      corriendo: isRunning
+    }
+  }, '*');
+});
+
+
 })();
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

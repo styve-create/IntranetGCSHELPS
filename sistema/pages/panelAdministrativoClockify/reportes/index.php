@@ -1,5 +1,6 @@
 <?php 
 include_once(__DIR__ . '/../../../../app/controllers/config.php');
+include_once(__DIR__ . '/../../../analisisRecursos.php');
 if (session_status() === PHP_SESSION_NONE) {
     session_name('mi_sesion_personalizada');
     session_start();
@@ -60,35 +61,35 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
 
 <div id="contenido-principal">
             <div class="container-fluid p-4">
-                <h4 class="mb-4"><strong >Reporte de Tiempos</strong></h4>
+                <h4 class="mb-4"><strong class="traducible" >Reporte de Tiempos</strong></h4>
                 <div id="app" data-id-usuario="<?= htmlspecialchars($id_usuario) ?>"></div>
                 <!-- Filtros: Sección para seleccionar los filtros de cliente, actividad y fechas -->
                 <div class="row g-2 mb-4">
                     <!-- Filtro de cliente -->
-                    <div class="col-md-2"><select id="filtroCliente" class="form-select form-select-sm"><option value="">Cargando clientes...</option></select></div>
+                    <div class="col-md-2"><select id="filtroCliente" class="form-select form-select-sm"><option class="traducible" value="">Cargando clientes...</option></select></div>
                     <!-- Filtro de actividad -->
-                    <div class="col-md-2"><select id="filtroActividad" class="form-select form-select-sm"><option value="all">Todas las actividades</option></select></div>
+                    <div class="col-md-2"><select id="filtroActividad" class="form-select form-select-sm"><option class="traducible" value="all">Todas las actividades</option></select></div>
                     <!-- Filtro de fecha de inicio -->
                     <div class="col-md-2"><input type="date" id="fechaInicio" class="form-control form-control-sm" /></div>
                     <!-- Filtro de fecha de fin -->
                     <div class="col-md-2"><input type="date" id="fechaFin" class="form-control form-control-sm" /></div>
                     <!-- Botón para aplicar los filtros -->
-                    <div class="col-md-2"><button id="btnFiltrar" class="btn btn-primary btn-sm w-100"><i class="bi bi-funnel"></i> Aplicar Filtro</button></div>
+                    <div class="col-md-2"><button id="btnFiltrar" class="btn btn-primary btn-sm w-100 traducible"><i class="bi bi-funnel"></i> Aplicar Filtro</button></div>
                 </div>
         
-                <!-- Gráfica de barras: Sección para mostrar la gráfica de barras -->
+                <!-- Gráfica de barras: Sección para mostrar la gráfica de barras //<p class="traducible"></p>  -->
                 <div id="graficaBarrasContainer" class="card mb-4 border-0 shadow-none">
                     <div class="card card border-0 shadow-none">
                          <div class="d-flex justify-content-between align-items-center">
-                          <h6 class="card-title mb-0"><strong >Resumen de Horas y Cobro</strong></h6>
+                          <h6 class="card-title mb-0"><strong class="traducible">Resumen de Horas y Cobro</strong></h6>
                           <button id="exportarPDF" class="btn btn-danger btn-md"> <i class="bi bi-file-earmark-pdf-fill me-1"></i>PDF</button>
                         </div>
                         <br>
                             <div class="d-flex justify-content-between">
-                                <span>Total de horas: <strong id="totalHoras"></strong></span>
-                                <span>Total a cobrar: <strong id="totalCobro"> </strong> <strong class ="MonedaCliente"> </strong> </span>
-                                <span>Total cobrar General: <strong id="totalCobroGeneral"> </strong> <strong class ="MonedaCliente"> </strong> </span>
-                                <span>Total cobrar Actitividad: <strong id="totalCobroActividad"> </strong> <strong class ="MonedaCliente"> </strong> </span>
+                                <span><p class="traducible">Total de horas:</p><strong id="totalHoras"> </strong></span>
+                                <span><p class="traducible">Total a cobrar:</p> <strong id="totalCobro"> </strong> <strong class ="MonedaCliente"> </strong> </span>
+                                <span><p class="traducible">Total cobrar General:</p> <strong id="totalCobroGeneral"> </strong> <strong class ="MonedaCliente"> </strong> </span>
+                                <span><p class="traducible">Total cobrar Actividad:</p> <strong id="totalCobroActividad"> </strong> <strong class ="MonedaCliente"> </strong> </span>
                             </div>
                             
                     </div>
@@ -105,9 +106,9 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                             <table class="table  table-bordered text-center align-middle">
                                 <thead class="table-light">
                                     <tr>
-                                        <th>Usuario</th>
-                                        <th>Duración</th>
-                                        <th>Ver Detalle</th>
+                                        <th><p class="traducible">Usuario</p></th>
+                                        <th><p class="traducible">Duración</p></th>
+                                        <th><p class="traducible">Ver Detalle</p></th>
                                     </tr>
                                 </thead>
                                 <tbody id="tablaResumenTotal">
@@ -126,11 +127,12 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                         <div class="modal-content">
                           <div class="modal-header">
                             <h5 class="modal-title">
-                              Detalle de Actividades de <span id="detalleUsuario"></span>
+                                <p class="traducible">Detalle de Actividades de</p>
+                               <span id="detalleUsuario"></span>
                             </h5>
                            
-                            <button id="btnAgregarActividad" class="btn btn-sm btn-success me-2">
-                              <i class="bi bi-plus-circle"></i> Agregar actividad
+                            <button id="btnAgregarActividad" class="btn btn-sm btn-success me-2 traducible">
+                              <i class="bi bi-plus-circle"></i><p class="traducible">Agregar actividad</p> 
                             </button>
                             
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
@@ -139,7 +141,11 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                             <table id="tablaDetalle" class="table table-sm table-bordered text-center align-middle">
                               <thead class="table-light">
                                 <tr>
-                                  <th>Usuario</th><th>Actividad</th><th>Fecha</th><th>Duración</th><th>Acciones</th>
+                                  <th><p class="traducible">Usuario</p></th>
+                                  <th><p class="traducible">Actividad</p></th>
+                                  <th><p class="traducible">Fecha</p></th>
+                                  <th><p class="traducible">Duración</p></th>
+                                  <th><p class="traducible">Acciones</p></th>
                                 </tr>
                               </thead>
                               <tbody id="tablaDetalleBody"><!-- ¡Aquí vamos a volcar filas dinámicamente! --></tbody>
@@ -153,7 +159,7 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="modalEditarLabel">Editar Actividad</h5>
+                                <h5 class="modal-title" id="modalEditarLabel"><p class="traducible">Editar Actividad</p></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
                             </div>
                             <div class="modal-body">
@@ -162,62 +168,62 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                 
                                     <div class="row mb-3">
                                         <div class="col-md-6">
-                                            <label for="editar_usuario" class="form-label">Usuario</label>
+                                            <label for="editar_usuario" class="form-label"><p class="traducible">Usuario</p></label>
                                             <input type="text" id="editar_usuario" class="form-control" disabled>
                                         </div>
                                         <div class="col-md-6">
-                                            <label for="editar_cliente" class="form-label">Cliente</label>
-                                            <select id="editar_cliente" class="form-select">
-                                              <option value="">Seleccione un cliente</option>
+                                            <label for="editar_cliente" class="form-label"><p class="traducible">Cliente</p></label>
+                                            <select id="editar_cliente" class="form-select traducible">
+                                              <option value=""><p class="traducible">Seleccione un cliente</p></option>
                                             </select>
                                         </div>
                                     </div>
                 
                                     <div class="row mb-3">
                                         <div class="col-md-6">
-                                            <label for="editar_actividad" class="form-label">Actividad</label>
+                                            <label for="editar_actividad" class="form-label"><p class="traducible">Actividad</p></label>
                                             <select id="editar_actividad" class="form-select">
-                                                <option value="">Seleccione una actividad</option>
+                                                <option value=""><p class="traducible">Seleccione una actividad</p></option>
                                             </select>
                                         </div>
                                         <div class="col-md-3">
-                                            <label for="editar_inicio" class="form-label">Hora Inicio</label>
+                                            <label for="editar_inicio" class="form-label"><p class="traducible">Hora Inicio</p></label>
                                             <input type="time" id="editar_inicio" class="form-control">
                                         </div>
                                         <div class="col-md-3">
-                                            <label for="editar_fin" class="form-label">Hora Fin</label>
+                                            <label for="editar_fin" class="form-label"><p class="traducible">Hora Fin</p></label>
                                             <input type="time" id="editar_fin" class="form-control">
                                         </div>
                                     </div>
                 
                                     <div class="row mb-3">
                                         <div class="col-md-4">
-                                            <label for="editar_fecha" class="form-label">Fecha</label>
+                                            <label for="editar_fecha" class="form-label"><p class="traducible">Fecha</p></label>
                                             <input type="date" id="editar_fecha" class="form-control">
                                         </div>
                                         <div class="col-md-4">
-                                            <label for="editar_cobrado" class="form-label">¿Factura Actividad?</label>
+                                            <label for="editar_cobrado" class="form-label"><p class="traducible">¿Factura Actividad?</p></label>
                                             <select id="editar_cobrado" class="form-select">
-                                                <option value="1">Sí</option>
-                                                <option value="0">No</option>
+                                                <option value="1" ><p class="traducible">Sí</p></option>
+                                                <option value="0" ><p class="traducible">No</p></option>
                                             </select>
                                         </div>
                                         <div class="col-md-4">
-                                            <label for="editar_cobradoGeneral" class="form-label">¿Factura General?</label>
+                                            <label for="editar_cobradoGeneral" class="form-label"><p class="traducible">¿Factura General?</p></label>
                                             <select id="editar_cobradoGeneral" class="form-select">
-                                                <option value="1">Sí</option>
-                                                <option value="0">No</option>
+                                                <option value="1" ><p class="traducible">Sí</p></option>
+                                                <option value="0"><p class="traducible">No</p></option>
                                             </select>
                                         </div>
                                     </div>
                 
                                     <div class="mb-3">
-                                        <label for="editar_descripcion" class="form-label">Descripción</label>
+                                        <label for="editar_descripcion" class="form-label"><p class="traducible">Descripción</p></label>
                                         <textarea id="editar_descripcion" class="form-control" rows="3"></textarea>
                                     </div>
                 
                                     <div class="text-end">
-                                        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                                        <button type="submit" class="btn btn-primary"><p class="traducible">Guardar cambios</p></button>
                                     </div>
                                 </form>
                             </div>
@@ -229,7 +235,7 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                               <div class="modal-dialog modal-lg">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <h5 class="modal-title">Crear nueva actividad</h5>
+                                    <h5 class="modal-title"><p class="traducible">Crear nueva actividad</p></h5>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                                   </div>
                                          <div class="modal-body">
@@ -237,61 +243,61 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                                               <!-- Usuario (autocompletado) -->
                                               <div class="row mb-3">
                                                 <div class="col-md-6">
-                                                  <label for="crear_usuario" class="form-label">Usuario</label>
+                                                  <label for="crear_usuario" class="form-label"><p class="traducible">Usuario</p></label>
                                                   <input type="text" id="crear_usuario" class="form-control" disabled>
                                                 </div>
                                                 <div class="col-md-6">
-                                                  <label for="crear_cliente" class="form-label">Cliente</label>
+                                                  <label for="crear_cliente" class="form-label "><p class="traducible">Cliente</p></label>
                                                   <select id="crear_cliente" class="form-select">
-                                                    <option value="">Cargando clientes...</option>
+                                                    <option value="" ><p class="traducible">Cargando clientes...</p></option>
                                                   </select>
                                                 </div>
                                               </div>
                                               <!-- Actividad y horas -->
                                               <div class="row mb-3">
                                                 <div class="col-md-6">
-                                                  <label for="crear_actividad" class="form-label">Actividad</label>
+                                                  <label for="crear_actividad" class="form-label"><p class="traducible">Actividad</p></label>
                                                   <select id="crear_actividad" class="form-select">
-                                                    <option value="">Seleccione un cliente primero</option>
+                                                    <option value=""><p class="traducible">Seleccione un cliente primero</p></option>
                                                   </select>
                                                 </div>
                                                 <div class="col-md-3">
-                                                  <label for="crear_inicio" class="form-label">Hora Inicio</label>
+                                                  <label for="crear_inicio" class="form-label"><p class="traducible">Hora Inicio</p></label>
                                                   <input type="time" id="crear_inicio" class="form-control">
                                                 </div>
                                                 <div class="col-md-3">
-                                                  <label for="crear_fin" class="form-label">Hora Fin</label>
+                                                  <label for="crear_fin" class="form-label" ><p class="traducible">Hora Fin</p></label>
                                                   <input type="time" id="crear_fin" class="form-control">
                                                 </div>
                                               </div>
                                               <!-- Fecha y facturación -->
                                               <div class="row mb-3">
                                                 <div class="col-md-4">
-                                                  <label for="crear_fecha" class="form-label">Fecha</label>
+                                                  <label for="crear_fecha" class="form-label "><p class="traducible">Fecha</p></label>
                                                   <input type="date" id="crear_fecha" class="form-control">
                                                 </div>
                                                 <div class="col-md-4">
-                                                  <label for="crear_cobrado" class="form-label">¿Factura Actividad?</label>
+                                                  <label for="crear_cobrado" class="form-label"><p class="traducible">¿Factura Actividad?</p></label>
                                                   <select id="crear_cobrado" class="form-select">
-                                                    <option value="1">Sí</option>
-                                                    <option value="0">No</option>
+                                                    <option value="1" ><p class="traducible">Sí</p></option>
+                                                    <option value="0" ><p class="traducible">No</p></option>
                                                   </select>
                                                 </div>
                                                 <div class="col-md-4">
-                                                  <label for="crear_cobradoGeneral" class="form-label">¿Factura General?</label>
+                                                  <label for="crear_cobradoGeneral" class="form-label "><p class="traducible">¿Factura General?</p></label>
                                                   <select id="crear_cobradoGeneral" class="form-select">
-                                                    <option value="1">Sí</option>
-                                                    <option value="0">No</option>
+                                                    <option value="1"><p class="traducible">Sí</p></option>
+                                                    <option value="0"><p class="traducible">No</p></option>
                                                   </select>
                                                 </div>
                                               </div>
                                               <!-- Descripción y submit -->
                                               <div class="mb-3">
-                                                <label for="crear_descripcion" class="form-label">Descripción</label>
+                                                <label for="crear_descripcion" class="form-label"><p class="traducible">Descripción</p></label>
                                                 <textarea id="crear_descripcion" class="form-control" rows="3"></textarea>
                                               </div>
                                               <div class="text-end">
-                                                <button type="submit" class="btn btn-primary">Guardar actividad</button>
+                                                <button type="submit" class="btn btn-primary "><p class="traducible">Guardar actividad</p></button>
                                               </div>
                                             </form>
                                           </div>
@@ -300,7 +306,6 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
                             </div>
     </div>
 
- 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="<?php echo $URL; ?>/librerias/vendor/npm-asset/jquery/dist/jquery.min.js"></script>
@@ -310,7 +315,7 @@ $id_usuario = $_SESSION['usuario_info']['id'] ?? null;
 <script src="<?= $URL; ?>/librerias/vendor/npm-asset/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="<?= $URL; ?>/librerias/vendor/npm-asset/chart.js/dist/chart.umd.js"></script>
 <script src="<?= $URL; ?>/librerias/vendor/npm-asset/chartjs-plugin-datalabels/dist/chartjs-plugin-datalabels.min.js"></script>
-
+<script src="<?= $URL; ?>/sistema/traduccionsistema.php"></script>
 
 
 <script>
@@ -371,13 +376,11 @@ window.editarRegistro = function(id) {
       return res.json();
     })
     .then(data => {
-        
-     
       const clientes = Array.isArray(data) ? data : data.clientes;
       if (!Array.isArray(clientes)) throw new Error('Formato inesperado de clientes');
 
       const selCli = document.getElementById('editar_cliente');
-      selCli.innerHTML = '<option value="">Seleccione un cliente</option>';
+      selCli.innerHTML = '<option value="" class="traducible">Seleccione un cliente</option>';
       clientes.forEach(c => {
         const opt = document.createElement('option');
         opt.value = c.id_cliente;
@@ -403,7 +406,7 @@ window.editarRegistro = function(id) {
       if (!Array.isArray(actividades)) throw new Error('Formato inesperado de actividades');
 
       const selAct = document.getElementById('editar_actividad');
-      selAct.innerHTML = '<option value="">Seleccione una actividad</option>';
+      selAct.innerHTML = '<option value="" class="traducible">Seleccione una actividad</option>';
       actividades.forEach(a => {
         const opt = document.createElement('option');
         opt.value = a.nombre_actividad;
@@ -416,6 +419,7 @@ window.editarRegistro = function(id) {
     // C) Al final, muestro el modal
     .then(() => {
       new bootstrap.Modal(modalEl).show();
+      window.traducirTextos(modalEl);
     })
     .catch(err => {
       console.error('✖️ editarRegistro:', err);
@@ -440,7 +444,7 @@ window.editarRegistro = function(id) {
             .then(res => res.json())
             .then(actividades => {
                 const selectActividad = document.getElementById('editar_actividad');
-                selectActividad.innerHTML = '<option value="">Seleccione una actividad</option>';
+                selectActividad.innerHTML = '<option value="" class="traducible">Seleccione una actividad</option>';
                 actividades.forEach(a => {
                     const option = document.createElement('option');
                     option.value = a.nombre_actividad;
@@ -462,7 +466,7 @@ if (editarClienteSelect) {
 
     // Evento para aplicar los filtros
     btnFiltrarElement.addEventListener('click', () => {
-        document.getElementById('tablaContenedor').classList.add('d-none');
+       
         const clienteId = filtroClienteElement.value;
         const fechaInicio = document.getElementById('fechaInicio').value;
         const fechaFin = document.getElementById('fechaFin').value;
@@ -482,14 +486,24 @@ if (editarClienteSelect) {
                 console.log("registrosData",registrosData);
                 renderGraficaBarras(data.barras);
                 document.getElementById('tablaContenedor').classList.remove('d-none');
-               
+               console.log("informacion totalcobro",data.totalCobroGeneral, data.totalCobroActividad);
                 // Actualizar los totales
                 const totalCobro = data.totalCobroGeneral + data.totalCobroActividad;
-                document.getElementById("totalCobro").textContent = totalCobro.toFixed(2);
-                document.getElementById("totalHoras").textContent = data.totalHoras ? data.totalHoras.toFixed(2) : "0.00";
-                document.getElementById("totalCobroGeneral").textContent = data.totalCobroGeneral ? data.totalCobroGeneral.toFixed(2) : "0.00";
-                document.getElementById("totalCobroActividad").textContent = data.totalCobroActividad ? data.totalCobroActividad.toFixed(2) : "0.00";
+              const elCobro = document.getElementById("totalCobro");
+const elHoras = document.getElementById("totalHoras");
+const elCobroGeneral = document.getElementById("totalCobroGeneral");
+const elCobroActividad = document.getElementById("totalCobroActividad");
+
+if (elCobro && elHoras && elCobroGeneral && elCobroActividad) {
+    elCobro.textContent = totalCobro.toFixed(2);
+    elHoras.textContent = data.totalHoras ? data.totalHoras.toFixed(2) : "0.00";
+    elCobroGeneral.textContent = data.totalCobroGeneral ? data.totalCobroGeneral.toFixed(2) : "0.00";
+    elCobroActividad.textContent = data.totalCobroActividad ? data.totalCobroActividad.toFixed(2) : "0.00";
+} else {
+    console.error("⚠️ Elementos de totales no existen en el DOM en este momento.");
+}
             });
+             document.getElementById('tablaContenedor').classList.add('d-none');
     });
  
     // Función para renderizar la tabla con los registros
@@ -538,8 +552,8 @@ function renderTablaRegistros(registros) {
       <td>${r.usuario}</td>
       <td><strong>${r.duracionDecimal} h</strong></td>
       <td>
-        <button class="btn btn-sm btn-outline-primary btn-ver-detalle">
-          Ver detalle
+        <button class="btn btn-sm btn-outline-primary btn-ver-detalle ">
+        <p class="traducible">Ver detalle</p>  
         </button>
       </td>`;
     tbody.appendChild(tr);
@@ -784,15 +798,15 @@ function calcularDuracion(horaInicio, horaFin) {
 function abrirModalCrear(usuarioId, usuarioNombre) {
  document.getElementById('crear_usuario').value = usuarioNombre;
   const selCli = document.getElementById('crear_cliente');
-  selCli.innerHTML = '<option value="">Cargando clientes...</option>';
-  document.getElementById('crear_actividad').innerHTML = '<option value="">Seleccione un cliente primero</option>';
+  selCli.innerHTML = '<option value=""><p class="traducible">Cargando clientes...</p></option>';
+  document.getElementById('crear_actividad').innerHTML = '<option value=""><p class="traducible">Seleccione un cliente primero</p></option>';
 
   // 3) Cargamos clientes del usuario
   fetch(`/intranet/sistema/pages/panelAdministrativoClockify/reportes/get_clientes.php?user_id=${usuarioId}&t=${Date.now()}`)
     .then(r => r.json())
     .then(data => {
       const clientes = Array.isArray(data) ? data : data.clientes;
-      selCli.innerHTML = '<option value="">Seleccione un cliente</option>';
+      selCli.innerHTML = '<option value=""><p class="traducible">Seleccione un cliente</p></option>';
       clientes.forEach(c => {
         const opt = document.createElement('option');
         opt.value = c.id_cliente;
@@ -805,12 +819,12 @@ function abrirModalCrear(usuarioId, usuarioNombre) {
   selCli.onchange = () => {
     const clienteId = selCli.value;
     const selAct = document.getElementById('crear_actividad');
-    selAct.innerHTML = '<option value="">Cargando actividades...</option>';
+    selAct.innerHTML = '<option value=""><p class="traducible">Cargando actividades...</p></option>';
     fetch(`/intranet/sistema/pages/panelAdministrativoClockify/reportes/get_actividades.php?cliente_id=${clienteId}&t=${Date.now()}`)
       .then(r => r.json())
       .then(data => {
         const acts = Array.isArray(data) ? data : data.actividades;
-        selAct.innerHTML = '<option value="">Seleccione una actividad</option>';
+        selAct.innerHTML = '<option value=""><p class="traducible">Seleccione una actividad</p></option>';
         acts.forEach(a => {
           const opt = document.createElement('option');
           opt.value = a.nombre_actividad;
@@ -822,6 +836,7 @@ function abrirModalCrear(usuarioId, usuarioNombre) {
 
   // 5) Abrimos el modal
   new bootstrap.Modal(document.getElementById('modalCrearActividad')).show();
+  window.traducirTextos(modalCrearActividad)
 }
 
 
@@ -997,7 +1012,7 @@ document.getElementById("exportarPDF").addEventListener("click", function() {
           }
         const clienteId = this.value;
         const actividadSelect = filtroActividadElement;
-        actividadSelect.innerHTML = '<option value="all">Todas las actividades</option>';
+        actividadSelect.innerHTML = '<option value="all"><p class="traducible">Todas las actividades</p></option>';
 
         fetch(`/intranet/sistema/pages/panelAdministrativoClockify/reportes/get_actividades.php?cliente_id=${clienteId}&t=${new Date().getTime()}`)
             .then(res => res.json())
@@ -1010,7 +1025,7 @@ document.getElementById("exportarPDF").addEventListener("click", function() {
                 });
             })
             .catch(err => {
-                actividadSelect.innerHTML = '<option value="all">Error al cargar actividades</option>';
+                actividadSelect.innerHTML = '<option value="all"><p class="traducible">Error al cargar actividades</p></option>';
                 console.error('Error al obtener actividades:', err);
             });
     });
@@ -1027,7 +1042,7 @@ document.getElementById("exportarPDF").addEventListener("click", function() {
      
           clientesCargados = data.clientes || [];
     // 1) Vaciamos el select
-    filtroClienteElement.innerHTML = '<option value="">Cliente</option>';
+    filtroClienteElement.innerHTML = '<option value=""><p class="traducible">Cliente</p></option>';
     
 
     if (!Array.isArray(clientesCargados)) {
@@ -1059,7 +1074,7 @@ document.getElementById("exportarPDF").addEventListener("click", function() {
   })
   
   .catch(err => {
-    filtroClienteElement.innerHTML = '<option value="">Error al cargar</option>';
+    filtroClienteElement.innerHTML = '<option value="" class="traducible">Error al cargar</option>';
     console.error('Error al obtener clientes:', err);
   });
 });

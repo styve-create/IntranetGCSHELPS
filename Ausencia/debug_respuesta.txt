@@ -586,3 +586,809 @@ Quedo atento a cualquier indicación y muchas gracias por la comprensión.
 2025-06-25 19:47:05 - ✔️ Datos insertados en la base de datos
 🔄 Actualizando: estado_team_lead y fecha_team_lead
 🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-06-27 06:39:12 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-27 06:39:12 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yersi Catalina Mendez Villamizar
+    [documento] => 1005329286
+    [email] => catalinamendew@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Yuly Marcela Muñoz Estupiñan
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-09-15 - 2025-09-15
+    [observaciones] => 
+)
+
+2025-06-27 06:39:12 - 🔎 Buscando trabajador con documento: 1005329286
+2025-06-27 06:39:12 - ✅ Trabajador encontrado - ID: 149
+2025-06-27 06:39:12 - 🔍 Buscando jefe por nombre: Yuly Marcela Muñoz Estupiñan
+2025-06-27 06:39:12 - ✅ Jefe encontrado - ID: 84, Email: yuly.mu-oz@dlivrd.io
+2025-06-27 06:39:13 - ✔️ Datos insertados en la base de datos
+2025-06-27 08:27:46 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-27 08:27:46 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Santiago Rodríguez López 
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Incapacidad medica
+    [rango_fechas] => 2025-06-27 - 2025-06-27
+    [observaciones] => Incapacidad por el día de hoy viernes 27 de junio 
+)
+
+2025-06-27 08:27:46 - 🔎 Buscando trabajador con documento: 1005483223
+2025-06-27 08:27:46 - ✅ Trabajador encontrado - ID: 148
+2025-06-27 08:27:46 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-06-27 08:27:46 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-06-27 08:27:46 - ✔️ Comprobante guardado: IMG_0656.jpeg
+2025-06-27 08:27:46 - ✔️ Comprobante guardado: IMG_0655.jpeg
+2025-06-27 08:27:51 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-06-27 09:56:37 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-27 09:56:37 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => s
+    [documento] => 1
+    [email] => styvenmunera3@gmail.com
+    [id_campana] => 21
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-06-02 - 2025-06-06
+    [observaciones] => 1
+)
+
+2025-06-27 09:56:37 - 🔎 Buscando trabajador con documento: 1
+2025-06-27 09:56:37 - ✅ Trabajador encontrado - ID: 16
+2025-06-27 09:56:37 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-06-27 09:56:37 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-06-27 09:56:38 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-06-27 14:58:12 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-27 14:58:12 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Sthefany Juliana Arias Gomez
+    [documento] => 1005150683
+    [email] => sthefanygomez19@gmail.com
+    [id_campana] => 12
+    [nombre_jefe] => Jennifer Manrique Rodriguez
+    [tipo_ausencia] => Vacaciones
+    [rango_fechas] => 2025-07-14 - 2025-07-21
+    [observaciones] => Las tareas y responsables quedarán descritas de manera detalla en un documento el cual estaré enviando días antes al día de inicio de mis vacaciones. Gracias 
+)
+
+2025-06-27 14:58:12 - 🔎 Buscando trabajador con documento: 1005150683
+2025-06-27 14:58:12 - ✅ Trabajador encontrado - ID: 69
+2025-06-27 14:58:12 - 🔍 Buscando jefe por nombre: Jennifer Manrique Rodriguez
+2025-06-27 14:58:12 - ✅ Jefe encontrado - ID: 49, Email: jenni@gcshelps.com
+2025-06-27 14:58:14 - ✔️ Datos insertados en la base de datos
+2025-06-27 15:12:05 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-27 15:12:05 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Kathe Quintero Samaca 
+    [documento] => 1095787771
+    [email] => kathe.quintero.0101@gmail.com
+    [id_campana] => 12
+    [nombre_jefe] => Jennifer Manrique Rodriguez
+    [tipo_ausencia] => Festivo libre
+    [rango_fechas] => 2025-06-28 - 2025-06-28
+    [observaciones] => Las 5 horas del día sábado se compensarán durante la semana del 23 al 27 junio 
+)
+
+2025-06-27 15:12:05 - 🔎 Buscando trabajador con documento: 1095787771
+2025-06-27 15:12:05 - ✅ Trabajador encontrado - ID: 64
+2025-06-27 15:12:05 - 🔍 Buscando jefe por nombre: Jennifer Manrique Rodriguez
+2025-06-27 15:12:05 - ✅ Jefe encontrado - ID: 49, Email: jenni@gcshelps.com
+2025-06-27 15:12:06 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-06-29 18:12:16 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-29 18:12:16 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yersi Catalina Méndez Villamizar
+    [documento] => 1005329286
+    [email] => catalina.mendez@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-09-26 - 2025-09-28
+    [observaciones] => 
+)
+
+2025-06-29 18:12:16 - 🔎 Buscando trabajador con documento: 1005329286
+2025-06-29 18:12:16 - ✅ Trabajador encontrado - ID: 149
+2025-06-29 18:12:16 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-06-29 18:12:16 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-06-29 18:12:17 - ✔️ Datos insertados en la base de datos
+2025-06-30 07:18:22 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-30 07:18:22 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Camila Villanueva
+    [documento] => 1098711545
+    [email] => macaviserr@gmail.com
+    [id_campana] => 3
+    [nombre_jefe] => 
+    [tipo_ausencia] => Trabajo desde casa
+    [rango_fechas] => 2025-06-30 - 2025-06-30
+    [observaciones] => Por motivo de malestar estomacal, solicito trabajar desde casa el día de hoy.
+)
+
+2025-06-30 07:18:22 - 🔎 Buscando trabajador con documento: 1098711545
+2025-06-30 07:18:22 - ✅ Trabajador encontrado - ID: 144
+2025-06-30 07:18:22 - 🔍 Buscando jefe por nombre: 
+2025-06-30 07:18:22 - ❌ Jefe no activo encontrado: 
+2025-06-30 07:18:38 - 🔄 Iniciando proceso de actualización de ausencia
+2025-06-30 07:18:38 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Camila Villanueva
+    [documento] => 1098711545
+    [email] => macaviserr@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Silvia Alejandra Hernández Gutiérrez
+    [tipo_ausencia] => Trabajo desde casa
+    [rango_fechas] => 2025-06-30 - 2025-06-30
+    [observaciones] => Por motivo de malestar estomacal, solicito trabajar desde casa el día de hoy.
+)
+
+2025-06-30 07:18:38 - 🔎 Buscando trabajador con documento: 1098711545
+2025-06-30 07:18:38 - ✅ Trabajador encontrado - ID: 144
+2025-06-30 07:18:38 - 🔍 Buscando jefe por nombre: Silvia Alejandra Hernández Gutiérrez
+2025-06-30 07:18:38 - ✅ Jefe encontrado - ID: 83, Email: silvia.gutierrez@dlivrd.io
+2025-06-30 07:18:39 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-01 12:20:56 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-01 12:20:56 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Sofia Vitta Serrano
+    [documento] => 1005288036
+    [email] => sofivita02@gmail.com
+    [id_campana] => 17
+    [nombre_jefe] => Jennifer Manrique Rodriguez
+    [tipo_ausencia] => Licencia de luto
+    [rango_fechas] => 2025-07-02 - 2025-07-03
+    [observaciones] => 
+)
+
+2025-07-01 12:20:56 - 🔎 Buscando trabajador con documento: 1005288036
+2025-07-01 12:20:56 - ✅ Trabajador encontrado - ID: 68
+2025-07-01 12:20:56 - 🔍 Buscando jefe por nombre: Jennifer Manrique Rodriguez
+2025-07-01 12:20:56 - ✅ Jefe encontrado - ID: 49, Email: jenni@gcshelps.com
+2025-07-01 12:20:58 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-07-02 13:07:59 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-02 13:07:59 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Brayan Jesus Lizcano Moreno 
+    [documento] => 1193148710
+    [email] => brayan.lizcano@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Sergio Alberto Angulo Amorocho
+    [tipo_ausencia] => Vacaciones
+    [rango_fechas] => 2025-07-12 - 2025-07-19
+    [observaciones] => Petición de 6 días adelantados
+)
+
+2025-07-02 13:07:59 - 🔎 Buscando trabajador con documento: 1193148710
+2025-07-02 13:07:59 - ✅ Trabajador encontrado - ID: 128
+2025-07-02 13:07:59 - 🔍 Buscando jefe por nombre: Sergio Alberto Angulo Amorocho
+2025-07-02 13:07:59 - ✅ Jefe encontrado - ID: 82, Email: sergio.angulo@dlivrd.io
+2025-07-02 13:08:00 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-07-02 13:41:37 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-02 13:41:37 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Juliana Carolina Quiroz Caceres
+    [documento] => 1098823097
+    [email] => julianaquiroz139@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Jose Carlos Caballero Uribe
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-07-25 - 2025-07-25
+    [observaciones] => Hola, necesito este día personal, ya Virginia me lo aprobó! Gracias! 
+)
+
+2025-07-02 13:41:37 - 🔎 Buscando trabajador con documento: 1098823097
+2025-07-02 13:41:37 - ✅ Trabajador encontrado - ID: 80
+2025-07-02 13:41:37 - 🔍 Buscando jefe por nombre: Jose Carlos Caballero Uribe
+2025-07-02 13:41:37 - ✅ Jefe encontrado - ID: 52, Email: jose.caballero@dlivrd.io
+2025-07-02 13:41:37 - ✔️ Comprobante guardado: image (3).png
+2025-07-02 13:41:38 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-02 17:37:06 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-02 17:37:06 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yesika Alejandra Leon Fontecha
+    [documento] => 1095822658
+    [email] => yesikaleon511@gmail.com
+    [id_campana] => 15
+    [nombre_jefe] => Jennifer Manrique Rodriguez
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => Revisar Afiliaciones 
+                    [responsable] => Jessica Manrique
+                    [fecha] => 2025-07-11
+                )
+
+            [1] => Array
+                (
+                    [tarea] => Reporte de Nomina Julio 1
+                    [responsable] => Jessica Marique/ Marcela Leon
+                    [fecha] => 2025-07-10
+                )
+
+            [2] => Array
+                (
+                    [tarea] => Verificacion Incapacidad Jorge Jaimes EPS Sura 
+                    [responsable] => Jessica Manrique
+                    [fecha] => 2025-07-11
+                )
+
+            [3] => Array
+                (
+                    [tarea] => Modificacion Reporte de nomina Reduccion Jornada Laboral 
+                    [responsable] => Jessica Marique/ Marcela Leon
+                    [fecha] => 2025-07-15
+                )
+
+            [4] => Array
+                (
+                    [tarea] => Radicacion de Incapacidades (si llega alguna)
+                    [responsable] => Jessica Marique/ Marcela Leon
+                    [fecha] => 2025-07-23
+                )
+
+            [5] => Array
+                (
+                    [tarea] => Aprobacion/Rechazo de Permisos
+                    [responsable] => Jessica Marique/ Marcela Leon
+                    [fecha] => 2025-07-23
+                )
+
+            [6] => Array
+                (
+                    [tarea] => Organizacion Documental Colaboradores Nuevos
+                    [responsable] => Jessica Marique
+                    [fecha] => 2025-07-22
+                )
+
+            [7] => Array
+                (
+                    [tarea] => Ingreso/Afiliacion nuevos colaboradores
+                    [responsable] => Jessica Marique
+                    [fecha] => 2025-07-22
+                )
+
+            [8] => Array
+                (
+                    [tarea] => Factura/Revision Clockify
+                    [responsable] => Jessica Marique/ Marcela Leon
+                    [fecha] => 2025-07-07
+                )
+
+            [9] => Array
+                (
+                    [tarea] => Factura/Revision Clockify
+                    [responsable] => Jessica Marique/ Marcela Leon
+                    [fecha] => 2025-07-14
+                )
+
+            [10] => Array
+                (
+                    [tarea] => Factura/Revision Clockify
+                    [responsable] => Jessica Marique/ Marcela Leon
+                    [fecha] => 2025-07-21
+                )
+
+            [12] => Array
+                (
+                    [tarea] => Recepcion Reportes de Desempeño Colaboradores con proceso sancionatorio Activo
+                    [responsable] => Jessica Marique
+                    [fecha] => 2025-07-15
+                )
+
+            [13] => Array
+                (
+                    [tarea] => Revision Evaluacion de desempeño Foodnet Marcela Leon
+                    [responsable] => Jessica Marique
+                    [fecha] => 2025-07-09
+                )
+
+        )
+
+    [rango_fechas] => 2025-07-05 - 2025-07-22
+    [observaciones] => Toda la informacion requerida esta disponible en el Drive de Global junto con los formatos e instructivos para la realización de cada tarea
+)
+
+2025-07-02 17:37:06 - 🔎 Buscando trabajador con documento: 1095822658
+2025-07-02 17:37:06 - ✅ Trabajador encontrado - ID: 55
+2025-07-02 17:37:06 - 🔍 Buscando jefe por nombre: Jennifer Manrique Rodriguez
+2025-07-02 17:37:06 - ✅ Jefe encontrado - ID: 49, Email: jenni@gcshelps.com
+2025-07-02 17:37:07 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-03 05:17:07 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-03 05:17:07 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yuly Marcela Muñoz Estupiñán 
+    [documento] => 1007439733
+    [email] => yulymunoz24@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => 
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => El permiso sería de 12 pm a 1 pm, después volvería a terminar el turno.
+)
+
+2025-07-03 05:17:07 - 🔎 Buscando trabajador con documento: 1007439733
+2025-07-03 05:17:07 - ✅ Trabajador encontrado - ID: 84
+2025-07-03 05:17:07 - 🔍 Buscando jefe por nombre: 
+2025-07-03 05:17:07 - ❌ Jefe no activo encontrado: 
+2025-07-03 05:17:14 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-03 05:17:14 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yuly Marcela Muñoz Estupiñán 
+    [documento] => 1007439733
+    [email] => yulymunoz24@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => 
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => El permiso sería de 12 pm a 1 pm, después volvería a terminar el turno.
+)
+
+2025-07-03 05:17:14 - 🔎 Buscando trabajador con documento: 1007439733
+2025-07-03 05:17:14 - ✅ Trabajador encontrado - ID: 84
+2025-07-03 05:17:14 - 🔍 Buscando jefe por nombre: 
+2025-07-03 05:17:14 - ❌ Jefe no activo encontrado: 
+2025-07-03 06:32:03 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-03 06:32:03 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yuly Marcela Muñoz Estupiñan
+    [documento] => 1007439733
+    [email] => yuly.mu-oz@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => 
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => Support a los SS
+                    [responsable] => Los demás leads
+                    [fecha] => 2025-08-29
+                )
+
+        )
+
+    [rango_fechas] => 2025-08-29 - 2025-09-06
+    [observaciones] => 
+)
+
+2025-07-03 06:32:03 - 🔎 Buscando trabajador con documento: 1007439733
+2025-07-03 06:32:03 - ✅ Trabajador encontrado - ID: 84
+2025-07-03 06:32:03 - 🔍 Buscando jefe por nombre: 
+2025-07-03 06:32:03 - ❌ Jefe no activo encontrado: 
+2025-07-03 06:37:47 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-03 06:37:47 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yuly Marcela Muñoz Estupiñan
+    [documento] => 1007439733
+    [email] => yuly.mu-oz@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Jose Carlos Caballero Uribe
+    [tipo_ausencia] => Vacaciones
+    [vacaciones_tareas] => Array
+        (
+            [0] => Array
+                (
+                    [tarea] => Support a los SS
+                    [responsable] => Los demás leads
+                    [fecha] => 2025-08-29
+                )
+
+        )
+
+    [rango_fechas] => 2025-08-29 - 2025-09-06
+    [observaciones] => Dejaré las tareas divididas antes de irme y los demás leads cubrirán mis funciones.
+)
+
+2025-07-03 06:37:47 - 🔎 Buscando trabajador con documento: 1007439733
+2025-07-03 06:37:47 - ✅ Trabajador encontrado - ID: 84
+2025-07-03 06:37:47 - 🔍 Buscando jefe por nombre: Jose Carlos Caballero Uribe
+2025-07-03 06:37:47 - ✅ Jefe encontrado - ID: 52, Email: jose.caballero@dlivrd.io
+2025-07-03 06:37:49 - ✔️ Datos insertados en la base de datos
+2025-07-03 09:49:03 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-03 09:49:03 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yuly Muñoz
+    [documento] => 1007439733
+    [email] => yuly.mu-oz@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => 
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => El permiso es de 12 a 1:20 pm CO. Después de eso, vendría a terminar mi turno.
+)
+
+2025-07-03 09:49:03 - 🔎 Buscando trabajador con documento: 1007439733
+2025-07-03 09:49:03 - ✅ Trabajador encontrado - ID: 84
+2025-07-03 09:49:03 - 🔍 Buscando jefe por nombre: 
+2025-07-03 09:49:03 - ❌ Jefe no activo encontrado: 
+2025-07-03 09:49:25 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-03 09:49:25 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Yuly Muñoz
+    [documento] => 1007439733
+    [email] => yuly.mu-oz@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Jose Carlos Caballero Uribe
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => El permiso es de 12 a 1:20 pm CO. Después de eso, vendría a terminar mi turno.
+)
+
+2025-07-03 09:49:25 - 🔎 Buscando trabajador con documento: 1007439733
+2025-07-03 09:49:25 - ✅ Trabajador encontrado - ID: 84
+2025-07-03 09:49:25 - 🔍 Buscando jefe por nombre: Jose Carlos Caballero Uribe
+2025-07-03 09:49:25 - ✅ Jefe encontrado - ID: 52, Email: jose.caballero@dlivrd.io
+2025-07-03 09:49:25 - ✔️ Comprobante guardado: IMG_7638.png
+2025-07-03 09:49:27 - ✔️ Datos insertados en la base de datos
+2025-07-03 13:19:07 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-03 13:19:07 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Geraldine Bernal Villamizar
+    [documento] => 1095843231
+    [email] => geralbernal741@gmail.com
+    [id_campana] => 12
+    [nombre_jefe] => Jennifer Manrique Rodriguez
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-07-11 - 2025-07-11
+    [observaciones] => Mi solicitud es para pedir por favor poder trabajar unas horas extra entre los días lunes y jueves de la siguiente semana para el viernes poder salir más temprano de mi jornada laboral, preferiblemente poder salir a las 12:00 o 1:00 pm
+)
+
+2025-07-03 13:19:07 - 🔎 Buscando trabajador con documento: 1095843231
+2025-07-03 13:19:07 - ✅ Trabajador encontrado - ID: 63
+2025-07-03 13:19:07 - 🔍 Buscando jefe por nombre: Jennifer Manrique Rodriguez
+2025-07-03 13:19:07 - ✅ Jefe encontrado - ID: 49, Email: jenni@gcshelps.com
+2025-07-03 13:19:09 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-04 07:31:15 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-04 07:31:15 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Kevin Santiago Serrano Rojas
+    [documento] => 1005257574
+    [email] => santiago.serrano@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Silvia Alejandra Hernández Gutiérrez
+    [tipo_ausencia] => Incapacidad medica
+    [rango_fechas] => 2025-07-04 - 2025-07-05
+    [observaciones] => 
+)
+
+2025-07-04 07:31:15 - 🔎 Buscando trabajador con documento: 1005257574
+2025-07-04 07:31:15 - ✅ Trabajador encontrado - ID: 143
+2025-07-04 07:31:15 - 🔍 Buscando jefe por nombre: Silvia Alejandra Hernández Gutiérrez
+2025-07-04 07:31:15 - ✅ Jefe encontrado - ID: 83, Email: silvia.gutierrez@dlivrd.io
+2025-07-04 07:31:15 - ✔️ Comprobante guardado: H_1005257574_20250704070215_7f323c0a-051c-4952-bdaa-4a35b04aa955_unlocked.pdf
+2025-07-04 07:31:15 - ✔️ Comprobante guardado: I_1005257574_20250704070135_70087065.pdf
+2025-07-04 07:31:17 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-08 05:27:09 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-08 05:27:09 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Andres Libardo Beltran
+    [documento] => 1098810126
+    [email] => andresb490@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Sergio Alberto Angulo Amorocho
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-07-29 - 2025-07-29
+    [observaciones] => cita de ortopedia y traumatologia por EPS
+)
+
+2025-07-08 05:27:09 - 🔎 Buscando trabajador con documento: 1098810126
+2025-07-08 05:27:09 - ✅ Trabajador encontrado - ID: 127
+2025-07-08 05:27:09 - 🔍 Buscando jefe por nombre: Sergio Alberto Angulo Amorocho
+2025-07-08 05:27:09 - ✅ Jefe encontrado - ID: 82, Email: sergio.angulo@dlivrd.io
+2025-07-08 05:27:11 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-07-08 08:07:41 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-08 08:07:41 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Maria Camila Villanueva
+    [documento] => 1098711545
+    [email] => camila.villanueva@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Silvia Alejandra Hernández Gutiérrez
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => Necesito ir realizar diligencia del pasaporte y eso es únicamente los miércoles desde las 7am. No tengo claro cuánto tiempo me tome, depende de la fila. Por ahora pido permiso para la mañana y regreso a las 11/12 del medio día.
+)
+
+2025-07-08 08:07:41 - 🔎 Buscando trabajador con documento: 1098711545
+2025-07-08 08:07:41 - ✅ Trabajador encontrado - ID: 144
+2025-07-08 08:07:41 - 🔍 Buscando jefe por nombre: Silvia Alejandra Hernández Gutiérrez
+2025-07-08 08:07:41 - ✅ Jefe encontrado - ID: 83, Email: silvia.gutierrez@dlivrd.io
+2025-07-08 08:07:42 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+2025-07-08 15:59:01 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-08 15:59:01 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Adriana Graterol
+    [documento] => 1127573470
+    [email] => adriana.graterol@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Robinson Daniel Ortiz Cala
+    [tipo_ausencia] => Vacaciones
+    [rango_fechas] => 2025-09-29 - 2025-10-09
+    [observaciones] => 
+)
+
+2025-07-08 15:59:01 - 🔎 Buscando trabajador con documento: 1127573470
+2025-07-08 15:59:01 - ✅ Trabajador encontrado - ID: 121
+2025-07-08 15:59:01 - 🔍 Buscando jefe por nombre: Robinson Daniel Ortiz Cala
+2025-07-08 15:59:01 - ✅ Jefe encontrado - ID: 147, Email: daniel_ortiz9403@hotmail.com
+2025-07-08 15:59:01 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-09 11:10:59 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 11:10:59 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Maria Camila Villanueva Serrano 
+    [documento] => 1098711545
+    [email] => camila.villanueva@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Silvia Alejandra Hernández Gutiérrez
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => Día completo, gracias.
+)
+
+2025-07-09 11:10:59 - 🔎 Buscando trabajador con documento: 1098711545
+2025-07-09 11:10:59 - ✅ Trabajador encontrado - ID: 144
+2025-07-09 11:10:59 - 🔍 Buscando jefe por nombre: Silvia Alejandra Hernández Gutiérrez
+2025-07-09 11:10:59 - ✅ Jefe encontrado - ID: 83, Email: silvia.gutierrez@dlivrd.io
+2025-07-09 11:10:59 - ✔️ Datos insertados en la base de datos
+2025-07-09 11:39:12 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 11:39:12 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Adriana Graterol
+    [documento] => 1127573470
+    [email] => adriana.graterol@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Robinson Daniel Ortiz Cala
+    [tipo_ausencia] => Vacaciones
+    [rango_fechas] => 2025-09-29 - 2025-10-09
+    [observaciones] => 
+)
+
+2025-07-09 11:39:12 - 🔎 Buscando trabajador con documento: 1127573470
+2025-07-09 11:39:12 - ✅ Trabajador encontrado - ID: 121
+2025-07-09 11:39:12 - 🔍 Buscando jefe por nombre: Robinson Daniel Ortiz Cala
+2025-07-09 11:39:12 - ✅ Jefe encontrado - ID: 147, Email: daniel.ortiz@dlivrd.io
+2025-07-09 11:39:12 - ✔️ Datos insertados en la base de datos
+2025-07-09 11:40:28 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 11:40:28 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Santiago Rodríguez López
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Trabajo desde casa
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => Enfermo, mucha tos, y fiebre, solicito trabajar desde casa 
+)
+
+2025-07-09 11:40:28 - 🔎 Buscando trabajador con documento: 1005483223
+2025-07-09 11:40:28 - ✅ Trabajador encontrado - ID: 148
+2025-07-09 11:40:28 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-07-09 11:40:28 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-07-09 11:40:28 - ✔️ Datos insertados en la base de datos
+2025-07-09 12:04:08 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 12:04:08 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Santiago rodriguez Lopez
+    [documento] => 1005483223
+    [email] => santiago.rodriguez@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Trabajo desde casa
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => Enfermedad fiebre y tos, solicitó trabajar desde casa
+)
+
+2025-07-09 12:04:08 - 🔎 Buscando trabajador con documento: 1005483223
+2025-07-09 12:04:08 - ✅ Trabajador encontrado - ID: 148
+2025-07-09 12:04:08 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-07-09 12:04:08 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-07-09 12:04:09 - ✔️ Datos insertados en la base de datos
+2025-07-09 12:18:44 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 12:18:44 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => sty
+    [documento] => 1
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 22
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Calamidad doméstica
+    [rango_fechas] => 2025-07-09 - 2025-07-10
+    [observaciones] => 1
+)
+
+2025-07-09 12:18:44 - 🔎 Buscando trabajador con documento: 1
+2025-07-09 12:18:44 - ✅ Trabajador encontrado - ID: 16
+2025-07-09 12:18:44 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-07-09 12:18:44 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-07-09 12:18:44 - ✔️ Datos insertados en la base de datos
+2025-07-09 12:26:32 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 12:26:32 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => santiago rodriguez lopez
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Trabajo desde casa
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => enfermedad, tos y fiebre, solicito WFM
+)
+
+2025-07-09 12:26:32 - 🔎 Buscando trabajador con documento: 1005483223
+2025-07-09 12:26:32 - ✅ Trabajador encontrado - ID: 148
+2025-07-09 12:26:32 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-07-09 12:26:32 - ✅ Jefe encontrado - ID: 80, Email: juliana.quiroz@dlivrd.io
+2025-07-09 12:26:33 - ✔️ Datos insertados en la base de datos
+2025-07-09 12:39:48 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 12:39:48 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => sty
+    [documento] => 1
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 22
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Citas medicas
+    [rango_fechas] => 2025-07-09 - 2025-07-10
+    [observaciones] => 1
+)
+
+2025-07-09 12:39:48 - 🔎 Buscando trabajador con documento: 1
+2025-07-09 12:39:48 - ✅ Trabajador encontrado - ID: 16
+2025-07-09 12:39:48 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-07-09 12:39:48 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-07-09 12:39:49 - ✔️ Datos insertados en la base de datos
+2025-07-09 12:58:11 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 12:58:11 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Santiago Rodriguez Lopez
+    [documento] => 1005483223
+    [email] => santiaguito.srl76@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Juliana Carolina Quiroz Caceres
+    [tipo_ausencia] => Trabajo desde casa
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => enfermedad, tos y fiebre, solicito WFM
+)
+
+2025-07-09 12:58:11 - 🔎 Buscando trabajador con documento: 1005483223
+2025-07-09 12:58:11 - ✅ Trabajador encontrado - ID: 148
+2025-07-09 12:58:11 - 🔍 Buscando jefe por nombre: Juliana Carolina Quiroz Caceres
+2025-07-09 12:58:11 - ✅ Jefe encontrado - ID: 80, Email: styvenmunera6@gmail.com
+2025-07-09 12:58:12 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-09 14:41:02 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 14:41:02 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Adriana Graterol
+    [documento] => 1127573470
+    [email] => adriana.graterol@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Robinson Daniel Ortiz Cala
+    [tipo_ausencia] => Vacaciones
+    [rango_fechas] => 2025-09-29 - 2025-10-09
+    [observaciones] => 
+)
+
+2025-07-09 14:41:02 - 🔎 Buscando trabajador con documento: 1127573470
+2025-07-09 14:41:02 - ✅ Trabajador encontrado - ID: 121
+2025-07-09 14:41:02 - 🔍 Buscando jefe por nombre: Robinson Daniel Ortiz Cala
+2025-07-09 14:41:02 - ✅ Jefe encontrado - ID: 147, Email: daniel.ortiz@dlivrd.io
+2025-07-09 14:41:03 - ✔️ Datos insertados en la base de datos
+2025-07-09 15:26:43 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-09 15:26:43 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Maria Camila Villanueva Serrano 
+    [documento] => 1098711545
+    [email] => camila.villanueva@dlivrd.io
+    [id_campana] => 4
+    [nombre_jefe] => Silvia Alejandra Hernández Gutiérrez
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-07-09 - 2025-07-09
+    [observaciones] => 
+)
+
+2025-07-09 15:26:43 - 🔎 Buscando trabajador con documento: 1098711545
+2025-07-09 15:26:43 - ✅ Trabajador encontrado - ID: 144
+2025-07-09 15:26:43 - 🔍 Buscando jefe por nombre: Silvia Alejandra Hernández Gutiérrez
+2025-07-09 15:26:43 - ✅ Jefe encontrado - ID: 83, Email: silvia.gutierrez@dlivrd.io
+2025-07-09 15:26:44 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-10 08:20:17 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-10 08:20:17 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Jose Alonso Mendoza Guerra
+    [documento] => 1098777430
+    [email] => ralftogo1995@gmail.com
+    [id_campana] => 4
+    [nombre_jefe] => Robinson Daniel Ortiz Cala
+    [tipo_ausencia] => Licencia no remunerada - Permiso personal
+    [rango_fechas] => 2025-07-11 - 2025-07-11
+    [observaciones] => El día 11/07/2025 realizaré diligencias personales en los bancos relacionadas con mi declaración de renta durante la mañana. Estaré disponible nuevamente a partir de las 10:00 a. m. para retomar mis labores ese mismo día y apoyar al equipo durante la hora de mayor demanda.
+)
+
+2025-07-10 08:20:17 - 🔎 Buscando trabajador con documento: 1098777430
+2025-07-10 08:20:17 - ✅ Trabajador encontrado - ID: 139
+2025-07-10 08:20:17 - 🔍 Buscando jefe por nombre: Robinson Daniel Ortiz Cala
+2025-07-10 08:20:17 - ✅ Jefe encontrado - ID: 147, Email: daniel.ortiz@dlivrd.io
+2025-07-10 08:20:19 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-10 10:05:23 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-10 10:05:23 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => Maria Camila Suarez Cala 
+    [documento] => 1005282129
+    [email] => camilacala1904@gmail.com
+    [id_campana] => 14
+    [nombre_jefe] => Jennifer Manrique Rodriguez
+    [tipo_ausencia] => Incapacidad medica
+    [rango_fechas] => 2025-07-09 - 2025-07-10
+    [observaciones] => 
+)
+
+2025-07-10 10:05:23 - 🔎 Buscando trabajador con documento: 1005282129
+2025-07-10 10:05:23 - ✅ Trabajador encontrado - ID: 152
+2025-07-10 10:05:23 - 🔍 Buscando jefe por nombre: Jennifer Manrique Rodriguez
+2025-07-10 10:05:23 - ✅ Jefe encontrado - ID: 49, Email: jenni@gcshelps.com
+2025-07-10 10:05:23 - ✔️ Comprobante guardado: IMG_4093.jpeg
+2025-07-10 10:05:23 - ✔️ Comprobante guardado: IMG_4094.jpeg
+2025-07-10 10:05:25 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead
+🔄 Actualizando: estado_rrhh y fecha_rrhh
+2025-07-10 13:06:29 - 🔄 Iniciando proceso de actualización de ausencia
+2025-07-10 13:06:29 - 📥 Datos recibidos por POST: Array
+(
+    [nombre_completo] => s
+    [documento] => 1
+    [email] => styvenmunera6@gmail.com
+    [id_campana] => 22
+    [nombre_jefe] => Jefe Directo
+    [tipo_ausencia] => Dia de la familia
+    [rango_fechas] => 2025-07-16 - 2025-07-23
+    [observaciones] => 1
+)
+
+2025-07-10 13:06:29 - 🔎 Buscando trabajador con documento: 1
+2025-07-10 13:06:29 - ✅ Trabajador encontrado - ID: 16
+2025-07-10 13:06:29 - 🔍 Buscando jefe por nombre: Jefe Directo
+2025-07-10 13:06:29 - ✅ Jefe encontrado - ID: 15, Email: styvenmunera3@gmail.com
+2025-07-10 13:06:30 - ✔️ Datos insertados en la base de datos
+🔄 Actualizando: estado_team_lead y fecha_team_lead

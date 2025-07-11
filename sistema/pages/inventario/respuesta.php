@@ -6,6 +6,7 @@ error_reporting(E_ALL);
 require_once(__DIR__ . '/../../../app/controllers/config.php'); 
 $id_formulario = $_GET['formulario'] ?? null;
 $accion = $_GET['accion'] ?? null;
+$validador = $_GET['validador'] ?? null;
 
 if (!$id_formulario || !$accion || !in_array($accion, ['aprobado', 'rechazado'])) {
     exit("Parámetros inválidos.");
@@ -75,10 +76,12 @@ try {
     $stmt->execute([$id_formulario]);
     $estadoActual = $stmt->fetchColumn();
 
-    if ($estadoActual === 'aprobado' || $estadoActual === 'rechazado') { 
+   if ($estadoActual === 'aprobado' || $estadoActual === 'rechazado') {
+    if ($validador !== 'cambio') {
         exit("Este formulario ya fue respondido.");
     }
-
+    // Si es validador 'cambio', se permite reescribir el estado con el nuevo valor
+}
 
     // Actualizar formulario
     $sql = "UPDATE formularios_asignacion SET estado_trabajador = ?, fecha_trabajador = NOW()";

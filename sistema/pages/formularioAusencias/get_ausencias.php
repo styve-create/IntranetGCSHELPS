@@ -17,4 +17,15 @@ ORDER BY a.id DESC";
 
 $ausencias = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
+foreach ($ausencias as &$a) {
+    if (isset($a['tareas']) && is_string($a['tareas'])) {
+        $decoded = json_decode($a['tareas'], true);
+        $a['tareas'] = is_array($decoded) ? $decoded : [];
+    } else {
+        $a['tareas'] = [];
+    }
+}
+unset($a);
+
 echo json_encode($ausencias);
+?>

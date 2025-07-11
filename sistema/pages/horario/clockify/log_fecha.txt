@@ -1200,3 +1200,124 @@
     [cobrado] => 0
 )
 
+2025-06-27 09:37:18 - Fecha recibida: 
+2025-06-27 10:20:53 - Fecha recibida: 
+2025-06-27 10:21:36 - Fecha recibida: 2025-06-27 10:21:38
+2025-06-27 10:21:36 - Hora inicio calculada: 10:21:04, Hora fin: 10:21:38
+2025-06-27 10:21:36 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Prueba 5
+    [descripcion] => 2
+    [duracion] => 34
+    [fecha] => 2025-06-27 10:21:38
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-06-27 10:38:52 - Fecha recibida: 
+2025-06-27 14:20:14 - Fecha recibida: 
+2025-06-27 14:23:38 - Fecha recibida: 2025-06-27 14:23:40
+2025-06-27 14:23:38 - Hora inicio calculada: 14:22:24, Hora fin: 14:23:40
+2025-06-27 14:23:38 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Prueba 5
+    [descripcion] => 1
+    [duracion] => 76
+    [fecha] => 2025-06-27 14:23:40
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-06-27 14:36:31 - Fecha recibida: 2025-06-27 14:36:32
+2025-06-27 14:36:31 - Hora inicio calculada: 14:34:49, Hora fin: 14:36:32
+2025-06-27 14:36:31 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Prueba 5
+    [descripcion] => e
+    [duracion] => 103
+    [fecha] => 2025-06-27 14:36:32
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-06-27 15:16:21 - Fecha recibida: 
+2025-07-02 10:40:08 - Fecha recibida: 
+2025-07-02 12:25:14 - Fecha recibida: 
+2025-07-02 12:26:08 - Fecha recibida: 
+2025-07-02 12:34:07 - Fecha recibida: 
+2025-07-02 14:35:48 - Fecha recibida: 
+2025-07-02 14:36:27 - Fecha recibida: 
+2025-07-02 14:42:00 - Fecha recibida: 
+2025-07-02 14:44:53 - Fecha recibida: 
+2025-07-02 14:52:47 - Fecha recibida: 
+2025-07-02 14:56:28 - Fecha recibida: 
+2025-07-02 14:58:32 - Fecha recibida: 
+2025-07-02 15:05:59 - Fecha recibida: 
+2025-07-02 15:12:47 - Fecha recibida: 
+2025-07-02 15:25:34 - Fecha recibida: 
+2025-07-03 10:20:58 - Fecha recibida: 
+2025-07-03 10:24:22 - Fecha recibida: 
+2025-07-03 10:28:14 - Fecha recibida: 
+2025-07-03 10:57:33 - Fecha recibida: 
+2025-07-03 11:00:30 - Fecha recibida: 
+2025-07-03 14:21:15 - Fecha recibida: 
+2025-07-04 07:00:18 - Fecha recibida: 
+2025-07-04 07:02:42 - Fecha recibida: 
+2025-07-04 07:03:49 - Fecha recibida: 
+2025-07-04 08:32:46 - Fecha recibida: 
+2025-07-07 08:16:26 - Fecha recibida: 
+2025-07-07 10:19:11 - Fecha recibida: 
+2025-07-07 11:44:57 - Fecha recibida: 
+2025-07-07 11:57:16 - Fecha recibida: 2025-07-07 11:57:16
+2025-07-07 11:57:16 - Hora inicio calculada: 11:57:10, Hora fin: 11:57:16
+2025-07-07 11:57:16 - Insert exitoso: Array
+(
+    [cliente] => Cliente A
+    [actividad] => Prueba1
+    [descripcion] => prueba1
+    [duracion] => 6
+    [fecha] => 2025-07-07 11:57:16
+    [id_usuario] => 1
+    [cobrado] => 0
+)
+
+2025-07-07 12:05:15 - Fecha recibida: 
+2025-07-07 12:06:19 - Fecha recibida: 
+2025-07-07 12:16:34 - Fecha recibida: 
+2025-07-07 12:22:16 - Fecha recibida: 
+2025-07-07 12:44:55 - Fecha recibida: 
+2025-07-07 12:46:11 - Fecha recibida: 
+2025-07-07 12:46:30 - Fecha recibida: 
+2025-07-07 12:46:46 - Fecha recibida: 
+2025-07-07 12:47:39 - Fecha recibida: 
+2025-07-07 12:47:55 - Fecha recibida: 
+2025-07-07 12:48:16 - Fecha recibida: 
+2025-07-07 12:48:27 - Fecha recibida: 
+2025-07-07 12:49:13 - Fecha recibida: 
+2025-07-07 12:51:05 - Fecha recibida: 
+2025-07-07 12:51:10 - Fecha recibida: 
+2025-07-07 12:53:47 - Fecha recibida: 
+2025-07-07 12:57:21 - Fecha recibida: 
+2025-07-07 13:18:01 - Fecha recibida: 
+2025-07-07 13:24:07 - Fecha recibida: 
+2025-07-07 13:24:24 - Fecha recibida: 
+2025-07-07 13:24:42 - Fecha recibida: 
+2025-07-07 14:42:40 - Fecha recibida: 
+2025-07-08 10:11:16 - Fecha recibida: 
+2025-07-09 08:33:17 - Fecha recibida: 
+2025-07-09 08:49:47 - Fecha recibida: 
+2025-07-09 09:01:48 - Fecha recibida: 
+2025-07-09 09:06:27 - Fecha recibida: 
+2025-07-09 09:07:32 - Fecha recibida: 
+2025-07-09 09:11:04 - Fecha recibida: 
+2025-07-09 09:13:15 - Fecha recibida: 
+2025-07-09 09:13:29 - Fecha recibida: 
+2025-07-09 09:14:20 - Fecha recibida: 
+2025-07-09 09:36:40 - Fecha recibida: 
+2025-07-09 09:37:13 - Fecha recibida: 
+2025-07-09 09:39:26 - Fecha recibida: 
+2025-07-10 14:19:22 - Fecha recibida: 
+2025-07-11 07:14:57 - Fecha recibida: 

@@ -18,3 +18,13 @@
 2025-06-24 13:11:03 - Password hasheada correctamente
 2025-06-24 13:11:03 - ✅ Usuario creado exitosamente. ID: 2147483657
 2025-06-24 13:11:03 - <<< Fin del script
+2025-07-04 14:02:02 - >>> Inicio del script
+2025-07-04 14:02:02 - Sesión iniciada. Usuario ID: 2147483654
+2025-07-04 14:02:02 - Contenido recibido: {"nombres":"jenni@gcshelps.com","email":"jenni@gcshelps.com","password_user":"123456","id_rol":"1","trabajador_id":"49"}
+2025-07-04 14:02:02 - ✅ JSON decodificado correctamente
+2025-07-04 14:02:02 - Datos extraídos: nombres=jenni@gcshelps.com, email=jenni@gcshelps.com, rol=1, trabajador_id=49
+2025-07-04 14:02:02 - Iniciando verificación de correo duplicado
+2025-07-04 14:02:02 - Correo duplicado: NO
+2025-07-04 14:02:02 - Password hasheada correctamente
+2025-07-04 14:02:02 - ✅ Usuario creado exitosamente. ID: 2147483658
+2025-07-04 14:02:02 - <<< Fin del script

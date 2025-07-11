@@ -1,5 +1,6 @@
 <?php 
 include_once(__DIR__ . '/../../../../app/controllers/config.php');
+include_once(__DIR__ . '/../../../analisisRecursos.php');
 ?>
 <link rel="stylesheet" href="<?= $URL ?>/librerias/vendor/npm-asset/bootstrap-icons/font/bootstrap-icons.css">
 <link rel="stylesheet" href="<?php echo $URL; ?>/librerias/vendor/npm-asset/bootstrap/dist/css/bootstrap.min.css">

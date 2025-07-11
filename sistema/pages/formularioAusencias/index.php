@@ -248,7 +248,7 @@ include_once(__DIR__ . '/../../analisisRecursos.php');
             var min = new Date(start);
             var max = new Date(end);
 
-            var dateStr = data[1]; // Asumiendo que columna 1 tiene fecha 'YYYY-MM-DD'
+            var dateStr = data[2]; // Asumiendo que columna 1 tiene fecha 'YYYY-MM-DD'
             var date = new Date(dateStr);
 
             return date >= min && date <= max;
@@ -297,13 +297,14 @@ $('#tablaAusencias').on('click', '.btn-tareas', function () {
   let tareas;
 
   try {
-    tareas = JSON.parse(raw);
-    if (!Array.isArray(tareas)) {
-      tareas = [];
-    }
-  } catch (e) {
+  tareas = JSON.parse(raw);
+  if (!Array.isArray(tareas)) {
     tareas = [];
   }
+} catch (e) {
+  console.error('❌ Error al parsear tareas:', e, raw);
+  tareas = [];
+}
 
   const $b = $('#modalTareasBody').empty();
 
@@ -460,18 +461,29 @@ window.cargarAusencias = function() {
       tabla.clear(); // Limpiar tabla
 
       data.forEach((a, i) => {
-        const tareasBtn = a.tareas ? `
-          <button class="btn btn-sm btn-info btn-tareas" data-tareas='${JSON.stringify(a.tareas)}'>Tareas</button>
-        ` : `<span class="text-muted">Sin tareas</span>`;
+        const tareasBtn = Array.isArray(a.tareas) && a.tareas.length
+  ? `<button class="btn btn-sm btn-info btn-tareas" data-tareas='${JSON.stringify(a.tareas)}'>Tareas</button>`
+  : `<span class="text-muted">Sin tareas</span>`;
 
-        const comprobanteBtn = a.comprobantes ? `
-          <a href="/intranet/Ausencia/${a.comprobantes}" class="btn btn-sm btn-primary" download target="_blank">Adjunto</a>
-        ` : `<span class="text-muted">Sin foto</span>`;
+let comprobanteBtn = `<span class="text-muted">Sin foto</span>`;
+if (a.comprobantes) {
+  const rutas = a.comprobantes.split(',');
+  comprobanteBtn = `<div class="d-flex flex-wrap gap-1">` + 
+    rutas.map((ruta, idx) => `
+      <a href="/intranet/Ausencia/${ruta.trim()}" 
+         class="btn btn-sm btn-primary" 
+         download 
+         target="_blank">
+        Adjunto ${idx + 1}
+      </a>
+    `).join('') + 
+  `</div>`;
+}
 
         tabla.row.add([
           i + 1,
           a.numero_formulario || '',
-          a.fecha_registro ? new Date(a.fecha_registro).toLocaleString() : '',
+         a.fecha_registro ? a.fecha_registro.split('T')[0] : '',
           a.nombre_completo || '',
           tareasBtn,
           comprobanteBtn,

@@ -50,31 +50,31 @@ include_once(__DIR__ . '/../../../app/controllers/config.php');
 <div id="contenido-principal">
     <div class="container-fluid mt-4">
     <div class="card-custom">
-        <h2 class="text-center">Registros de Horarios -Para la Administrativos</h2>
+        <h2 class="text-center "><p class="traducible">Registros de Horarios -Para la Administrativos</p></h2>
         <br>
         <div class="row mb-3">
             <div class="col-md-3">
-                <label for="start_date">Fecha Inicio</label>
+                <label for="start_date" ><p class="traducible">Fecha Inicio</p></label>
                 <input type="date" id="start_date" class="form-control">
             </div>
             <div class="col-md-3">
-                <label for="end_date">Fecha Fin</label>
+                <label for="end_date"><p class="traducible">Fecha Fin</p></label>
                 <input type="date" id="end_date" class="form-control">
             </div>
             <div class="col-md-3 d-flex gap-2 align-items-end">
-                <button id="applyFilter" class="btn btn-primary">Filtrar</button>
-                <button id="resetFilter" class="btn btn-secondary ml-2">Restablecer</button>
+                <button id="applyFilter" class="btn btn-primary "><p class="traducible">Filtrar</p></button>
+                <button id="resetFilter" class="btn btn-secondary ml-2 "><p class="traducible">Restablecer</p></button>
             </div>
         </div>
         
 <div class="row mb-3">
   <div class="col-auto d-flex gap-2">
-    <button id="btnExportarExcel" class="btn btn-success">
-      <i class="fas fa-file-excel"></i> Exportar Excel Avanzado
+    <button id="btnExportarExcel" class="btn btn-success ">
+      <i class="fas fa-file-excel"></i><p class="traducible">Exportar Excel Avanzado</p> 
     </button>
 
-    <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalFestivos">
-      <i class="fas fa-calendar-plus"></i> Registrar Festivos
+    <button class="btn btn-warning traducible" data-bs-toggle="modal" data-bs-target="#modalFestivos">
+      <i class="fas fa-calendar-plus"></i><p class="traducible">Registrar Festivos</p> 
     </button>
   </div>
 </div>
@@ -84,17 +84,17 @@ include_once(__DIR__ . '/../../../app/controllers/config.php');
                  <table class="table table-bordered table-striped" id="tablaHorariosAdministrativo" style="width:100%">
                 <thead>
                     <tr>
-                        <th>Trabajador</th>
-                        <th>Inicio Turno</th>
-                        <th>Fecha</th>
-                        <th>Break 1 Inicio</th>
-                        <th>Break 1 Fin</th>
-                        <th>Break 2 Inicio</th>
-                        <th>Break 2 Fin</th>
-                        <th>Break 3 Inicio</th>
-                        <th>Break 3 Fin</th>
-                        <th>Fin Turno</th>
-                        <th>Fecha Registro</th>
+                        <th><p class="traducible">Trabajador</p></th>
+                        <th><p class="traducible">Inicio Turno</p></th>
+                        <th><p class="traducible">Fecha</p></th>
+                        <th><p class="traducible">Break 1 Inicio</p></th>
+                        <th><p class="traducible">Break 1 Fin</p></th>
+                        <th><p class="traducible">Break 2 Inicio</p></th>
+                        <th><p class="traducible">Break 2 Fin</p></th>
+                        <th><p class="traducible">Break 3 Inicio</p></th>
+                        <th><p class="traducible">Break 3 Fin</p></th>
+                        <th><p class="traducible">Fin Turno</p></th>
+                        <th><p class="traducible">Fecha Registro</p></th>
                     </tr>
                 </thead>
               <tbody id="tabla-body"></tbody>
@@ -105,12 +105,12 @@ include_once(__DIR__ . '/../../../app/controllers/config.php');
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modalFestivosLabel">Registrar Días Festivos</h5>
+        <h5 class="modal-title " id="modalFestivosLabel"><p class="traducible">Registrar Días Festivos</p></h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
       </div>
       <div class="modal-body">
         <input type="date" id="inputFestivo" class="form-control mb-2">
-        <button class="btn btn-primary w-100 mb-3" onclick="agregarFestivo()">Agregar Festivo</button>
+        <button class="btn btn-primary w-100 mb-3 " onclick="agregarFestivo()"><p class="traducible">Agregar Festivo</p></button>
         <ul id="listaFestivos" class="list-group"></ul>
       </div>
     </div>
@@ -256,14 +256,14 @@ const festivosEnRango = festivos.filter(f => f >= start && f <= end);
 
   const htmlFestivos = festivosEnRango.length
     ? `<ul>${festivosEnRango.map(f => `<li>${f}</li>`).join('')}</ul>`
-    : '<p><strong>No hay festivos registrados en este rango.</strong></p>';
+    : '<p><strong class="traducible">No hay festivos registrados en este rango.</strong></p>';
 
   const { isConfirmed } = await Swal.fire({
     title: '¿Incluir festivos en el reporte?',
     html: `
-      <p>Se tendrán en cuenta los siguientes festivos registrados:</p>
+      <p class="traducible">Se tendrán en cuenta los siguientes festivos registrados:</p>
       ${htmlFestivos}
-      <p class="text-danger">Si el calendario no está actualizado, los registros podrían verse afectados.</p>
+      <p class="text-danger traducible">Si el calendario no está actualizado, los registros podrían verse afectados.</p>
     `,
     icon: 'info',
     showCancelButton: true,

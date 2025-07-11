@@ -14,15 +14,16 @@ function enviarCorreo($destinatario, $asunto, $mensajeHTML, $adjuntos = [])
     $mail = new PHPMailer(true);
 
     try {
-        $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
-        $mail->SMTPAuth = true;
-        $mail->Username = 'jenni@gcshelps.com';
-        $mail->Password = 'yydy oahd xtdn kiju'; // ⚠️ RECUERDA: Usar variable segura en producción
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
+               $mail->isSMTP();
+$mail->Host       = SMTP_HOST;
+$mail->SMTPAuth   = true;
+$mail->Username   = SMTP_USER;
+$mail->Password   = SMTP_PASS;
+$mail->SMTPSecure = SMTP_SECURE;
+$mail->Port       = SMTP_PORT;
 
-        $mail->setFrom('jenni@gcshelps.com', 'Formulario de Asignaciones');
+$mail->setFrom(SMTP_USER, 'Formulario de Asignaciones');
+
         $mail->addAddress($destinatario);
 
         $mail->isHTML(true);

@@ -1,30 +1,36 @@
 <?php
-// Definir las nuevas credenciales de la base de datos
-define('SERVIDOR', 'localhost'); // El servidor de base de datos sigue siendo localhost
-define('USUARIO', 'u589041854_SuperAdmin'); // Nuevo usuario
-define('PASSWORD', 'Matematicas1@2345'); // Nueva contraseña
-define('BD', 'u589041854_IntranetGlobal'); // Nuevo nombre de la base de datos
+$envPath = __DIR__ . '/../../config/config.env.php';  // Ruta relativa
 
-// Crear la conexión PDO con los nuevos parámetros
+if (!file_exists($envPath)) {
+    die('Archivo de configuración no encontrado.');
+}
+
+$config = include($envPath);
+
+define('SERVIDOR', $config['host']);
+define('BD', $config['database']);
+define('USUARIO', $config['username']);
+define('PASSWORD', $config['password']);
+define('SMTP_HOST',     $config['smtp_host']);
+define('SMTP_USER',     $config['smtp_user']);
+define('SMTP_PASS',     $config['smtp_pass']);
+define('SMTP_PORT',     $config['smtp_port']);
+define('SMTP_SECURE',   $config['smtp_secure']);
 $servidor = "mysql:dbname=" . BD . ";host=" . SERVIDOR;
 
 try {
-    // Intentar establecer la conexión con PDO
-    $pdo = new PDO($servidor, USUARIO, PASSWORD, array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));
-    // echo "Conexión exitosa"; // Puedes habilitar para depuración
+    $pdo = new PDO($servidor, USUARIO, PASSWORD, [
+        PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+    ]);
 } catch (PDOException $e) {
-    // Si hay un error en la conexión, crea el directorio de logs si no existe
-    $logDir = __DIR__ . '/logs';
+    $logDir = __DIR__ . '/../../storage/logs';
     if (!file_exists($logDir)) {
-        mkdir($logDir, 0777, true); // Crea el directorio con permisos adecuados
+        mkdir($logDir, 0777, true);
     }
-    
-    // Registrar el error en el archivo de log
-    error_log("Error de conexión: " . $e->getMessage(), 3, $logDir . '/mi_sistema.log');
-    
-    // Mensaje amigable para el usuario
-    echo "Error al conectar la base de datos";  
-    exit();  // Detenemos la ejecución en caso de error
+
+    error_log("[" . date('Y-m-d H:i:s') . "] Error de conexión: " . $e->getMessage() . PHP_EOL, 3, $logDir . '/mi_sistema.log');
+    echo "Error al conectar con la base de datos.";
+    exit();
 }
 
 // Configuración de la URL base para el sistema

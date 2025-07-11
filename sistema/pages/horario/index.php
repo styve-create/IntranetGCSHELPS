@@ -63,41 +63,43 @@ if ($asistencia) {
 <div id="contenido-principal">
         <div class="container mt-4">
               <div class="bg-white p-4 rounded shadow-sm">
-                <h3 class="mb-4 text-center">Control de Asistencia</h3>
+                <h3 class="mb-4 text-center traducible">Control de Asistencia</h3>
             
                     <div class="d-flex flex-wrap gap-4 justify-content-center align-items-start">
                 
                               <!-- INICIO TURNO -->
                               <div class="d-flex flex-column align-items-center">
                                 <div class="btn-group mb-1">
-                                  <button id="btnInicioTurno" class="btn btn-success">Inicio Turno</button>
+                                  <button id="btnInicioTurno" class="btn btn-success traducible">Inicio Turno</button>
                                 </div>
                                 <div class="badge bg-light px-3 py-2 invisible">00:00</div>
                               </div>
                 
                               <!-- BREAKS 1, 2 y 3 -->
-                              <?php for ($i=1; $i<=3; $i++): ?>
-                              <div class="d-flex flex-column align-items-center">
-                                <div class="btn-group mb-1" style="gap: 0.5rem;">
-                                  <button class="btn btn-warning btnInicioBreak" data-break="<?= $i ?>" disabled> Break <?= $i ?></button>
-                                  <button class="btn btn-primary btnFinBreak" data-break="<?= $i ?>" disabled>Fin</button>
-                                </div>
-                                <div class="badge bg-secondary px-3 py-2" id="timerBreak<?= $i ?>">00:00</div>
-                              </div>
-                              <?php endfor; ?>
+                              <?php
+                                $breakNames = [1 => 'Break 1', 2 => 'Lunch', 3 => 'Break 2'];
+                                for ($i=1; $i<=3; $i++): ?>
+                                  <div class="d-flex flex-column align-items-center">
+                                    <div class="btn-group mb-1" style="gap: 0.5rem;">
+                                      <button class="btn btn-warning btnInicioBreak traducible" data-break="<?= $i ?>" disabled> <?= $breakNames[$i] ?> </button>
+                                      <button class="btn btn-primary btnFinBreak traducible" data-break="<?= $i ?>" disabled>Fin</button>
+                                    </div>
+                                    <div class="badge bg-secondary px-3 py-2" id="timerBreak<?= $i ?>">00:00</div>
+                                  </div>
+                                <?php endfor; ?>
                 
                               <!-- FIN TURNO -->
                               <div class="d-flex flex-column align-items-center">
                                 <div class="btn-group mb-1">
-                                  <button id="btnFinTurno" class="btn btn-danger" disabled>Fin Turno</button>
+                                  <button id="btnFinTurno" class="btn btn-danger traducible" disabled>Fin Turno</button>
                                 </div>
                                 <div class="badge bg-light px-3 py-2 invisible">00:00</div>
                               </div>
                                 <!-- TIEMPO EXTRA -->
                             <div class="d-flex flex-column align-items-center">
                               <div class="btn-group mb-1">
-                                <button id="btnInicioExtra" class="btn btn-outline-info" disabled>Inicio Tiempo Extra</button>
-                                <button id="btnFinExtra" class="btn btn-outline-dark" disabled>Fin Tiempo Extra</button>
+                                <button id="btnInicioExtra" class="btn btn-outline-info traducible" disabled>Inicio Tiempo Extra</button>
+                                <button id="btnFinExtra" class="btn btn-outline-dark traducible" disabled>Fin Tiempo Extra</button>
                               </div>
                               <div class="badge bg-secondary px-3 py-2" id="timerExtra">00:00</div>
                             </div>

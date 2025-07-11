@@ -2,6 +2,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 include_once(__DIR__ . '/../../../app/controllers/config.php');
+include_once(__DIR__ . '/../../analisisRecursos.php');
 
 $id = $_GET['id'] ?? null;
 if (!$id) {
